@@ -95,12 +95,12 @@ export function SavageWildsMap(props: SavageWildsMapProps) {
         setUseHq(target.checked)
     }
 
-    const handleClickThrall = (id: string): void => {
-        const thrall = props.data.find(value => value.id === id);
-        if (thrall) {
-            handleSelectThrall(thrall);
-        }
-    }
+    // const handleClickThrall = (id: string): void => {
+    //     const thrall = props.data.find(value => value.id === id);
+    //     if (thrall) {
+    //         handleSelectThrall(thrall);
+    //     }
+    // }
 
     const center = zoomCenter?.center ? zoomCenter.center : DEFAULT_CENTER;
     const zoom = zoomCenter?.zoom ? zoomCenter.zoom : DEFAULT_ZOOM
