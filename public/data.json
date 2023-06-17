@@ -18,13 +18,13 @@
       "locations": [
         {
           "location": "Giant Crocodile",
-          "spawnSpot": "In a pond",
-          "spawnSpotDetail": "",
+          "spawnSpot": "Cisterns",
+          "spawnSpotDetail": "The giant crocodile is at the end of the cisterns, the entrance is north to this location.",
           "type": "BOSS",
-          "source": "TeleportPlayer 12301.582031 113824.65625 -13352.853516",
-          "x": 12301.582031,
-          "y": 113824.65625,
-          "z": -13352.853516
+          "source": "TeleportPlayer -126154.617188 62810.28125 -20492.527344",
+          "x": -126154.617188,
+          "y": 62810.28125,
+          "z": -20492.527344
         }
       ]
     }
