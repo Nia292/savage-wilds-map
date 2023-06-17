@@ -22,7 +22,9 @@ export interface MapLocation {
 export function determineIcon(location: MapLocation): string {
     switch (location.type) {
         case LocationGroupType.BOSS:
-            return 'icon_camp.png';
+            return 'icon_worldboss.png';
+        case LocationGroupType.RESOURCE_ORE:
+            return 'icon_mineral.png';
     }
     return '';
 }
