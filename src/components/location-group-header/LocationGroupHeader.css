@@ -1,0 +1,20 @@
+.location-group-header {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    color: var(--primary-sidebar-color);
+}
+
+.location-group-header:hover {
+    color: #eee9d8;
+    cursor: pointer;
+}
+
+.location-group-header-name {
+    font-size: 16pt;
+}
+
+.location-group-header-type {
+    font-size: 10pt;
+}

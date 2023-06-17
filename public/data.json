@@ -1,0 +1,33 @@
+{
+  "map_lq": "/sw_assets/sw_map_lq.png",
+  "map_hq": "/sw_assets/sw_map_hq.png",
+  "bounds": {
+    "south": 400000,
+    "west": -400000,
+    "north": -400000,
+    "east": 400000
+  },
+  "minZoom": -8.7,
+  "maxZoom": -4,
+  "contributors": [],
+  "data":[
+    {
+      "name": "Bosses",
+      "id": "Bosses",
+      "type": "BOSS",
+      "locations": [
+        {
+          "location": "Giant Crocodile",
+          "spawnSpot": "In a pond",
+          "spawnSpotDetail": "",
+          "type": "BOSS",
+          "source": "TeleportPlayer 12301.582031 113824.65625 -13352.853516",
+          "x": 12301.582031,
+          "y": 113824.65625,
+          "z": -13352.853516
+        }
+      ]
+    }
+  ],
+  "items": []
+}
