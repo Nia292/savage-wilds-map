@@ -1,6 +1,6 @@
 {
-  "map_lq": "/sw_assets/sw_map_lq.jgp",
-  "map_hq": "/sw_assets/sw_map_hq.jgp",
+  "map_lq": "/sw_assets/sw_map_nq.jpg",
+  "map_hq": "/sw_assets/sw_map_hq.jpg",
   "bounds": {
     "south": 400000,
     "west": -400000,
