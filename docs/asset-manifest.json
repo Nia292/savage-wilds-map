@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/savage-wilds-map/static/css/main.7159a9a5.css",
+    "main.js": "/savage-wilds-map/static/js/main.a6980e89.js",
+    "index.html": "/savage-wilds-map/index.html",
+    "main.7159a9a5.css.map": "/savage-wilds-map/static/css/main.7159a9a5.css.map",
+    "main.a6980e89.js.map": "/savage-wilds-map/static/js/main.a6980e89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7159a9a5.css",
+    "static/js/main.a6980e89.js"
+  ]
+}
