@@ -18,17 +18,3 @@ export interface MapLocation {
     // Name of the general area
     location?: string;
 }
-
-export function determineIcon(location: MapLocation): string {
-    switch (location.type) {
-        case LocationGroupType.BOSS:
-            return 'icon_worldboss.png';
-        case LocationGroupType.RESOURCE_ORE:
-            return 'icon_mineral.png';
-        case LocationGroupType.POINT_OF_INTEREST:
-            return 'icon_vista.png'
-    }
-    console.error('Failed to determine icon for ', location)
-    return '';
-}
-

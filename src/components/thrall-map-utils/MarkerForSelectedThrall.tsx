@@ -19,7 +19,7 @@ function makeMarkerForLocation(thrall: MapLocationGroup, location: MapLocation, 
                    eventHandlers={{mouseover: onMouseOver, mouseout: onMouseOut}}
                    icon={makeIcon(location)}
                    position={position}>
-        <Tooltip direction="bottom">{thrall.name}</Tooltip>
+        <Tooltip direction="bottom">{location.location}</Tooltip>
     </Marker>
 }
 

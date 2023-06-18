@@ -1,8 +1,9 @@
 import {MapLocationGroup} from "../../../model/MapLocationGroup";
-import {determineIcon, MapLocation} from "../../../model/MapLocation";
+import {MapLocation} from "../../../model/MapLocation";
 import './LocationGroupDetailsLocations.css';
 import React from "react";
 import {HoveredThrallLocation} from "../../../model/HoveredThrallLocation";
+import {determineIcon} from "../../../util/icon";
 
 interface LocationGroupDetailsLocationsProps {
     location: MapLocation;

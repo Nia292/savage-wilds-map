@@ -10,7 +10,101 @@
   "minZoom": -8.7,
   "maxZoom": -4,
   "contributors": [],
-  "data":[
+  "data": [
+    {
+      "name": "Other Resources",
+      "id": "Other Resources",
+      "type": "RESOURCE_PLANT",
+      "locations": [
+        {
+          "location": "Leavening Agent",
+          "spawnSpot": "Swamp",
+          "spawnSpotDetail": "A lot of plants in the same area",
+          "type": "RESOURCE_PLANT",
+          "source": "TeleportPlayer 178420.09375 143632.375 -5210.459961",
+          "x": 178420.09375,
+          "y": 143632.375,
+          "z": -5210.459961
+        }
+      ]
+    },
+    {
+      "name": "Lotus",
+      "id": "Lotus",
+      "type": "RESOURCE_PLANT",
+      "locations": [
+        {
+          "location": "Black Lotus",
+          "spawnSpot": "Swamp",
+          "spawnSpotDetail": "Multiple plants in the same area",
+          "type": "RESOURCE_PLANT",
+          "source": "TeleportPlayer 124154.742188 223610.328125 -13744.319336",
+          "x": 124154.742188,
+          "y": 223610.328125,
+          "z": -13744.319336
+        },
+        {
+          "location": "Black Lotus",
+          "spawnSpot": "Dreamer's Pool",
+          "spawnSpotDetail": "Multiple plants in the same area",
+          "type": "RESOURCE_PLANT",
+          "source": "TeleportPlayer 148022.328125 219220.015625 -13805.919922",
+          "x": 148022.328125,
+          "y": 219220.015625,
+          "z": -13805.919922
+        },
+        {
+          "location": "Purple Lotus",
+          "spawnSpot": "Swamp",
+          "spawnSpotDetail": "Multiple plants in the same area",
+          "type": "RESOURCE_PLANT",
+          "source": "TeleportPlayer 142147.1875 198128.859375 -13857.373047",
+          "x": 142147.1875,
+          "y": 198128.859375,
+          "z": -13857.373047
+        },
+        {
+          "location": "Purple Lotus",
+          "spawnSpot": "Swamp",
+          "spawnSpotDetail": "Multiple plants in the same area",
+          "type": "RESOURCE_PLANT",
+          "source": "TeleportPlayer 139079.359375 192106.6875 -13797.647461",
+          "x": 139079.359375,
+          "y": 192106.6875,
+          "z": -13797.647461
+        },
+        {
+          "location": "Purple Lotus",
+          "spawnSpot": "Swamp",
+          "spawnSpotDetail": "Multiple plants in the same area",
+          "type": "RESOURCE_PLANT",
+          "source": "TeleportPlayer 134341.53125 185044.703125 -13837.132813",
+          "x": 134341.53125,
+          "y": 185044.703125,
+          "z": -13837.132813
+        },
+        {
+          "location": "Purple Lotus",
+          "spawnSpot": "Swamp",
+          "spawnSpotDetail": "Multiple plants in the same area",
+          "type": "RESOURCE_PLANT",
+          "source": "TeleportPlayer 126829.0625 186110.6875 -13712.125",
+          "x": 126829.0625,
+          "y": 186110.6875,
+          "z": -13712.125
+        },
+        {
+          "location": "Purple Lotus",
+          "spawnSpot": "Swamp",
+          "spawnSpotDetail": "Multiple plants in the same area",
+          "type": "RESOURCE_PLANT",
+          "source": "TeleportPlayer 120880.015625 192249.9375 -13504.498047",
+          "x": 120880.015625,
+          "y": 192249.9375,
+          "z": -13504.498047
+        }
+      ]
+    },
     {
       "name": "Points Of Interest",
       "id": "Points of Interest",
@@ -24,6 +118,42 @@
           "x": 111858.078125,
           "y": 115742.671875,
           "z": -11464.498047
+        },
+        {
+          "location": "The Crater",
+          "spawnSpotDetail": "Contains the Avatar of Bokruk and Obsidian",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer -121238.140625 -142833.59375 -19627.685547",
+          "x": -121238.140625,
+          "y": -142833.59375,
+          "z": -19627.685547
+        },
+        {
+          "location": "Dreamer's Pool",
+          "spawnSpotDetail": "Contains Black Lotus",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer 145661.28125 219670.21875 -13971.308594",
+          "x": 145661.28125,
+          "y": 219670.21875,
+          "z": -13971.308594
+        },
+        {
+          "location": "The Mothertree",
+          "spawnSpotDetail": "Contains Reptilian Monstrosities and Purple Lotus",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer 132162.984375 190782.484375 -13252.761719",
+          "x": 132162.984375,
+          "y": 190782.484375,
+          "z": -13252.761719
+        },
+        {
+          "location": "High Fall",
+          "spawnSpotDetail": "",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer 186993.296875 102496.164063 -9050.0",
+          "x": 186993.296875,
+          "y": 102496.164063,
+          "z": -9050.0
         }
       ]
     },
@@ -61,6 +191,46 @@
           "x": -128747.226563,
           "y": -46571.75,
           "z": -18711.960938
+        },
+        {
+          "location": "King Rhino",
+          "spawnSpot": "Plains of the Stampede",
+          "spawnSpotDetail": "In the passage leading northward",
+          "type": "BOSS",
+          "source": "TeleportPlayer 37389.761719 74642.890625 -16609.177734",
+          "x": 37389.761719,
+          "y": 74642.890625,
+          "z": -16609.177734
+        },
+        {
+          "location": "Avatar of Bokruk",
+          "spawnSpot": "The Crater",
+          "spawnSpotDetail": "Right in the Center",
+          "type": "BOSS",
+          "source": "TeleportPlayer -122467.789063 -143626.921875 -19693.113281",
+          "x": -122467.789063,
+          "y": -143626.921875,
+          "z": -19693.113281
+        },
+        {
+          "location": "Reptilian Monstrosity (boss)",
+          "spawnSpot": "Swamp",
+          "spawnSpotDetail": "",
+          "type": "BOSS",
+          "source": "TeleportPlayer 146143.578125 199882.78125 -13295.787109",
+          "x": 146143.578125,
+          "y": 199882.78125,
+          "z": -13295.787109
+        },
+        {
+          "location": "Monstrous Crocodile",
+          "spawnSpot": "Yakira's Tree",
+          "spawnSpotDetail": "On a small ledge overlooking the lake",
+          "type": "BOSS",
+          "source": "TeleportPlayer 162323.703125 154974.109375 -4739.894043",
+          "x": 162323.703125,
+          "y": 154974.109375,
+          "z": -4739.894043
         }
       ]
     }
