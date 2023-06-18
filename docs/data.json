@@ -154,6 +154,42 @@
           "x": 186993.296875,
           "y": 102496.164063,
           "z": -9050.0
+        },
+        {
+          "location": "Abandoned Docks",
+          "spawnSpotDetail": "",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer -123430.382813 198101.1875 -20677.707031",
+          "x": -123430.382813,
+          "y": 198101.1875,
+          "z": -20677.707031
+        },
+        {
+          "location": "The Mire",
+          "spawnSpotDetail": "",
+          "type": "RUIN",
+          "source": "TeleportPlayer -170173.109375 1839.781738 -14251.195313",
+          "x": -170173.109375,
+          "y": 1839.781738,
+          "z": -14251.195313
+        },
+        {
+          "location": "Snowhenge",
+          "spawnSpotDetail": "",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer -58703.707031 -168784.546875 -18950.380859",
+          "x": -58703.707031,
+          "y": -168784.546875,
+          "z": -18950.380859
+        },
+        {
+          "location": "Wreck of the Sea-Tiger",
+          "spawnSpotDetail": "",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer -179437.0625 55747.761719 -20894.0",
+          "x": -179437.0625,
+          "y": 55747.761719,
+          "z": -20894.0
         }
       ]
     },
@@ -231,6 +267,62 @@
           "x": 162323.703125,
           "y": 154974.109375,
           "z": -4739.894043
+        },
+        {
+          "location": "Monstrous Crocodile",
+          "spawnSpot": "Western Coast",
+          "spawnSpotDetail": "Near the tiny pond",
+          "type": "BOSS",
+          "source": "TeleportPlayer -153307.640625 122396.375 -20699.519531",
+          "x": -153307.640625,
+          "y": 122396.375,
+          "z": -20699.519531
+        },
+        {
+          "location": "Black Yeti",
+          "spawnSpot": "Snowhenge",
+          "spawnSpotDetail": "Right by the Vista",
+          "type": "BOSS",
+          "source": "TeleportPlayer -58072.753906 -168703.46875 -18941.480469",
+          "x": -58072.753906,
+          "y": -168703.46875,
+          "z": -18941.480469
+        }
+      ]
+    },
+    {
+      "name": "Dungeons",
+      "id": "Dungeons",
+      "type": "DUNGEON",
+      "locations": [
+        {
+          "location": "The Atlantean Tomb",
+          "spawnSpotDetail": "Small dungeon that contains The King Beneath boss. Drops a Scroll and a Golden Key.",
+          "type": "DUNGEON",
+          "source": "TeleportPlayer -103840.039063 150425.34375 -14509.063477",
+          "x": -103840.039063,
+          "y": 150425.34375,
+          "z": -14509.063477,
+          "loot": [
+            "Scroll (Vanquisher of the King Beneath)",
+            "Golden Key"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Thrall Camps",
+      "id": "Thrall Camps",
+      "type": "THRALL_CAMP",
+      "locations": [
+        {
+          "location": "Last Words Cavern",
+          "spawnSpot": "Black Hand",
+          "type": "THRALL_CAMP_BLACK_HAND",
+          "source": "TeleportPlayer -192972.640625 53225.917969 -20894.0",
+          "x": -192972.640625,
+          "y": 53225.917969,
+          "z": -20894.0
         }
       ]
     }
