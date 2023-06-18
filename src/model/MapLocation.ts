@@ -25,7 +25,10 @@ export function determineIcon(location: MapLocation): string {
             return 'icon_worldboss.png';
         case LocationGroupType.RESOURCE_ORE:
             return 'icon_mineral.png';
+        case LocationGroupType.POINT_OF_INTEREST:
+            return 'icon_vista.png'
     }
+    console.error('Failed to determine icon for ', location)
     return '';
 }
 

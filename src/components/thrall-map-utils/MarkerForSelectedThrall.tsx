@@ -2,17 +2,9 @@ import {MapLocationGroup} from "../../model/MapLocationGroup";
 import {Marker, Tooltip} from "react-leaflet";
 import React from "react";
 import {ceCoordinateToLatLng} from "../../util/conversions";
-import {Icon, icon} from "leaflet";
 import {HoveredThrallLocation} from "../../model/HoveredThrallLocation";
-import {determineIcon, MapLocation} from "../../model/MapLocation";
-
-function makeIcon(location: MapLocation): Icon {
-    return icon({
-        iconUrl: process.env.PUBLIC_URL + '/fc_assets/' + determineIcon(location),
-        iconSize: [24, 24],
-        tooltipAnchor: [0, 12],
-    });
-}
+import {MapLocation} from "../../model/MapLocation";
+import {makeIcon} from "../../util/icon";
 
 function makeMarkerForLocation(thrall: MapLocationGroup, location: MapLocation, onHoverChange: (location?: HoveredThrallLocation) => void) {
     const onMouseOver = () => {

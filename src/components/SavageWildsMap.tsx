@@ -11,7 +11,7 @@ import {MarkerForSelectedThrall} from "./thrall-map-utils/MarkerForSelectedThral
 import {MapEvents} from "./thrall-map-utils/MapEvents";
 import {InfoDialog} from "./info-dialog/InfoDialog";
 import {SettingsDialog} from "./settings-dialog/SettingsDialog";
-import {MarkerForAllThralls} from "./thrall-map-utils/MarkerForAllThralls";
+import {MarkerForAllLocationGroups} from "./thrall-map-utils/MarkerForAllLocationGroups";
 import {HoveredThrallLocation} from "../model/HoveredThrallLocation";
 
 const DEFAULT_ZOOM = -8.7;
@@ -118,7 +118,7 @@ export function SavageWildsMap(props: SavageWildsMapProps) {
         </div>
         <div id="hq-checkbox-wrapper" className="display-in-center">
             <input id="hq-checkbox" type="checkbox" checked={useHq} onChange={handleHqClick}/>
-            <label htmlFor="hq-checkbox">HQ Map (11mb)</label>
+            <label htmlFor="hq-checkbox">HQ Map (6MB)</label>
         </div>
         <InfoDialog open={infoDialogOpen} onClose={() => setInfoDialogOpen(false)} contributors={props.contributors}/>
         <SettingsDialog open={settingsDialogOpen}
@@ -143,7 +143,7 @@ export function SavageWildsMap(props: SavageWildsMapProps) {
             <MapEvents mapBounds={mapBounds} onZoomCenterChange={setZoomCenter}/>
             <SetViewOnClick location={zoomCenter}/>
             <MarkerForSelectedThrall thrall={selectedThrall} focused={thrallFocused} onHoveredChange={setHoveredLocation}/>
-            <MarkerForAllThralls thralls={props.data} focused={thrallFocused}/>
+            <MarkerForAllLocationGroups thralls={props.data} focused={thrallFocused}/>
         </MapContainer>
         <div className="sidebar-right">
             <LocationGroupList groups={props.data}

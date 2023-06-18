@@ -12,6 +12,22 @@
   "contributors": [],
   "data":[
     {
+      "name": "Points Of Interest",
+      "id": "Points of Interest",
+      "type": "POINT_OF_INTEREST",
+      "locations": [
+        {
+          "location": "The Wellspring",
+          "spawnSpotDetail": "Contains Gorillas",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer 111858.078125 115742.671875 -11464.498047",
+          "x": 111858.078125,
+          "y": 115742.671875,
+          "z": -11464.498047
+        }
+      ]
+    },
+    {
       "name": "Bosses",
       "id": "Bosses",
       "type": "BOSS",
