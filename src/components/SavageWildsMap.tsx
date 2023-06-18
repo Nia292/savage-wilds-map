@@ -143,7 +143,7 @@ export function SavageWildsMap(props: SavageWildsMapProps) {
             <MapEvents mapBounds={mapBounds} onZoomCenterChange={setZoomCenter}/>
             <SetViewOnClick location={zoomCenter}/>
             <MarkerForSelectedThrall thrall={selectedThrall} focused={thrallFocused} onHoveredChange={setHoveredLocation}/>
-            <MarkerForAllLocationGroups thralls={props.data} focused={thrallFocused}/>
+            <MarkerForAllLocationGroups locationGroups={props.data} focused={thrallFocused}/>
         </MapContainer>
         <div className="sidebar-right">
             <LocationGroupList groups={props.data}
