@@ -13,6 +13,7 @@ import {InfoDialog} from "./info-dialog/InfoDialog";
 import {SettingsDialog} from "./settings-dialog/SettingsDialog";
 import {MarkerForAllLocationGroups} from "./thrall-map-utils/MarkerForAllLocationGroups";
 import {HoveredThrallLocation} from "../model/HoveredThrallLocation";
+import {MapItemSearch} from "./item-search/MapItemSearch";
 
 const DEFAULT_ZOOM = -8.7;
 const DEFAULT_CENTER: LatLngLiteral = {lat: 0, lng: 0};
@@ -102,10 +103,22 @@ export function SavageWildsMap(props: SavageWildsMapProps) {
     //     }
     // }
 
+    function onLocationSelect(location: MapLocation): void {
+        // Find locationGroup
+        const group = props.data.find(value => value.locations.includes(location));
+        const center = ceCoordinateToLatLng(location);
+        setZoomCenter({zoom: -8, center});
+        setSelectedThrall(group)
+        setThrallFocused(true)
+    }
+
     const center = zoomCenter?.center ? zoomCenter.center : DEFAULT_CENTER;
     const zoom = zoomCenter?.zoom ? zoomCenter.zoom : DEFAULT_ZOOM
     const mapBounds = calculateBounds(props.south, props.west, props.north, props.east, offset);
     return <div className="thrall-map-wrapper">
+        <div id="item-search">
+            <MapItemSearch locationGroups={props.data} locationSelect={onLocationSelect}/>
+        </div>
         <div id="info-button" className={"display-in-center"} onClick={() => setInfoDialogOpen(true)}>
             <span className="material-icons" style={{fontSize: '18pt'}}>
                 help_outline
