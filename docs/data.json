@@ -25,6 +25,26 @@
           "x": -126154.617188,
           "y": 62810.28125,
           "z": -20492.527344
+        },
+        {
+          "location": "Giant Spider",
+          "spawnSpot": "The Mire",
+          "spawnSpotDetail": "Inbetween the two little ponds",
+          "type": "BOSS",
+          "source": "TeleportPlayer -162760.421875 -6828.694336 -13486.798828",
+          "x": -162760.421875,
+          "y": -6828.694336,
+          "z": -13486.798828
+        },
+        {
+          "location": "Sand Reaper Queen",
+          "spawnSpot": "The Mire",
+          "spawnSpotDetail": "In a cave. The entrance is slightly east.",
+          "type": "BOSS",
+          "source": "TeleportPlayer -128747.226563 -46571.75 -18711.960938",
+          "x": -128747.226563,
+          "y": -46571.75,
+          "z": -18711.960938
         }
       ]
     }
