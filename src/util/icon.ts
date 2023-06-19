@@ -18,6 +18,8 @@ export function determineIcon(location: MapLocation): string {
             return 'icon_vault.png';
         case LocationGroupType.THRALL_CAMP_BLACK_HAND:
             return 'icon_black_hand.png';
+        case LocationGroupType.FEAT:
+            return 'icon_feat.png';
     }
     console.error('Failed to determine icon for ', location)
     return '';
@@ -30,5 +32,13 @@ export function makeIcon(location: MapLocation): Icon {
         iconUrl: process.env.PUBLIC_URL + '/fc_assets/' + determineIcon(location),
         iconSize: [24, 24],
         tooltipAnchor: [0, 12],
+    });
+}
+
+export function makeLargeIcon(location: MapLocation): Icon {
+    return icon({
+        iconUrl: process.env.PUBLIC_URL + '/fc_assets/' + determineIcon(location),
+        iconSize: [48, 48],
+        tooltipAnchor: [0, 24],
     });
 }

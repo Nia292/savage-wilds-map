@@ -24,4 +24,5 @@ export enum LocationGroupType {
     RUIN = "RUIN",
     DUNGEON = "DUNGEON",
     THRALL_CAMP_BLACK_HAND = "THRALL_CAMP_BLACK_HAND",
+    FEAT = "FEAT",
 }

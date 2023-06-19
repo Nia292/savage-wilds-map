@@ -4,7 +4,7 @@ import React from "react";
 import {ceCoordinateToLatLng} from "../../util/conversions";
 import {HoveredThrallLocation} from "../../model/HoveredThrallLocation";
 import {MapLocation} from "../../model/MapLocation";
-import {makeIcon} from "../../util/icon";
+import {makeLargeIcon} from "../../util/icon";
 
 function makeMarkerForLocation(thrall: MapLocationGroup, location: MapLocation, onHoverChange: (location?: HoveredThrallLocation) => void) {
     const onMouseOver = () => {
@@ -17,7 +17,7 @@ function makeMarkerForLocation(thrall: MapLocationGroup, location: MapLocation, 
     const position = ceCoordinateToLatLng(location);
     return <Marker key={position.lat + '_' + position.lng}
                    eventHandlers={{mouseover: onMouseOver, mouseout: onMouseOut}}
-                   icon={makeIcon(location)}
+                   icon={makeLargeIcon(location)}
                    position={position}>
         <Tooltip direction="bottom">{location.location}</Tooltip>
     </Marker>
