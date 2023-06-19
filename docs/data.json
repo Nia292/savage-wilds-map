@@ -386,6 +386,19 @@
             "Scroll (Vanquisher of the King Beneath)",
             "Golden Key"
           ]
+        },
+        {
+          "location": "The Nook and Arrow",
+          "spawnSpotDetail": "Entrance to the Nook and Arrow. This is a hub that allows you entrance to Veiled Memories (portals) or Siptah bosses (jump down in the space region)",
+          "type": "DUNGEON",
+          "source": "TeleportPlayer -47208.492188 107316.546875 -15081.051758",
+          "x": -47208.492188,
+          "y": 107316.546875,
+          "z": -15081.051758,
+          "loot": [
+            "Scroll (Vanquisher of the King Beneath)",
+            "Golden Key"
+          ]
         }
       ]
     },
@@ -402,6 +415,66 @@
           "x": -192972.640625,
           "y": 53225.917969,
           "z": -20894.0
+        },
+        {
+          "location": "Ruins of Skehk-Hah",
+          "spawnSpot": "???",
+          "spawnSpotDetail": "Contains one Sorcerer and a Sorcerer Spell Book",
+          "type": "RUIN",
+          "source": "TeleportPlayer -129193.351563 156927.515625 -15764.806641",
+          "x": -129193.351563,
+          "y": 156927.515625,
+          "z": -15764.806641
+        },
+        {
+          "location": "Yog's Feast",
+          "spawnSpot": "Darfari",
+          "spawnSpotDetail": "Contains one Sorcerer and a Sorcerer Spell Book. Contains Puffball Mushroom nodes.",
+          "type": "THRALL_CAMP_DARFARI_CAPITAL",
+          "source": "TeleportPlayer -139194.890625 187674.8125 -14922.458008",
+          "x": -139194.890625,
+          "y": 187674.8125,
+          "z": -14922.458008
+        },
+        {
+          "location": "Skull Ridge",
+          "spawnSpot": "Darfari",
+          "spawnSpotDetail": "Contains one Sorcerer and a Sorcerer Spell Book. Both are next to the portal stone.",
+          "type": "THRALL_CAMP_DARFARI",
+          "source": "TeleportPlayer -64538.246094 168185.09375 -19249.316406",
+          "x": -64538.246094,
+          "y": 168185.09375,
+          "z": -19249.316406
+        },
+        {
+          "location": "Desert Outlook",
+          "spawnSpot": "Darfari",
+          "spawnSpotDetail": "",
+          "type": "THRALL_CAMP_DARFARI",
+          "source": "TeleportPlayer -35906.007813 142856.34375 -17742.611328",
+          "x": -35906.007813,
+          "y": 142856.34375,
+          "z": -17742.611328
+        },
+        {
+          "location": "Murun Garrison",
+          "spawnSpot": "Relic Hunters",
+          "spawnSpotDetail": "Friendly camp with merchants.",
+          "type": "THRALL_CAMP_RELIC_HUNTERS",
+          "source": "TeleportPlayer -44010.304688 107588.78125 -15077.78125",
+          "x": -44010.304688,
+          "y": 107588.78125,
+          "z": -15077.78125
+        },
+        {
+          "location": "Murun Gates",
+          "spawnSpot": "Relic Hunters",
+          "spawnSpotDetail": "Friendly camp with merchants. Petruso the Sandstone Maniac (Heart of Sands) can be found right at the western gate.",
+          "type": "THRALL_CAMP_RELIC_HUNTERS",
+          "source": "TeleportPlayer -32939.054688 102792.632813 -12860.979492",
+          "x": -32939.054688,
+          "y": 102792.632813,
+          "z": -12860.979492
         }
       ]
     },
@@ -449,6 +522,36 @@
           "x": -9434.722656,
           "y": 29061.005859,
           "z": -18572.78125
+        },
+        {
+          "location": "Witch Doctor",
+          "spawnSpot": "Yog's Feast",
+          "spawnSpotDetail": "A journal on a small round table",
+          "type": "FEAT",
+          "source": "TeleportPlayer -144917.546875 187378.28125 -14922.457031",
+          "x": -144917.546875,
+          "y": 187378.28125,
+          "z": -14922.457031
+        },
+        {
+          "location": "Darfari Banners",
+          "spawnSpot": "Yog's Feast",
+          "spawnSpotDetail": "The right, red banner at the entrance.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -136607.578125 187559.25 -15033.355469",
+          "x": -136607.578125,
+          "y": 187559.25,
+          "z": -15033.355469
+        },
+        {
+          "location": "Darfari Weapons",
+          "spawnSpot": "Desert Outlook",
+          "spawnSpotDetail": "The weapon on the sacrificial stone slab next to the dead body.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -36781.703125 142889.25 -17772.792969",
+          "x": -36781.703125,
+          "y": 142889.25,
+          "z": -17772.792969
         }
       ]
     }
