@@ -25,6 +25,16 @@
           "x": 178420.09375,
           "y": 143632.375,
           "z": -5210.459961
+        },
+        {
+          "location": "Goldstone",
+          "spawnSpot": "Swamp",
+          "spawnSpotDetail": "There are small goldstone nuggets on the ground, some of them can be hit with a pick for extra yield.",
+          "type": "RESOURCE_ORE",
+          "source": "TeleportPlayer -20309.320313 28543.759766 -17105.064453",
+          "x": -20309.320313,
+          "y": 28543.759766,
+          "z": -17105.064453
         }
       ]
     },
@@ -120,6 +130,15 @@
           "z": -11464.498047
         },
         {
+          "location": "Plains of the Stampede",
+          "spawnSpotDetail": "Contains Rhinos",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer 40070.621094 95886.070313 -14484.042969",
+          "x": 40070.621094,
+          "y": 95886.070313,
+          "z": -14484.042969
+        },
+        {
           "location": "The Crater",
           "spawnSpotDetail": "Contains the Avatar of Bokruk and Obsidian",
           "type": "POINT_OF_INTEREST",
@@ -174,6 +193,33 @@
           "z": -14251.195313
         },
         {
+          "location": "Obsidian Mine",
+          "spawnSpotDetail": "Contains Obsidian, Iron and Goldstone Nuggets",
+          "type": "RUIN",
+          "source": "TeleportPlayer -9003.672852 31862.625 -20576.572266",
+          "x": -9003.672852,
+          "y": 31862.625,
+          "z": -20576.572266
+        },
+        {
+          "location": "The Meadow",
+          "spawnSpotDetail": "Contains Midnight Blue Flowers",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer 133703.421875 52808.832031 -8232.567383",
+          "x": 133703.421875,
+          "y": 52808.832031,
+          "z": -8232.567383
+        },
+        {
+          "location": "Glowing Pond",
+          "spawnSpotDetail": "Contains Glowing Goop",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer 185815.515625 -4038.313477 -20894.0",
+          "x": 185815.515625,
+          "y": -4038.313477,
+          "z": -20894.0
+        },
+        {
           "location": "Snowhenge",
           "spawnSpotDetail": "",
           "type": "POINT_OF_INTEREST",
@@ -201,12 +247,15 @@
         {
           "location": "Giant Crocodile",
           "spawnSpot": "Cisterns",
-          "spawnSpotDetail": "The giant crocodile is at the end of the cisterns, the entrance is north to this location.",
+          "spawnSpotDetail": "The giant crocodile is at the end of the cisterns, the entrance is north to this location. Drops a Jagged Scourgestone Piece.",
           "type": "BOSS",
           "source": "TeleportPlayer -126154.617188 62810.28125 -20492.527344",
           "x": -126154.617188,
           "y": 62810.28125,
-          "z": -20492.527344
+          "z": -20492.527344,
+          "loot": [
+            "Jagged Scourgestone Piece"
+          ]
         },
         {
           "location": "Giant Spider",
@@ -287,6 +336,36 @@
           "x": -58072.753906,
           "y": -168703.46875,
           "z": -18941.480469
+        },
+        {
+          "location": "The Gravewalker",
+          "spawnSpot": "Old Mines",
+          "spawnSpotDetail": "Ontop of a ledge. Drops Unnamed City loot",
+          "type": "BOSS",
+          "source": "TeleportPlayer -227587.046875 -127670.117188 -14014.219727",
+          "x": -227587.046875,
+          "y": -127670.117188,
+          "z": -14014.219727
+        },
+        {
+          "location": "Dracosaurus",
+          "spawnSpot": "Old Mines",
+          "spawnSpotDetail": "In the very end of the cave. An undead dragon. Guards a Khari Steel Chest.",
+          "type": "BOSS",
+          "source": "TeleportPlayer -234697.75 -115533.242188 -15728.521484",
+          "x": -234697.75,
+          "y": -115533.242188,
+          "z": -15728.521484
+        },
+        {
+          "location": "Scorpion Queen",
+          "spawnSpot": "Obsidian Mines",
+          "spawnSpotDetail": "Behind it is the Scorpion Queen Venom recipe",
+          "type": "BOSS",
+          "source": "TeleportPlayer -22015.916016 26901.863281 -17094.710938",
+          "x": -22015.916016,
+          "y": 26901.863281,
+          "z": -17094.710938
         }
       ]
     },
@@ -323,6 +402,53 @@
           "x": -192972.640625,
           "y": 53225.917969,
           "z": -20894.0
+        }
+      ]
+    },
+    {
+      "name": "Feats",
+      "id": "Feats",
+      "type": "FEATS",
+      "locations": [
+        {
+          "location": "Dragonbone Weapons",
+          "spawnSpot": "Old mine",
+          "spawnSpotDetail": "A tablet leaning against the wall at the very end of the cave. Guarded by an undead dragon.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -234697.75 -115533.242188 -15728.521484",
+          "x": -236697.75,
+          "y": -111533.242188,
+          "z": -15728.521484
+        },
+        {
+          "location": "Scorpion Queen Venom",
+          "spawnSpot": "Obsidian Mines",
+          "spawnSpotDetail": "Behind the Scorpion Queen on a tablet.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -23919.916016 26067.931641 -17092.884766",
+          "x": -23919.916016,
+          "y": 26067.931641,
+          "z": -17092.884766
+        },
+        {
+          "location": "Obsidian Tools",
+          "spawnSpot": "Obsidian Mines",
+          "spawnSpotDetail": "A journal on a table next to a blacksmith bench",
+          "type": "FEAT",
+          "source": "TeleportPlayer 934.023071 35017.84375 -19173.201172",
+          "x": 934.023071,
+          "y": 35017.84375,
+          "z": -19173.201172
+        },
+        {
+          "location": "Obsidian Warhammer",
+          "spawnSpot": "Obsidian Mines",
+          "spawnSpotDetail": "A journal on crate on the wooden scaffolding",
+          "type": "FEAT",
+          "source": "TeleportPlayer -9434.722656 29061.005859 -18572.78125",
+          "x": -9434.722656,
+          "y": 29061.005859,
+          "z": -18572.78125
         }
       ]
     }
