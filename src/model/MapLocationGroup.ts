@@ -29,6 +29,8 @@ export enum LocationGroupType {
     THRALL_CAMP_RELIC_HUNTERS = "THRALL_CAMP_RELIC_HUNTERS",
     THRALL_CAMP_RELIC_HUNTERS_CAPITAL = "THRALL_CAMP_RELIC_HUNTERS_CAPITAL",
     FEAT = "FEAT",
+    STAMP = "STAMP",
+    CAVE = "CAVE",
 }
 
 export function determineIcon(location: MapLocation): string {
@@ -57,6 +59,10 @@ export function determineIcon(location: MapLocation): string {
             return 'icon_relic_hunter_capital.png';
         case LocationGroupType.FEAT:
             return 'icon_feat.png';
+        case LocationGroupType.STAMP:
+            return 'icon_stamp.png';
+        case LocationGroupType.CAVE:
+            return 'icon_cave.png';
     }
     console.error('Failed to determine icon for ', location)
     return '';
