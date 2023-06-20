@@ -35,6 +35,36 @@
           "x": -20309.320313,
           "y": 28543.759766,
           "z": -17105.064453
+        },
+        {
+          "location": "Silverstone",
+          "spawnSpot": "Swamp",
+          "spawnSpotDetail": "",
+          "type": "RESOURCE_ORE",
+          "source": "TeleportPlayer 177869.484375 168581.421875 -1955.268921",
+          "x": 177869.484375,
+          "y": 168581.421875,
+          "z": -1955.268921
+        },
+        {
+          "location": "Silverstone",
+          "spawnSpot": "Swamp",
+          "spawnSpotDetail": "",
+          "type": "RESOURCE_ORE",
+          "source": "TeleportPlayer 161564.5 168269.734375 -4581.286133",
+          "x": 161564.5,
+          "y": 168269.734375,
+          "z": -4581.286133
+        },
+        {
+          "location": "Star Metal",
+          "spawnSpot": "Frozen Wastes",
+          "spawnSpotDetail": "Area for potential meteor spawns",
+          "type": "RESOURCE_ORE",
+          "source": "TeleportPlayer 31500.519531 -259415.140625 -17873.59375",
+          "x": 31500.519531,
+          "y": -259415.140625,
+          "z": -17873.59375
         }
       ]
     },
@@ -236,6 +266,76 @@
           "x": -179437.0625,
           "y": 55747.761719,
           "z": -20894.0
+        },
+        {
+          "location": "Yakira's Tear",
+          "spawnSpotDetail": "There is Orange Phykos down in the lake",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer 164848.953125 143319.828125 -5605.000488",
+          "x": 164848.953125,
+          "y": 143319.828125,
+          "z": -5605.000488
+        },
+        {
+          "location": "The Baths",
+          "spawnSpotDetail": "The Outcast (Friendly NPC, teaches Ymir Religion) can be found here.",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer 61472.378906 -228778.0625 -7171.651855",
+          "x": 61472.378906,
+          "y": -228778.0625,
+          "z": -7171.651855
+        },
+        {
+          "location": "Giant's pathway",
+          "spawnSpotDetail": "Contains Crystals",
+          "type": "DUNGEON",
+          "source": "TeleportPlayer 68571.21875 -269313.875 -16504.003906",
+          "x": 68571.21875,
+          "y": -269313.875,
+          "z": -16504.003906
+        },
+        {
+          "location": "Frozen Battlefields",
+          "spawnSpotDetail": "Contains large quantities if Black Ice, Obsidian, Brimstone and Iron",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer -93778.578125 -285110.15625 -17876.345703",
+          "x": -93778.578125,
+          "y": -285110.15625,
+          "z": -17876.345703
+        },
+        {
+          "location": "Rimfrost Grotto",
+          "spawnSpotDetail": "Contains the Frost Temple Smithy and Frost Smith feat",
+          "type": "CAVE",
+          "source": "TeleportPlayer -80132.398438 -178018.6875 -18591.126953",
+          "x": -80132.398438,
+          "y": -178018.6875,
+          "z": -18591.126953
+        }
+      ]
+    },
+    {
+      "name": "Mini-Bosses",
+      "id": "Mini-Bosses",
+      "type": "BOSS",
+      "locations": [
+        {
+          "location": "Avalanche",
+          "spawnSpotDetail": "",
+          "type": "BOSS",
+          "source": "TeleportPlayer -64987.925781 -302226.6875 -17399.767578",
+          "x": -64987.925781,
+          "y": -302226.6875,
+          "z": -17399.767578
+        },
+        {
+          "location": "Avalanche",
+          "spawnSpotDetail": "",
+          "type": "BOSS",
+          "source": "TeleportPlayer -91953.515625 -288557.15625 -17773.521484",
+          "x": -91953.515625,
+          "y": -288557.15625,
+          "z": -17773.521484
         }
       ]
     },
@@ -366,6 +466,16 @@
           "x": -22015.916016,
           "y": 26901.863281,
           "z": -17094.710938
+        },
+        {
+          "location": "The Red Mother",
+          "spawnSpot": "Desert",
+          "spawnSpotDetail": "Surrounded by Dragon Hatchlings",
+          "type": "BOSS",
+          "source": "TeleportPlayer -71361.78125 114466.609375 -16754.035156",
+          "x": -71361.78125,
+          "y": 114466.609375,
+          "z": -16754.035156
         }
       ]
     },
@@ -399,6 +509,15 @@
             "Scroll (Vanquisher of the King Beneath)",
             "Golden Key"
           ]
+        },
+        {
+          "location": "The Cistern",
+          "spawnSpotDetail": "Entrance to the Mini-Dungeon The Cistern. Contains Giant Crocodile boss and Sobek Warriors.",
+          "type": "STAMP",
+          "source": "TeleportPlayer -147250.234375 37964.113281 -10557.922852",
+          "x": -147250.234375,
+          "y": 37964.113281,
+          "z": -10557.922852
         }
       ]
     },
@@ -552,6 +671,16 @@
           "x": -36781.703125,
           "y": 142889.25,
           "z": -17772.792969
+        },
+        {
+          "location": "Frost Smithy",
+          "spawnSpot": "Rimfrost Grotto",
+          "spawnSpotDetail": "A stone slab at the end of the Rimfrost Grotto, next to the Frost Temple Smithy",
+          "type": "FEAT",
+          "source": "TeleportPlayer -71160.554688 -185460.546875 -18581.744141",
+          "x": -71160.554688,
+          "y": -185460.54687,
+          "z": -18581.744141
         }
       ]
     }
