@@ -48,6 +48,16 @@
         },
         {
           "location": "Silverstone",
+          "spawnSpot": "",
+          "spawnSpotDetail": "The entire passageway contains silver veins",
+          "type": "RESOURCE_ORE",
+          "source": "TeleportPlayer 144865.953125 67458.0625 -8483.107422",
+          "x": 144865.953125,
+          "y": 67458.0625,
+          "z": -8483.107422
+        },
+        {
+          "location": "Silverstone",
           "spawnSpot": "Swamp",
           "spawnSpotDetail": "",
           "type": "RESOURCE_ORE",
@@ -221,6 +231,24 @@
           "x": -170173.109375,
           "y": 1839.781738,
           "z": -14251.195313
+        },
+        {
+          "location": "The Raided Village",
+          "spawnSpotDetail": "",
+          "type": "RUIN",
+          "source": "TeleportPlayer -107838.882813 -59214.46875 -20392.921875",
+          "x": -107838.882813,
+          "y": -59214.46875,
+          "z": -20392.921875
+        },
+        {
+          "location": "The Queen's Tomb ground entrance",
+          "spawnSpotDetail": "Ground entrance to the Queen's Tomb",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer -82834.820313 41934.433594 -4307.828125",
+          "x": -82834.820313,
+          "y": 41934.433594,
+          "z": -4307.828125
         },
         {
           "location": "Obsidian Mine",
@@ -594,6 +622,16 @@
           "x": -32939.054688,
           "y": 102792.632813,
           "z": -12860.979492
+        },
+        {
+          "location": "Temple Ruins",
+          "spawnSpot": "Lemurian",
+          "spawnSpotDetail": "Contains one Sorcerer and a Sorcerer Spell Book on the altar next to the portal stone.",
+          "type": "THRALL_CAMP_LEMURIAN",
+          "source": "TeleportPlayer 167155.78125 206729.875 -7541.053711",
+          "x": -32939.054688,
+          "y": 102792.632813,
+          "z": -12860.979492
         }
       ]
     },
@@ -681,6 +719,16 @@
           "x": -71160.554688,
           "y": -185460.54687,
           "z": -18581.744141
+        },
+        {
+          "location": "Midnight Alchemist",
+          "spawnSpot": "Raided Village",
+          "spawnSpotDetail": "A journal in the small walled off area near the center. Khari steel nearby.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -105335.953125 -59098.34375 -20391.720703",
+          "x": -105335.953125,
+          "y": -59098.34375,
+          "z": -20391.720703
         }
       ]
     }
