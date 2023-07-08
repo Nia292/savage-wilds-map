@@ -152,6 +152,56 @@
           "x": 120880.015625,
           "y": 192249.9375,
           "z": -13504.498047
+        },
+        {
+          "location": "Red Lotus",
+          "spawnSpot": "Mawlgwyn's Glove",
+          "spawnSpotDetail": "Two nodes",
+          "type": "RESOURCE_PLANT",
+          "source": "TeleportPlayer 174656.953125 -98365.664063 -16319.423828",
+          "x": 174656.953125,
+          "y": -98365.664063,
+          "z": -16319.423828
+        },
+        {
+          "location": "Red Lotus",
+          "spawnSpot": "Mawlgwyn's Glove",
+          "spawnSpotDetail": "Three nodes",
+          "type": "RESOURCE_PLANT",
+          "source": "TeleportPlayer 191035.71875 -95361.445313 -15348.334961",
+          "x": 191035.71875,
+          "y": -95361.445313,
+          "z": -15348.334961
+        },
+        {
+          "location": "Red Lotus",
+          "spawnSpot": "Mawlgwyn's Glove",
+          "spawnSpotDetail": "Two nodes",
+          "type": "RESOURCE_PLANT",
+          "source": "TeleportPlayer 184584.75 -75187.03125 -15051.05957",
+          "x": 184584.75,
+          "y": -75187.03125,
+          "z": -15051.05957
+        },
+        {
+          "location": "Red Lotus",
+          "spawnSpot": "Mawlgwyn's Glove",
+          "spawnSpotDetail": "Three nodes",
+          "type": "RESOURCE_PLANT",
+          "source": "TeleportPlayer 165164.453125 -64698.375 -9107.373047",
+          "x": 165164.453125,
+          "y": -64698.375,
+          "z": -9107.373047
+        },
+        {
+          "location": "Red Lotus",
+          "spawnSpot": "Mawlgwyn's Glove",
+          "spawnSpotDetail": "Four nodes",
+          "type": "RESOURCE_PLANT",
+          "source": "TeleportPlayer 170583.015625 -64318.503906 -9471.047852",
+          "x": 170583.015625,
+          "y": -64318.503906,
+          "z": -9471.047852
         }
       ]
     },
@@ -339,6 +389,33 @@
           "x": -80132.398438,
           "y": -178018.6875,
           "z": -18591.126953
+        },
+        {
+          "location": "Burial Mounds",
+          "spawnSpotDetail": "Contains Godbreaker Armor feat",
+          "type": "RUIN",
+          "source": "TeleportPlayer 26323.875 -91059.335938 -17925.275391",
+          "x": 26323.875,
+          "y": -91059.335938,
+          "z": -17925.275391
+        },
+        {
+          "location": "The Proving Grounds",
+          "spawnSpotDetail": "Arena Champion boss and Khari Steel",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer 149638.21875 30274.773438 1582.159912",
+          "x": 149638.21875,
+          "y": 30274.773438,
+          "z": 1582.159912
+        },
+        {
+          "location": "Beneath the Waves",
+          "spawnSpotDetail": "",
+          "type": "RUIN",
+          "source": "TeleportPlayer -177954.125 110345.054688 -24134.484375",
+          "x": -177954.125,
+          "y": 110345.054688,
+          "z": -24134.484375
         }
       ]
     },
@@ -504,6 +581,26 @@
           "x": -71361.78125,
           "y": 114466.609375,
           "z": -16754.035156
+        },
+        {
+          "location": "Champion of the Warmaker",
+          "spawnSpot": "Burial Mounds",
+          "spawnSpotDetail": "Shares a spawn with other bosses, not guranteed. Guards Godbreaker and Champion armor feats.",
+          "type": "BOSS",
+          "source": "TeleportPlayer 25879.121094 -103782.890625 -15705.200195",
+          "x": 25879.121094,
+          "y": -103782.890625,
+          "z": -15705.200195
+        },
+        {
+          "location": "Arena Champion",
+          "spawnSpot": "",
+          "spawnSpotDetail": "Guards Khari Steel ",
+          "type": "BOSS",
+          "source": "TeleportPlayer 150347.90625 31635.166016 1587.768066",
+          "x": 150347.90625,
+          "y": 31635.166016,
+          "z": 1587.768066
         }
       ]
     },
@@ -546,6 +643,24 @@
           "x": -147250.234375,
           "y": 37964.113281,
           "z": -10557.922852
+        },
+        {
+          "location": "Ruins of Xun'sha",
+          "spawnSpotDetail": "Entrance to a a medium size dungeon like area. Also contains a caravan. Interact with the giant door to enter.",
+          "type": "RUIN",
+          "source": "TeleportPlayer 192277.84375 121278.367188 -4418.856934",
+          "x": 192277.8437,
+          "y": 121278.367188,
+          "z": -4418.856934
+        },
+        {
+          "location": "Last Refuge",
+          "spawnSpotDetail": "Entrance to a large dungeon like area",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer -81074.859375 -385529.3125 -14195.115234",
+          "x": -81074.859375,
+          "y": -385529.3125,
+          "z": -14195.115234
         }
       ]
     },
@@ -559,6 +674,15 @@
           "spawnSpot": "Black Hand",
           "type": "THRALL_CAMP_BLACK_HAND",
           "source": "TeleportPlayer -192972.640625 53225.917969 -20894.0",
+          "x": -192972.640625,
+          "y": 53225.917969,
+          "z": -20894.0
+        },
+        {
+          "location": "Redwood Hamlet",
+          "spawnSpot": "Heirs of the North",
+          "type": "THRALL_CAMP_BLACK_HAND",
+          "source": "TeleportPlayer 206707.59375 -29707.054688 -6201.364258",
           "x": -192972.640625,
           "y": 53225.917969,
           "z": -20894.0
@@ -632,6 +756,23 @@
           "x": -32939.054688,
           "y": 102792.632813,
           "z": -12860.979492
+        }
+      ]
+    },
+    {
+      "name": "Shima's Feats",
+      "id": "Shima's Feats",
+      "type":"FEATS",
+      "locations": [
+        {
+          "location": "Grill",
+          "spawnSpot": "Desert",
+          "spawnSpotDetail": "The book next to the stone slap",
+          "type": "FEAT",
+          "source": "TeleportPlayer -39254.199219 74525.132813 -10739.03125",
+          "x": -39254.199219,
+          "y": 74525.132813,
+          "z": -10739.03125
         }
       ]
     },
@@ -729,6 +870,36 @@
           "x": -105335.953125,
           "y": -59098.34375,
           "z": -20391.720703
+        },
+        {
+          "location": "Khari Armors",
+          "spawnSpot": "",
+          "spawnSpotDetail": "On the giant stone tablet. Khari Steel nearby.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -120187.960938 54227.96875 -11367.464844",
+          "x": -120187.960938,
+          "y": 54227.96875,
+          "z": -11367.464844
+        },
+        {
+          "location": "Godbreaker and Arena Champion Armor",
+          "spawnSpot": "Burial Mounds",
+          "spawnSpotDetail": "On a giant stone tablet behind a boss",
+          "type": "FEAT",
+          "source": "TeleportPlayer 25510.902344 -104545.148438 -15713.058594",
+          "x": 25510.902344,
+          "y": -104545.148438,
+          "z": -15713.058594
+        },
+        {
+          "location": "Dredger",
+          "spawnSpot": "Beneath the Waves",
+          "spawnSpotDetail": "A small book on a mossy pillar underwater",
+          "type": "FEAT",
+          "source": "TeleportPlayer -187614.8125 116662.914063 -23723.730469",
+          "x": -187614.8125,
+          "y": 116662.914063,
+          "z": -23723.730469
         }
       ]
     }
