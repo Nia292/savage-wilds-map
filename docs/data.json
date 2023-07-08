@@ -202,6 +202,26 @@
           "x": 170583.015625,
           "y": -64318.503906,
           "z": -9471.047852
+        },
+        {
+          "location": "Frost Lotus",
+          "spawnSpot": "Stomping Grounds",
+          "spawnSpotDetail": "One node",
+          "type": "RESOURCE_PLANT",
+          "source": "TeleportPlayer 61415.339844 -199211.71875 -6245.567383",
+          "x": 61415.339844,
+          "y": -199211.71875,
+          "z": -6245.567383
+        },
+        {
+          "location": "Frost Lotus",
+          "spawnSpot": "Stomping Grounds",
+          "spawnSpotDetail": "One node",
+          "type": "RESOURCE_PLANT",
+          "source": "TeleportPlayer 93154.234375 -228937.5 -8678.020508",
+          "x": 93154.234375,
+          "y": -228937.5,
+          "z": -8678.020508
         }
       ]
     },
@@ -416,6 +436,24 @@
           "x": -177954.125,
           "y": 110345.054688,
           "z": -24134.484375
+        },
+        {
+          "location": "Gates if the White Hand",
+          "spawnSpotDetail": "Hyperborean Camp",
+          "type": "YMIR",
+          "source": "TeleportPlayer -35629.078125 -284879.53125 -1649.703979",
+          "x": -35629.078125,
+          "y": -284879.53125,
+          "z": -1649.703979
+        },
+        {
+          "location": "Cital of the White Hand",
+          "spawnSpotDetail": "Contains boss Luhi",
+          "type": "DUNGEON",
+          "source": "TeleportPlayer -29694.835938 -297542.125 -578.186646",
+          "x": -29694.835938,
+          "y": -297542.125,
+          "z": -578.186646
         }
       ]
     },
@@ -601,6 +639,16 @@
           "x": 150347.90625,
           "y": 31635.166016,
           "z": 1587.768066
+        },
+        {
+          "location": "Louhi the Frost Witch",
+          "spawnSpot": "Cital of the White Hand",
+          "spawnSpotDetail": "Guards Treasure Boxes",
+          "type": "BOSS",
+          "source": "TeleportPlayer -29521.117188 -301709.09375 -566.543091",
+          "x": -29521.117188,
+          "y": -301709.09375,
+          "z": -566.543091
         }
       ]
     },
