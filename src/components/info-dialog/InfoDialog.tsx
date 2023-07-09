@@ -28,14 +28,10 @@ export const InfoDialog = (props: InfoDialogProps) => {
                 About
             </div>
             <div>
-                This map contains information about the thralls added by the&nbsp;<a target="_blank"
-                                                                                     href="https://steamcommunity.com/sharedfiles/filedetails/?id=1326031593"
-                                                                                     rel="noreferrer">Thrall Wars
-                Dungeon Mod</a>.
+                A work in progess map of <a href="https://www.savagewilds.com/">Savage Wilds</a> that contains various
+                points of interest, feats, resources and other information about the mod.
                 <br/>
-                Check out the mod page for more information!<br/>
-                You can find the source code over on <a target="_blank" href="https://github.com/Nia292/tw-map"
-                                                        rel="noreferrer">GitHub</a>.
+                Check out the mod page for more information.
             </div>
             <div className="dialog-subheader">
                 Privacy
@@ -54,14 +50,21 @@ export const InfoDialog = (props: InfoDialogProps) => {
                 Contributing
             </div>
             <div>
-                This map is far from completed. Head over to GitHub to find out how to contribute data!
+                This map is far from completed. Feel free to DM me on discord (@nia2424) or <a href="https://github.com/Nia292/savage-wilds-map/issues/new">Create a GitHub Issue</a> to contribute!
+                <br/>
+                <br/>
+                Pull requests are also appreciated and will be accepted.
+                <br/>
+                <br/>
+                If you contribute, please provide the following details:
+                <ul>
+                    <li>A TeleportToPlayer command with the coordinates</li>
+                    <li>A brief description of the location</li>
+                    <li>If you want to be mentioned below as contributor, a name to list you with</li>
+                </ul>
             </div>
             <div className="dialog-subheader">
                 More
-            </div>
-            <div>
-                There is also the <a target="_blank" href="https://nia292.github.io/tw-dice-calc/index.html"
-                                     rel="noreferrer">TW Dice Calculator</a> to plan your RP characters!
             </div>
             <div className="dialog-subheader">
                 Credits
@@ -69,8 +72,6 @@ export const InfoDialog = (props: InfoDialogProps) => {
             <div>
                 <strong>Funcom</strong> for Conan Exiles and the map!<br/>
                 <strong>Savage Wilds</strong> mod for the Savage Wilds map! <br/>
-                <strong>Japata</strong> for helping me with the locations and general thrall information! 🐍 <br/>
-                <strong>Zenoa</strong> for doing the immensely menial work of finding out what thrall crafts which item!
             </div>
             <div className="dialog-subheader">
                 Contributors

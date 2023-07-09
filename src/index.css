@@ -66,25 +66,12 @@ body {
     color: var(--primary-sidebar-color);
 }
 
-#guide-button {
-    position: absolute;
-    border-radius: 2px;
-    z-index: 800;
-    left: 10px;
-    top: 103px;
-    width: 30px;
-    height: 30px;
-    border-top: 1px solid var(--primary-sidebar-color);
-    background-color: var(--background-color);
-    color: var(--primary-sidebar-color);
-}
-
 #settings-button {
     position: absolute;
     border-radius: 2px;
     z-index: 800;
     left: 10px;
-    top: 133px;
+    top: 103px;
     width: 30px;
     height: 30px;
     border-top: 1px solid var(--primary-sidebar-color);
