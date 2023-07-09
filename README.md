@@ -38,12 +38,12 @@ Here is what you need to do:
 1. Fork this repository (D'uh)
 2. Head over to the ``.github/workflows/main.yml`` workflow and change the ``email`` and ``name`` properties in the last step to your own
 3. Head over to GitHub's web page, open your repository, go into the settings and make the following changes:
-   3.1. Under Actions -> General -> Workflow permissions, set the permissions to "read and write permissions"
-   3.2. Under Pages -> Build and Deployment, make sure the following settings are set:
-      3.2.1. Source: Deploy from a branch
-      3.2.2. Branch: main
-      3.2.3. Folder: /docs
-4. Now commit your changes to the workflow file. If everything is set up properly, GH Actions will build the single page app and then deploy it to GH pages
+4. Under Actions -> General -> Workflow permissions, set the permissions to "read and write permissions"
+5. Under Pages -> Build and Deployment, make sure the following settings are set:
+6. Source: Deploy from a branch
+7. Branch: main
+8. Folder: /docs
+9. Now commit your changes to the workflow file. If everything is set up properly, GH Actions will build the single page app and then deploy it to GH pages
 
 
 ## Deploying
