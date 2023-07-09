@@ -75,6 +75,26 @@
           "x": 31500.519531,
           "y": -259415.140625,
           "z": -17873.59375
+        },
+        {
+          "location": "Leavining Agent",
+          "spawnSpot": "Highlands",
+          "spawnSpotDetail": "Multiple Nodes",
+          "type": "RESOURCE_PLANT",
+          "source": "TeleportPlayer -196216.265625 -97033.84375 -16007.862305",
+          "x": -196216.265625,
+          "y": -97033.84375,
+          "z": -16007.862305
+        },
+        {
+          "location": "Foals",
+          "spawnSpot": "Highlands",
+          "spawnSpotDetail": "Multiple foals roam the area",
+          "type": "ANIMAL",
+          "source": "TeleportPlayer -201926.6875 -92273.570313 -15633.441406",
+          "x": -201926.6875 ,
+          "y": -92273.570313,
+          "z": -15633.441406
         }
       ]
     },
@@ -454,6 +474,33 @@
           "x": -29694.835938,
           "y": -297542.125,
           "z": -578.186646
+        },
+        {
+          "location": "Springwater",
+          "spawnSpotDetail": "Yellow Lotus, Aloe and Organe Phykos",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer -196631.359375 -132546.875 -13750.432617",
+          "x": -196631.359375,
+          "y": -132546.875,
+          "z": -13750.432617
+        },
+        {
+          "location": "Broken Bones Cavern",
+          "spawnSpotDetail": "Contains a Golden Chalice, Wights, two bosses and a Sorcerous Spellbook",
+          "type": "CAVE",
+          "source": "TeleportPlayer -120522.460938 -107175.359375 -10465.183594",
+          "x": -120522.460938,
+          "y": -107175.359375,
+          "z": -10465.183594
+        },
+        {
+          "location": "Unnamed Cave Entrance",
+          "spawnSpotDetail": "Entrance to a hidden cave. You need to dive under and through the water to get to the hidden part. Contains a spell book",
+          "type": "CAVE",
+          "source": "TeleportPlayer -7260.091797 -58762.539063 -19755.648438",
+          "x": -7260.091797,
+          "y": -58762.539063,
+          "z": -19755.648438
         }
       ]
     },
@@ -649,6 +696,26 @@
           "x": -29521.117188,
           "y": -301709.09375,
           "z": -566.543091
+        },
+        {
+          "location": "Skeleton Boss",
+          "spawnSpot": "Broken Bones Cave",
+          "spawnSpotDetail": "Inside the Broken Bones Cave. Drops unnamed city loot",
+          "type": "BOSS",
+          "source": "TeleportPlayer -108896.484375 -107052.046875 -13378.69043",
+          "x": -108896.484375,
+          "y": -107052.046875,
+          "z": -13378.69043
+        },
+        {
+          "location": "Forlorn Soul",
+          "spawnSpot": "Broken Bones Cave",
+          "spawnSpotDetail": "Inside the Broken Bones Cave.",
+          "type": "BOSS",
+          "source": "TeleportPlayer -112087.320313 -104947.867188 -13414.334961",
+          "x": -112087.320313,
+          "y": -104947.867188,
+          "z": -13414.334961
         }
       ]
     },
@@ -801,9 +868,9 @@
           "spawnSpotDetail": "Contains one Sorcerer and a Sorcerer Spell Book on the altar next to the portal stone.",
           "type": "THRALL_CAMP_LEMURIAN",
           "source": "TeleportPlayer 167155.78125 206729.875 -7541.053711",
-          "x": -32939.054688,
-          "y": 102792.632813,
-          "z": -12860.979492
+          "x": 167155.78125,
+          "y": 206729.875,
+          "z": -7541.053711
         }
       ]
     },
@@ -821,6 +888,16 @@
           "x": -39254.199219,
           "y": 74525.132813,
           "z": -10739.03125
+        },
+        {
+          "location": "Druidcraft",
+          "spawnSpot": "The Grove",
+          "spawnSpotDetail": "Book under one of the tents",
+          "type": "FEAT",
+          "source": "TeleportPlayer -81554.515625 -57516.414063 -19552.087891",
+          "x": -81554.515625,
+          "y": -57516.414063,
+          "z": -19552.087891
         }
       ]
     },
@@ -948,6 +1025,36 @@
           "x": -187614.8125,
           "y": 116662.914063,
           "z": -23723.730469
+        },
+        {
+          "location": "Bower of Jhebbal Sag",
+          "spawnSpot": "The Grove",
+          "spawnSpotDetail": "The large pillar",
+          "type": "FEAT",
+          "source": "TeleportPlayer -84274.914063 -54588.785156 -19234.65625",
+          "x": -84274.914063,
+          "y": -54588.785156,
+          "z": -19234.65625
+        },
+        {
+          "location": "Dragon's Breath",
+          "spawnSpot": "Unnamed Cave",
+          "spawnSpotDetail": "On a table. The entrance to the cave is further south. You need to dive through a long underwater passage to get there.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -11888.911133 -73122.726563 -19123.716797",
+          "x": -11888.911133,
+          "y": -73122.726563,
+          "z": -19123.716797
+        },
+        {
+          "location": "Ancient Lemurian Wraps/Aloe Extract",
+          "spawnSpot": "Unnamed Cave",
+          "spawnSpotDetail": "On a table. The entrance to the cave is further south. You need to dive through a long underwater passage to get there.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -9772.132813 -74196.164063 -19196.453125",
+          "x": -9772.132813,
+          "y": -74196.164063,
+          "z": -19196.453125
         }
       ]
     }
