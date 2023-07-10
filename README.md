@@ -13,6 +13,47 @@ You can open an issue here with your teleports or leave me a DM on discord.
 
 If you are familiar with git and GitHub, you may just edit the ``data.json`` in ``public`` yourself and open a pull request.
 
+## Adding Data Entries
+### Data Storage
+Data is not stored in any backend. Instead, it's committed to the repository as part of the application. You can
+find all data that is displayed on this map in ``public/data.json``. **Do not edit anything in docs, as this is deployed and overwritten**
+
+### Structure
+You can also find the structure of the ``data.json`` as typescript mapping in the ``MapData`` interface. If you are not familiar
+with Typescript, here is a description:
+**MapData**
+- **map_lq** is the relative location of the low quality map (relative to /public)
+- **map_hq** is the relative location of the low quality map (relative to /public)
+- **bounds** Are the map bounds of the map. You can safely ignore this.
+- **minZoom/maxZoom** Are leaflet zoom settings
+- **contributors** are people that wanted to be mentioned for contributing, they will be displayed in the info box
+- **data** is an array of **MapLocationGroup**
+
+**MapLocationGroup**
+
+See [MapLocationGroup.ts](src%2Fmodel%2FMapLocationGroup.ts)
+
+- **id** must be a unique identifier and can be an arbitrary string
+- **name** is the display name of that group, e.g. "Resources" or "Dungeons"
+- **type** is used to resolve the icon. You will need to take a look at ``LocationGroupType`` in [MapLocationGroup.ts](src%2Fmodel%2FMapLocationGroup.ts) to see what is available
+- **funcomId** can be safely ignored, it's an optional funcom ID that can be used to spawn the desired item/thrall/etc
+- **locationDescription** is also legacy and can be ignored.
+- **locations** is an array of **MapLocation**
+
+**MapLocation**
+
+See [MapLocation.ts](src%2Fmodel%2FMapLocation.ts)
+
+This is the actual location on the map. Everything up till now was just meta data and grouping. 
+
+- **location** Is the name of the thing you are trying to display, e.g. "Silverstone" or "Darfari Weapons"
+- **spawnSpot** The map location (searchable and ideally a map marker) - e.g. "The Grove", "The Wellspring" or "Murun"
+- **spawnSpotDetail** Is a description on where to find the thing you are trying to display, e.g. "A book on a bench next to the forge"
+- **type** is again used for the icon, see [MapLocationGroup.ts](src%2Fmodel%2FMapLocationGroup.ts)
+- **source** is meta information for people working on the map, usually just a TeleportToPlayer
+- **x, y and z** are the x, y and z coordinate of TeleportToPlayer, where the first is x, the second is y and the third is z
+
+
 # Run it
 Want to run it locally? It runs without any backend, and is hosted on GH pages. Simply install git and NodeJS (and the bundled npm)
 and run these in your command line:
