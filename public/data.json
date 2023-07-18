@@ -1249,7 +1249,467 @@
             "x": -43691.941406,
             "y": 105447.320313,
             "z": -15160.643555
-          }     
+          },
+        {
+            "location": "Arcane Machinations",
+            "spawnSpot": "South Island",
+            "spawnSpotDetail": "In the dungeon accessed by entering the cave inside of Zarryns retreat, on a crate near the big throne",
+            "type": "FEAT",
+            "source": "TeleportPlayer 152914.796875 312806.875000 16983.369141",
+            "x": 152914.796875,
+            "y": 312806.875000,
+            "z": 16983.369141
+          },
+          {
+            "location": "Druid Cuisine",
+            "spawnSpot": "Veiled Memories",
+            "spawnSpotDetail": "In one of the veiled memories, under a giant octopus looking thing, on a crate next to a yog pit",
+            "type": "FEAT",
+            "source": "TeleportPlayer 280550.468750 211253.390625 772.301392",
+            "x": 280550.468750,
+            "y": 211253.390625,
+            "z": 772.301392
+          },
+          {
+            "location": "Alchemist Decor",
+            "spawnSpot": "Halls of the Void Forge",
+            "spawnSpotDetail": "Take the caravan to no mans land, and enter the dungeon straight ahead, on a shelf next to a green vessel",
+            "type": "FEAT",
+            "source": "TeleportPlayer -321286.500000 -6082.082031 193.823853",
+            "x": -321286.500000,
+            "y": -6082.082031,
+            "z": 193.823853
+          },
+          {
+            "location": "Bloodletter's Decor",
+            "spawnSpot": "N'Kosi's Redoubt",
+            "spawnSpotDetail": "Mikali theTorture Queen's lair, just before the bonfire on a stone and timber step",
+            "type": "FEAT",
+            "source": "TeleportPlayer -214114.843750 321594.906250 -6941.462891",
+            "x": -214114.843750,
+            "y": 321594.906250,
+            "z": -6941.462891
+          },
+          {
+            "location": "Crimson Tide Palisades",
+            "spawnSpot": "The Roadblock",
+            "spawnSpotDetail": "On the Ground on the endge of a hill, just North of the crimson tide camp",
+            "type": "FEAT",
+            "source": "TeleportPlayer 14583.029297 334682.031250 -13412.149414",
+            "x": 14583.029297,
+            "y": 334682.031250,
+            "z": -13412.149414
+          },
+          {
+            "location": "Storages",
+            "spawnSpot": "Snowhearth",
+            "spawnSpotDetail": "In a roundhouse, on the table behind a dancer",
+            "type": "FEAT",
+            "source": "TeleportPlayer -143141.125000 -269025.187500 -6615.331055",
+            "x": -143141.125000,
+            "y": -269025.187500,
+            "z": -6615.331055
+          },
+          {
+            "location": "Clay Pottery",
+            "spawnSpot": "Necropolis",
+            "spawnSpotDetail": "Enter from the necropolis in No Mans Land. Above a false ceiling straight ahead from the dungeon entry",
+            "type": "FEAT",
+            "source": "TeleportPlayer -272396.781250 -87494.500000 -15055.462891",
+            "x": -272396.781250,
+            "y": -87494.500000,
+            "z": -15055.462891
+          },
+          {
+            "location": "Notch and Arrow Decor",
+            "spawnSpot": "Notch an Arrow",
+            "spawnSpotDetail": "Above the barkeepers head in the Notch and Arrow Tavern (enter from murun)",
+            "type": "FEAT",
+            "source": "TeleportPlayer -342469.031250 -197555.500000 398.862732",
+            "x": -342469.031250,
+            "y": -197555.500000,
+            "z": 398.862732
+          },
+          {
+            "location": "Cultist Caravans",
+            "spawnSpot": "Broken Caravan",
+            "spawnSpotDetail": "On a crate near Shima at the broken caravan, just south of Zarrynn's Retreat",
+            "type": "FEAT",
+            "source": "TeleportPlayer -4918.883789 327029.375000 -20679.294922",
+            "x": -4918.883789,
+            "y": 327029.375000,
+            "z": -20679.294922
+          },
+          {
+            "location": "Insect Swarm Lures",
+            "spawnSpot": "Last Bastion",
+            "spawnSpotDetail": "On top of a crate",
+            "type": "FEAT",
+            "source": "TeleportPlayer 169911.921875 171947.968750 1890.111572",
+            "x": 169911.921875,
+            "y": 171947.968750,
+            "z": 1890.111572
+          },
+          {
+            "location": "Lookout Towers",
+            "spawnSpot": "Crimson Overwatch",
+            "spawnSpotDetail": "On the railing at the top of the lookout tower",
+            "type": "FEAT",
+            "source": "TeleportPlayer -134428.531250 331683.250000 -11196.814453",
+            "x": -134428.531250,
+            "y": 331683.250000,
+            "z": -11196.814453
+          },
+          {
+            "location": "Storage Bags",
+            "spawnSpot": "Elysium",
+            "spawnSpotDetail": "In Elysium, find the portal around the back and outside of the floating roundhouse accessed from inside the Notch and Arrow, recipe is on a crate behind a marble pillar",
+            "type": "FEAT",
+            "source": "TeleportPlayer -341513.312500 -29498.533203 320.384155",
+            "x": -341513.312500,
+            "y": -29498.533203,
+            "z": 320.384155
+          },
+          {
+            "location": "Darfari Bonecrafts",
+            "spawnSpot": "Bonecracker Camp",
+            "spawnSpotDetail": "On a bench next to a carpenters table, south Island",
+            "type": "FEAT",
+            "source": "TeleportPlayer -140583.531250 294975.468750 -17197.011719",
+            "x": -140583.531250,
+            "y": 294975.46875,
+            "z": -17197.011719
+          },
+          {
+            "location": "Signposts",
+            "spawnSpot": "No Man's Land",
+            "spawnSpotDetail": "On a crate inside the Stygian Outpost",
+            "type": "FEAT",
+            "source": "TeleportPlayer -272211.062500 303766.593750 -19781.599609",
+            "x": 272211.062500,
+            "y": 303766.593750,
+            "z": -19781.599609
+          },
+          {
+            "location": "Eldarium Arrows",
+            "spawnSpot": "Engineers Prison",
+            "spawnSpotDetail": "Accessed from No Mans Land, on a crate as you enter a tunnel",
+            "type": "FEAT",
+            "source": "TeleportPlayer -304605.500000 -72856.195313 -11166.515625",
+            "x": -304605.500000,
+            "y": -72856.195313,
+            "z": -11166.515625
+          },
+          {
+            "location": "AdvancedPlanters",
+            "spawnSpot": "Elysium",
+            "spawnSpotDetail": "Upstairs balcony in elysium, the place accessible by scooching around the outside floating roundhouse, which is somehow inside the Notch and Arrow",
+            "type": "FEAT",
+            "source": "TeleportPlayer -338401.281250 -27831.937500 1352.848877",
+            "x": -338401.281250,
+            "y": -27831.937500,
+            "z": 1352.848877
+          },
+          {
+            "location": "WallStorage",
+            "spawnSpot": "Kraxus Outpost",
+            "spawnSpotDetail": "On a crate, port side in Kraxus Outpost, accessible through No man's Land",
+            "type": "FEAT",
+            "source": "TeleportPlayer -269168.781250 308891.968750 -20103.400391",
+            "x": -269168.781250,
+            "y": 308891.968750,
+            "z": -20103.400391
+          },
+          {
+            "location": "Fishy Decor",
+            "spawnSpot": "Kraxus Outpost",
+            "spawnSpotDetail": "On a crate next to a ship, near the big green pet Melvin globe. Kraxus Outpost in No Man's Land",
+            "type": "FEAT",
+            "source": "TeleportPlayer -278963.968750 303995.687500 -20631.318359",
+            "x": -278963.968750,
+            "y": 303995.687500,
+            "z": -20631.318359
+          },
+          {
+            "location": "Banquet Platings",
+            "spawnSpot": "Notch an Arrow",
+            "spawnSpotDetail": "On a crate to the left of the big brelk head, go through the door behind the bar in the Notch and Arrow Tavern in Murun",
+            "type": "FEAT",
+            "source": "TeleportPlayer -341172.093750 -198770.203125 1219.985596",
+            "x": -341172.093750,
+            "y": -198770.203125,
+            "z": 1219.985596
+          },
+          {
+            "location": "Esoteric Essences",
+            "spawnSpot": "Halls of the Void Forge",
+            "spawnSpotDetail": "in the kitchen, next nook along from the Alchemist Decor feat",
+            "type": "FEAT",
+            "source": "TeleportPlayer -321902.437500 -9551.772461 157.541290",
+            "x": -321902.437500,
+            "y": -9551.772461,
+            "z": 157.541290
+          },
+          {
+            "location": "Wyvernblood Extract",
+            "spawnSpot": "Elysium",
+            "spawnSpotDetail": "Upstairs in Elysium, behind a marble post, sitting on a small alchemy table (if enabled by admin)",
+            "type": "FEAT",
+            "source": "TeleportPlayer -341552.875000 -31507.826172 2478.106934",
+            "x": -341552.875000,
+            "y": -31507.826172,
+            "z": 2478.106934
+          },
+          {
+            "location": "Climbing Tincture",
+            "spawnSpot": "South Island",
+            "spawnSpotDetail": "Tough one to explain, in the dungeon behind Zarryns retreat, sneak between two rocks on the left of the stairs to the librarians quarters. Then parkour down along the wall",
+            "type": "FEAT",
+            "source": "TeleportPlayer 136115.031250 328774.906250 16857.017578",
+            "x": 136115.031250,
+            "y": 328774.906250,
+            "z": 16857.017578
+          },
+          {
+            "location": "Arcane Summons",
+            "spawnSpot": "The Queen's Tomb",
+            "spawnSpotDetail": "In  the tomb of the witch queen, on the ground near her sarcophagus",
+            "type": "FEAT",
+            "source": "TeleportPlayer -70033.429688 36604.539063 -7061.610840",
+            "x": -70033.429688,
+            "y": 36604.539063,
+            "z": -7061.610840
+          },
+          {
+            "location": "Sorcerous Circle Paint",
+            "spawnSpot": "Murun Garrison",
+            "spawnSpotDetail": "the furthest door but still behind the bowmaker Ergal, enter the building and find the book next to the sorceror",
+            "type": "FEAT",
+            "source": "TeleportPlayer -271562.343750 -10257.642578 367.272827",
+            "x": -271562.343750,
+            "y": -10257.642578,
+            "z": 367.272827
+          },
+          {
+            "location": "Lemurian Pictogram",
+            "spawnSpot": "Ruined Watchtower",
+            "spawnSpotDetail": "Top of H4 on a table at the ruined watchtower",
+            "type": "FEAT",
+            "source": "TeleportPlayer 49302.460938 204478.531250 -18139.150391",
+            "x": 49302.460938,
+            "y": 204478.531250,
+            "z": -18139.150391
+          },
+          {
+            "location": "Elder Pictograph",
+            "spawnSpot": "Veiled Memories",
+            "spawnSpotDetail": "On the ground by the entrance to the Degenerate Harpey Champion",
+            "type": "FEAT",
+            "source": "TeleportPlayer 287213.437500 75988.460938 -15867.968750",
+            "x": 287213.437500,
+            "y": 75988.460938,
+            "z": -15867.968750
+          },
+          {
+            "location": "Dagonite Pictograph",
+            "spawnSpot": "Beneath the Waves",
+            "spawnSpotDetail": "Sitting on a crate at the entrance to Orkallions Lair",
+            "type": "FEAT",
+            "source": "TeleportPlayer -341273.968750 -167837.453125 -2172.375244",
+            "x": -341273.968750,
+            "y": -167837.453125,
+            "z": -2172.375244
+          },
+          {
+            "location": "Stygian Pictograph",
+            "spawnSpot": "Murun",
+            "spawnSpotDetail": "On a small table, located upstairs in the building opposite the open building that normally has an NPC making a cut-throat emote.  ",
+            "type": "FEAT",
+            "source": "TeleportPlayer -270144.718750 -12301.718750 676.769409",
+            "x": -270144.718750,
+            "y":  -12301.718750,
+            "z": 676.769409
+          },
+          {
+            "location": "Stygian Bloodscript",
+            "spawnSpot": "Murun",
+            "spawnSpotDetail": "Central F7, inside a building in the main Murun Settlement, located on a table ",
+            "type": "FEAT",
+            "source": "TeleportPlayer -268719.312500 -12509.770508 374.776886",
+            "x": -268719.312500,
+            "y": -12509.770508,
+            "z": 374.776886
+          },
+          {
+            "location": "Pictish Pictogram",
+            "spawnSpot": "Bonerattler Post",
+            "spawnSpotDetail": "On an altar in the dafari camp",
+            "type": "FEAT",
+            "source": "TeleportPlayer 7008.000000 100704.000000 -11712.000000",
+            "x": 7008.000000,
+            "y": 100704.000000,
+            "z": -11712.000000
+          },
+          {
+            "location": "Masterful Arrows",
+            "spawnSpot": "Veiled Memories",
+            "spawnSpotDetail": "A crate in the snowy veiled memories cimmerian village, outside the roundhouses between a well and a bonfire",
+            "type": "FEAT",
+            "source": "TeleportPlayer 359251.062500 -370186.562500 -10666.230469",
+            "x": 359251.062500,
+            "y": -370186.562500,
+            "z": -10666.230469
+          },
+          {
+            "location": "Goblin Vault Weapons",
+            "spawnSpot": "Veiled Memories",
+            "spawnSpotDetail": "South east corner of the Siptah veiled memories, near the vision of the primordial matter, top left of the stairs",
+            "type": "FEAT",
+            "source": "TeleportPlayer 290935.593750 88644.031250 -12598.489258",
+            "x": 290935.593750,
+            "y": 88644.031250,
+            "z": -12598.489258
+          },
+          {
+            "location": "Drowned Vault Weapons",
+            "spawnSpot": "Veiled Memories",
+            "spawnSpotDetail": "Eastern end of the degenerate harpy temple in the veiled memories. On roof.",
+            "type": "FEAT",
+            "source": "TeleportPlayer 292717.093750 74544.656250 -13683.488281",
+            "x": 292717.093750,
+            "y": 74544.656250,
+            "z": -13683.488281
+          },
+          {
+            "location": "Wolfmen Vault Weapons",
+            "spawnSpot": "Veiled Memories",
+            "spawnSpotDetail": "In the temple ruins of the Degenerate Serpent Man Champion",
+            "type": "FEAT",
+            "source": "TeleportPlayer 276879.562500 92812.203125 -14660.166016",
+            "x": 276879.562500,
+            "y": 92812.203125,
+            "z": -14660.166016
+          },
+          {
+            "location": "Serpent Vault Weapons",
+            "spawnSpot": "Veiled Memories",
+            "spawnSpotDetail": "In the temple ruin of the Malevolent Demon Spider, on a piece of ruin",
+            "type": "FEAT",
+            "source": "TeleportPlayer 277835.906250 63407.109375 -15813.274414",
+            "x": 277835.906250,
+            "y": 63407.109375,
+            "z": -15813.274414
+          },
+          {
+            "location": "Demon Spider Vault Weapons",
+            "spawnSpot": "Veiled Memories",
+            "spawnSpotDetail": "In the ruins where the Degenerate Howler Champion spawns",
+            "type": "FEAT",
+            "source": "TeleportPlayer 261946.812500 75105.554688 -15978.399414",
+            "x": 261946.812500,
+            "y": 75105.554688,
+            "z": -15978.399414
+          },
+          {
+            "location": "Bird Vault Weapons",
+            "spawnSpot": "Veiled Memories",
+            "spawnSpotDetail": "Near the entrance to the main Siptah veiled memories dungeon",
+            "type": "FEAT",
+            "source": "TeleportPlayer 277463.125000 77931.859375 -15933.591797",
+            "x": 277463.125000,
+            "y": 77931.859375,
+            "z": -15933.591797
+          },
+          {
+            "location": "Bat Demon Vault Weapons",
+            "spawnSpot": "Veiled Memories",
+            "spawnSpotDetail": "at the top of the stairs to the memory of the daemon sultan ",
+            "type": "FEAT",
+            "source": "TeleportPlayer 263698.718750 65020.257813 -12827.153320",
+            "x": 263698.718750,
+            "y": 65020.257813,
+            "z": -12827.153320
+          },
+          {
+            "location": "Fiend Vault Weapons",
+            "spawnSpot": "Veiled Memories",
+            "spawnSpotDetail": "The far east of the veiled memories, memory speaks of chaos, on the ground between the first and second pillars to the left of the stairs.",
+            "type": "FEAT",
+            "source": "TeleportPlayer 290508.218750 62623.480469 -12807.177734",
+            "x": 290508.218750,
+            "y": 62623.480469,
+            "z": -12807.177734
+          },
+          {
+            "location": "Harpy Vault Weapons",
+            "spawnSpot": "Veiled Memories",
+            "spawnSpotDetail": "On a slab out in the open, directly south of the elder pictograph location in the veiled memories",
+            "type": "FEAT",
+            "source": "TeleportPlayer 287099.781250 82035.054688 -14689.779297",
+            "x": 287099.781250,
+            "y": 82035.054688,
+            "z": -14689.779297
+          },
+          {
+            "location": "Giant Statues",
+            "spawnSpot": "The Atlantean Tomb",
+            "spawnSpotDetail": "In the room holding the 'King Beneath' on the floor to your rhs as you walk into the room. First section of the Atlantean Tomb.",
+            "type": "FEAT",
+            "source": "TeleportPlayer -102374.898438 144914.015625 -17704.191406",
+            "x": -102374.898438,
+            "y": 144914.015625,
+            "z": -17704.191406
+          },
+        {
+            "location": "Iron Lock Pick",
+            "spawnSpot": "Ruins of Shekh-Ha",
+            "spawnSpotDetail": "Ruins of Shekh-Ha, bottom of C6. At the top of the tower on a crate",
+            "type": "FEAT",
+            "source": "TeleportPlayer -126713.507813 156349.968750 -14327.523438",
+            "x": -126713.507813,
+            "y": 156349.968750,
+            "z": -14327.523438
+          },
+          {
+            "location": "Steel Lock Pick",
+            "spawnSpot": "Cadwallon",
+            "spawnSpotDetail": "Cadwallon. Balanced on a bed post in a roundhouse.",
+            "type": "FEAT",
+            "source": "TeleportPlayer 136538.843750 -115979.750000 -13919.737305",
+            "x": 136538.843750,
+            "y": -115979.750000,
+            "z": -13919.737305
+          },
+          {
+            "location": "Hardened Steel Lockpick",
+            "spawnSpot": "Throne of the Witch",
+            "spawnSpotDetail": "In the same dungeon as the Hyperborean throwing axes, in the bedroom off of  the right hand passage. Throuogh the portal behind the witch queens throne",
+            "type": "FEAT",
+            "source": "TeleportPlayer 205317.781250 -360328.531250 -13070.740234",
+            "x": 205317.781250,
+            "y": -360328.531250,
+            "z": -13070.740234
+          },
+          {
+            "location": "Star Metal Lockpick",
+            "spawnSpot": "South Island",
+            "spawnSpotDetail": "near Commander Rahzar in the south island dungeon. On the ground to the right of the ramp if facing the boss.",
+            "type": "FEAT",
+            "source": "TeleportPlayer 145748.000000 316498.468750 16004.931641",
+            "x": 145748.000000,
+            "y": 316498.468750,
+            "z": 16004.931641
+          },
+          {
+            "location": "Witch Weapons",
+            "spawnSpot": "Last Bastion",
+            "spawnSpotDetail": "library of esoteric artifacts last bastion, lemurian ruins looking area in K5. On top of a bench",
+            "type": "FEAT",
+            "source": "TeleportPlayer 173953.390625 172060.843750 -1260.324097",
+            "x": 173953.390625,
+            "y": 172060.843750,
+            "z": -1260.324097
+          }
         
       ]
     },
