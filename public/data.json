@@ -467,8 +467,8 @@
           "z": -1649.703979
         },
         {
-          "location": "Cital of the White Hand",
-          "spawnSpotDetail": "Contains boss Luhi",
+          "location": "Citadel of the White Hand",
+          "spawnSpotDetail": "Contains boss Louhi",
           "type": "DUNGEON",
           "source": "TeleportPlayer -29694.835938 -297542.125 -578.186646",
           "x": -29694.835938,
@@ -536,7 +536,7 @@
       "locations": [
         {
           "location": "Giant Crocodile",
-          "spawnSpot": "Cisterns",
+          "spawnSpot": "The Cistern",
           "spawnSpotDetail": "The giant crocodile is at the end of the cisterns, the entrance is north to this location. Drops a Jagged Scourgestone Piece.",
           "type": "BOSS",
           "source": "TeleportPlayer -126154.617188 62810.28125 -20492.527344",
@@ -679,7 +679,7 @@
         },
         {
           "location": "Arena Champion",
-          "spawnSpot": "",
+          "spawnSpot": "The Proving Grounds",
           "spawnSpotDetail": "Guards Khari Steel ",
           "type": "BOSS",
           "source": "TeleportPlayer 150347.90625 31635.166016 1587.768066",
@@ -999,8 +999,257 @@
           "y": 265789.375000,
           "z": -19231.156250
           },
-        
-
+   
+        {
+          "location": "Crimson Cutlass",
+          "spawnSpot": "Zarryn's Retreat",
+          "spawnSpotDetail": "On a crate, on the platform between the top and bottom access ladders to Zarryn's Retreat",
+          "type": "FEAT",
+          "source": "TeleportPlayer -20932.042969 315996.625000 -17247.240234",
+          "x": -20932.042969,
+          "y": 315996.625000,
+          "z": -17247.240234  
+        },
+        {
+          "location": "Crimson Zweihander",
+          "spawnSpot": "Zarryn's Retreat",
+          "spawnSpotDetail": "On a crate at Zarryn's Retreat, you will probably have to fight Captain while here.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -24055.972656 318307.687500 -15941.412109",
+          "x": -24055.972656,
+          "y": 318307.687500,
+          "z": -15941.412109
+        },
+        {
+          "location": "Crimson Boarding Axe",
+          "spawnSpot": "Zarryn's Retreat",
+          "spawnSpotDetail": "On a bench next to the big bonfire, not far from the crimson rapier book. Bottom camp of Zarryn's retreat",
+          "type": "FEAT",
+          "source": "TeleportPlayer -21099.320313 319826.531250 -18721.423828",
+          "x": -21099.320313,
+          "y": 319826.531250,
+          "z": -18721.423828
+         },
+         {
+            "location": "Crimson Great Axe (Poleaxe)",
+            "spawnSpot": "Zarryn's Retreat",
+            "spawnSpotDetail": "Located on a crate just outside the northern entrance to Zarryn's retreat",
+            "type": "FEAT",
+            "source": "TeleportPlayer -21196.236328 315942.875000 -15993.236328",
+            "x": -21196.236328,
+            "y": 315942.875000,
+            "z": -15993.236328
+          },
+         {
+            "location": "Crimson Harpoon",
+            "spawnSpot": "Crimson Overwatch",
+            "spawnSpotDetail": "Crimson Overwatch, top of C1. On a bench near the pirates doing pushups",
+            "type": "FEAT",
+            "source": "TeleportPlayer -136281.921875 327957.218750 -12103.028320",
+            "x": -136281.921875,
+            "y": 327957.218750,
+            "z": -12103.028320
+          },
+          {
+            "location": "Crimson Caulking Chisel",
+            "spawnSpot": "Crimson Beach-head",
+            "spawnSpotDetail": "Crimson Beachhead, between E and F3. Located on a bench next to a bonfire",
+            "type": "FEAT",
+            "source": "TeleportPlayer -41627.558594 258896.765625 -18663.486328",
+            "x": -41627.558594,
+            "y": 258896.765625,
+            "z": -18663.486328
+          },
+          {
+            "location": "Culan Sword",
+            "spawnSpot": "Last Refuge",
+            "spawnSpotDetail": "third round house in the last refuge",
+            "type": "FEAT",
+            "source": "TeleportPlayer 292740.156250 -68482.015625 -14687.467773",
+            "x": 292740.156250,
+            "y": -68482.015625,
+            "z": -14687.467773
+          },
+          {
+            "location": "Culann Short Sword",
+            "spawnSpot": "Last Refuge",
+            "spawnSpotDetail": "furthest round house from the entrance",
+            "type": "FEAT",
+            "source": "TeleportPlayer 303368.781250 -62044.457031 -15305.001953",
+            "x": 303368.781250,
+            "y": -62044.457031,
+            "z": -15305.001953
+          },
+          {
+            "location": "Culann Mace",
+            "spawnSpot": "Last Refuge",
+            "spawnSpotDetail": "outside the largest roundhouse, near the bonfire",
+            "type": "FEAT",
+            "source": "TeleportPlayer 296436.781250 -66968.726563 -15378.355469",
+            "x": 296436.781250,
+            "y": -66968.726563,
+            "z": -15378.355469
+            },
+          {
+            "location": "Culann War-Axe",
+            "spawnSpot": "Last Refuge",
+            "spawnSpotDetail": "At the far end of the last refuge settlement, down some timber stairs, on top of a crate",
+            "type": "FEAT",
+            "source": "TeleportPlayer 309912.343750 -57495.503906 -15541.589844",
+            "x": 309912.343750,
+            "y": -57495.503906,
+            "z": -15541.589844
+            },
+          {
+            "location": "Culann Great-Axe ",
+            "spawnSpot": "Last Refuge",
+            "spawnSpotDetail": "Platform just inside the Last Refuge, on the descent from the main entrance",
+            "type": "FEAT",
+            "source": "TeleportPlayer 275643.906250 -68358.546875 -12344.425781",
+            "x": 275643.906250,
+            "y": -68358.546875,
+            "z": -12344.425781 
+            },
+          {
+            "location": "Culann Pike",
+            "spawnSpot": "Last Refuge",
+            "spawnSpotDetail": "On top of a crate, at the beginning of the descent into Last Refuge",
+            "type": "FEAT",
+            "source": "TeleportPlayer 275367.281250 -69394.296875 -9943.041992",
+            "x": 275367.281250,
+            "y": -69394.296875,
+            "z": -9943.041992
+          },
+          {
+            "location": "Culann Hammer",
+            "spawnSpot": "Last Refuge",
+            "spawnSpotDetail": "On a crate just inside the main cavern of the Last Refuge",
+            "type": "FEAT",
+            "source": "TeleportPlayer 272717.312500 -70092.109375 -8982.943359",
+            "x": 272717.312500,
+            "y": -70092.109375,
+            "z": -8982.94335
+          }, 
+          {
+            "location": "Culann Great-Sword",
+            "spawnSpot": "Last Refuge",
+            "spawnSpotDetail": "Just before the Last Refuge Opens into the main cavern. On a crate",
+            "type": "FEAT",
+            "source": "TeleportPlayer 268884.468750 -70231.328125 -8927.468750",
+            "x": ,
+            "y": ,
+            "z": 
+          },
+          {
+            "location": "Culann Daggers",
+            "spawnSpot": "Last Refuge",
+            "spawnSpotDetail": "On a shelf behind Shima's Caravan in the Last Refuge",
+            "type": "FEAT",
+            "source": "TeleportPlayer 266003.968750 -76162.257813 -8904.061523",
+            "x": 266003.968750,
+            "y": -76162.257813,
+            "z": -8904.061523
+          },
+          {
+            "location": "Hyperborean Sword",
+            "spawnSpot": "Citadel of the White Hand",
+            "spawnSpotDetail": "F17, Citadel of the White Hand. On a crate near the bonfire",
+            "type": "FEAT",
+            "source": "TeleportPlayer -31918.232422 -293144.531250 -688.468872",
+            "x": -31918.232422,
+            "y": -293144.531250,
+            "z": -688.468872
+          }, 
+          {
+            "location": "Hyperborean War-Axe",
+            "spawnSpot": "Louhi the Witch Queen",
+            "spawnSpotDetail": "F17 on a crate, near bonfire just outside Louhi the Witch Queen's hideout",
+            "type": "FEAT",
+            "source": "TeleportPlayer -26893.259766 -296157.625000 -676.306396",
+            "x": -26893.259766,
+            "y": -296157.625000,
+            "z": -676.306396
+          }, 
+          {
+            "location": "Hyperborean Great Sword",
+            "spawnSpot": "Pit of Salvation",
+            "spawnSpotDetail": "On the ground at the top the stairs at the Pit of Salvation (bottom of F17)",
+            "type": "FEAT",
+            "source": "TeleportPlayer -15434.392578 -287137.375000 779.464111",
+            "x": -15434.392578,
+            "y": -287137.375000,
+            "z": 779.464111
+          }, 
+          {
+            "location": "Hyperborean Pike",
+            "spawnSpot": "Louhi the Witch Queen",
+            "spawnSpotDetail": "Inside Louhi the Witch Queen's Lair at F17 on top of crate",
+            "type": "FEAT",
+            "source": "TeleportPlayer -30002.228516 -300540.187500 -769.124573",
+            "x": -30002.228516,
+            "y": -300540.187500,
+            "z": -769.124573
+          }, 
+          {
+            "location": "Hyperborean Hammer",
+            "spawnSpot": "Hoarfrost Vigil",
+            "spawnSpotDetail": "Hoarfrost Vigil, bottom left corner of B18",
+            "type": "FEAT",
+            "source": "TeleportPlayer -195043.125000 -325249.093750 -12798.179688",
+            "x": -195043.125000,
+            "y": -325249.093750,
+            "z": -12798.179688
+          },
+          {
+            "location": "Hyperborean Daggers",
+            "spawnSpot": "Louhi the Witch Queen",
+            "spawnSpotDetail": "Inside Louhi the Witch Queen's Lair at F17 on top of the barrel",
+            "type": "FEAT",
+            "source": "TeleportPlayer -30357.630859 -301144.625000 -558.988403",
+            "x": -30357.630859,
+            "y": -301144.625000,
+            "z": -558.988403
+          },
+          {
+            "location": "Hyperborean Javelin",
+            "spawnSpot": "Throne of the Witch",
+            "spawnSpotDetail": "Near the altar on a crate",
+            "type": "FEAT",
+            "source": "TeleportPlayer 119251.265625 -159485.859375 886.267761",
+            "x": 119251.265625,
+            "y": -159485.859375,
+            "z": 886.267761
+          },
+          {
+            "location": "Hyperborean Throwing Axes",
+            "spawnSpot": "Throne of the Witch",
+            "spawnSpotDetail": "In the icey dungeon just north of the throne of the witch on a bench",
+            "type": "FEAT",
+            "source": "TeleportPlayer 209303.703125 -364549.031250 -14346.564453",
+            "x": 209303.703125,
+            "y": -364549.031250,
+            "z": -14346.564453
+          },
+          {
+            "location": "Rustic Decor",
+            "spawnSpot": "Snowhearth",
+            "spawnSpotDetail": "middle of C16, on a Crate outside a hut",
+            "type": "FEAT",
+            "source": "TeleportPlayer -135105.203125 -259494.812500 -6587.324219",
+            "x": -135105.203125,
+            "y": -259494.812500,
+            "z": -6587.324219
+          },
+          {
+            "location": "Crafting Décor",
+            "spawnSpot": "Murun Garrison",
+            "spawnSpotDetail": "Behind the Bowyer named Ergal on the ground in Murun Garrison",
+            "type": "FEAT",
+            "source": "TeleportPlayer -43691.941406 105447.320313 -15160.643555",
+            "x": -43691.941406,
+            "y": 105447.320313,
+            "z": -15160.643555
+          }     
         
       ]
     },
