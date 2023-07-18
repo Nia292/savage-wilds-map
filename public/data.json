@@ -1215,9 +1215,9 @@
             "spawnSpotDetail": "Just before the Last Refuge Opens into the main cavern. On a crate",
             "type": "FEAT",
             "source": "TeleportPlayer 268884.468750 -70231.328125 -8927.468750",
-            "x": ,
-            "y": ,
-            "z": 
+            "x": 268884.468750,
+            "y": -70231.328125,
+            "z": -8927.468750
           },
           {
             "location": "Culann Daggers",
