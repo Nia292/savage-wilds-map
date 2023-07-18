@@ -36,6 +36,8 @@ export enum LocationGroupType {
     YMIR = "YMIR",
     ANIMAL = "ANIMAL",
     THRALL_CAMP_JHEBBAL = "THRALL_CAMP_JHEBBAL",
+    THRALL_CAMP_PIRATE = "THRALL_CAMP_PIRATE",
+    THRALL_CAMP_EXILE = "THRALL_CAMP_EXILE",
 }
 
 export function determineIcon(location: MapLocation): string {
@@ -78,6 +80,10 @@ export function determineIcon(location: MapLocation): string {
             return 'icon_animal.png';
         case LocationGroupType.THRALL_CAMP_JHEBBAL:
             return 'icon_jhebbal.png';
+        case LocationGroupType.THRALL_CAMP_PIRATE:
+            return 'icon_pirate.png';
+        case LocationGroupType.THRALL_CAMP_EXILE:
+            return 'icon_camp.png';
     }
     console.error('Failed to determine icon for ', location)
     return '';
