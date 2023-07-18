@@ -738,8 +738,8 @@
           ]
         },
         {
-          "location": "The Nook and Arrow",
-          "spawnSpotDetail": "Entrance to the Nook and Arrow. This is a hub that allows you entrance to Veiled Memories (portals) or Siptah bosses (jump down in the space region)",
+          "location": "The Notch and Arrow",
+          "spawnSpotDetail": "Entrance to the Notch and Arrow. This is a hub that allows you entrance to Veiled Memories (portals) or Siptah bosses (jump down in the space region)",
           "type": "DUNGEON",
           "source": "TeleportPlayer -47208.492188 107316.546875 -15081.051758",
           "x": -47208.492188,
@@ -898,7 +898,110 @@
           "x": -81554.515625,
           "y": -57516.414063,
           "z": -19552.087891
-        }
+        },
+        {
+          "location": "Clan Culann Scout",
+          "spawnSpot": "Last Refuge",
+          "spawnSpotDetail": "On a crate in the last refuge",
+          "type": "FEAT",
+          "source": "TeleportPlayer 294811.531250 -62507.746094 -14960.461914",
+          "x": 294811.531250,
+          "y": -62507.746094,
+          "z": -14960.461914
+        },
+        {
+          "location": "Clan Culann Skirmisher",
+          "spawnSpot": "Last Refuge",
+          "spawnSpotDetail": "On a crate at bottom of Last Refuge, near a wooden boat",
+          "type": "FEAT",
+          "source": "TeleportPlayer 382432.906250 -10522.781250 -20657.185547",
+          "x": 382432.906250,
+          "y": -10522.781250,
+          "z": -20657.185547
+          },
+          {
+          "location": "Clan Culann Defender",
+          "spawnSpot": "Last Refuge",
+          "spawnSpotDetail": "On a another crate, near bonfire within sight of the skirmisher book",
+          "type": "FEAT",
+          "source": "TeleportPlayer 382643.406250 -12222.594727 -20636.820313",
+          "x": 382643.406250,
+          "y": -12222.594727,
+          "z": -20636.820313
+          },
+         {
+          "location": "Crimson Tide Sailor",
+          "spawnSpot": "Long Shallows Outpost",
+          "spawnSpotDetail": "On top of a box at Long Shallows Outpost",
+          "type": "FEAT",
+          "source": "TeleportPlayer 29430.968750 288955.343750 -20392.408203",
+          "x": 29430.968750,
+          "y": 288955.343750,
+          "z": -20392.408203
+          },
+         {
+          "location": "Crimson Tide Deckhand",
+          "spawnSpot": "The Roadblock",
+          "spawnSpotDetail": "On a bench in the northern corner of a Crimson Tide camp",
+          "type": "FEAT",
+          "source": "TeleportPlayer 17568.562500 337378.687500 -13329.301758",
+          "x": 17568.562500,
+          "y": 337378.687500,
+          "z": -13329.301758
+          },
+        {
+          "location": "Crimson Tide Corsair",
+          "spawnSpot": "Zarryn's Retreat",
+          "spawnSpotDetail": "On a crate opposite Opposite Zarryn's Retreat at the top of F1",
+          "type": "FEAT",
+          "source": "TeleportPlayer -20593.011719 326553.343750 -15965.289063",
+          "x": -20593.011719,
+          "y": 326553.343750,
+          "z": -15965.289063
+          },
+        {
+          "location": "Crimson Tide Hammer",
+          "spawnSpot": "Crimson Logging Camp",
+          "spawnSpotDetail": "On a barrel in the Crimson Logging Camp (border of  F and G 2)",
+          "type": "FEAT",
+          "source": "TeleportPlayer 364.399231 310522.781250 -16779.853516",
+          "x": 364.399231,
+          "y": 310522.781250,
+          "z": -16779.853516
+          },
+        {
+          "location": "Crimson Rapier",
+          "spawnSpot": "Zarryn's Retreat",
+          "spawnSpotDetail": "On a table below Zarryn's Retreat",
+          "type": "FEAT",
+          "source": "TeleportPlayer -22724.818359 320459.187500 -18679.607422",
+          "x": -22724.818359,
+          "y": 320459.187500,
+          "z": -18679.607422
+          },
+        {
+          "location": "Crimson Anchor",
+          "spawnSpot": "Lonely Outpost",
+          "spawnSpotDetail": "At the lonely outpost, next to the plank near the red assed baboons",
+          "type": "FEAT",
+          "source": "TeleportPlayer -1806.603027 273718.781250 -16200.868164",
+          "x": -1806.603027,
+          "y": 273718.781250,
+          "z": -16200.868164
+          },
+        {
+          "location": "Crimson Boarding Pike",
+          "spawnSpot": "Savannah Hideout",
+          "spawnSpotDetail": "on a bench, next to an embarrassingly small campfire",
+          "type": "FEAT",
+          "source": "TeleportPlayer 7735.693848 265789.375000 -19231.156250",
+          "x": 7735.693848,
+          "y": 265789.375000,
+          "z": -19231.156250
+          },
+        
+
+        
       ]
     },
     {
