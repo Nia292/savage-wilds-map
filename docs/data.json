@@ -837,9 +837,9 @@
           "spawnSpot": "Heirs of the North",
           "type": "THRALL_CAMP_BLACK_HAND",
           "source": "TeleportPlayer 206707.59375 -29707.054688 -6201.364258",
-          "x": -192972.640625,
-          "y": 53225.917969,
-          "z": -20894.0
+          "x": 206707.59375,
+          "y": -29707.054688,
+          "z": -6201.364258
         },
         {
           "location": "Ruins of Skehk-Hah",
