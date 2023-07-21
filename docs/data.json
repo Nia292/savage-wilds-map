@@ -95,6 +95,16 @@
           "x": -201926.6875 ,
           "y": -92273.570313,
           "z": -15633.441406
+        },
+        {
+          "location": "Midnight Blue Flower",
+          "spawnSpot": "South Island",
+          "spawnSpotDetail": "",
+          "type": "RESOURCE_PLANT",
+          "source": "TeleportPlayer -94685.703125 264096.875 -20410.316406",
+          "x": -94685.703125 ,
+          "y": 264096.875,
+          "z": -20410.316406
         }
       ]
     },
@@ -501,6 +511,15 @@
           "x": -7260.091797,
           "y": -58762.539063,
           "z": -19755.648438
+        },
+        {
+          "location": "Hall of Crowns",
+          "spawnSpotDetail": "",
+          "type": "RUIN",
+          "source": "TeleportPlayer 29058.916016 222980.8125 -19256.962891",
+          "x":  29058.916016,
+          "y": 222980.8125,
+          "z": -19256.962891
         }
       ]
     },
@@ -716,6 +735,26 @@
           "x": -112087.320313,
           "y": -104947.867188,
           "z": -13414.334961
+        },
+        {
+          "location": "The Hunger",
+          "spawnSpot": "Crimson Beachhead",
+          "spawnSpotDetail": "Near an alcove on the coast",
+          "type": "BOSS",
+          "source": "TeleportPlayer -42805.535156 258099.25 -20721.138672",
+          "x": -42805.535156,
+          "y": 258099.25,
+          "z": -20721.138672
+        },
+        {
+          "location": "Reed Stalker",
+          "spawnSpot": "South Island",
+          "spawnSpotDetail": "Shima Boss. Drops the Albino Alligator Garb",
+          "type": "BOSS",
+          "source": "TeleportPlayer -153777.375 262126.828125 -20275.828125",
+          "x": -153777.375,
+          "y": 262126.828125,
+          "z": -20275.828125
         }
       ]
     },
@@ -871,6 +910,46 @@
           "x": 167155.78125,
           "y": 206729.875,
           "z": -7541.053711
+        },
+        {
+          "location": "Crimson Beachhead",
+          "spawnSpot": "Crimson Tide",
+          "spawnSpotDetail": "Contains a Relic Fragment box",
+          "type": "THRALL_CAMP_PIRATE",
+          "source": "TeleportPlayer -41781.984375 259620.203125 -18578.560547",
+          "x": -41781.984375,
+          "y": 259620.203125,
+          "z": -18578.560547
+        },
+        {
+          "location": "Crimson Overwatch",
+          "spawnSpot": "Crimson Tide",
+          "spawnSpotDetail": "One sorcerer and a spell book near the portal stone.",
+          "type": "THRALL_CAMP_PIRATE",
+          "source": "TeleportPlayer -135390.34375 328537.3125 -12051.389648",
+          "x": -135390.34375,
+          "y": 328537.3125,
+          "z": -12051.389648
+        },
+        {
+          "location": "Unnamed Exile Camp",
+          "spawnSpot": "Exiles",
+          "spawnSpotDetail": "",
+          "type": "THRALL_CAMP_EXILE",
+          "source": "TeleportPlayer -70389.765625 259955.125 -20405.810547",
+          "x": -70389.765625,
+          "y": 259955.125,
+          "z": -20405.810547
+        },
+        {
+          "location": "Bonecrakcer Camp",
+          "spawnSpot": "Darfari",
+          "spawnSpotDetail": "One sorcerer and one spell book near the portal stone.",
+          "type": "THRALL_CAMP_DARFARI",
+          "source": "TeleportPlayer -139742.671875 295209.28125 -17147.234375",
+          "x": -139742.671875,
+          "y": 295209.28125,
+          "z": -17147.234375
         }
       ]
     },
@@ -1136,9 +1215,9 @@
             "spawnSpotDetail": "Just before the Last Refuge Opens into the main cavern. On a crate",
             "type": "FEAT",
             "source": "TeleportPlayer 268884.468750 -70231.328125 -8927.468750",
-            "x": ,
-            "y": ,
-            "z": 
+            "x": 268884.468750,
+            "y": -70231.328125,
+            "z": -8927.468750
           },
           {
             "location": "Culann Daggers",
