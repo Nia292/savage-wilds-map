@@ -2,7 +2,7 @@ import {ImageOverlay, MapContainer, ZoomControl} from "react-leaflet";
 import {CRS, LatLngLiteral,} from "leaflet";
 import {LocationGroupList} from "./LocationGroupList/LocationGroupList";
 import {MapLocationGroup} from "../model/MapLocationGroup";
-import React, {ChangeEvent, useState} from "react";
+import React, {ChangeEvent, useEffect, useState} from "react";
 import {calculateBounds, ceCoordinateToLatLng, findCenter} from "../util/conversions";
 import {MapLocation} from "../model/MapLocation";
 import {ZoomCenter} from "../model/ZoomCenter";
@@ -17,6 +17,7 @@ import {MapItemSearch} from "./item-search/MapItemSearch";
 
 const DEFAULT_ZOOM = -8.7;
 const DEFAULT_CENTER: LatLngLiteral = {lat: 0, lng: 0};
+const KEY_HIDDEN_GROUP_IDS = 'swmap.hiddengroupids';
 
 // Coordiantes are [y,x]
 // Teleport player locates them as [x, y, z]
@@ -67,6 +68,23 @@ export function SavageWildsMap(props: SavageWildsMapProps) {
         offsetRight: 0
     });
     const [hoveredLocation, setHoveredLocation] = useState(undefined as unknown as (HoveredThrallLocation | undefined));
+    const [hiddenGroupIds, setHiddenGroupIds] = useState([] as string[]);
+
+    useEffect(() => {
+        const storedHiddenGroups = window.localStorage.getItem(KEY_HIDDEN_GROUP_IDS);
+        try {
+            if (storedHiddenGroups) {
+                const parsed = JSON.parse(storedHiddenGroups);
+                if (typeof parsed === 'object' && parsed.length !== undefined) {
+                    // It's an array and probably correct
+                    setHiddenGroupIds(parsed);
+                }
+            }
+        } catch (error) {
+            console.warn("Failed to restore hidden groups", error);
+        }
+
+    }, []);
 
     function handleSelectThrall(thrall: MapLocationGroup) {
         let center = findCenter(thrall.locations);
@@ -91,17 +109,15 @@ export function SavageWildsMap(props: SavageWildsMapProps) {
         });
     }
 
+    function handleChangeHiddenGroups(hiddenGroupIds: string[]): void {
+        setHiddenGroupIds(hiddenGroupIds);
+        window.localStorage.setItem(KEY_HIDDEN_GROUP_IDS, JSON.stringify(hiddenGroupIds));
+    }
+
     function handleHqClick(event: ChangeEvent<HTMLInputElement>) {
         let target = event.target as HTMLInputElement;
         setUseHq(target.checked)
     }
-
-    // const handleClickThrall = (id: string): void => {
-    //     const thrall = props.data.find(value => value.id === id);
-    //     if (thrall) {
-    //         handleSelectThrall(thrall);
-    //     }
-    // }
 
     function onLocationSelect(location: MapLocation): void {
         // Find locationGroup
@@ -112,6 +128,7 @@ export function SavageWildsMap(props: SavageWildsMapProps) {
         setThrallFocused(true)
     }
 
+    const visibleGroups = props.data.filter(group => !hiddenGroupIds.includes(group.id));
     const center = zoomCenter?.center ? zoomCenter.center : DEFAULT_CENTER;
     const zoom = zoomCenter?.zoom ? zoomCenter.zoom : DEFAULT_ZOOM
     const mapBounds = calculateBounds(props.south, props.west, props.north, props.east, offset);
@@ -156,10 +173,12 @@ export function SavageWildsMap(props: SavageWildsMapProps) {
             <MapEvents mapBounds={mapBounds} onZoomCenterChange={setZoomCenter}/>
             <SetViewOnClick location={zoomCenter}/>
             <MarkerForSelectedThrall thrall={selectedThrall} focused={thrallFocused} onHoveredChange={setHoveredLocation}/>
-            <MarkerForAllLocationGroups locationGroups={props.data} focused={thrallFocused}/>
+            <MarkerForAllLocationGroups locationGroups={visibleGroups} focused={thrallFocused}/>
         </MapContainer>
         <div className="sidebar-right">
             <LocationGroupList groups={props.data}
+                               hiddenGroupIds={hiddenGroupIds}
+                               onChangeHiddenGroups={handleChangeHiddenGroups}
                                onSelectLocation={handleSelectLocation}
                                selectedGroupFocused={thrallFocused}
                                selectedGroup={selectedThrall}

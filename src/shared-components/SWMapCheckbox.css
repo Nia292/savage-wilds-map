@@ -1,0 +1,15 @@
+.sw-map-checkbox-checked {
+    display: block;
+    content: "a";
+    height: 16px;
+    width:  16px;
+    background-color: var(--primary-sidebar-color-highlight);
+}
+
+.sw-map-checkbox-default {
+    display: block;
+    content: "";
+    height: 16px;
+    width:  16px;
+    background-color: var(--background-color-lighter);
+}

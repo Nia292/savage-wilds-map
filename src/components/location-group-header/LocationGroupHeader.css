@@ -6,6 +6,10 @@
     color: var(--primary-sidebar-color);
 }
 
+.location-group-header-disabled {
+    color: var(--background-color-lighter) !important;
+}
+
 .location-group-header:hover {
     color: #eee9d8;
     cursor: pointer;
@@ -13,6 +17,11 @@
 
 .location-group-header-name {
     font-size: 16pt;
+}
+
+.location-group-header-toggle {
+    margin-right: 16px;
+    margin-top: 4px;
 }
 
 .location-group-header-type {

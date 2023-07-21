@@ -10,15 +10,13 @@ export interface MapEventProps {
 export function MapEvents(props: MapEventProps) {
     const map = useMapEvents({
         zoom: () => {
-            console.log(map.getZoom())
             props.onZoomCenterChange({
                 zoom: map.getZoom(),
                 center: map.getCenter(),
                 preventPan: true
             })
         },
-        click: event => {
-            console.log(event.latlng.lat, event.latlng.lng)
+        click: () => {
         },
         drag: () => {
             map.panInsideBounds(props.mapBounds, {animate: false});

@@ -19,7 +19,9 @@ export const LocationGroupDetails = (props: LocationGroupDetailsProps) => {
     const slideAnimationClass = props.focused ? 'thrall-details-sliding-in' : 'thrall-details-sliding-out'
     return <div className={"thrall-details-container " + slideAnimationClass}>
         <div className="thrall-details">
-            <LocationGroupHeader thrall={props.locationGroup || {locations: [],name: '',type: LocationGroupType.BOSS, id: 'ada', funcomId: ''}} icon={"chevron_left"} onSelect={props.onDeSelect}/>
+            <LocationGroupHeader group={props.locationGroup || {locations: [],name: '',type: LocationGroupType.BOSS, id: 'ada', funcomId: ''}}
+                                 icon={"chevron_left"}
+                                 onSelect={props.onDeSelect}/>
             <div className="thrall-location-description">
                 {props.locationGroup?.locationDescription}
             </div>
