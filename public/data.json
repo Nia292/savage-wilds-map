@@ -1838,6 +1838,16 @@
           "z": -18572.78125
         },
         {
+          "location": "Obsidian Mace",
+          "spawnSpot": "Obsidian Mines",
+          "spawnSpotDetail": "A journal on a crate by the river",
+          "type": "FEAT",
+          "source": "TeleportPlayer -22485.613281 38057.648438 -20724.259766",
+          "x": -22485.613281,
+          "y": 38057.648438,
+          "z": -20724.259766
+        },
+        {
           "location": "Witch Doctor",
           "spawnSpot": "Yog's Feast",
           "spawnSpotDetail": "A journal on a small round table",
