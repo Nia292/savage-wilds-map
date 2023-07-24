@@ -1848,6 +1848,76 @@
           "z": -20724.259766
         },
         {
+          "location": "Obsidian One-Handed Spears",
+          "spawnSpot": "Obsidian Mines",
+          "spawnSpotDetail": "A journal in a collapse between two bodies",
+          "type": "FEAT",
+          "source": "TeleportPlayer -8439.233398 28611.253906 -19104.966797",
+          "x": -8439.233398,
+          "y": 28611.253906,
+          "z": -19104.966797
+        },
+		{
+          "location": "Obsidian Shield",
+          "spawnSpot": "Obsidian Mines",
+          "spawnSpotDetail": "A journal on a crate on top of some scaffolding",
+          "type": "FEAT",
+          "source": "TeleportPlayer -8276.630859 28310.814453 -18576.294922",
+          "x": -8276.630859,
+          "y": 28310.814453,
+          "z": -18576.294922
+        },
+		{
+          "location": "Obsidian Throwing Axe",
+          "spawnSpot": "Obsidian Mines",
+          "spawnSpotDetail": "A journal on a ledge in front of the Scorpion Queen",
+          "type": "FEAT",
+          "source": "TeleportPlayer -20587.361328 30009.396484 -17092.761719",
+          "x": -20587.361328,
+          "y": 30009.396484,
+          "z": -17092.761719
+        },
+		{
+          "location": "Obsidian Sword",
+          "spawnSpot": "Obsidian Mines",
+          "spawnSpotDetail": "A journal on some scaffolding above the Scorpion Queen",
+          "type": "FEAT",
+          "source": "TeleportPlayer -23310.882813 25281.064453 -16617.322266",
+          "x": -23310.882813,
+          "y": 25281.064453,
+          "z": -16617.322266
+        },
+		{
+          "location": "Obsidian Arrow",
+          "spawnSpot": "Obsidian Mines",
+          "spawnSpotDetail": "A journal on a crate",
+          "type": "FEAT",
+          "source": "TeleportPlayer -3548.288086 31990.292969 -19146.794922",
+          "x": -3548.288086,
+          "y": 31990.292969,
+          "z": -19146.794922
+        },
+		{
+          "location": "Obsidian Two-Handed Sword",
+          "spawnSpot": "Obsidian Mines",
+          "spawnSpotDetail": "A journal on a crate next to some steel picks",
+          "type": "FEAT",
+          "source": "TeleportPlayer -6236.986816 35076.113281 -19633.96875",
+          "x": -6236.986816,
+          "y": 35076.113281,
+          "z": -19633.96875
+        },
+		{
+          "location": "Obsidian Spear",
+          "spawnSpot": "Obsidian Mines",
+          "spawnSpotDetail": "A journal on a crate, half obstructed by a wooden loot box",
+          "type": "FEAT",
+          "source": "TeleportPlayer -1899.655396 33304.511719 -19131.505859",
+          "x": -1899.655396,
+          "y": 33304.511719,
+          "z": -19131.505859
+        },
+        {
           "location": "Witch Doctor",
           "spawnSpot": "Yog's Feast",
           "spawnSpotDetail": "A journal on a small round table",
