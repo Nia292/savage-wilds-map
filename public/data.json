@@ -1857,7 +1857,7 @@
           "y": 28611.253906,
           "z": -19104.966797
         },
-		{
+		    {
           "location": "Obsidian Shield",
           "spawnSpot": "Obsidian Mines",
           "spawnSpotDetail": "A journal on a crate on top of some scaffolding",
@@ -1867,7 +1867,7 @@
           "y": 28310.814453,
           "z": -18576.294922
         },
-		{
+	    	{
           "location": "Obsidian Throwing Axe",
           "spawnSpot": "Obsidian Mines",
           "spawnSpotDetail": "A journal on a ledge in front of the Scorpion Queen",
@@ -1877,7 +1877,7 @@
           "y": 30009.396484,
           "z": -17092.761719
         },
-		{
+		    {
           "location": "Obsidian Sword",
           "spawnSpot": "Obsidian Mines",
           "spawnSpotDetail": "A journal on some scaffolding above the Scorpion Queen",
@@ -1887,7 +1887,7 @@
           "y": 25281.064453,
           "z": -16617.322266
         },
-		{
+		    {
           "location": "Obsidian Arrow",
           "spawnSpot": "Obsidian Mines",
           "spawnSpotDetail": "A journal on a crate",
@@ -1897,7 +1897,7 @@
           "y": 31990.292969,
           "z": -19146.794922
         },
-		{
+		    {
           "location": "Obsidian Two-Handed Sword",
           "spawnSpot": "Obsidian Mines",
           "spawnSpotDetail": "A journal on a crate next to some steel picks",
@@ -1907,7 +1907,7 @@
           "y": 35076.113281,
           "z": -19633.96875
         },
-		{
+		    {
           "location": "Obsidian Spear",
           "spawnSpot": "Obsidian Mines",
           "spawnSpotDetail": "A journal on a crate, half obstructed by a wooden loot box",
@@ -1916,6 +1916,36 @@
           "x": -1899.655396,
           "y": 33304.511719,
           "z": -19131.505859
+        },
+        {
+          "location": "Serpentman Weapons",
+          "spawnSpot": "Crystal Cave",
+          "spawnSpotDetail": "A yellow-glowing stone slab inside of the serpentman ruins",
+          "type": "FEAT",
+          "source": "TeleportPlayer -10910.802734 12426.673828 -15928.233398",
+          "x": -10910.802734,
+          "y": 12426.673828,
+          "z": -15928.233398
+        },
+        {
+          "location": "Specialist Ammunition IV",
+          "spawnSpot": "The Sunken Arena",
+          "spawnSpotDetail": "A yellow-glowing stone slab inside of the serpentman ruins",
+          "type": "FEAT",
+          "source": "TeleportPlayer 14035.578125 -36767.289063 -25185.978516",
+          "x": 14035.578125,
+          "y": -36767.289063,
+          "z": -25185.978516
+        },
+        {
+          "location": "Warmaker Weapons",
+          "spawnSpot": "The Proving Grounds",
+          "spawnSpotDetail": "A stone slab behind the Arena Champion",
+          "type": "FEAT",
+          "source": "TeleportPlayer 151037.84375 32459.099609 1568.725952",
+          "x": 151037.84375,
+          "y": 32459.099609,
+          "z": 1568.725952
         },
         {
           "location": "Witch Doctor",
@@ -1946,6 +1976,196 @@
           "x": -36781.703125,
           "y": 142889.25,
           "z": -17772.792969
+        },
+        {
+          "location": "Darfari Weapons",
+          "spawnSpot": "The Pit",
+          "spawnSpotDetail": "The weapon on is jammed into a dead body on the shore outside the cave.",
+          "type": "FEAT",
+          "source": "TeleportPlayer 9240.764648 150897.078125 -20706.068359",
+          "x": 9240.764648,
+          "y": 150897.078125,
+          "z": -20706.068359
+        },
+        {
+          "location": "Darfari Weapons",
+          "spawnSpot": "The Pit",
+          "spawnSpotDetail": "Two spots with a weapon stuck in a log bench",
+          "type": "FEAT",
+          "source": "TeleportPlayer -11417.828125 161133.890625 -16200.916016",
+          "x": -11417.828125,
+          "y": 161133.890625,
+          "z": -16200.916016
+        },
+        {
+          "location": "Oar",
+          "spawnSpot": "",
+          "spawnSpotDetail": "A wooden handle sticking out of the sand",
+          "type": "FEAT",
+          "source": "TeleportPlayer 14244.229492 162733.84375 -20721.705078",
+          "x": 14244.229492,
+          "y": 162733.84375,
+          "z": -20721.705078
+        },
+        {
+          "location": "Khari Hammer",
+          "spawnSpot": "Murun Gates",
+          "spawnSpotDetail": "A journal on a roof in front of the bank",
+          "type": "FEAT",
+          "source": "TeleportPlayer -30325.451172 100396.242188 -12311.113281",
+          "x": -30325.451172,
+          "y": 100396.242188,
+          "z": -12311.113281
+        },
+        {
+          "location": "Khari Pike",
+          "spawnSpot": "Murun Gates",
+          "spawnSpotDetail": "A journal above the gate to the thrall merchants",
+          "type": "FEAT",
+          "source": "TeleportPlayer -36878.542969 97794.539063 -11475.178711",
+          "x": -36878.542969,
+          "y": 97794.539063,
+          "z": -11475.178711
+        },
+        {
+          "location": "Khari Bow",
+          "spawnSpot": "Murun Gates",
+          "spawnSpotDetail": "A journal hidden on a narrow roof next to Petruso, the Sandstorm Maniac",
+          "type": "FEAT",
+          "source": "TeleportPlayer -35404.46875 101796.742188 -12500.308594",
+          "x": -35404.46875,
+          "y": 101796.742188,
+          "z": -12500.308594
+        },
+        {
+          "location": "Khari Great-Sword",
+          "spawnSpot": "Murun",
+          "spawnSpotDetail": "A journal on a roof above the silk vendor's shop",
+          "type": "FEAT",
+          "source": "TeleportPlayer -13169.251953 102097.25 -7283.425781",
+          "x": -13169.251953,
+          "y": 102097.25,
+          "z": -7283.425781
+        },
+        {
+          "location": "Khari War-Axe",
+          "spawnSpot": "Murun",
+          "spawnSpotDetail": "A journal on a roof above the apothecary's shop",
+          "type": "FEAT",
+          "source": "TeleportPlayer -19095.324219 94467.210938 -6589.861816",
+          "x": -19095.324219,
+          "y": 94467.210938,
+          "z": -6589.861816
+        },
+        {
+          "location": "Khari Daggers",
+          "spawnSpot": "Murun",
+          "spawnSpotDetail": "A journal on a roof next to the lotus peddler's shop",
+          "type": "FEAT",
+          "source": "TeleportPlayer -11248.49707 88278.4375 -6066.63623",
+          "x": -11248.49707,
+          "y": 88278.4375,
+          "z": -6066.63623
+        },
+        {
+          "location": "Vanquisher of the King Beneath",
+          "spawnSpot": "The Atlantean Tomb",
+          "spawnSpotDetail": "The recipe is a guaranteed drop from the King Beneath",
+          "type": "FEAT",
+          "source": "TeleportPlayer -103454.273438 142529.453125 -17606.044922",
+          "x": -103454.273438,
+          "y": 142529.453125,
+          "z": -17606.044922
+        },
+        {
+          "location": "Abysmal Sword And Herpetology",
+          "spawnSpot": "Beneath The Waves",
+          "spawnSpotDetail": "A yellow-glowing stone slab near the edge of the ruins",
+          "type": "FEAT",
+          "source": "TeleportPlayer -166343.53125 113841.046875 -25129.476563",
+          "x": -166343.53125,
+          "y": 113841.046875,
+          "z": -25129.476563
+        },
+        {
+          "location": "Abysmal Daggers And Abysmal Arrows",
+          "spawnSpot": "Beneath The Waves",
+          "spawnSpotDetail": "A blue-glowing stone slab at the outer edge of the ruins",
+          "type": "FEAT",
+          "source": "TeleportPlayer -187533.84375 106605.140625 -25101.507813",
+          "x": -187533.84375,
+          "y": 106605.140625,
+          "z": -25101.507813
+        },
+        {
+          "location": "Lemurian Sword",
+          "spawnSpot": "Beneath The Waves",
+          "spawnSpotDetail": "A journal at the bottom of a ruined tower",
+          "type": "FEAT",
+          "source": "TeleportPlayer -184897.296875 119718.851563 -25503.960938",
+          "x": -184897.296875,
+          "y": 119718.851563,
+          "z": -25503.960938
+        },
+        {
+          "location": "Lemurian Pike",
+          "spawnSpot": "Beneath The Waves",
+          "spawnSpotDetail": "A journal on top of a ruined archway",
+          "type": "FEAT",
+          "source": "TeleportPlayer -192437.859375 115564.429688 -22984.964844",
+          "x": -192437.859375,
+          "y": 115564.429688,
+          "z": -22984.964844
+        },
+        {
+          "location": "Ancient Lemurian Axe",
+          "spawnSpot": "Beneath The Waves",
+          "spawnSpotDetail": "A journal inside of a ruined basement",
+          "type": "FEAT",
+          "source": "TeleportPlayer -194360.640625 117146.523438 -25492.960938",
+          "x": -194360.640625,
+          "y": 117146.523438,
+          "z": -25492.960938
+        },
+        {
+          "location": "Ancient Lemurian Sword",
+          "spawnSpot": "Temple Ruins",
+          "spawnSpotDetail": "A journal on a ledge at one of the tower's corners",
+          "type": "FEAT",
+          "source": "TeleportPlayer 169895.265625 207097.984375 -7571.09375",
+          "x": 169895.265625,
+          "y": 207097.984375,
+          "z": -7571.09375
+        },
+        {
+          "location": "Ancient Lemurian Trident",
+          "spawnSpot": "Temple Ruins",
+          "spawnSpotDetail": "A journal on a crate inside the ruined tower",
+          "type": "FEAT",
+          "source": "TeleportPlayer 166255.65625 206957.03125 -7579.270996",
+          "x": 166255.65625,
+          "y": 206957.03125,
+          "z": -7579.270996
+        },
+        {
+          "location": "Ancient Lemurian Shield",
+          "spawnSpot": "Temple Ruins",
+          "spawnSpotDetail": "A journal on a ledge on top of the ruined tower",
+          "type": "FEAT",
+          "source": "TeleportPlayer 168851.53125 206294.65625 -4873.62793",
+          "x": 168851.53125,
+          "y": 206294.65625,
+          "z": -4873.62793
+        },
+        {
+          "location": "Daggers of Dagon",
+          "spawnSpot": "Temple Ruins",
+          "spawnSpotDetail": "A journal inside of the collapsed tower spire. (Hard to spot)",
+          "type": "FEAT",
+          "source": "TeleportPlayer 173687.890625 207604.40625 -11703.966797",
+          "x": 173687.890625,
+          "y": 207604.40625,
+          "z": -11703.966797
         },
         {
           "location": "Frost Smithy",
