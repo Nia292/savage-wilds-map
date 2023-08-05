@@ -1,25 +1,27 @@
 import {determineIcon, MapLocationGroup} from "../../../model/MapLocationGroup";
 import {MapLocation} from "../../../model/MapLocation";
 import './LocationGroupDetailsLocations.css';
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {HoveredThrallLocation} from "../../../model/HoveredThrallLocation";
 
 interface LocationGroupDetailsLocationsProps {
     location: MapLocation;
     isHovered: boolean;
+
     onSelectLocation(location: MapLocation): void;
 }
 
 export interface ThrallDetailsLocationsProps {
-    thrall?: MapLocationGroup;
+    locationGroup?: MapLocationGroup;
     hoveredLocation?: HoveredThrallLocation;
+
     onSelectLocation(location: MapLocation): void;
 }
 
 const LocationGroupDetailsLocations = (props: LocationGroupDetailsLocationsProps) => {
-    let classNames = 'thrall-detail-single-location';
+    let classNames = 'location-details-single-location';
     if (props.isHovered) {
-        classNames += ' thrall-details-single-location__highlight';
+        classNames += ' location-details-single-location__highlight';
     }
     return <div
         onClick={() => props.onSelectLocation(props.location)}
@@ -29,10 +31,9 @@ const LocationGroupDetailsLocations = (props: LocationGroupDetailsLocationsProps
                 <img alt="icon camp" src={process.env.PUBLIC_URL + "/fc_assets/" + determineIcon(props.location)}/>
             </div>
             <div style={{marginRight: 'auto'}}>
-                <div style={{fontSize: '14pt'}}>{props.location.location}</div>
-                <div style={{fontSize: '11pt'}}>{props.location.spawnSpot}</div>
-                <div style={{fontSize: '9pt'}}>{props.location.spawnSpotDetail}</div>
-                <div style={{fontSize: '9pt'}}>Coordiantes: {props.location.x} / {props.location.y} / {props.location.z}</div>
+                <div style={{fontSize: '16pt'}}>{props.location.location}</div>
+                <div style={{fontSize: '13pt'}}>{props.location.spawnSpot}</div>
+                <div style={{fontSize: '11pt'}}>{props.location.spawnSpotDetail}</div>
             </div>
         </div>
     </div>
@@ -47,20 +48,30 @@ function isLocationHovered(thrallLocation: MapLocation, hoveredLocation?: Hovere
 }
 
 export const ThrallDetailsLocations = (props: ThrallDetailsLocationsProps) => {
-    return  <div className="thrall-location-list-container">
+    const [searchValue, setSearchValue] = useState('')
+    useEffect(() => {
+        setSearchValue('');
+    }, [props.locationGroup]);
+    const locations = props.locationGroup?.locations
+        .filter(v => v.location?.toLowerCase().includes(searchValue))
+        .sort((a, b) => {
+            const nA = a.location || '';
+            const bA = b.location || '';
+            return nA.localeCompare(bA);
+        }) || [];
+    return <div className="location-group-list-container">
         <div>
-            <div className="thrall-location-list-header">
-                Locations
+            <div className="location-group-list-search">
+                <input className="map-input"
+                       placeholder='Type to search'
+                       value={searchValue} onChange={(v) => setSearchValue(v.target.value?.toLowerCase() || '')}></input>
             </div>
-            <div className="thrall-location-list-subheader">
-                Click a location to jump to it
-            </div>
-            <div className="thrall-details-locations">
-                {props.thrall?.locations.map((value, index) => <LocationGroupDetailsLocations
+            <div className="location-group-details-locations">
+                {locations.map((value, index) => <LocationGroupDetailsLocations
                     onSelectLocation={props.onSelectLocation}
-                    isHovered={isLocationHovered(value, props.hoveredLocation, props?.thrall)}
+                    isHovered={isLocationHovered(value, props.hoveredLocation, props?.locationGroup)}
                     key={index}
-                    location={value}/> )}
+                    location={value}/>)}
             </div>
         </div>
     </div>

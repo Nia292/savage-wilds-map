@@ -26,7 +26,7 @@ function isHidden(group: MapLocationGroup, hiddenGroupIds: string[]): boolean {
 }
 
 export const LocationGroupList = (props: LocationGroupListProps) => {
-    const additionalListClass = props.selectedGroupFocused ? 'thrall-list-sliding-out' : 'thrall-list-sliding-in';
+    const additionalListClass = props.selectedGroupFocused ? 'map-list-sliding-out' : 'map-list-sliding-in';
     function handleSetVisible(group: MapLocationGroup, visible: boolean): void {
         if (visible) {
             const newGroups = props.hiddenGroupIds.filter(value => value !== group.id);
@@ -43,7 +43,7 @@ export const LocationGroupList = (props: LocationGroupListProps) => {
                               hoveredLocation={props.hoveredLocation}
                               locationGroup={props.selectedGroup}
                               onDeSelect={props.onDeselectThrall}/>
-        <div className={'thrall-list ' + additionalListClass}>
+        <div className={'map-list ' + additionalListClass}>
             {props.groups
                 .sort((a, b) => a.name.localeCompare(b.name))
                 .map(value => <LocationGroupListItem key={value.id}

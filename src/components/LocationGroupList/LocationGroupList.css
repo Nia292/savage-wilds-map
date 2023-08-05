@@ -1,4 +1,4 @@
-.thrall-list {
+.map-list {
     position: absolute;
     right: 0;
     width: var(--sidebar-width);
@@ -23,17 +23,17 @@
     background:  var(--primary-sidebar-color-highlight);
 }
 
-.thrall-list-sliding-in {
+.map-list-sliding-in {
     right: 400px;
-    animation: thrall-list-slide-in var(--sidebar-slide-anim-duration) both;
+    animation: map-list-slide-in var(--sidebar-slide-anim-duration) both;
 }
 
-.thrall-list-sliding-out {
+.map-list-sliding-out {
     right: 0;
-    animation: thrall-list-slide-out var(--sidebar-slide-anim-duration) both;
+    animation: map-list-slide-out var(--sidebar-slide-anim-duration) both;
 }
 
-@keyframes thrall-list-slide-in {
+@keyframes map-list-slide-in {
     1% {
         overflow: hidden;
     }
@@ -47,7 +47,7 @@
     }
 }
 
-@keyframes thrall-list-slide-out {
+@keyframes map-list-slide-out {
     1% {
         overflow: hidden;
     }

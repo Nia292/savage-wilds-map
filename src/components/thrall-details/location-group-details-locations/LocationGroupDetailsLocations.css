@@ -1,34 +1,38 @@
-.thrall-details.locations {
+.location-group-details-locations {
     display: flex;
     flex-direction: column;
 }
 
-.thrall-detail-single-location {
+.location-details-single-location {
     padding-top: 8px;
     padding-bottom: 8px;
+    padding-right: 16px;
     cursor: pointer;
 }
 
-.thrall-detail-single-location:hover {
+.location-details-single-location:hover {
     color: var(--primary-sidebar-color-highlight);
 }
 
-.thrall-details-single-location__highlight {
+.location-details-single-location__highlight {
     color: var(--primary-sidebar-color-highlight);
 }
 
-.thrall-location-list-container {
-    margin-top: 16px;
+.location-group-list-container {
     font-size: 12pt;
     display: flex;
     flex-direction: column;
 }
 
-.thrall-location-list-header {
-    font-size: 16pt;
+.location-group-list-search {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
 }
 
-.thrall-location-list-subheader {
-    font-size: 8pt;
-    margin-bottom: 8px;
+.thrall-location-list-search input {
+    width: 100%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 16px;
 }

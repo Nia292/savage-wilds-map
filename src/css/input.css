@@ -1,0 +1,11 @@
+.map-input {
+    /*height: 28px;*/
+    background-color: var(--background-color-lighter);
+    color: var(--primary-sidebar-color);
+    padding-left: 8px;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    font-size: 16pt;
+    outline-width: 0;
+}

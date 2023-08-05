@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/variables.css'
 import './css/dialog.css'
+import './css/input.css'
 import {SavageWildsMap} from "./components/SavageWildsMap";
 import {MapLocationGroup} from "./model/MapLocationGroup";
 
