@@ -32,14 +32,19 @@ const allSWLocations = allSWMarkers.split('\n')
 
 // With that, we can read the raw data.json and merge all locations in we don't have yet
 const mapData = JSON.parse(fs.readFileSync('./../public/data.json', {encoding: 'UTF-8'}));
-const pointOfInterests = mapData.data.filter(v => v.id === 'Points Of Interest');
-if (pointOfInterests) {
+const pointOfInterests = mapData.data.find(v => v.id === 'Points of Interest').locations;
+const thrallCamps = mapData.data.find(v => v.id === 'Thrall Camps').locations;
+const dungeons = mapData.data.find(v => v.id === 'Dungeons').locations;
+if (pointOfInterests && dungeons && thrallCamps) {
+    const allEntries = [...pointOfInterests, ...thrallCamps, ...dungeons];
     // Find missing entries
     for (let swLocation of allSWLocations) {
-        const matchingMapLocation = getFromPointsOfInterest(pointOfInterests, swLocation);
+        const matchingMapLocation = getFromPointsOfInterest(allEntries, swLocation);
         if (!matchingMapLocation) {
-            console.log(`Location ${swLocation.location} is not yet in map, adding`);
+            console.log(`MISSING: ${swLocation.location}`);
             pointOfInterests.push(swLocation);
+        } else {
+            console.log(`EXISTS: ${swLocation.location}`);
         }
     }
     // Replace /docs/data.json with a minified JSON

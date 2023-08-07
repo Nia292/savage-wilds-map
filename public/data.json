@@ -333,7 +333,7 @@
           "z": -14251.195313
         },
         {
-          "location": "The Raided Village",
+          "location": "Raided Village",
           "spawnSpotDetail": "",
           "type": "RUIN",
           "source": "TeleportPlayer -107838.882813 -59214.46875 -20392.921875",
