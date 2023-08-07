@@ -33,6 +33,8 @@ jobs:
         run: npm ci && npm run build
       - name: Create new docs
         run: mv build docs
+      - name: Add missing SW markers
+        run: cd data && node merge-markers.js
       - name: Push new build
         uses: actions-x/commit@v6
         with:
