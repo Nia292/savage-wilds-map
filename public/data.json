@@ -9,7 +9,7 @@
   },
   "minZoom": -8.7,
   "maxZoom": -4,
-  "contributors": ["Tovlyn"],
+  "contributors": ["Otterly, Tovlyn"],
   "data": [
     {
       "name": "Other Resources",
@@ -792,7 +792,7 @@
         {
           "location": "The Cistern",
           "spawnSpotDetail": "Entrance to the Mini-Dungeon The Cistern. Contains Giant Crocodile boss and Sobek Warriors.",
-          "type": "STAMP",
+          "type": "STAMP3",
           "source": "TeleportPlayer -147250.234375 37964.113281 -10557.922852",
           "x": -147250.234375,
           "y": 37964.113281,
@@ -915,7 +915,7 @@
           "location": "Crimson Beachhead",
           "spawnSpot": "Crimson Tide",
           "spawnSpotDetail": "Contains a Relic Fragment box",
-          "type": "THRALL_CAMP_PIRATE",
+          "type": "THRALL_CAMP_CRIMSON_TIDE",
           "source": "TeleportPlayer -41781.984375 259620.203125 -18578.560547",
           "x": -41781.984375,
           "y": 259620.203125,
@@ -925,7 +925,7 @@
           "location": "Crimson Overwatch",
           "spawnSpot": "Crimson Tide",
           "spawnSpotDetail": "One sorcerer and a spell book near the portal stone.",
-          "type": "THRALL_CAMP_PIRATE",
+          "type": "THRALL_CAMP_CRIMSON_TIDE",
           "source": "TeleportPlayer -135390.34375 328537.3125 -12051.389648",
           "x": -135390.34375,
           "y": 328537.3125,
