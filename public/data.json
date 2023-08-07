@@ -9,7 +9,7 @@
   },
   "minZoom": -8.7,
   "maxZoom": -4,
-  "contributors": [],
+  "contributors": ["Tovlyn"],
   "data": [
     {
       "name": "Other Resources",
@@ -2206,6 +2206,186 @@
           "x": 25510.902344,
           "y": -104545.148438,
           "z": -15713.058594
+        },
+        {
+          "location": "Witch Doctor Mask",
+          "spawnSpot": "Skull Ridge",
+          "spawnSpotDetail": "A journal on a stone table.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -63088.5 167088.78125 -19230.744141",
+          "x": -63088.5,
+          "y": 167088.78125,
+          "z": -19230.744141
+        },
+        {
+          "location": "Relic Hunter Armors",
+          "spawnSpot": "Murun Garrison",
+          "spawnSpotDetail": "A journal on top of the equipment vendors' shop.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -44289.152344 108406.140625 -14226.323242",
+          "x": -44289.152344,
+          "y": 108406.140625,
+          "z": -14226.323242
+        },
+        {
+          "location": "Kurak's Vestments",
+          "spawnSpot": "Murun",
+          "spawnSpotDetail": "A journal on a stone table.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -24979.517578 101715.859375 -8006.70459",
+          "x": -24979.517578,
+          "y": 101715.859375,
+          "z": -8006.70459
+        },
+        {
+          "location": "Mountaineer",
+          "spawnSpot": "Ruins of Shekh-Hah",
+          "spawnSpotDetail": "A journal on top of a very tall cliff with a darfari banner.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -135253.296875 164097.859375 -7752.786133",
+          "x": -135253.296875,
+          "y": 164097.859375,
+          "z": -7752.786133
+        },
+        {
+          "location": "Expert Mountaineer",
+          "spawnSpot": "",
+          "spawnSpotDetail": "A journal in a small campsite on the side of the Queen's Tomb volcano.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -73005.65625 39195.683594 -2141.655518",
+          "x": -73005.65625,
+          "y": 39195.683594,
+          "z": -2141.655518
+        },
+        {
+          "location": "Buccaneer",
+          "spawnSpot": "Red Rock Outpost",
+          "spawnSpotDetail": "A journal on a table next to some fermentation barrels.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -87013.835938 105180.476563 -11658.101563",
+          "x": -87013.835938,
+          "y": 105180.476563,
+          "z": -11658.101563
+        },
+        {
+          "location": "Black Corsair Garb",
+          "spawnSpot": "Ruined Watchtower",
+          "spawnSpotDetail": "A journal on a crate next to an empty chest.",
+          "type": "FEAT",
+          "source": "TeleportPlayer 48607.792969 202493.296875 -18125.796875",
+          "x": 48607.792969,
+          "y": 202493.296875,
+          "z": -18125.796875
+        },
+        {
+          "location": "Hyena-Fur Armor",
+          "spawnSpot": "Ruins of Shekh-Hah",
+          "spawnSpotDetail": "A journal on a small stack of bricks sticking out of the sand.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -132057.828125 158265.03125 -16010.466797",
+          "x": -132057.828125,
+          "y": 158265.03125,
+          "z": -16010.466797
+        },
+        {
+          "location": "Reptile Leather Epic",
+          "spawnSpot": "Last Words Cavern",
+          "spawnSpotDetail": "A journal in Iocasta's treasure stash.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -204247.296875 37027.964844 -19825.613281",
+          "x": -204247.296875,
+          "y": 37027.964844,
+          "z": -19825.613281
+        },
+        {
+          "location": "Lemurian Warrior Armor",
+          "spawnSpot": "The Last Bastion",
+          "spawnSpotDetail": "A journal on a table in front of a lemurian gate.",
+          "type": "FEAT",
+          "source": "TeleportPlayer 177870.296875 170948.40625 1766.900513",
+          "x": 177870.296875,
+          "y": 170948.40625,
+          "z": 1766.900513
+        },
+        {
+          "location": "Lemurian Royal Armor",
+          "spawnSpot": "The Last Bastion",
+          "spawnSpotDetail": "A journal in front of the altar to Derketo.",
+          "type": "FEAT",
+          "source": "TeleportPlayer 172319.15625 171393.671875 -1187.374878",
+          "x": 172319.15625,
+          "y": 171393.671875,
+          "z": -1187.374878
+        },
+        {
+          "location": "Mad Prophet And Skelos Cult Master Armors",
+          "spawnSpot": "The Sorcery Cave",
+          "spawnSpotDetail": "A journal on a podium in the cave's inner sanctum. To reach it you must first find the Old Lemurian Lever.",
+          "type": "FEAT",
+          "source": "TeleportPlayer 194522.890625 265720.28125 -13279.144531",
+          "x": 194522.890625,
+          "y": 265720.28125,
+          "z": -13279.144531
+        },
+        {
+          "location": "Silent Legion Armors And Kinscourge Weapons",
+          "spawnSpot": "The Cisthern",
+          "spawnSpotDetail": "Interact with the sword in the stone behind The Kinscourge",
+          "type": "FEAT",
+          "source": "TeleportPlayer -135366.140625 43000.574219 -10112.328125",
+          "x": -135366.140625,
+          "y": 43000.574219,
+          "z": -10112.328125
+        },
+        {
+          "location": "Island Ranger Armor",
+          "spawnSpot": "Silvercutter Camp",
+          "spawnSpotDetail": "A journal on a crate in the back of the campsite. This campsite is located in the big cave beneath the camp above.",
+          "type": "FEAT",
+          "source": "TeleportPlayer 29819.324219 360306.28125 -20638.673828",
+          "x": 29819.324219,
+          "y": 360306.28125,
+          "z": -20638.673828
+        },
+        {
+          "location": "Ranger Armor",
+          "spawnSpot": "Cadwallon",
+          "spawnSpotDetail": "A journal on a table inside of the large cimmerian dwelling.",
+          "type": "FEAT",
+          "source": "TeleportPlayer 135124.265625 -116816.992188 -13903.283203",
+          "x": 135124.265625,
+          "y": -116816.992188,
+          "z": -13903.283203
+        },
+        {
+          "location": "Pride of Aesir",
+          "spawnSpot": "Vestfold",
+          "spawnSpotDetail": "A journal on a table in one of the Vanir dwellings.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -45814.71875 -111873.953125 -20499.269531",
+          "x": -45814.71875,
+          "y": -111873.953125,
+          "z": -20499.269531
+        },
+        {
+          "location": "Stygian Invader Armor",
+          "spawnSpot": "Kraxus' Foothold (No Mans Land)",
+          "spawnSpotDetail": "A journal on a counter in one of the fortified ruins.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -270306.0 302439.1875 -20115.085938",
+          "x": -270306.0,
+          "y": 302439.1875,
+          "z": -20115.085938
+        },
+        {
+          "location": "Stygian Commander's Helmet",
+          "spawnSpot": "Kraxus' Foothold (No Mans Land)",
+          "spawnSpotDetail": "A journal on a table next to Kraxus' Aide.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -261654.421875 310823.96875 -20066.191406",
+          "x": -261654.421875,
+          "y": 310823.96875,
+          "z": -20066.191406
         },
         {
           "location": "Dredger",
