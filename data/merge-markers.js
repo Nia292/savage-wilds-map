@@ -35,14 +35,15 @@ const mapData = JSON.parse(fs.readFileSync('./../public/data.json', {encoding: '
 const pointOfInterests = mapData.data.find(v => v.id === 'Points of Interest').locations;
 const thrallCamps = mapData.data.find(v => v.id === 'Thrall Camps').locations;
 const dungeons = mapData.data.find(v => v.id === 'Dungeons').locations;
+const uncategorized = mapData.data.find(v => v.id === 'Uncategorized Markers').locations;
 if (pointOfInterests && dungeons && thrallCamps) {
-    const allEntries = [...pointOfInterests, ...thrallCamps, ...dungeons];
+    const allEntries = [...pointOfInterests, ...thrallCamps, ...dungeons, ...uncategorized];
     // Find missing entries
     for (let swLocation of allSWLocations) {
         const matchingMapLocation = getFromPointsOfInterest(allEntries, swLocation);
         if (!matchingMapLocation) {
             console.log(`MISSING: ${swLocation.location}`);
-            pointOfInterests.push(swLocation);
+            uncategorized.push(swLocation);
         } else {
             console.log(`EXISTS: ${swLocation.location}`);
         }

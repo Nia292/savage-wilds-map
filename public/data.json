@@ -2248,6 +2248,12 @@
           "z": -19196.453125
         }
       ]
+    },
+    {
+      "name": "Uncategorized Markers",
+      "id": "Uncategorized Markers",
+      "type": "POINT_OF_INTEREST",
+      "locations": []
     }
   ],
   "items": []
