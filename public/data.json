@@ -2388,6 +2388,16 @@
           "z": -20066.191406
         },
         {
+          "location": "Black Corsair Outfit",
+          "spawnSpot": "N'kosi's Redoubt",
+          "spawnSpotDetail": "A journal on a crate next to Warlord N'kosi",
+          "type": "FEAT",
+          "source": "TeleportPlayer -75280.289063 257619.125 -20403.306641",
+          "x": -75280.289063,
+          "y": 257619.125,
+          "z": -20403.306641
+        },
+        {
           "location": "Dredger",
           "spawnSpot": "Beneath the Waves",
           "spawnSpotDetail": "A small book on a mossy pillar underwater",
@@ -2406,6 +2416,266 @@
           "x": -84274.914063,
           "y": -54588.785156,
           "z": -19234.65625
+        },
+        {
+          "location": "Expert Survivalist",
+          "spawnSpot": "Murun",
+          "spawnSpotDetail": "A journal on a bench next to the hunting vendor",
+          "type": "FEAT",
+          "source": "TeleportPlayer -12343.987305 96370.953125 -8011.013184",
+          "x": -12343.987305,
+          "y": 96370.953125,
+          "z": -8011.013184
+        },
+        {
+          "location": "Master Survivalist",
+          "spawnSpot": "Old Trade Docks",
+          "spawnSpotDetail": "A journal on the wooden pier",
+          "type": "FEAT",
+          "source": "TeleportPlayer 62280.0 -37085.019531 -20461.673828",
+          "x": 62280.0,
+          "y": -37085.019531,
+          "z": -20461.673828
+        },
+        {
+          "location": "Stygian Alchemy",
+          "spawnSpot": "Murun",
+          "spawnSpotDetail": "A journal on a table in the apothecary's shop",
+          "type": "FEAT",
+          "source": "TeleportPlayer -19335.191406 95295.515625 -7970.614258",
+          "x": -19335.191406,
+          "y": 95295.515625,
+          "z": -7970.614258
+        },
+        {
+          "location": "Deep Sea Fisher",
+          "spawnSpot": "Vargrheim",
+          "spawnSpotDetail": "A journal on a crate inside of a vanir dwelling by the lake",
+          "type": "FEAT",
+          "source": "TeleportPlayer 68339.71875 -56112.589844 -20011.152344",
+          "x": 68339.71875,
+          "y": -56112.589844,
+          "z": -20011.152344
+        },
+        {
+          "location": "Eldarium Tools",
+          "spawnSpot": "Atlantean Tomb",
+          "spawnSpotDetail": "A journal at the base of a pillar in the second boss arena",
+          "type": "FEAT",
+          "source": "TeleportPlayer -102553.34375 134759.4375 -17343.34375",
+          "x": -102553.34375,
+          "y": 134759.4375,
+          "z": -17343.34375
+        },
+        {
+          "location": "Grandmaster Weaponsmith",
+          "spawnSpot": "Atlantean Tomb",
+          "spawnSpotDetail": "A journal on the lower jaw of the big furnace",
+          "type": "FEAT",
+          "source": "TeleportPlayer -103540.007813 133762.703125 -17380.261719",
+          "x": -103540.007813,
+          "y": 133762.703125,
+          "z": -17380.261719
+        },
+        {
+          "location": "Grandmaster Armorsmith",
+          "spawnSpot": "The Queen's Tomb",
+          "spawnSpotDetail": "A journal at the peak of the volcano that houses the Queen's Tomb",
+          "type": "FEAT",
+          "source": "TeleportPlayer -71534.59375 34461.566406 5288.503418",
+          "x": -71534.59375,
+          "y": 34461.566406,
+          "z": 5288.503418
+        },
+        {
+          "location": "Weapon Oils",
+          "spawnSpot": "The Queen's Tomb",
+          "spawnSpotDetail": "A journal next to the stone coffin in The Queen's Tomb",
+          "type": "FEAT",
+          "source": "TeleportPlayer -70426.796875 35679.167969 -6953.755371",
+          "x": -70426.796875,
+          "y": 35679.167969,
+          "z": -6953.755371
+        },
+        {
+          "location": "The Dark Library",
+          "spawnSpot": "The Last Bastion",
+          "spawnSpotDetail": "Interact with any of the faintly glowing journals in the makeshift bookshelves",
+          "type": "FEAT",
+          "source": "TeleportPlayer 170873.171875 171605.609375 -1223.791626",
+          "x": 170873.171875,
+          "y": 171605.609375,
+          "z": -1223.791626
+        },
+        {
+          "location": "The Voidforge",
+          "spawnSpot": "The Halls of the Voidforge",
+          "spawnSpotDetail": "To access to the Voidforge you must first collect the hearts of the five Leviathans",
+          "type": "FEAT",
+          "source": "TeleportPlayer -302577.03125 -25757.978516 1169.794067",
+          "x": -302577.03125,
+          "y": -25757.978516,
+          "z": 1169.794067
+        },
+        {
+          "location": "Aloe Soup",
+          "spawnSpot": "Cave of the Crone",
+          "spawnSpotDetail": "The recipe is sold by Sissa in the Cave of the Crone",
+          "type": "FEAT",
+          "source": "TeleportPlayer 80323.265625 174440.390625 -11743.466797",
+          "x": 80323.265625,
+          "y": 174440.390625,
+          "z": -11743.466797
+        },
+        {
+          "location": "Specialist Cooking I",
+          "spawnSpot": "Bonerattler Post",
+          "spawnSpotDetail": "A journal on top of a cliff marked by two Darfari banners",
+          "type": "FEAT",
+          "source": "TeleportPlayer 7544.099121 106246.0625 -10182.913086",
+          "x": 7544.099121,
+          "y": 106246.0625,
+          "z": -10182.913086
+        },
+        {
+          "location": "Specialist Cooking I",
+          "spawnSpot": "Vargrvakt Outpost",
+          "spawnSpotDetail": "A journal on a bench next to a bonfire",
+          "type": "FEAT",
+          "source": "TeleportPlayer -163278.046875 -139692.625 -12496.101563",
+          "x": -163278.046875,
+          "y": -139692.625,
+          "z": -12496.101563
+        },
+        {
+          "location": "Specialist Cooking II",
+          "spawnSpot": "Cabhan Fell",
+          "spawnSpotDetail": "A journal on a barrel in a cimmerian dwelling",
+          "type": "FEAT",
+          "source": "TeleportPlayer 128660.304688 -4120.476074 -2549.178223",
+          "x": 128660.304688,
+          "y": -4120.476074,
+          "z": -2549.178223
+        },
+        {
+          "location": "Specialist Cooking III",
+          "spawnSpot": "Mori",
+          "spawnSpotDetail": "A journal on a bench next to some target dummies",
+          "type": "FEAT",
+          "source": "TeleportPlayer -176675.484375 -82863.65625 -12145.015625",
+          "x": -176675.484375,
+          "y": -82863.65625,
+          "z": -12145.015625
+        },
+        {
+          "location": "Specialist Cooking IV",
+          "spawnSpot": "Khulan's Outpost",
+          "spawnSpotDetail": "A journal on a table under makeshift shelter",
+          "type": "FEAT",
+          "source": "TeleportPlayer -188461.703125 -57225.753906 -7952.536133",
+          "x": -188461.703125,
+          "y": -57225.753906,
+          "z": -7952.536133
+        },
+        {
+          "location": "Specialist Cooking V",
+          "spawnSpot": "Old Trade Docks",
+          "spawnSpotDetail": "A journal on a table inside a vanir dwelling",
+          "type": "FEAT",
+          "source": "TeleportPlayer 64367.140625 -34108.226563 -20242.455078",
+          "x": 64367.140625,
+          "y": -34108.226563,
+          "z": -20242.455078
+        },
+        {
+          "location": "Specialist Cooking VI",
+          "spawnSpot": "Frostridge Outpost",
+          "spawnSpotDetail": "A journal on a bench next to a bonfire",
+          "type": "FEAT",
+          "source": "TeleportPlayer -125103.460938 -163559.484375 -12527.633789",
+          "x": -125103.460938,
+          "y": -163559.484375,
+          "z": -12527.633789
+        },
+        {
+          "location": "Specialist Cooking VII",
+          "spawnSpot": "Maelgwyn's Glen",
+          "spawnSpotDetail": "A journal on a counter next to a butchered boar",
+          "type": "FEAT",
+          "source": "TeleportPlayer 172129.296875 -86230.976563 -14386.672852",
+          "x": 172129.296875,
+          "y": -86230.976563,
+          "z": -14386.672852
+        },
+        {
+          "location": "Specialist Cooking VIII",
+          "spawnSpot": "Ruins of Shekh-Hah",
+          "spawnSpotDetail": "A journal on top of the central scaffolding",
+          "type": "FEAT",
+          "source": "TeleportPlayer -127242.421875 155736.5625 -14132.419922",
+          "x": -127242.421875,
+          "y": 155736.5625,
+          "z": -14132.419922
+        },
+        {
+          "location": "Specialist Cooking IX",
+          "spawnSpot": "Vargrheim",
+          "spawnSpotDetail": "A journal on a table in a vanir dwelling",
+          "type": "FEAT",
+          "source": "TeleportPlayer 72769.851563 -90219.804688 -14600.408203",
+          "x": 72769.851563,
+          "y": -90219.804688,
+          "z": -14600.408203
+        },
+        {
+          "location": "Specialist Cooking X",
+          "spawnSpot": "Maelgwyn's Glen",
+          "spawnSpotDetail": "A journal on a table in a vanir dwelling",
+          "type": "FEAT",
+          "source": "TeleportPlayer 172073.5625 -67763.9375 -9860.539063",
+          "x": 172073.5625,
+          "y": -67763.9375,
+          "z": -9860.539063
+        },
+        {
+          "location": "Pirate Cuisine",
+          "spawnSpot": "Last Words Cavern",
+          "spawnSpotDetail": "A journal on a small crate",
+          "type": "FEAT",
+          "source": "TeleportPlayer -196249.0625 38329.867188 -20582.652344",
+          "x": -196249.0625,
+          "y": 38329.867188,
+          "z": -20582.652344
+        },
+        {
+          "location": "Specialist Brewing I",
+          "spawnSpot": "Shensha's Outpost",
+          "spawnSpotDetail": "A journal on a table",
+          "type": "FEAT",
+          "source": "TeleportPlayer 37373.878906 61528.628906 -11404.194336",
+          "x": 37373.878906,
+          "y": 61528.628906,
+          "z": -11404.194336
+        },
+        {
+          "location": "Specialist Brewing II",
+          "spawnSpot": "Cadwallon",
+          "spawnSpotDetail": "A journal on a small barrel inside of a cimmerian dwelling",
+          "type": "FEAT",
+          "source": "TeleportPlayer 171026.671875 -87802.757813 -14386.694336",
+          "x": 171026.671875,
+          "y": -87802.757813,
+          "z": -14386.694336
+        },
+        {
+          "location": "Specialist Brewing III",
+          "spawnSpot": "Last Words Cavern",
+          "spawnSpotDetail": "A journal on a bench near the cave entrance",
+          "type": "FEAT",
+          "source": "TeleportPlayer -195643.125 46687.808594 -20698.15625",
+          "x": -195643.125,
+          "y": 46687.808594,
+          "z": -20698.15625
         },
         {
           "location": "Dragon's Breath",
