@@ -2392,10 +2392,10 @@
           "spawnSpot": "N'kosi's Redoubt",
           "spawnSpotDetail": "A journal on a crate next to Warlord N'kosi",
           "type": "FEAT",
-          "source": "TeleportPlayer -75280.289063 257619.125 -20403.306641",
-          "x": -75280.289063,
-          "y": 257619.125,
-          "z": -20403.306641
+          "source": "TeleportPlayer -219318.515625 326963.0625 -4609.856934",
+          "x": -219318.515625,
+          "y": 326963.0625,
+          "z": -4609.856934
         },
         {
           "location": "Dredger",
