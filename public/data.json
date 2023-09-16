@@ -98,7 +98,7 @@
         },
         {
           "location": "Midnight Blue Flower",
-          "spawnSpot": "South Island",
+          "spawnSpot": "The Atoll",
           "spawnSpotDetail": "",
           "type": "RESOURCE_PLANT",
           "source": "TeleportPlayer -94685.703125 264096.875 -20410.316406",
@@ -748,7 +748,7 @@
         },
         {
           "location": "Reed Stalker",
-          "spawnSpot": "South Island",
+          "spawnSpot": "The Atoll",
           "spawnSpotDetail": "Shima Boss. Drops the Albino Alligator Garb",
           "type": "BOSS",
           "source": "TeleportPlayer -153777.375 262126.828125 -20275.828125",
@@ -942,7 +942,7 @@
           "z": -20405.810547
         },
         {
-          "location": "Bonecrakcer Camp",
+          "location": "Bonecracker Camp",
           "spawnSpot": "Darfari",
           "spawnSpotDetail": "One sorcerer and one spell book near the portal stone.",
           "type": "THRALL_CAMP_DARFARI",
@@ -958,10 +958,40 @@
       "id": "Shima's Feats",
       "type":"FEATS",
       "locations": [
+	{
+	  "location": " Relic-Hunter Collections",
+	  "spawnSpot": "The Atoll",
+	  "spawnSpotDetail": "Foreman's Camp on a crate",
+	  "type": "FEAT",
+	  "source": "TeleportPlayer -90626.812500 364961.125000 -15176.480469",
+	  "x": "-90626.8125",
+	  "y": "364961.125",
+	  "z": "-15176.48047"
+	},
+	{
+	  "location": "Marketeer",
+	  "spawnSpot": "The Atoll",
+	  "spawnSpotDetail": "Ancient Port Shima Caravan Stop",
+	  "type": "FEAT",
+	  "source": "TeleportPlayer -114490.843750 260217.203125 -20654.947266",
+	  "x": "-114490.8438",
+	  "y": "260217.2031",
+	  "z": "-20654.94727"
+	},
+	{
+	  "location": "Caravan Saddle",
+	  "spawnSpot": "Cracked Fjords (Northern)",
+	  "spawnSpotDetail": "On a crate",
+	  "type": "FEAT",
+	  "source": "TeleportPlayer 56948.773438 -371635.968750 -20392.675781",
+	  "x": "56948.77344",
+	  "y": "-371635.9688",
+	  "z": "-20392.67578"
+	},
         {
           "location": "Grill",
           "spawnSpot": "Desert",
-          "spawnSpotDetail": "The book next to the stone slap",
+          "spawnSpotDetail": "The book next to the stone slab",
           "type": "FEAT",
           "source": "TeleportPlayer -39254.199219 74525.132813 -10739.03125",
           "x": -39254.199219,
@@ -981,7 +1011,7 @@
         {
           "location": "Clan Culann Scout",
           "spawnSpot": "Last Refuge",
-          "spawnSpotDetail": "On a crate in the last refuge",
+          "spawnSpotDetail": "On a crate in the Last Refuge",
           "type": "FEAT",
           "source": "TeleportPlayer 294811.531250 -62507.746094 -14960.461914",
           "x": 294811.531250,
@@ -1142,7 +1172,7 @@
           {
             "location": "Culan Sword",
             "spawnSpot": "Last Refuge",
-            "spawnSpotDetail": "third round house in the last refuge",
+            "spawnSpotDetail": "third round house in the Last Refuge",
             "type": "FEAT",
             "source": "TeleportPlayer 292740.156250 -68482.015625 -14687.467773",
             "x": 292740.156250,
@@ -1172,7 +1202,7 @@
           {
             "location": "Culann War-Axe",
             "spawnSpot": "Last Refuge",
-            "spawnSpotDetail": "At the far end of the last refuge settlement, down some timber stairs, on top of a crate",
+            "spawnSpotDetail": "At the far end of the Last Refuge settlement, down some timber stairs, on top of a crate",
             "type": "FEAT",
             "source": "TeleportPlayer 309912.343750 -57495.503906 -15541.589844",
             "x": 309912.343750,
@@ -1320,7 +1350,7 @@
             "z": -6587.324219
           },
           {
-            "location": "Crafting Décor",
+            "location": "Crafting Decor",
             "spawnSpot": "Murun Garrison",
             "spawnSpotDetail": "Behind the Bowyer named Ergal on the ground in Murun Garrison",
             "type": "FEAT",
@@ -1331,7 +1361,7 @@
           },
         {
             "location": "Arcane Machinations",
-            "spawnSpot": "South Island",
+            "spawnSpot": "The Atoll",
             "spawnSpotDetail": "In the dungeon accessed by entering the cave inside of Zarryns retreat, on a crate near the big throne",
             "type": "FEAT",
             "source": "TeleportPlayer 152914.796875 312806.875000 16983.369141",
@@ -1452,7 +1482,7 @@
           {
             "location": "Darfari Bonecrafts",
             "spawnSpot": "Bonecracker Camp",
-            "spawnSpotDetail": "On a bench next to a carpenters table, south Island",
+            "spawnSpotDetail": "On a bench next to a carpenters table, The Atoll",
             "type": "FEAT",
             "source": "TeleportPlayer -140583.531250 294975.468750 -17197.011719",
             "x": -140583.531250,
@@ -1465,7 +1495,7 @@
             "spawnSpotDetail": "On a crate inside the Stygian Outpost",
             "type": "FEAT",
             "source": "TeleportPlayer -272211.062500 303766.593750 -19781.599609",
-            "x": 272211.062500,
+            "x": -272211.062500,
             "y": 303766.593750,
             "z": -19781.599609
           },
@@ -1480,7 +1510,7 @@
             "z": -11166.515625
           },
           {
-            "location": "AdvancedPlanters",
+            "location": "Advanced Planters",
             "spawnSpot": "Elysium",
             "spawnSpotDetail": "Upstairs balcony in elysium, the place accessible by scooching around the outside floating roundhouse, which is somehow inside the Notch and Arrow",
             "type": "FEAT",
@@ -1490,7 +1520,7 @@
             "z": 1352.848877
           },
           {
-            "location": "WallStorage",
+            "location": "Wall Storage",
             "spawnSpot": "Kraxus Outpost",
             "spawnSpotDetail": "On a crate, port side in Kraxus Outpost, accessible through No man's Land",
             "type": "FEAT",
@@ -1541,7 +1571,7 @@
           },
           {
             "location": "Climbing Tincture",
-            "spawnSpot": "South Island",
+            "spawnSpot": "The Atoll",
             "spawnSpotDetail": "Tough one to explain, in the dungeon behind Zarryns retreat, sneak between two rocks on the left of the stairs to the librarians quarters. Then parkour down along the wall",
             "type": "FEAT",
             "source": "TeleportPlayer 136115.031250 328774.906250 16857.017578",
@@ -1690,7 +1720,7 @@
             "z": -15978.399414
           },
           {
-            "location": "Bird Vault Weapons",
+            "location": "Jhil Vault Weapons",
             "spawnSpot": "Veiled Memories",
             "spawnSpotDetail": "Near the entrance to the main Siptah veiled memories dungeon",
             "type": "FEAT",
@@ -1771,8 +1801,8 @@
           },
           {
             "location": "Star Metal Lockpick",
-            "spawnSpot": "South Island",
-            "spawnSpotDetail": "near Commander Rahzar in the south island dungeon. On the ground to the right of the ramp if facing the boss.",
+            "spawnSpot": "The Atoll",
+            "spawnSpotDetail": "near Commander Rahzar in the The Atoll dungeon. On the ground to the right of the ramp if facing the boss.",
             "type": "FEAT",
             "source": "TeleportPlayer 145748.000000 316498.468750 16004.931641",
             "x": 145748.000000,
@@ -2988,286 +3018,6 @@
           "z": -6976.750977
         },
         {
-          "location": "Language Dictionary (Ancient Stygian)",
-          "spawnSpot": "Last Words Cavern",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -185745.718750 51406.707031 -20843.474609",
-          "x": -185745.718750,
-          "y": 51406.707031,
-          "z": -20843.474609
-        },
-        {
-          "location": "Language Dictionary (Argossean)",
-          "spawnSpot": "Wreck of the Sea-Tiger",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -180005.171875 55741.488281 -20814.835938",
-          "x": -180005.171875,
-          "y": 55741.488281,
-          "z": -20814.835938
-        },
-        {
-          "location": "Language Dictionary (Atlantean)",
-          "spawnSpot": "Wreck of the Sea-Tiger (South)",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -163587.421875 68074.976563 -20852.550781",
-          "x": -163587.421875,
-          "y": 68074.976563,
-          "z": -20852.550781
-        },
-        {
-          "location": "Language Dictionary (Barachan)",
-          "spawnSpot": "The Oasis (North-East)",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -159062.281250 83210.531250 -20846.152344",
-          "x": -159062.281250,
-          "y": 83210.531250,
-          "z": -20846.152344
-        },
-        {
-          "location": "Language Dictionary (Black Kingdoms)",
-          "spawnSpot": "The Oasis (East)",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -152757.812500 88494.984375 -20844.906250",
-          "x": -152757.812500,
-          "y": 88494.984375,
-          "z": -20844.906250
-        },
-        {
-          "location": "Language Dictionary (Brythunian)",
-          "spawnSpot": "The Oasis",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -168964.781250 90436.125000 -20844.000000",
-          "x": -168964.781250,
-          "y": 90436.125000,
-          "z": -20844.000000
-        },
-        {
-          "location": "Language Dictionary (Cimmerian)",
-          "spawnSpot": "The Oasis",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -169923.468750 99424.953125 -20844.000000",
-          "x": -169923.468750,
-          "y": 99424.953125,
-          "z": -20844.000000
-        },
-        {
-          "location": "Language Dictionary (Himelian)",
-          "spawnSpot": "The Oasis (South-East)",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -153131.906250 108703.796875 -20841.484375",
-          "x": -153131.906250,
-          "y": 108703.796875,
-          "z": -20841.484375
-        },
-        {
-          "location": "Language Dictionary (Hyperborean)",
-          "spawnSpot": "Beneath The Waves (East)",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -157434.109375 118819.593750 -20844.000000",
-          "x": -157434.109375,
-          "y": 118819.593750,
-          "z": -20844.000000
-        },
-        {
-          "location": "Language Dictionary (Hyrkanian)",
-          "spawnSpot": "Beneath The Waves (South-East)",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -155380.031250 124605.078125 -20844.000000",
-          "x": -155380.031250,
-          "y": 124605.078125,
-          "z": -20844.000000
-        },
-        {
-          "location": "Language Dictionary (Kambujan)",
-          "spawnSpot": "Beneath The Waves (South)",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -165659.609375 130881.945313 -20843.031250",
-          "x": -165659.609375,
-          "y": 130881.945313,
-          "z": -20843.031250
-        },
-        {
-          "location": "Language Dictionary (Keshani)",
-          "spawnSpot": "Beneath The Waves (South)",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -175831.234375 133817.015625 -20843.423828",
-          "x": -175831.234375,
-          "y": 133817.015625,
-          "z": -20843.423828
-        },
-        {
-          "location": "Language Dictionary (Khitan)",
-          "spawnSpot": "The Coast (West)",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -169798.203125 147652.265625 -20834.369141",
-          "x": -169798.203125,
-          "y": 147652.265625,
-          "z": -20834.369141
-        },
-        {
-          "location": "Language Dictionary (Kothian)",
-          "spawnSpot": "The Coast (West)",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -158059.828125 155423.703125 -20843.013672",
-          "x": -158059.828125,
-          "y": 155423.703125,
-          "z": -20843.013672
-        },
-        {
-          "location": "Language Dictionary (Lemurian)",
-          "spawnSpot": "Yog's Feast (North)",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -151716.671875 166350.359375 -20840.699219",
-          "x": -151716.671875,
-          "y": 166350.359375,
-          "z": -20840.699219
-        },
-        {
-          "location": "Language Dictionary (Nemedian)",
-          "spawnSpot": "Yog's Feast (West)",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -158178.031250 194273.171875 -20838.009766",
-          "x": -158178.031250,
-          "y": 194273.171875,
-          "z": -20838.009766
-        },
-        {
-          "location": "Language Dictionary (Nordheimr)",
-          "spawnSpot": "Abandonned Docks",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -124372.492188 198689.359375 -20842.109375",
-          "x": -124372.492188,
-          "y": 198689.359375,
-          "z": -20842.109375
-        },
-        {
-          "location": "Language Dictionary (Pictish)",
-          "spawnSpot": "Abandonned Docks (East)",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -105601.195313 198936.937500 -20825.437500",
-          "x": -105601.195313,
-          "y": 198936.937500,
-          "z": -20825.437500
-        },
-        {
-          "location": "Language Dictionary (Shemitish)",
-          "spawnSpot": "South Beach (North)",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -83055.898438 185718.015625 -20783.500000",
-          "x": -83055.898438,
-          "y": 185718.015625,
-          "z": -20783.500000
-        },
-        {
-          "location": "Language Dictionary (Tongue of the Serpentmen)",
-          "spawnSpot": "South Beach",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -68457.867188 199207.796875 -20844.634766",
-          "x": -68457.867188,
-          "y": 199207.796875,
-          "z": -20844.634766
-        },
-        {
-          "location": "Language Dictionary (Turanian)",
-          "spawnSpot": "Hall of Crows",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer 39458.765625 218848.171875 -20837.462891",
-          "x": 39458.765625,
-          "y": 218848.171875,
-          "z": -20837.462891
-        },
-        {
-          "location": "Language Dictionary (Valusian)",
-          "spawnSpot": "The Obsidian Mine",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -18711.068359 42045.761719 -20826.666016",
-          "x": -18711.068359,
-          "y": 42045.761719,
-          "z": -20826.666016
-        },
-        {
-          "location": "Language Dictionary (Vendhyan)",
-          "spawnSpot": "The Obsidian Mine (North-West)",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -39398.644531 14487.735352 -20785.667969",
-          "x": -39398.644531,
-          "y": 14487.735352,
-          "z": -20785.667969
-        },
-        {
-          "location": "Language Dictionary (Vilayet)",
-          "spawnSpot": "The Highland Lake",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer -23737.982422 -76790.453125 -20837.011719",
-          "x": -23737.982422,
-          "y": -76790.453125,
-          "z": -20837.011719
-        },
-        {
-          "location": "Language Dictionary (Zamoran)",
-          "spawnSpot": "The Highland Lake",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer 9350.637695 -69809.187500 -20837.769531",
-          "x": 9350.637695,
-          "y": -69809.187500,
-          "z": -20837.769531
-        },
-        {
-          "location": "Language Dictionary (Zhemri)",
-          "spawnSpot": "The Highland Lake",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer 24538.617188 -70092.148438 -20822.572266",
-          "x": 24538.617188,
-          "y": -70092.148438,
-          "z": -20822.572266
-        },
-        {
-          "location": "Language Dictionary (Zingaran)",
-          "spawnSpot": "The Highland Lake",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer 63842.140625 -57747.960938 -20830.691406",
-          "x": 63842.140625,
-          "y": -57747.960938,
-          "z": -20830.691406
-        },
-        {
-          "location": "Language Dictionary (Zuagir)",
-          "spawnSpot": "Vargrheim (East)",
-          "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
-          "type": "FEAT",
-          "source": "TeleportPlayer 92879.609375 -73217.320313 -20834.994141",
-          "x": 92879.609375,
-          "y": -73217.320313,
-          "z": -20834.994141
-        },
-        {
           "location": "Golem Constructor",
           "spawnSpot": "Murun Gates",
           "spawnSpotDetail": "Talk to Master Carver Huang",
@@ -3299,6 +3049,293 @@
         }
       ]
     },
+{
+      "name": "Language Scrolls",
+      "id": "Language Scrolls",
+      "type": "FEATS",
+      "locations": [
+{
+      "location": "Language Dictionary (Ancient Stygian)",
+      "spawnSpot": "Last Words Cavern",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -185745.718750 51406.707031 -20843.474609",
+      "x": -185745.718750,
+      "y": 51406.707031,
+      "z": -20843.474609
+   },
+   {
+      "location": "Language Dictionary (Argossean)",
+      "spawnSpot": "Wreck of the Sea-Tiger",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -180005.171875 55741.488281 -20814.835938",
+      "x": -180005.171875,
+      "y": 55741.488281,
+      "z": -20814.835938
+   },
+   {
+      "location": "Language Dictionary (Atlantean)",
+      "spawnSpot": "Wreck of the Sea-Tiger (South)",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -163587.421875 68074.976563 -20852.550781",
+      "x": -163587.421875,
+      "y": 68074.976563,
+      "z": -20852.550781
+   },
+   {
+      "location": "Language Dictionary (Barachan)",
+      "spawnSpot": "The Oasis (North-East)",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -159062.281250 83210.531250 -20846.152344",
+      "x": -159062.281250,
+      "y": 83210.531250,
+      "z": -20846.152344
+   },
+   {
+      "location": "Language Dictionary (Black Kingdoms)",
+      "spawnSpot": "The Oasis (East)",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -152757.812500 88494.984375 -20844.906250",
+      "x": -152757.812500,
+      "y": 88494.984375,
+      "z": -20844.906250
+   },
+   {
+      "location": "Language Dictionary (Brythunian)",
+      "spawnSpot": "The Oasis",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -168964.781250 90436.125000 -20844.000000",
+      "x": -168964.781250,
+      "y": 90436.125000,
+      "z": -20844.000000
+   },
+   {
+      "location": "Language Dictionary (Cimmerian)",
+      "spawnSpot": "The Oasis",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -169923.468750 99424.953125 -20844.000000",
+      "x": -169923.468750,
+      "y": 99424.953125,
+      "z": -20844.000000
+   },
+   {
+      "location": "Language Dictionary (Himelian)",
+      "spawnSpot": "The Oasis (South-East)",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -153131.906250 108703.796875 -20841.484375",
+      "x": -153131.906250,
+      "y": 108703.796875,
+      "z": -20841.484375
+   },
+   {
+      "location": "Language Dictionary (Hyperborean)",
+      "spawnSpot": "Beneath The Waves (East)",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -157434.109375 118819.593750 -20844.000000",
+      "x": -157434.109375,
+      "y": 118819.593750,
+      "z": -20844.000000
+   },
+   {
+      "location": "Language Dictionary (Hyrkanian)",
+      "spawnSpot": "Beneath The Waves (South-East)",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -155380.031250 124605.078125 -20844.000000",
+      "x": -155380.031250,
+      "y": 124605.078125,
+      "z": -20844.000000
+   },
+   {
+      "location": "Language Dictionary (Kambujan)",
+      "spawnSpot": "Beneath The Waves (South)",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -165659.609375 130881.945313 -20843.031250",
+      "x": -165659.609375,
+      "y": 130881.945313,
+      "z": -20843.031250
+   },
+   {
+      "location": "Language Dictionary (Keshani)",
+      "spawnSpot": "Beneath The Waves (South)",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -175831.234375 133817.015625 -20843.423828",
+      "x": -175831.234375,
+      "y": 133817.015625,
+      "z": -20843.423828
+   },
+   {
+      "location": "Language Dictionary (Khitan)",
+      "spawnSpot": "The Coast (West)",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -169798.203125 147652.265625 -20834.369141",
+      "x": -169798.203125,
+      "y": 147652.265625,
+      "z": -20834.369141
+   },
+   {
+      "location": "Language Dictionary (Kothian)",
+      "spawnSpot": "The Coast (West)",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -158059.828125 155423.703125 -20843.013672",
+      "x": -158059.828125,
+      "y": 155423.703125,
+      "z": -20843.013672
+   },
+   {
+      "location": "Language Dictionary (Lemurian)",
+      "spawnSpot": "Yog's Feast (North)",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -151716.671875 166350.359375 -20840.699219",
+      "x": -151716.671875,
+      "y": 166350.359375,
+      "z": -20840.699219
+   },
+   {
+      "location": "Language Dictionary (Nemedian)",
+      "spawnSpot": "Yog's Feast (West)",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -158178.031250 194273.171875 -20838.009766",
+      "x": -158178.031250,
+      "y": 194273.171875,
+      "z": -20838.009766
+   },
+   {
+      "location": "Language Dictionary (Nordheimr)",
+      "spawnSpot": "Abandonned Docks",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -124372.492188 198689.359375 -20842.109375",
+      "x": -124372.492188,
+      "y": 198689.359375,
+      "z": -20842.109375
+   },
+   {
+      "location": "Language Dictionary (Pictish)",
+      "spawnSpot": "Abandonned Docks (East)",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -105601.195313 198936.937500 -20825.437500",
+      "x": -105601.195313,
+      "y": 198936.937500,
+      "z": -20825.437500
+   },
+   {
+      "location": "Language Dictionary (Shemitish)",
+      "spawnSpot": "South Beach (North)",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -83055.898438 185718.015625 -20783.500000",
+      "x": -83055.898438,
+      "y": 185718.015625,
+      "z": -20783.500000
+   },
+   {
+      "location": "Language Dictionary (Tongue of the Serpentmen)",
+      "spawnSpot": "South Beach",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -68457.867188 199207.796875 -20844.634766",
+      "x": -68457.867188,
+      "y": 199207.796875,
+      "z": -20844.634766
+   },
+   {
+      "location": "Language Dictionary (Turanian)",
+      "spawnSpot": "Hall of Crows",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer 39458.765625 218848.171875 -20837.462891",
+      "x": 39458.765625,
+      "y": 218848.171875,
+      "z": -20837.462891
+   },
+   {
+      "location": "Language Dictionary (Valusian)",
+      "spawnSpot": "The Obsidian Mine",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -18711.068359 42045.761719 -20826.666016",
+      "x": -18711.068359,
+      "y": 42045.761719,
+      "z": -20826.666016
+   },
+   {
+      "location": "Language Dictionary (Vendhyan)",
+      "spawnSpot": "The Obsidian Mine (North-West)",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -39398.644531 14487.735352 -20785.667969",
+      "x": -39398.644531,
+      "y": 14487.735352,
+      "z": -20785.667969
+    },
+    {
+      "location": "Language Dictionary (Vilayet)",
+      "spawnSpot": "The Highland Lake",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer -23737.982422 -76790.453125 -20837.011719",
+      "x": -23737.982422,
+      "y": -76790.453125,
+      "z": -20837.011719
+    },
+    {
+      "location": "Language Dictionary (Zamoran)",
+      "spawnSpot": "The Highland Lake",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer 9350.637695 -69809.187500 -20837.769531",
+      "x": 9350.637695,
+      "y": -69809.187500,
+      "z": -20837.769531
+    },
+    {
+      "location": "Language Dictionary (Zhemri)",
+      "spawnSpot": "The Highland Lake",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer 24538.617188 -70092.148438 -20822.572266",
+      "x": 24538.617188,
+      "y": -70092.148438,
+      "z": -20822.572266
+    },
+    {
+      "location": "Language Dictionary (Zingaran)",
+      "spawnSpot": "The Highland Lake",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer 63842.140625 -57747.960938 -20830.691406",
+      "x": 63842.140625,
+      "y": -57747.960938,
+      "z": -20830.691406
+    },
+    {
+      "location": "Language Dictionary (Zuagir)",
+      "spawnSpot": "Vargrheim (East)",
+      "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
+      "type": "FEAT",
+      "source": "TeleportPlayer 92879.609375 -73217.320313 -20834.994141",
+      "x": 92879.609375,
+      "y": -73217.320313,
+      "z": -20834.994141
+    }
+  ]
+},
     {
       "name": "Uncategorized Markers",
       "id": "Uncategorized Markers",
