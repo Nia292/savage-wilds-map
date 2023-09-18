@@ -33,9 +33,11 @@ const allSWLocations = allSWMarkers.split('\n')
 // With that, we can read the raw data.json and merge all locations in we don't have yet
 const mapData = JSON.parse(fs.readFileSync('./../public/data.json', {encoding: 'UTF-8'}));
 const pointOfInterests = mapData.data.find(v => v.id === 'Points of Interest').locations;
+const thrallCamps = mapData.data.find(v => v.id === 'Thrall Camps').locations;
+const dungeons = mapData.data.find(v => v.id === 'Dungeons').locations;
 const uncategorized = mapData.data.find(v => v.id === 'Uncategorized Markers').locations;
 if (pointOfInterests) {
-    const allEntries = [...pointOfInterests, ...uncategorized];
+    const allEntries = [...pointOfInterests, ...thrallCamps, ...dungeons, ...uncategorized];
     // Find missing entries
     for (let swLocation of allSWLocations) {
         const matchingMapLocation = getFromPointsOfInterest(allEntries, swLocation);
