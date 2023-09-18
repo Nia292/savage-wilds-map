@@ -2119,7 +2119,7 @@
 {
 "location": "Veiled Memory",
 "spawnSpot": "",
-"spawnSpotDetail": "",
+"spawnSpotDetail": "Jungle Memory",
 "type": "POINT_OF_INTEREST",
 "source": "TeleportPlayer 294756.28125 245011.046875 4504.132813",
 "x": 294756.2813,
@@ -2129,7 +2129,7 @@
 {
 "location": "Veiled Memory",
 "spawnSpot": "",
-"spawnSpotDetail": "",
+"spawnSpotDetail": "Highlands Memory",
 "type": "POINT_OF_INTEREST",
 "source": "TeleportPlayer 259273.5625 147402.5 -11068.18457",
 "x": 259273.5625,
@@ -2139,7 +2139,7 @@
 {
 "location": "Veiled Memory",
 "spawnSpot": "",
-"spawnSpotDetail": "",
+"spawnSpotDetail": "Desert Memory",
 "type": "POINT_OF_INTEREST",
 "source": "TeleportPlayer 307216.5 182047.453125 -12133.62793",
 "x": 307216.5,
@@ -2149,7 +2149,7 @@
 {
 "location": "Veiled Memory",
 "spawnSpot": "",
-"spawnSpotDetail": "",
+"spawnSpotDetail": "Snowy Memory",
 "type": "POINT_OF_INTEREST",
 "source": "TeleportPlayer 372658.4375 -354804.09375 -15916.952148",
 "x": 372658.4375,
@@ -4595,50 +4595,50 @@
 "spawnSpot": "Entrance underwater, southern side of Beneath the Waves",
 "spawnSpotDetail": "Drops a heart to use to access the Voidforge",
 "type": "BOSS",
-"source": "TeleportPlayer -332552.21875 -159235.71875 480.548798",
-"x": -332552.2188,
-"y": -159235.7188,
-"z": 480.548798
+"source": "TeleportPlayer -179685.4375 119498.859375 -21096.648438",
+"x": -179685.4375,
+"y": 119498.859375,
+"z": -21096.648438
 },
 {
 "location": "Ouroborus",
 "spawnSpot": "Deep inside Crystal Cave, hop down the hole and fight past the Serpentmen",
 "spawnSpotDetail": "Drops a heart to use to access the Voidforge",
 "type": "BOSS",
-"source": "TeleportPlayer -350967.21875 -131141 -15064.94043",
-"x": -350967.2188,
-"y": -131141,
-"z": -15064.94043
+"source": "TeleportPlayer -11839.480469 14401.654297 -15933.136719",
+"x": -11839.480469,
+"y": 14401.654297,
+"z": -15933.136719
 },
 {
 "location": "The Root Gaurdian",
 "spawnSpot": "East side of Last Bastion by the tents",
 "spawnSpotDetail": "Drops a heart to use to access the Voidforge",
 "type": "BOSS",
-"source": "TeleportPlayer -341395.59375 -46518.34375 -12713.698242",
-"x": -341395.5938,
-"y": -46518.34375,
-"z": -12713.69824
+"source": "TeleportPlayer 179236.515625 171219.03125 1765.526489",
+"x": 179236.515625,
+"y": 171219.03125,
+"z": 1765.526489
 },
 {
 "location": "The Keter",
 "spawnSpot": "Climb to the very top of the Screaming Haunt",
 "spawnSpotDetail": "Drops a heart to use to access the Voidforge",
 "type": "BOSS",
-"source": "TeleportPlayer -288837.53125 -172409.859375 -3701.092285",
-"x": -288837.5313,
-"y": -172409.8594,
-"z": -3701.092285
+"source": "TeleportPlayer -127715.632813 -381285.28125 -7533.138184",
+"x": -127715.632813,
+"y": -381285.28125,
+"z": -7533.138184
 },
 {
 "location": "The Armageddon Queen",
 "spawnSpot": "South from Cave of the Last Tribe",
-"spawnSpotDetail": "Drops a heart to use to access the Voidforge",
+"spawnSpotDetail": "Drops a heart to use to access the Voidforge. If you are trying to WALK here, the only path is from Maelgwyn's Glen, north around the eastern cliffs and then south again.",
 "type": "BOSS",
-"source": "TeleportPlayer -326520.96875 -269068.9375 -10778.857422",
-"x": -326520.9688,
-"y": -269068.9375,
-"z": -10778.85742
+"source": "TeleportPlayer 196260.90625 -14665.291016 -14232.97168",
+"x": 196260.90625,
+"y": -14665.291016,
+"z": -14232.97168
 }
 ]
 },
