@@ -342,16 +342,16 @@
           "z": -20392.921875
         },
         {
-          "location": "The Queen's Tomb ground entrance",
+          "location": "The Queen's Tomb",
           "spawnSpotDetail": "Ground entrance to the Queen's Tomb",
-          "type": "POINT_OF_INTEREST",
+          "type": "VAULT",
           "source": "TeleportPlayer -82834.820313 41934.433594 -4307.828125",
           "x": -82834.820313,
           "y": 41934.433594,
           "z": -4307.828125
         },
         {
-          "location": "Obsidian Mine",
+          "location": "Obsidian Mines",
           "spawnSpotDetail": "Contains Obsidian, Iron and Goldstone Nuggets",
           "type": "RUIN",
           "source": "TeleportPlayer -9003.672852 31862.625 -20576.572266",
@@ -414,18 +414,18 @@
           "z": -7171.651855
         },
         {
-          "location": "Giant's pathway",
+          "location": "Giant's Pathway",
           "spawnSpotDetail": "Contains Crystals",
-          "type": "DUNGEON",
+          "type": "VAULT",
           "source": "TeleportPlayer 68571.21875 -269313.875 -16504.003906",
           "x": 68571.21875,
           "y": -269313.875,
           "z": -16504.003906
         },
         {
-          "location": "Frozen Battlefields",
+          "location": "Frozen Battlefield",
           "spawnSpotDetail": "Contains large quantities if Black Ice, Obsidian, Brimstone and Iron",
-          "type": "POINT_OF_INTEREST",
+          "type": "DANGER",
           "source": "TeleportPlayer -93778.578125 -285110.15625 -17876.345703",
           "x": -93778.578125,
           "y": -285110.15625,
@@ -452,7 +452,7 @@
         {
           "location": "The Proving Grounds",
           "spawnSpotDetail": "Arena Champion boss and Khari Steel",
-          "type": "POINT_OF_INTEREST",
+          "type": "THRALL_CAMP_CIMMERIAN",
           "source": "TeleportPlayer 149638.21875 30274.773438 1582.159912",
           "x": 149638.21875,
           "y": 30274.773438,
@@ -468,7 +468,7 @@
           "z": -24134.484375
         },
         {
-          "location": "Gates if the White Hand",
+          "location": "Gates of the White Hand",
           "spawnSpotDetail": "Hyperborean Camp",
           "type": "YMIR",
           "source": "TeleportPlayer -35629.078125 -284879.53125 -1649.703979",
@@ -479,7 +479,7 @@
         {
           "location": "Citadel of the White Hand",
           "spawnSpotDetail": "Contains boss Louhi",
-          "type": "DUNGEON",
+          "type": "VAULT",
           "source": "TeleportPlayer -29694.835938 -297542.125 -578.186646",
           "x": -29694.835938,
           "y": -297542.125,
@@ -487,7 +487,7 @@
         },
         {
           "location": "Springwater",
-          "spawnSpotDetail": "Yellow Lotus, Aloe and Organe Phykos",
+          "spawnSpotDetail": "Yellow Lotus, Aloe and Orange Phykos",
           "type": "POINT_OF_INTEREST",
           "source": "TeleportPlayer -196631.359375 -132546.875 -13750.432617",
           "x": -196631.359375,
@@ -503,17 +503,21 @@
           "y": -107175.359375,
           "z": -10465.183594
         },
+	{
+	  "location": "The Atlantean Tomb",
+	  "spawnSpotDetail": "Small dungeon that contains The King Beneath boss. Drops a Scroll and a Golden Key.",
+	  "type": "VAULT",
+	  "source": "TeleportPlayer -103840.039063 150425.34375 -14509.063477",
+	  "x": -103840.039063,
+	  "y": 150425.34375,
+	  "z": -14509.063477,
+	  "loot": [
+	    "Scroll (Vanquisher of the King Beneath)",
+	    "Golden Key"
+	  ]
+	},
         {
-          "location": "Unnamed Cave Entrance",
-          "spawnSpotDetail": "Entrance to a hidden cave. You need to dive under and through the water to get to the hidden part. Contains a spell book",
-          "type": "CAVE",
-          "source": "TeleportPlayer -7260.091797 -58762.539063 -19755.648438",
-          "x": -7260.091797,
-          "y": -58762.539063,
-          "z": -19755.648438
-        },
-        {
-          "location": "Hall of Crowns",
+          "location": "Hall of Crows",
           "spawnSpotDetail": "",
           "type": "RUIN",
           "source": "TeleportPlayer 29058.916016 222980.8125 -19256.962891",
@@ -521,11 +525,1963 @@
           "y": 222980.8125,
           "z": -19256.962891
         }
+        {
+          "location": "The Cistern",
+          "spawnSpotDetail": "Entrance to the Mini-Dungeon The Cistern. Contains Giant Crocodile boss and Sobek Warriors.",
+          "type": "STAMP3",
+          "source": "TeleportPlayer -147250.234375 37964.113281 -10557.922852",
+          "x": -147250.234375,
+          "y": 37964.113281,
+          "z": -10557.922852
+        },
+        {
+          "location": "Ruins of Xun'sha",
+          "spawnSpotDetail": "Entrance to a a medium size dungeon like area. Also contains a caravan. Interact with the giant door to enter.",
+          "type": "RUIN",
+          "source": "TeleportPlayer 192277.84375 121278.367188 -4418.856934",
+          "x": 192277.8437,
+          "y": 121278.367188,
+          "z": -4418.856934
+        },
+        {
+          "location": "Last Refuge",
+          "spawnSpotDetail": "Entrance to a large dungeon like area",
+          "type": "THRALL_CAMP_CIMMERIAN_CAPITAL",
+          "source": "TeleportPlayer -81074.859375 -385529.3125 -14195.115234",
+          "x": -81074.859375,
+          "y": -385529.3125,
+          "z": -14195.115234
+        }
+        {
+          "location": "Last Words Cavern",
+          "spawnSpot": "Black Hand",
+          "type": "THRALL_CAMP_BLACK_HAND",
+          "source": "TeleportPlayer -192972.640625 53225.917969 -20894.0",
+          "x": -192972.640625,
+          "y": 53225.917969,
+          "z": -20894.0
+        },
+        {
+          "location": "Redwood Hamlet",
+          "spawnSpot": "Heirs of the North",
+          "type": "THRALL_CAMP_CIMMERIAN",
+          "source": "TeleportPlayer 206707.59375 -29707.054688 -6201.364258",
+          "x": 206707.59375,
+          "y": -29707.054688,
+          "z": -6201.364258
+        },
+        {
+          "location": "Ruins of Skehk-Hah",
+          "spawnSpot": "",
+          "spawnSpotDetail": "Contains one Sorcerer and a Sorcerer Spell Book",
+          "type": "RUIN",
+          "source": "TeleportPlayer -129193.351563 156927.515625 -15764.806641",
+          "x": -129193.351563,
+          "y": 156927.515625,
+          "z": -15764.806641
+        },
+        {
+          "location": "Yog's Feast",
+          "spawnSpot": "Darfari",
+          "spawnSpotDetail": "Contains one Sorcerer and a Sorcerer Spell Book. Contains Puffball Mushroom nodes.",
+          "type": "THRALL_CAMP_DARFARI_CAPITAL",
+          "source": "TeleportPlayer -139194.890625 187674.8125 -14922.458008",
+          "x": -139194.890625,
+          "y": 187674.8125,
+          "z": -14922.458008
+        },
+        {
+          "location": "Skull Ridge",
+          "spawnSpot": "Darfari",
+          "spawnSpotDetail": "Contains one Sorcerer and a Sorcerer Spell Book. Both are next to the portal stone.",
+          "type": "THRALL_CAMP_DARFARI",
+          "source": "TeleportPlayer -64538.246094 168185.09375 -19249.316406",
+          "x": -64538.246094,
+          "y": 168185.09375,
+          "z": -19249.316406
+        },
+        {
+          "location": "Desert Outlook",
+          "spawnSpot": "Darfari",
+          "spawnSpotDetail": "",
+          "type": "THRALL_CAMP_DARFARI",
+          "source": "TeleportPlayer -35906.007813 142856.34375 -17742.611328",
+          "x": -35906.007813,
+          "y": 142856.34375,
+          "z": -17742.611328
+        },
+        {
+          "location": "Murun Garrison",
+          "spawnSpot": "Relic Hunters",
+          "spawnSpotDetail": "Friendly camp with merchants.",
+          "type": "THRALL_CAMP_RELIC_HUNTERS",
+          "source": "TeleportPlayer -44010.304688 107588.78125 -15077.78125",
+          "x": -44010.304688,
+          "y": 107588.78125,
+          "z": -15077.78125
+        },
+        {
+          "location": "Murun Gates",
+          "spawnSpot": "Relic Hunters",
+          "spawnSpotDetail": "Friendly camp with merchants. Petruso the Sandstone Maniac (Heart of Sands) can be found right at the western gate.",
+          "type": "THRALL_CAMP_RELIC_HUNTERS",
+          "source": "TeleportPlayer -32939.054688 102792.632813 -12860.979492",
+          "x": -32939.054688,
+          "y": 102792.632813,
+          "z": -12860.979492
+        },
+        {
+          "location": "Temple Ruins",
+          "spawnSpot": "Lemurian",
+          "spawnSpotDetail": "Contains one Sorcerer and a Sorcerer Spell Book on the altar next to the portal stone.",
+          "type": "THRALL_CAMP_LEMURIAN",
+          "source": "TeleportPlayer 167155.78125 206729.875 -7541.053711",
+          "x": 167155.78125,
+          "y": 206729.875,
+          "z": -7541.053711
+        },
+        {
+          "location": "Crimson Beachhead",
+          "spawnSpot": "Crimson Tide",
+          "spawnSpotDetail": "Contains a Relic Fragment box",
+          "type": "THRALL_CAMP_CRIMSON_TIDE",
+          "source": "TeleportPlayer -41781.984375 259620.203125 -18578.560547",
+          "x": -41781.984375,
+          "y": 259620.203125,
+          "z": -18578.560547
+        },
+        {
+          "location": "Crimson Overwatch",
+          "spawnSpot": "Crimson Tide",
+          "spawnSpotDetail": "One sorcerer and a spell book near the portal stone.",
+          "type": "THRALL_CAMP_CRIMSON_TIDE",
+          "source": "TeleportPlayer -135390.34375 328537.3125 -12051.389648",
+          "x": -135390.34375,
+          "y": 328537.3125,
+          "z": -12051.389648
+        },
+        {
+          "location": "Bonecracker Camp",
+          "spawnSpot": "Darfari",
+          "spawnSpotDetail": "One sorcerer and one spell book near the portal stone.",
+          "type": "THRALL_CAMP_DARFARI",
+          "source": "TeleportPlayer -139742.671875 295209.28125 -17147.234375",
+          "x": -139742.671875,
+          "y": 295209.28125,
+          "z": -17147.234375
+        }
+	{
+	"location": "Abandoned Docks",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 526.513428 -156673.5 -20562.078125",
+	"x": 526.513428,
+	"y": -156673.5,
+	"z": -20562.07813
+	},
+	{
+	"location": "Ancestral Gate",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -81116.992188 300595.40625 -25081.191406",
+	"x": -81116.99219,
+	"y": 300595.4063,
+	"z": -25081.19141
+	},
+	{
+	"location": "Ancient Port",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CARAVAN",
+	"source": "TeleportPlayer -115135.664063 260766.3125 -20639.226563",
+	"x": -115135.6641,
+	"y": 260766.3125,
+	"z": -20639.22656
+	},
+	{
+	"location": "Barracks of the Dead",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "RUIN",
+	"source": "TeleportPlayer -125570.859375 305854.34375 -20726.501953",
+	"x": -125570.8594,
+	"y": 305854.3438,
+	"z": -20726.50195
+	},
+	{
+	"location": "Blackblood Cave",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CAVE",
+	"source": "TeleportPlayer -144735.15625 347248 -15382.24707",
+	"x": -144735.1563,
+	"y": 347248,
+	"z": -15382.24707
+	},
+	{
+	"location": "Blackblood Crypt",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "DUNGEON",
+	"source": "TeleportPlayer -253702.921875 326653.15625 -15678.889648",
+	"x": -253702.9219,
+	"y": 326653.1563,
+	"z": -15678.88965
+	},
+	{
+	"location": "Blacksail Guard",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_BLACK_HAND",
+	"source": "TeleportPlayer -127700.460938 91981.09375 -19794.53125",
+	"x": -127700.4609,
+	"y": 91981.09375,
+	"z": -19794.53125
+	},
+	{
+	"location": "Blood Hills",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -84406.421875 26277.1875 -7170.975586",
+	"x": -84406.42188,
+	"y": 26277.1875,
+	"z": -7170.975586
+	},
+	{
+	"location": "Boar Hunter's Cabin",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_VANIR",
+	"source": "TeleportPlayer -86814.992188 -138395.625 -14553.880859",
+	"x": -86814.99219,
+	"y": -138395.625,
+	"z": -14553.88086
+	},
+	{
+	"location": "Bonerattler Post",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_DARFARI",
+	"source": "TeleportPlayer 5827.432617 102663.289063 -11797.404297",
+	"x": 5827.432617,
+	"y": 102663.2891,
+	"z": -11797.4043
+	},
+	{
+	"location": "Broken Caravan",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CARAVAN",
+	"source": "TeleportPlayer -4384.960938 328086.8125 -20838.216797",
+	"x": -4384.960938,
+	"y": 328086.8125,
+	"z": -20838.2168
+	},
+	{
+	"location": "Broken Pass",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 88966.515625 -26339.517578 -19325.90625",
+	"x": 88966.51563,
+	"y": -26339.51758,
+	"z": -19325.90625
+	},
+	{
+	"location": "Broken Waves Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "YMIR",
+	"source": "TeleportPlayer 205461.703125 -331997.5625 -20117.216797",
+	"x": 205461.7031,
+	"y": -331997.5625,
+	"z": -20117.2168
+	},
+	{
+	"location": "Cabhan Fell",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_CIMMERIAN",
+	"source": "TeleportPlayer 127207.359375 3688.663574 -6770.317383",
+	"x": 127207.3594,
+	"y": 3688.663574,
+	"z": -6770.317383
+	},
+	{
+	"location": "Cadwallon",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_CIMMERIAN",
+	"source": "TeleportPlayer 133510.734375 -119173.109375 -14069.168945",
+	"x": 133510.7344,
+	"y": -119173.1094,
+	"z": -14069.16895
+	},
+	{
+	"location": "Cave of the Crone",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "RESOURCE_PLANT",
+	"source": "TeleportPlayer 80548.609375 175289.3125 -11918.630859",
+	"x": 80548.60938,
+	"y": 175289.3125,
+	"z": -11918.63086
+	},
+	{
+	"location": "Cave of the Last Tribe",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CAVE",
+	"source": "TeleportPlayer 197970.875 -27600.460938 -11438.183594",
+	"x": 197970.875,
+	"y": -27600.46094,
+	"z": -11438.18359
+	},
+	{
+	"location": "Clam-Diver's Cave",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CAVE",
+	"source": "TeleportPlayer -129441.96875 388329.21875 -24875.871094",
+	"x": -129441.9688,
+	"y": 388329.2188,
+	"z": -24875.87109
+	},
+	{
+	"location": "Corpse-Eater's Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_DARFARI",
+	"source": "TeleportPlayer 68852.195313 -168210.359375 -11581.25",
+	"x": 68852.19531,
+	"y": -168210.3594,
+	"z": -11581.25
+	},
+	{
+	"location": "Cracked Fjords",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 68691.484375 -307877.28125 -17285.746094",
+	"x": 68691.48438,
+	"y": -307877.2813,
+	"z": -17285.74609
+	},
+	{
+	"location": "Cracked Fjords",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CARAVAN",
+	"source": "TeleportPlayer 60489.53125 -365656.6875 -19433.384766",
+	"x": 60489.53125,
+	"y": -365656.6875,
+	"z": -19433.38477
+	},
+	{
+	"location": "Crashed Landing",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "RUIN",
+	"source": "TeleportPlayer 164723.25 -157689.828125 -20677.818359",
+	"x": 164723.25,
+	"y": -157689.8281,
+	"z": -20677.81836
+	},
+	{
+	"location": "Crawlskin Cavern",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "RUIN",
+	"source": "TeleportPlayer -118613.476563 -46577.96875 -16605.488281",
+	"x": -118613.4766,
+	"y": -46577.96875,
+	"z": -16605.48828
+	},
+	{
+	"location": "Crimson Logging Camp",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_CRIMSON_TIDE",
+	"source": "TeleportPlayer 1833.497559 311879.25 -16928.748047",
+	"x": 1833.497559,
+	"y": 311879.25,
+	"z": -16928.74805
+	},
+	{
+	"location": "Crystal Cave",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CAVE",
+	"source": "TeleportPlayer -24601.041016 7209.626465 -11506.34668",
+	"x": -24601.04102,
+	"y": 7209.626465,
+	"z": -11506.34668
+	},
+	{
+	"location": "Drakr",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "ANIMAL",
+	"source": "TeleportPlayer 87819.507813 -256913.828125 -16541.236328",
+	"x": 87819.50781,
+	"y": -256913.8281,
+	"z": -16541.23633
+	},
+	{
+	"location": "East Ethereal Bastion",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "DUNGEON",
+	"source": "TeleportPlayer 144616.125 314117.65625 16850.546875",
+	"x": 144616.125,
+	"y": 314117.6563,
+	"z": 16850.54688
+	},
+	{
+	"location": "Eastern Broken Steppes",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "ANIMAL",
+	"source": "TeleportPlayer -67484.101563 346096.46875 -20502.441406",
+	"x": -67484.10156,
+	"y": 346096.4688,
+	"z": -20502.44141
+	},
+	{
+	"location": "Ellwyn's Pond",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 124497.273438 -35973.261719 -12589.408203",
+	"x": 124497.2734,
+	"y": -35973.26172,
+	"z": -12589.4082
+	},
+	{
+	"location": "Elysium",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -336191.96875 -30314.201172 256.000122",
+	"x": -336191.9688,
+	"y": -30314.20117,
+	"z": 256.000122
+	},
+	{
+	"location": "Excavated Ruins",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "RUIN",
+	"source": "TeleportPlayer -131564.0625 345966.375 -6392.262695",
+	"x": -131564.0625,
+	"y": 345966.375,
+	"z": -6392.262695
+	},
+	{
+	"location": "Foreman's Camp",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_RELIC_HUNTERS",
+	"source": "TeleportPlayer -89527.96875 367951.84375 -15220.383789",
+	"x": -89527.96875,
+	"y": 367951.8438,
+	"z": -15220.38379
+	},
+	{
+	"location": "Frost Ridge Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_VANIR",
+	"source": "TeleportPlayer -125649.296875 -164222.328125 -12474.291016",
+	"x": -125649.2969,
+	"y": -164222.3281,
+	"z": -12474.29102
+	},
+	{
+	"location": "Frosthollow",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CAVE",
+	"source": "TeleportPlayer -43297.164063 -351088.25 -14664.727539",
+	"x": -43297.16406,
+	"y": -351088.25,
+	"z": -14664.72754
+	},
+	{
+	"location": "Frostscar Ravine",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 144400.40625 -282483.1875 -14996.759766",
+	"x": 144400.4063,
+	"y": -282483.1875,
+	"z": -14996.75977
+	},
+	{
+	"location": "Fuming Pond",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -31419.048828 -369353.40625 -20844",
+	"x": -31419.04883,
+	"y": -369353.4063,
+	"z": -20844
+	},
+	{
+	"location": "Glacial Pond",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 136230.453125 -185939.640625 -9549.998047",
+	"x": 136230.4531,
+	"y": -185939.6406,
+	"z": -9549.998047
+	},
+	{
+	"location": "Glowing Ice Grotto",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CAVE",
+	"source": "TeleportPlayer 174683.21875 -344112.84375 -18944.261719",
+	"x": 174683.2188,
+	"y": -344112.8438,
+	"z": -18944.26172
+	},
+	{
+	"location": "Grey Ape Grotto",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CAVE",
+	"source": "TeleportPlayer 106028.554688 19359.5 -5311.291992",
+	"x": 106028.5547,
+	"y": 19359.5,
+	"z": -5311.291992
+	},
+	{
+	"location": "Halls of the Voidforge",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -299152.875 288835 -20518.867188",
+	"x": -299152.875,
+	"y": 288835,
+	"z": -20518.86719
+	},
+	{
+	"location": "Hoarfrost Forest",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -169283.3125 -216510.046875 -17537.21875",
+	"x": -169283.3125,
+	"y": -216510.0469,
+	"z": -17537.21875
+	},
+	{
+	"location": "Hoarfrost Vigil",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "YMIR",
+	"source": "TeleportPlayer -195385.640625 -328529.96875 -12949.229492",
+	"x": -195385.6406,
+	"y": -328529.9688,
+	"z": -12949.22949
+	},
+	{
+	"location": "Hollow Glacier",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CAVE",
+	"source": "TeleportPlayer 253214 -352108.875 -18762.279297",
+	"x": 253214,
+	"y": -352108.875,
+	"z": -18762.2793
+	},
+	{
+	"location": "Houndmaster's Yard",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -241006 293769.875 -14516.986328",
+	"x": -241006,
+	"y": 293769.875,
+	"z": -14516.98633
+	},
+	{
+	"location": "House of Vala",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "DUNGEON",
+	"source": "TeleportPlayer -248655.109375 304936.1875 -16189.108398",
+	"x": -248655.1094,
+	"y": 304936.1875,
+	"z": -16189.1084
+	},
+	{
+	"location": "Hunting Cabin",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE",
+	"source": "TeleportPlayer -139823.5 -68324.492188 -16807.34375",
+	"x": -139823.5,
+	"y": -68324.49219,
+	"z": -16807.34375
+	},
+	{
+	"location": "Hyperborean Staging Post",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "YMIR",
+	"source": "TeleportPlayer -5714.211914 -172680.921875 -16070.683594",
+	"x": -5714.211914,
+	"y": -172680.9219,
+	"z": -16070.68359
+	},
+	{
+	"location": "Icedrop Pond",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -184077 -297402.03125 -18280.601563",
+	"x": -184077,
+	"y": -297402.0313,
+	"z": -18280.60156
+	},
+	{
+	"location": "Icewind Plateau",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "YMIR",
+	"source": "TeleportPlayer 38134.128906 -195258.6875 -5017.803223",
+	"x": 38134.12891,
+	"y": -195258.6875,
+	"z": -5017.803223
+	},
+	{
+	"location": "Imi's Embrace",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -112128.867188 -70204.359375 -19421.277344",
+	"x": -112128.8672,
+	"y": -70204.35938,
+	"z": -19421.27734
+	},
+	{
+	"location": "Invaders Landing",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_RELIC_HUNTERS",
+	"source": "TeleportPlayer -144664.65625 362271 -20665.232422",
+	"x": -144664.6563,
+	"y": 362271,
+	"z": -20665.23242
+	},
+	{
+	"location": "Ironpass Post",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_BLACK_HAND",
+	"source": "TeleportPlayer -113663.757813 101876.375 -13934.106445",
+	"x": -113663.7578,
+	"y": 101876.375,
+	"z": -13934.10645
+	},
+	{
+	"location": "Isvakt Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_VANIR",
+	"source": "TeleportPlayer -181493.953125 -164199.671875 -12333.644531",
+	"x": -181493.9531,
+	"y": -164199.6719,
+	"z": -12333.64453
+	},
+	{
+	"location": "Khulan's Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE",
+	"source": "TeleportPlayer -190984.375 -55608.699219 -8043.396484",
+	"x": -190984.375,
+	"y": -55608.69922,
+	"z": -8043.396484
+	},
+	{
+	"location": "Kraxus' Foothold",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -272309.4375 309546.84375 -20209.355469",
+	"x": -272309.4375,
+	"y": 309546.8438,
+	"z": -20209.35547
+	},
+	{
+	"location": "Lonely Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_CRIMSON_TIDE",
+	"source": "TeleportPlayer -2109.818604 274090.40625 -16265.722656",
+	"x": -2109.818604,
+	"y": 274090.4063,
+	"z": -16265.72266
+	},
+	{
+	"location": "Long Shallows Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_CRIMSON_TIDE",
+	"source": "TeleportPlayer 29018.501953 288377.59375 -20586.570313",
+	"x": 29018.50195,
+	"y": 288377.5938,
+	"z": -20586.57031
+	},
+	{
+	"location": "Mad Hermits Cottage",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_VANIR",
+	"source": "TeleportPlayer 125982.507813 -193534.296875 3860.42627",
+	"x": 125982.5078,
+	"y": -193534.2969,
+	"z": 3860.42627
+	},
+	{
+	"location": "Maelgwyn's Glen",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_CIMMERIAN_CAPITAL",
+	"source": "TeleportPlayer 176632.53125 -87503.539063 -13477.813477",
+	"x": 176632.5313,
+	"y": -87503.53906,
+	"z": -13477.81348
+	},
+	{
+	"location": "Maelgwyn's Pass",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 216353.296875 -90680.539063 -11475",
+	"x": 216353.2969,
+	"y": -90680.53906,
+	"z": -11475
+	},
+	{
+	"location": "Mori",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE",
+	"source": "TeleportPlayer -178573.25 -85308.546875 -12246.887695",
+	"x": -178573.25,
+	"y": -85308.54688,
+	"z": -12246.8877
+	},
+	{
+	"location": "Murun Outskirts",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CARAVAN",
+	"source": "TeleportPlayer -19190.439453 107794.859375 -7505.993164",
+	"x": -19190.43945,
+	"y": 107794.8594,
+	"z": -7505.993164
+	},
+	{
+	"location": "Murun",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_RELIC_HUNTERS_CAPITAL",
+	"source": "TeleportPlayer -17283.654297 98661.25 -8107.035156",
+	"x": -17283.6543,
+	"y": 98661.25,
+	"z": -8107.035156
+	},
+	{
+	"location": "N'kosi's Redoubt",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "DUNGEON",
+	"source": "TeleportPlayer -225908.609375 309203.96875 -5985.171875",
+	"x": -225908.6094,
+	"y": 309203.9688,
+	"z": -5985.171875
+	},
+	{
+	"location": "No Mans Land",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CARAVAN",
+	"source": "TeleportPlayer -296452.5625 292007.90625 -20512.375",
+	"x": -296452.5625,
+	"y": 292007.9063,
+	"z": -20512.375
+	},
+	{
+	"location": "Northern Retreat",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_CRIMSON_TIDE",
+	"source": "TeleportPlayer -43083.628906 272263.4375 -15871.876953",
+	"x": -43083.62891,
+	"y": 272263.4375,
+	"z": -15871.87695
+	},
+	{
+	"location": "Old Mines",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CAVE",
+	"source": "TeleportPlayer -224383.734375 -143930.65625 -15671.604492",
+	"x": -224383.7344,
+	"y": -143930.6563,
+	"z": -15671.60449
+	},
+	{
+	"location": "Old Overlook",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 81093.117188 -166217.59375 -4351.412598",
+	"x": 81093.11719,
+	"y": -166217.5938,
+	"z": -4351.412598
+	},
+	{
+	"location": "Old Pict Cave",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CAVE",
+	"source": "TeleportPlayer 28878.044922 -291896.4375 -7965.628906",
+	"x": 28878.04492,
+	"y": -291896.4375,
+	"z": -7965.628906
+	},
+	{
+	"location": "Old Smuggler's Way",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CAVE",
+	"source": "TeleportPlayer -154361.71875 -234616.140625 -16129.263672",
+	"x": -154361.7188,
+	"y": -234616.1406,
+	"z": -16129.26367
+	},
+	{
+	"location": "Old Trade Docks",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CARAVAN",
+	"source": "TeleportPlayer 66392.984375 -19921.1875 -20831.865234",
+	"x": 66392.98438,
+	"y": -19921.1875,
+	"z": -20831.86523
+	},
+	{
+	"location": "Outpost Ruins",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "RUIN",
+	"source": "TeleportPlayer 92461.078125 120620.148438 -13355.819336",
+	"x": 92461.07813,
+	"y": 120620.1484,
+	"z": -13355.81934
+	},
+	{
+	"location": "Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "YMIR",
+	"source": "TeleportPlayer -38666.089844 -261585.640625 -4059.51416",
+	"x": -38666.08984,
+	"y": -261585.6406,
+	"z": -4059.51416
+	},
+	{
+	"location": "Overlook Oasis",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -17992.289063 279212.78125 -19827.082031",
+	"x": -17992.28906,
+	"y": 279212.7813,
+	"z": -19827.08203
+	},
+	{
+	"location": "Patchsail Retreat",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_BLACK_HAND",
+	"source": "TeleportPlayer 36460.734375 125839.210938 -4408.34668",
+	"x": 36460.73438,
+	"y": 125839.2109,
+	"z": -4408.34668
+	},
+	{
+	"location": "Pit of Salvation",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "SUMMON",
+	"source": "TeleportPlayer -13818.275391 -286145.375 819.258301",
+	"x": -13818.27539,
+	"y": -286145.375,
+	"z": 819.258301
+	},
+	{
+	"location": "Ragnar's Folly",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -19965.224609 -347220.3125 -11143.522461",
+	"x": -19965.22461,
+	"y": -347220.3125,
+	"z": -11143.52246
+	},
+	{
+	"location": "Red Rock Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_BLACK_HAND",
+	"source": "TeleportPlayer -91000 105322.664063 -11756.253906",
+	"x": -91000,
+	"y": 105322.6641,
+	"z": -11756.25391
+	},
+	{
+	"location": "Redwood Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_CIMMERIAN",
+	"source": "TeleportPlayer 205808.609375 -77456.9375 -2514.923828",
+	"x": 205808.6094,
+	"y": -77456.9375,
+	"z": -2514.923828
+	},
+	{
+	"location": "Rhydwen's Retreat",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 66898.851563 27140.072266 -12547.228516",
+	"x": 66898.85156,
+	"y": 27140.07227,
+	"z": -12547.22852
+	},
+	{
+	"location": "Road of Pilgrims",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -55902.164063 -293940.84375 -10937.105469",
+	"x": -55902.16406,
+	"y": -293940.8438,
+	"z": -10937.10547
+	},
+	{
+	"location": "Roadside Encampment",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_CRIMSON_TIDE",
+	"source": "TeleportPlayer -27517.650391 277892.03125 -17427.041016",
+	"x": -27517.65039,
+	"y": 277892.0313,
+	"z": -17427.04102
+	},
+	{
+	"location": "Roof of the World",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -61267.613281 -231017.125 4186.729492",
+	"x": -61267.61328,
+	"y": -231017.125,
+	"z": 4186.729492
+	},
+	{
+	"location": "Ruined Abode",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "RUIN",
+	"source": "TeleportPlayer -69475.90625 -339745.46875 -17203.972656",
+	"x": -69475.90625,
+	"y": -339745.4688,
+	"z": -17203.97266
+	},
+	{
+	"location": "Ruined Watchtower",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_BLACK_HAND",
+	"source": "TeleportPlayer 48319.976563 203764.5625 -18226.449219",
+	"x": 48319.97656,
+	"y": 203764.5625,
+	"z": -18226.44922
+	},
+	{
+	"location": "Sabretooth Pass",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "ANIMAL",
+	"source": "TeleportPlayer -177103.78125 -238529.984375 -19676.054688",
+	"x": -177103.7813,
+	"y": -238529.9844,
+	"z": -19676.05469
+	},
+	{
+	"location": "Saoirse's Pond",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 189623.3125 -54199.695313 -8426.665039",
+	"x": 189623.3125,
+	"y": -54199.69531,
+	"z": -8426.665039
+	},
+	{
+	"location": "Savannah Hideout",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_CRIMSON_TIDE",
+	"source": "TeleportPlayer 7547.053711 265840.0625 -19291.050781",
+	"x": 7547.053711,
+	"y": 265840.0625,
+	"z": -19291.05078
+	},
+	{
+	"location": "Scorching Flats",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -107570.398438 145521.078125 -10763.291992",
+	"x": -107570.3984,
+	"y": 145521.0781,
+	"z": -10763.29199
+	},
+	{
+	"location": "Sea-Dragon's Demise",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -171268.4375 283330.40625 -20844",
+	"x": -171268.4375,
+	"y": 283330.4063,
+	"z": -20844
+	},
+	{
+	"location": "Shattered Plateau",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 6535.339844 -349557.53125 -10891.240234",
+	"x": 6535.339844,
+	"y": -349557.5313,
+	"z": -10891.24023
+	},
+	{
+	"location": "Shensha's Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE",
+	"source": "TeleportPlayer 37210.441406 60641.210938 -11502.337891",
+	"x": 37210.44141,
+	"y": 60641.21094,
+	"z": -11502.33789
+	},
+	{
+	"location": "Ship Graveyard",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -74944.78125 247272.6875 -20844",
+	"x": -74944.78125,
+	"y": 247272.6875,
+	"z": -20844
+	},
+	{
+	"location": "Silvercutter Camp",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_CRIMSON_TIDE",
+	"source": "TeleportPlayer 32779.871094 371046.21875 -11363.223633",
+	"x": 32779.87109,
+	"y": 371046.2188,
+	"z": -11363.22363
+	},
+	{
+	"location": "Silverdig Cave",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CAVE",
+	"source": "TeleportPlayer -96425.335938 -337686.9375 -18516.966797",
+	"x": -96425.33594,
+	"y": -337686.9375,
+	"z": -18516.9668
+	},
+	{
+	"location": "Skulker Point",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_DARFARI",
+	"source": "TeleportPlayer -72426.914063 286534.59375 -20795.478516",
+	"x": -72426.91406,
+	"y": 286534.5938,
+	"z": -20795.47852
+	},
+	{
+	"location": "Skullgate Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "YMIR",
+	"source": "TeleportPlayer 43845.445313 -177973.5 -13610.68457",
+	"x": 43845.44531,
+	"y": -177973.5,
+	"z": -13610.68457
+	},
+	{
+	"location": "Skullhunter Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_DARFARI",
+	"source": "TeleportPlayer -62863.820313 266658.03125 -20402.246094",
+	"x": -62863.82031,
+	"y": 266658.0313,
+	"z": -20402.24609
+	},
+	{
+	"location": "Skulltaker Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_FROST_GIANT",
+	"source": "TeleportPlayer 116962.414063 -253907.125 -1694.856445",
+	"x": 116962.4141,
+	"y": -253907.125,
+	"z": -1694.856445
+	},
+	{
+	"location": "Skyreach Ruins",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "RUIN",
+	"source": "TeleportPlayer -10018.060547 285003.59375 -10478.636719",
+	"x": -10018.06055,
+	"y": 285003.5938,
+	"z": -10478.63672
+	},
+	{
+	"location": "Slavetaker's Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "YMIR",
+	"source": "TeleportPlayer -196432.28125 -270416.40625 -13631.173828",
+	"x": -196432.2813,
+	"y": -270416.4063,
+	"z": -13631.17383
+	},
+	{
+	"location": "Snowhearth",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_VANIR",
+	"source": "TeleportPlayer -136124.1875 -262236.40625 -7560.801758",
+	"x": -136124.1875,
+	"y": -262236.4063,
+	"z": -7560.801758
+	},
+	{
+	"location": "South Beach",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CARAVAN",
+	"source": "TeleportPlayer -79342.796875 202977.46875 -20831.851563",
+	"x": -79342.79688,
+	"y": 202977.4688,
+	"z": -20831.85156
+	},
+	{
+	"location": "South Ethereal Bastion",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 138334.75 319818.5 16850.546875",
+	"x": 138334.75,
+	"y": 319818.5,
+	"z": 16850.54688
+	},
+	{
+	"location": "Stomping Grounds",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "ANIMAL",
+	"source": "TeleportPlayer 93942.734375 -210290.75 -8418.449219",
+	"x": 93942.73438,
+	"y": -210290.75,
+	"z": -8418.449219
+	},
+	{
+	"location": "Stones of Louhi",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "YMIR",
+	"source": "TeleportPlayer -138147.875 -340341.78125 -18408.294922",
+	"x": -138147.875,
+	"y": -340341.7813,
+	"z": -18408.29492
+	},
+	{
+	"location": "Stygian Treasure Fleet",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -164132 232753.921875 -21700.130859",
+	"x": -164132,
+	"y": 232753.9219,
+	"z": -21700.13086
+	},
+	{
+	"location": "The Cutoffs",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_RELIC_HUNTERS",
+	"source": "TeleportPlayer -116068.367188 373331 -17606.234375",
+	"x": -116068.3672,
+	"y": 373331,
+	"z": -17606.23438
+	},
+	{
+	"location": "The Dead Gates",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "RUIN",
+	"source": "TeleportPlayer -41099.839844 287692.65625 -20756.660156",
+	"x": -41099.83984,
+	"y": 287692.6563,
+	"z": -20756.66016
+	},
+	{
+	"location": "The Engineer's Prison",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "DUNGEON",
+	"source": "TeleportPlayer -218782.125 305092.125 -10295.329102",
+	"x": -218782.125,
+	"y": 305092.125,
+	"z": -10295.3291
+	},
+	{
+	"location": "The Frozen Gates",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "VAULT",
+	"source": "TeleportPlayer -131650.390625 -185192.703125 -19429.457031",
+	"x": -131650.3906,
+	"y": -185192.7031,
+	"z": -19429.45703
+	},
+	{
+	"location": "The Frozen Monestary",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "DUNGEON",
+	"source": "TeleportPlayer 193394.234375 -375788.46875 -14460.018555",
+	"x": 193394.2344,
+	"y": -375788.4688,
+	"z": -14460.01856
+	},
+	{
+	"location": "The Great Lift",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "RUIN",
+	"source": "TeleportPlayer -97769.015625 365049.53125 -15829.929688",
+	"x": -97769.01563,
+	"y": 365049.5313,
+	"z": -15829.92969
+	},
+	{
+	"location": "The Grove",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_JHEBBAL",
+	"source": "TeleportPlayer -83210.210938 -54073.074219 -19556.480469",
+	"x": -83210.21094,
+	"y": -54073.07422,
+	"z": -19556.48047
+	},
+	{
+	"location": "The Hall of Heroes",
+	"spawnSpot": "",
+	"spawnSpotDetail": "Inside of the Notch and Arrow Tavern",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -338760.40625 -197232.765625 5.798187",
+	"x": -338760.4063,
+	"y": -197232.7656,
+	"z": 5.798187
+	},
+	{
+	"location": "The Haven",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_VANIR",
+	"source": "TeleportPlayer 171625.40625 -38933.160156 4032.207764",
+	"x": 171625.4063,
+	"y": -38933.16016,
+	"z": 4032.207764
+	},
+	{
+	"location": "The Hive",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -117622.929688 68031.054688 -13462.69043",
+	"x": -117622.9297,
+	"y": 68031.05469,
+	"z": -13462.69043
+	},
+	{
+	"location": "The Last Bastion",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_LEMURIAN_CAPITAL",
+	"source": "TeleportPlayer 171991.65625 174731.21875 1749.473145",
+	"x": 171991.6563,
+	"y": 174731.2188,
+	"z": 1749.473145
+	},
+	{
+	"location": "The Lost Atheneum",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "DUNGEON",
+	"source": "TeleportPlayer -277645.75 322965.40625 -20824.982422",
+	"x": -277645.75,
+	"y": 322965.4063,
+	"z": -20824.98242
+	},
+	{
+	"location": "The Maw",
+	"spawnSpot": "",
+	"spawnSpotDetail": "Entrance to Volcano",
+	"type": "RUIN",
+	"source": "TeleportPlayer -6274.857422 -17900.003906 -13882.820313",
+	"x": -6274.857422,
+	"y": -17900.00391,
+	"z": -13882.82031
+	},
+	{
+	"location": "The Necropolis",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "DUNGEON",
+	"source": "TeleportPlayer -247766.578125 322596.40625 -15678.885742",
+	"x": -247766.5781,
+	"y": 322596.4063,
+	"z": -15678.88574
+	},
+	{
+	"location": "The Needle",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -96536.953125 23098.841797 -4846.191895",
+	"x": -96536.95313,
+	"y": 23098.8418,
+	"z": -4846.191895
+	},
+	{
+	"location": "The Notch and Arrow",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -340984.34375 -197275.0625 4.491455",
+	"x": -340984.3438,
+	"y": -197275.0625,
+	"z": 4.491455
+	},
+	{
+	"location": "The Oasis",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -171678.8125 97056.804688 -20844",
+	"x": -171678.8125,
+	"y": 97056.80469,
+	"z": -20844
+	},
+	{
+	"location": "The Old Spire",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -229844.828125 293354.4375 -9533.560547",
+	"x": -229844.8281,
+	"y": 293354.4375,
+	"z": -9533.560547
+	},
+	{
+	"location": "The Pit",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_DARFARI",
+	"source": "TeleportPlayer -7977.819824 159835.78125 -15701.604492",
+	"x": -7977.819824,
+	"y": 159835.7813,
+	"z": -15701.60449
+	},
+	{
+	"location": "The Quarry",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_RELIC_HUNTERS",
+	"source": "TeleportPlayer -103488.359375 369501.96875 -15992.231445",
+	"x": -103488.3594,
+	"y": 369501.9688,
+	"z": -15992.23145
+	},
+	{
+	"location": "The Ribcage",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_FROST_GIANT",
+	"source": "TeleportPlayer 165218.625 -277835.25 2018.152832",
+	"x": 165218.625,
+	"y": -277835.25,
+	"z": 2018.152832
+	},
+	{
+	"location": "The Roadblock",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_CRIMSON_TIDE",
+	"source": "TeleportPlayer 16626.173828 342720.375 -13421.78418",
+	"x": 16626.17383,
+	"y": 342720.375,
+	"z": -13421.78418
+	},
+	{
+	"location": "The Screaming Haunt",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -132135.984375 -375189.75 -11563.921875",
+	"x": -132135.9844,
+	"y": -375189.75,
+	"z": -11563.92188
+	},
+	{
+	"location": "The Skull Gate",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "VAULT",
+	"source": "TeleportPlayer 23493.84375 -185536.15625 -11988.635742",
+	"x": 23493.84375,
+	"y": -185536.1563,
+	"z": -11988.63574
+	},
+	{
+	"location": "The Sunken Arena",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "RUIN",
+	"source": "TeleportPlayer 15390.067383 -37949.335938 -20844",
+	"x": 15390.06738,
+	"y": -37949.33594,
+	"z": -20844
+	},
+	{
+	"location": "The Sunken Fleet",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 212104.140625 -312702.0625 -20844",
+	"x": 212104.1406,
+	"y": -312702.0625,
+	"z": -20844
+	},
+	{
+	"location": "The Sunken Forge",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "DUNGEON",
+	"source": "TeleportPlayer -290213.125 286694.21875 -20788.839844",
+	"x": -290213.125,
+	"y": 286694.2188,
+	"z": -20788.83984
+	},
+	{
+	"location": "The Sunken Temple",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "RUIN",
+	"source": "TeleportPlayer -77916.585938 313937.96875 -19723.837891",
+	"x": -77916.58594,
+	"y": 313937.9688,
+	"z": -19723.83789
+	},
+	{
+	"location": "The Veil of Memories",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -333073.65625 -197199.625 -99.752899",
+	"x": -333073.6563,
+	"y": -197199.625,
+	"z": -99.752899
+	},
+	{
+	"location": "The Watering Hole",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -81480.828125 353290.625 -20844",
+	"x": -81480.82813,
+	"y": 353290.625,
+	"z": -20844
+	},
+	{
+	"location": "The Wild Plateau",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 206587.9375 -42297.730469 -6301.566406",
+	"x": 206587.9375,
+	"y": -42297.73047,
+	"z": -6301.566406
+	},
+	{
+	"location": "Throne of the Witch",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "YMIR",
+	"source": "TeleportPlayer 117476.164063 -162574.6875 505.848633",
+	"x": 117476.1641,
+	"y": -162574.6875,
+	"z": 505.848633
+	},
+	{
+	"location": "Tiger Trapper Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_DOGS",
+	"source": "TeleportPlayer 68430.5 140725.890625 -5648.578613",
+	"x": 68430.5,
+	"y": 140725.8906,
+	"z": -5648.578613
+	},
+	{
+	"location": "Twin Tribes Cave",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CAVE",
+	"source": "TeleportPlayer -57462.023438 366630.78125 -20126.214844",
+	"x": -57462.02344,
+	"y": 366630.7813,
+	"z": -20126.21484
+	},
+	{
+	"location": "Valor's Fall",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 109587.4375 -335383.25 -14333.93457",
+	"x": 109587.4375,
+	"y": -335383.25,
+	"z": -14333.93457
+	},
+	{
+	"location": "Vargrheim",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_VANIR_CAPITAL",
+	"source": "TeleportPlayer 62830.660156 -71454.65625 -17472.654297",
+	"x": 62830.66016,
+	"y": -71454.65625,
+	"z": -17472.6543
+	},
+	{
+	"location": "Vargrvakt Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_VANIR",
+	"source": "TeleportPlayer -163689.359375 -139531.15625 -12600.361328",
+	"x": -163689.3594,
+	"y": -139531.1563,
+	"z": -12600.36133
+	},
+	{
+	"location": "Veiled Memory",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 294756.28125 245011.046875 4504.132813",
+	"x": 294756.2813,
+	"y": 245011.0469,
+	"z": 4504.132813
+	},
+	{
+	"location": "Veiled Memory",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 259273.5625 147402.5 -11068.18457",
+	"x": 259273.5625,
+	"y": 147402.5,
+	"z": -11068.18457
+	},
+	{
+	"location": "Veiled Memory",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 307216.5 182047.453125 -12133.62793",
+	"x": 307216.5,
+	"y": 182047.4531,
+	"z": -12133.62793
+	},
+	{
+	"location": "Veiled Memory",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 372658.4375 -354804.09375 -15916.952148",
+	"x": 372658.4375,
+	"y": -354804.0938,
+	"z": -15916.95215
+	},
+	{
+	"location": "Verglass Grotto",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CAVE",
+	"source": "TeleportPlayer 120708.78125 -339918.25 -19502.179688",
+	"x": 120708.7813,
+	"y": -339918.25,
+	"z": -19502.17969
+	},
+	{
+	"location": "Vestfold",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_VANIR",
+	"source": "TeleportPlayer -48124.167969 -116306.992188 -20594.740234",
+	"x": -48124.16797,
+	"y": -116306.9922,
+	"z": -20594.74023
+	},
+	{
+	"location": "Vulture Watch",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_CRIMSON_TIDE",
+	"source": "TeleportPlayer -24863.214844 265118.90625 -16322.889648",
+	"x": -24863.21484,
+	"y": 265118.9063,
+	"z": -16322.88965
+	},
+	{
+	"location": "Watchtower",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_VANIR",
+	"source": "TeleportPlayer 7045.921387 -86605.164063 -17743.746094",
+	"x": 7045.921387,
+	"y": -86605.16406,
+	"z": -17743.74609
+	},
+	{
+	"location": "West Ethereal Bastion",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "DUNGEON",
+	"source": "TeleportPlayer 132148.203125 314117.65625 16850.546875",
+	"x": 132148.2031,
+	"y": 314117.6563,
+	"z": 16850.54688
+	},
+	{
+	"location": "Western Broken Steppes",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "ANIMAL",
+	"source": "TeleportPlayer -91564.117188 349449.78125 -19231.322266",
+	"x": -91564.11719,
+	"y": 349449.7813,
+	"z": -19231.32227
+	},
+	{
+	"location": "Western Pass",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer -205390.6875 -30260.220703 -9139.24707",
+	"x": -205390.6875,
+	"y": -30260.2207,
+	"z": -9139.24707
+	},
+	{
+	"location": "Widow's Passage",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CAVE",
+	"source": "TeleportPlayer 175428.40625 203507.8125 -11968.605469",
+	"x": 175428.4063,
+	"y": 203507.8125,
+	"z": -11968.60547
+	},
+	{
+	"location": "Widow's Passage",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CAVE",
+	"source": "TeleportPlayer 154422.03125 198801.234375 -13815.102539",
+	"x": 154422.0313,
+	"y": 198801.2344,
+	"z": -13815.10254
+	},
+	{
+	"location": "Windhelm",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "VAULT",
+	"source": "TeleportPlayer 126426.101563 82160.8125 6149.789063",
+	"x": 126426.1016,
+	"y": 82160.8125,
+	"z": 6149.789063
+	},
+	{
+	"location": "Wintergarde Outpost",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "YMIR",
+	"source": "TeleportPlayer -41632.738281 -185871 -12067.160156",
+	"x": -41632.73828,
+	"y": -185871,
+	"z": -12067.16016
+	},
+	{
+	"location": "Wolfrun",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "CARAVAN",
+	"source": "TeleportPlayer -206926.6875 -168703.515625 -15737.474609",
+	"x": -206926.6875,
+	"y": -168703.5156,
+	"z": -15737.47461
+	},
+	{
+	"location": "Wreck of the Sea Maiden",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "RUIN",
+	"source": "TeleportPlayer -117771.992188 383814.59375 -20449.628906",
+	"x": -117771.9922,
+	"y": 383814.5938,
+	"z": -20449.62891
+	},
+	{
+	"location": "Ymir's Blade",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "POINT_OF_INTEREST",
+	"source": "TeleportPlayer 151952.421875 -160298.90625 -4709.633789",
+	"x": 151952.4219,
+	"y": -160298.9063,
+	"z": -4709.633789
+	},
+	{
+	"location": "Ymir's Breath",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "YMIR",
+	"source": "TeleportPlayer -73058.671875 -209168.34375 -17871.087891",
+	"x": -73058.67188,
+	"y": -209168.3438,
+	"z": -17871.08789
+	},
+	{
+	"location": "Zarrynn's Retreat",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_CRIMSON_TIDE_CAPITAL",
+	"source": "TeleportPlayer -20004.199219 319285.84375 -18832.648438",
+	"x": -20004.19922,
+	"y": 319285.8438,
+	"z": -18832.64844
+	}
+      ]
+    },
+        {
+          "name": "Admin Stages",
+          "id": "Admin Stages",
+          "type": "SECRET",
+          "locations": [
+	{
+	"location": "Movie Stage 01",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE_CAPITAL",
+	"source": "TeleportPlayer 314407 -127769 -19319",
+	"x": 314407,
+	"y": -127769,
+	"z": -19319
+	},
+	{
+	"location": "Movie Stage 02",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE_CAPITAL",
+	"source": "TeleportPlayer 345088 -126976 -18432",
+	"x": 345088,
+	"y": -126976,
+	"z": -18432
+	},
+	{
+	"location": "Movie Stage 03",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE_CAPITAL",
+	"source": "TeleportPlayer 345088 -155648 -18432",
+	"x": 345088,
+	"y": -155648,
+	"z": -18432
+	},
+	{
+	"location": "Movie Stage 04",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE_CAPITAL",
+	"source": "TeleportPlayer 314368 -156672 -18432",
+	"x": 314368,
+	"y": -156672,
+	"z": -18432
+	},
+	{
+	"location": "Movie Stage 05",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE_CAPITAL",
+	"source": "TeleportPlayer 344064 -183296 -18432",
+	"x": 344064,
+	"y": -183296,
+	"z": -18432
+	},
+	{
+	"location": "Movie Stage 06",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE_CAPITAL",
+	"source": "TeleportPlayer 345088 -211968 -18432",
+	"x": 345088,
+	"y": -211968,
+	"z": -18432
+	},
+	{
+	"location": "Movie Stage 07",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE_CAPITAL",
+	"source": "TeleportPlayer 314368 -183296 -18432",
+	"x": 314368,
+	"y": -183296,
+	"z": -18432
+	},
+	{
+	"location": "Movie Stage 08",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE_CAPITAL",
+	"source": "TeleportPlayer 314368 -211968 -18432",
+	"x": 314368,
+	"y": -211968,
+	"z": -18432
+	},
+	{
+	"location": "Movie Stage 09",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE_CAPITAL",
+	"source": "TeleportPlayer 315000 -241000 -18500",
+	"x": 315000,
+	"y": -241000,
+	"z": -18500
+	},
+	{
+	"location": "Movie Stage 10",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE_CAPITAL",
+	"source": "TeleportPlayer 343000 -241000 -18500",
+	"x": 343000,
+	"y": -241000,
+	"z": -18500
+	},
+	{
+	"location": "Movie Stage 11",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE_CAPITAL",
+	"source": "TeleportPlayer 343000 -272000 -18500",
+	"x": 343000,
+	"y": -272000,
+	"z": -18500
+	},
+	{
+	"location": "Movie Stage 12",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE_CAPITAL",
+	"source": "TeleportPlayer 315000 -272000 -18500",
+	"x": 315000,
+	"y": -272000,
+	"z": -18500
+	},
+	{
+	"location": "Open Sky Admin Stage - The Archipelago",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE_CAPITAL",
+	"source": "TeleportPlayer -299000 234000 -15100",
+	"x": -299000,
+	"y": 234000,
+	"z": -15100
+	},
+	{
+	"location": "Open Sky Admin Stage - The Island (Lower)",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE_CAPITAL",
+	"source": "TeleportPlayer -306017 131434 -18331",
+	"x": -306017,
+	"y": 131434,
+	"z": -18331
+	},
+	{
+	"location": "Open Sky Admin Stage - The Island (Upper)",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE_CAPITAL",
+	"source": "TeleportPlayer -329460 128276 -6585",
+	"x": -329460,
+	"y": 128276,
+	"z": -6585
+	},
+	{
+	"location": "Open Sky Admin Stage - The Valley",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "THRALL_CAMP_EXILE_CAPITAL",
+	"source": "TeleportPlayer -240712 9233 -10088",
+	"x": -240712,
+	"y": 9233,
+	"z": -10088
+	}
       ]
     },
     {
-      "name": "Mini-Bosses",
-      "id": "Mini-Bosses",
+      "name": "Bosses",
+      "id": "Bosses",
       "type": "BOSS",
       "locations": [
         {
@@ -546,13 +2502,6 @@
           "y": -288557.15625,
           "z": -17773.521484
         }
-      ]
-    },
-    {
-      "name": "Bosses",
-      "id": "Bosses",
-      "type": "BOSS",
-      "locations": [
         {
           "location": "Giant Crocodile",
           "spawnSpot": "The Cistern",
@@ -607,7 +2556,7 @@
           "z": -19693.113281
         },
         {
-          "location": "Reptilian Monstrosity (boss)",
+          "location": "Reptilian Monstrosity",
           "spawnSpot": "Swamp",
           "spawnSpotDetail": "",
           "type": "BOSS",
@@ -755,211 +2704,1933 @@
           "x": -153777.375,
           "y": 262126.828125,
           "z": -20275.828125
-        }
+        },
+        {
+	"location": "Werewolf",
+	"spawnSpot": "East of Obsidian Mines",
+	"spawnSpotDetail": "Will drop Flesh of Remembrance",
+	"type": "BOSS",
+	"source": "TeleportPlayer45127.453125 29606.824219 -11215.977539",
+	"x": 45127.45313,
+	"y": 29606.82422,
+	"z": -11215.97754
+	}
       ]
     },
     {
-      "name": "Dungeons",
-      "id": "Dungeons",
-      "type": "DUNGEON",
+      "name": "Hidden Caves",
+      "id": "Hidden Caves",
+      "type": "CAVE",
       "locations": [
-        {
-          "location": "The Atlantean Tomb",
-          "spawnSpotDetail": "Small dungeon that contains The King Beneath boss. Drops a Scroll and a Golden Key.",
-          "type": "DUNGEON",
-          "source": "TeleportPlayer -103840.039063 150425.34375 -14509.063477",
-          "x": -103840.039063,
-          "y": 150425.34375,
-          "z": -14509.063477,
-          "loot": [
-            "Scroll (Vanquisher of the King Beneath)",
-            "Golden Key"
-          ]
-        },
-        {
-          "location": "The Notch and Arrow",
-          "spawnSpotDetail": "Entrance to the Notch and Arrow. This is a hub that allows you entrance to Veiled Memories (portals) or Siptah bosses (jump down in the space region)",
-          "type": "DUNGEON",
-          "source": "TeleportPlayer -47208.492188 107316.546875 -15081.051758",
-          "x": -47208.492188,
-          "y": 107316.546875,
-          "z": -15081.051758,
-          "loot": [
-            "Scroll (Vanquisher of the King Beneath)",
-            "Golden Key"
-          ]
-        },
-        {
-          "location": "The Cistern",
-          "spawnSpotDetail": "Entrance to the Mini-Dungeon The Cistern. Contains Giant Crocodile boss and Sobek Warriors.",
-          "type": "STAMP3",
-          "source": "TeleportPlayer -147250.234375 37964.113281 -10557.922852",
-          "x": -147250.234375,
-          "y": 37964.113281,
-          "z": -10557.922852
-        },
-        {
-          "location": "Ruins of Xun'sha",
-          "spawnSpotDetail": "Entrance to a a medium size dungeon like area. Also contains a caravan. Interact with the giant door to enter.",
-          "type": "RUIN",
-          "source": "TeleportPlayer 192277.84375 121278.367188 -4418.856934",
-          "x": 192277.8437,
-          "y": 121278.367188,
-          "z": -4418.856934
-        },
-        {
-          "location": "Last Refuge",
-          "spawnSpotDetail": "Entrance to a large dungeon like area",
-          "type": "POINT_OF_INTEREST",
-          "source": "TeleportPlayer -81074.859375 -385529.3125 -14195.115234",
-          "x": -81074.859375,
-          "y": -385529.3125,
-          "z": -14195.115234
+	{
+	"location": "Catacombs",
+	"spawnSpot": "Hills west of Cadwallon",
+	"spawnSpotDetail": "Has undead enemies and poisonous gas",
+	"type": "CAVE",
+	"source": "TeleportPlayer126055.859375 -114798.429688 -12524.114258",
+	"x": 126055.8594,
+	"y": -114798.4297,
+	"z": -12524.11426
+	},
+	{
+	"location": "Sealed Cave",
+	"spawnSpot": "Maelgwyn's Glen",
+	"spawnSpotDetail": "Has coal, brimstone, and poisonous gas",
+	"type": "CAVE",
+	"source": "TeleportPlayer172708.828125 -95092.9375 -15007.81543",
+	"x": 172708.8281,
+	"y": -95092.9375,
+	"z": -15007.81543
+	},
+	{
+	"location": "Sealed Cave",
+	"spawnSpot": "Cliffside southeast of Red Rock Outpost",
+	"spawnSpotDetail": "Full of crystals",
+	"type": "CAVE",
+	"source": "TeleportPlayer-86696.242188 107443.570313 -12710.417969",
+	"x": -86696.24219,
+	"y": 107443.5703,
+	"z": -12710.41797
+	},
+	{
+	"location": "Sealed Cave",
+	"spawnSpot": "Cliffside east of Vargrheim",
+	"spawnSpotDetail": "Has iron, brimstone, and spiders",
+	"type": "CAVE",
+	"source": "TeleportPlayer71999.40625 -80873.296875 -15946.339844",
+	"x": 71999.40625,
+	"y": -80873.29688,
+	"z": -15946.33984
+	},
+	{
+	"location": "Cave to the Sorcery Grotto",
+	"spawnSpot": "East of Temple Ruins",
+	"spawnSpotDetail": "Leads in to the entrance to the Sorcery Grotto",
+	"type": "CAVE",
+	"source": "TeleportPlayer170384.796875 205836.359375 -9094.96875",
+	"x": 170384.7969,
+	"y": 205836.3594,
+	"z": -9094.96875
+	},
+	{
+	"location": "Ruined Tower",
+	"spawnSpot": "",
+	"spawnSpotDetail": "Rusted Key above, Rusted Grate to lower level",
+	"type": "SECRET",
+	"source": "TeleportPlayer-97028.5 -329279.125 -13128.514648",
+	"x": -97028.5,
+	"y": -329279.125,
+	"z": -13128.51465
+	},
+	{
+	"location": "Ruined Tower",
+	"spawnSpot": "",
+	"spawnSpotDetail": "Rusted Key, recipe journal for The Forgotten Clan banner on shelf",
+	"type": "SECRET",
+	"source": "TeleportPlayer-123167.851563 -315917 -12662.90332",
+	"x": -123167.8516,
+	"y": -315917,
+	"z": -12662.90332
+	},
+	{
+	"location": "Ruined Tower (Treasure Vault)",
+	"spawnSpot": "",
+	"spawnSpotDetail": "Need Rusted Key from upper scaffolding area inside other two towers, Doors, clockwise from entrance: Supply Materials, Fragment of Power, Rare Materials, Grandmaster Repair Kits, Epic Tools, Bile, Epic Armor Recipe, Star Metal Ore, Eldarium Bars, Legendary Weapon, Lotus Seeds",
+	"type": "SECRET",
+	"source": "TeleportPlayer-118880.664063 -332762.09375 -12293.787109",
+	"x": -118880.6641,
+	"y": -332762.0938,
+	"z": -12293.78711
+	},
+	{
+          "location": "Hidden Excavator's Cave",
+          "spawnSpotDetail": "Entrance to a hidden cave. You need to dive under and through the water to get to the hidden part. Contains feat books.",
+          "type": "CAVE",
+          "source": "TeleportPlayer -7260.091797 -58762.539063 -19755.648438",
+          "x": -7260.091797,
+          "y": -58762.539063,
+          "z": -19755.648438
         }
       ]
     },
-    {
-      "name": "Thrall Camps",
-      "id": "Thrall Camps",
-      "type": "THRALL_CAMP",
-      "locations": [
-        {
-          "location": "Last Words Cavern",
-          "spawnSpot": "Black Hand",
-          "type": "THRALL_CAMP_BLACK_HAND",
-          "source": "TeleportPlayer -192972.640625 53225.917969 -20894.0",
-          "x": -192972.640625,
-          "y": 53225.917969,
-          "z": -20894.0
-        },
-        {
-          "location": "Redwood Hamlet",
-          "spawnSpot": "Heirs of the North",
-          "type": "THRALL_CAMP_BLACK_HAND",
-          "source": "TeleportPlayer 206707.59375 -29707.054688 -6201.364258",
-          "x": 206707.59375,
-          "y": -29707.054688,
-          "z": -6201.364258
-        },
-        {
-          "location": "Ruins of Skehk-Hah",
-          "spawnSpot": "???",
-          "spawnSpotDetail": "Contains one Sorcerer and a Sorcerer Spell Book",
-          "type": "RUIN",
-          "source": "TeleportPlayer -129193.351563 156927.515625 -15764.806641",
-          "x": -129193.351563,
-          "y": 156927.515625,
-          "z": -15764.806641
-        },
-        {
-          "location": "Yog's Feast",
-          "spawnSpot": "Darfari",
-          "spawnSpotDetail": "Contains one Sorcerer and a Sorcerer Spell Book. Contains Puffball Mushroom nodes.",
-          "type": "THRALL_CAMP_DARFARI_CAPITAL",
-          "source": "TeleportPlayer -139194.890625 187674.8125 -14922.458008",
-          "x": -139194.890625,
-          "y": 187674.8125,
-          "z": -14922.458008
-        },
-        {
-          "location": "Skull Ridge",
-          "spawnSpot": "Darfari",
-          "spawnSpotDetail": "Contains one Sorcerer and a Sorcerer Spell Book. Both are next to the portal stone.",
-          "type": "THRALL_CAMP_DARFARI",
-          "source": "TeleportPlayer -64538.246094 168185.09375 -19249.316406",
-          "x": -64538.246094,
-          "y": 168185.09375,
-          "z": -19249.316406
-        },
-        {
-          "location": "Desert Outlook",
-          "spawnSpot": "Darfari",
-          "spawnSpotDetail": "",
-          "type": "THRALL_CAMP_DARFARI",
-          "source": "TeleportPlayer -35906.007813 142856.34375 -17742.611328",
-          "x": -35906.007813,
-          "y": 142856.34375,
-          "z": -17742.611328
-        },
-        {
-          "location": "Murun Garrison",
-          "spawnSpot": "Relic Hunters",
-          "spawnSpotDetail": "Friendly camp with merchants.",
-          "type": "THRALL_CAMP_RELIC_HUNTERS",
-          "source": "TeleportPlayer -44010.304688 107588.78125 -15077.78125",
-          "x": -44010.304688,
-          "y": 107588.78125,
-          "z": -15077.78125
-        },
-        {
-          "location": "Murun Gates",
-          "spawnSpot": "Relic Hunters",
-          "spawnSpotDetail": "Friendly camp with merchants. Petruso the Sandstone Maniac (Heart of Sands) can be found right at the western gate.",
-          "type": "THRALL_CAMP_RELIC_HUNTERS",
-          "source": "TeleportPlayer -32939.054688 102792.632813 -12860.979492",
-          "x": -32939.054688,
-          "y": 102792.632813,
-          "z": -12860.979492
-        },
-        {
-          "location": "Temple Ruins",
-          "spawnSpot": "Lemurian",
-          "spawnSpotDetail": "Contains one Sorcerer and a Sorcerer Spell Book on the altar next to the portal stone.",
-          "type": "THRALL_CAMP_LEMURIAN",
-          "source": "TeleportPlayer 167155.78125 206729.875 -7541.053711",
-          "x": 167155.78125,
-          "y": 206729.875,
-          "z": -7541.053711
-        },
-        {
-          "location": "Crimson Beachhead",
-          "spawnSpot": "Crimson Tide",
-          "spawnSpotDetail": "Contains a Relic Fragment box",
-          "type": "THRALL_CAMP_CRIMSON_TIDE",
-          "source": "TeleportPlayer -41781.984375 259620.203125 -18578.560547",
-          "x": -41781.984375,
-          "y": 259620.203125,
-          "z": -18578.560547
-        },
-        {
-          "location": "Crimson Overwatch",
-          "spawnSpot": "Crimson Tide",
-          "spawnSpotDetail": "One sorcerer and a spell book near the portal stone.",
-          "type": "THRALL_CAMP_CRIMSON_TIDE",
-          "source": "TeleportPlayer -135390.34375 328537.3125 -12051.389648",
-          "x": -135390.34375,
-          "y": 328537.3125,
-          "z": -12051.389648
-        },
-        {
-          "location": "Unnamed Exile Camp",
-          "spawnSpot": "Exiles",
-          "spawnSpotDetail": "",
-          "type": "THRALL_CAMP_EXILE",
-          "source": "TeleportPlayer -70389.765625 259955.125 -20405.810547",
-          "x": -70389.765625,
-          "y": 259955.125,
-          "z": -20405.810547
-        },
-        {
-          "location": "Bonecracker Camp",
-          "spawnSpot": "Darfari",
-          "spawnSpotDetail": "One sorcerer and one spell book near the portal stone.",
-          "type": "THRALL_CAMP_DARFARI",
-          "source": "TeleportPlayer -139742.671875 295209.28125 -17147.234375",
-          "x": -139742.671875,
-          "y": 295209.28125,
-          "z": -17147.234375
-        }
-      ]
-    },
+	{
+	"name": "Merchants",
+	"id": "Merchants",
+	"type":"MERCHANT",
+	"locations": [
+	{
+	"location": "Khitan Exiled Trader (Weapons)",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-25452.451172 100939.75 -8088.705078",
+	"x": -25452.45117,
+	"y": 100939.75,
+	"z": -8088.705078
+	},
+	{
+	"location": "Khitan Exiled Trader (Tools)",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-24916.886719 101559.726563 -8095.776367",
+	"x": -24916.88672,
+	"y": 101559.7266,
+	"z": -8095.776367
+	},
+	{
+	"location": "Khitan Exiled Trader (Ophidian Magi's Cache)",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-25080.626953 101123.882813 -8090.454102",
+	"x": -25080.62695,
+	"y": 101123.8828,
+	"z": -8090.454102
+	},
+	{
+	"location": "Khitan Exiled Slaver (Thralls)",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-24159.259766 100966.648438 -8044.495605",
+	"x": -24159.25977,
+	"y": 100966.6484,
+	"z": -8044.495605
+	},
+	{
+	"location": "Khitan Exiled Trader (Grand Ophidian Magi's Cache)",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-25038.503906 100569.5625 -8088.979004",
+	"x": -25038.50391,
+	"y": 100569.5625,
+	"z": -8088.979004
+	},
+	{
+	"location": "Khitan Exiled Trader (Supply Crates)",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-24350.605469 101140.21875 -8090.677734",
+	"x": -24350.60547,
+	"y": 101140.2188,
+	"z": -8090.677734
+	},
+	{
+	"location": "Valeria of the Red Brotherhood",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "Spy Reports",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-19524.390625 100282.859375 -8107.03418",
+	"x": -19524.39063,
+	"y": 100282.8594,
+	"z": -8107.03418
+	},
+	{
+	"location": "Shamalla The Pirate Queen",
+	"spawnSpot": "South Beach",
+	"spawnSpotDetail": "Pearls",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-78604.820313 203465.875 -20632.830078",
+	"x": -78604.82031,
+	"y": 203465.875,
+	"z": -20632.83008
+	},
+	{
+	"location": "JL Gogan",
+	"spawnSpot": "Notch and Arrow",
+	"spawnSpotDetail": "Valor Token Merchant",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-342329.8125 -197342.625 5.798187",
+	"x": -342329.8125,
+	"y": -197342.625,
+	"z": 5.798187
+	},
+	{
+	"location": "Weeba Shamrock",
+	"spawnSpot": "South Beach",
+	"spawnSpotDetail": "Pearls",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-78514.710938 204225.359375 -20613.121094",
+	"x": -78514.71094,
+	"y": 204225.3594,
+	"z": -20613.12109
+	},
+	{
+	"location": "Sissa",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "Apothecary",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-18341.171875 94987.421875 -8104.418945",
+	"x": -18341.17188,
+	"y": 94987.42188,
+	"z": -8104.418945
+	},
+	{
+	"location": "Sissa",
+	"spawnSpot": "Cave of the Crone",
+	"spawnSpotDetail": "Apothecary",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer80371.546875 174316.859375 -11825.820313",
+	"x": 80371.54688,
+	"y": 174316.8594,
+	"z": -11825.82031
+	},
+	{
+	"location": "Nabine",
+	"spawnSpot": "Last Refuge",
+	"spawnSpotDetail": "Serving Wench",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer294166.59375 -65077.257813 -15373.435547",
+	"x": 294166.5938,
+	"y": -65077.25781,
+	"z": -15373.43555
+	},
+	{
+	"location": "Nabine",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "Serving Wench",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-12121.391602 98551.40625 -8102.790527",
+	"x": -12121.3916,
+	"y": 98551.40625,
+	"z": -8102.790527
+	},
+	{
+	"location": "Hinal",
+	"spawnSpot": "Notch and Arrow",
+	"spawnSpotDetail": "Serving Wench",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-342132 -196537 4.491211",
+	"x": -342132,
+	"y": -196537,
+	"z": 4.491211
+	},
+	{
+	"location": "Oraime",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "Hunter",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-12452.206055 96056.71875 -8107.674316",
+	"x": -12452.20606,
+	"y": 96056.71875,
+	"z": -8107.674316
+	},
+	{
+	"location": "Oraime",
+	"spawnSpot": "Last Refuge",
+	"spawnSpotDetail": "Hunter",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer294162.375 -64281.652344 -15373.435547",
+	"x": 294162.375,
+	"y": -64281.65234,
+	"z": -15373.43555
+	},
+	{
+	"location": "Erergal",
+	"spawnSpot": "Murun Garrison",
+	"spawnSpotDetail": "Bowyer",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-43362.09375 105536.328125 -15181.248047",
+	"x": -43362.09375,
+	"y": 105536.3281,
+	"z": -15181.24805
+	},
+	{
+	"location": "Erergal",
+	"spawnSpot": "Last Refuge",
+	"spawnSpotDetail": "Bowyer",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer294237.21875 -64549.953125 -15373.429688",
+	"x": 294237.2188,
+	"y": -64549.95313,
+	"z": -15373.42969
+	},
+	{
+	"location": "Phishie",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "Grand Fishermen",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-15415.240234 98141.328125 -8109.209961",
+	"x": -15415.24023,
+	"y": 98141.32813,
+	"z": -8109.209961
+	},
+	{
+	"location": "Tania",
+	"spawnSpot": "Murun Outskirts",
+	"spawnSpotDetail": "Food Vendor",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-19867 107310 -7507",
+	"x": -19867,
+	"y": 107310,
+	"z": -7507
+	},
+	{
+	"location": "Tania",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "Food Vendor",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-11734 99369 -8106",
+	"x": -11734,
+	"y": 99369,
+	"z": -8106
+	},
+	{
+	"location": "Estr",
+	"spawnSpot": "Notch and Arrow",
+	"spawnSpotDetail": "Food Vendor",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-341894.0625 -196518.9375 4.491211",
+	"x": -341894.0625,
+	"y": -196518.9375,
+	"z": 4.491211
+	},
+	{
+	"location": "Kabhsenuf",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "Heavy Armor Merchant",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-11921.026367 96655.648438 -8107.033203",
+	"x": -11921.02637,
+	"y": 96655.64844,
+	"z": -8107.033203
+	},
+	{
+	"location": "Alexandria",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "Henna Artist",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-13610.222656 96190.1875 -8096.038574",
+	"x": -13610.22266,
+	"y": 96190.1875,
+	"z": -8096.038574
+	},
+	{
+	"location": "Khagatai Darmala",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "Horse Breeder",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-23431.570313 97144.296875 -8108.305664",
+	"x": -23431.57031,
+	"y": 97144.29688,
+	"z": -8108.305664
+	},
+	{
+	"location": "Khagatai Darmala",
+	"spawnSpot": "Last Refuge",
+	"spawnSpotDetail": "Horse Breeder",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer304812.40625 -60901.132813 -15353.897461",
+	"x": 304812.4063,
+	"y": -60901.13281,
+	"z": -15353.89746
+	},
+	{
+	"location": "Zalika",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "Light Armor Merchant",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-11643.021484 97321.21875 -8107.032715",
+	"x": -11643.02148,
+	"y": 97321.21875,
+	"z": -8107.032715
+	},
+	{
+	"location": "Shazarra",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "Lotus Peddler, in door across from well in upper Murun",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-269011.375 -6545.974609 277.534668",
+	"x": -269011.375,
+	"y": -6545.974609,
+	"z": 277.534668
+	},
+	{
+	"location": "Taf-nekht",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "Medium Armor Merchant",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-11594.891602 97056.234375 -8107.033203",
+	"x": -11594.8916,
+	"y": 97056.23438,
+	"z": -8107.033203
+	},
+	{
+	"location": "Laros Swiftsteel",
+	"spawnSpot": "Murun Garrison",
+	"spawnSpotDetail": "Weapons Merchant",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-43772.164063 108106.46875 -15177.980469",
+	"x": -43772.16406,
+	"y": 108106.4688,
+	"z": -15177.98047
+	},
+	{
+	"location": "Sloarlach Manyskins",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "Animal Trainer",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-22740.689453 95513.515625 -8106.668945",
+	"x": -22740.68945,
+	"y": 95513.51563,
+	"z": -8106.668945
+	},
+	{
+	"location": "Sloarlach Manyskins",
+	"spawnSpot": "Last Refuge",
+	"spawnSpotDetail": "Animal Trainer",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer297094.15625 -59377.355469 -15376.935547",
+	"x": 297094.1563,
+	"y": -59377.35547,
+	"z": -15376.93555
+	},
+	{
+	"location": "Brivan",
+	"spawnSpot": "Murun Gates",
+	"spawnSpotDetail": "Thrall Merchant",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-37426.988281 98410.789063 -12960.935547",
+	"x": -37426.98828,
+	"y": 98410.78906,
+	"z": -12960.93555
+	},
+	{
+	"location": "Laudepius",
+	"spawnSpot": "Murun Gates",
+	"spawnSpotDetail": "Thrall Merchant",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-37553.191406 98169.171875 -12960.935547",
+	"x": -37553.19141,
+	"y": 98169.17188,
+	"z": -12960.93555
+	},
+	{
+	"location": "Zeina The Vixen",
+	"spawnSpot": "South Beach",
+	"spawnSpotDetail": "Thrall Merchant",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-78698 204082.03125 -20604.066406",
+	"x": -78698,
+	"y": 204082.0313,
+	"z": -20604.06641
+	},
+	{
+	"location": "Velaryus",
+	"spawnSpot": "Murun Garrison",
+	"spawnSpotDetail": "Tools Merchant",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-44093.785156 108055.851563 -15177.980469",
+	"x": -44093.78516,
+	"y": 108055.8516,
+	"z": -15177.98047
+	},
+	{
+	"location": "Insein of Zamora",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "Occultist",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-15829.65625 98920.195313 -8107.023438",
+	"x": -15829.65625,
+	"y": 98920.19531,
+	"z": -8107.023438
+	},
+	{
+	"location": "Takarut",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "Gold for Bronze",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-32706.152344 101460.132813 -12959.279297",
+	"x": -32706.15234,
+	"y": 101460.1328,
+	"z": -12959.2793
+	},
+	{
+	"location": "Met-su-khons",
+	"spawnSpot": "Murun",
+	"spawnSpotDetail": "Silver For Bronze",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-32612.185547 101817.601563 -12960.114258",
+	"x": -32612.18555,
+	"y": 101817.6016,
+	"z": -12960.11426
+	},
+	{
+	"location": "Jackalope Hunter",
+	"spawnSpot": "Notch and Arrow",
+	"spawnSpotDetail": "Trade Ancient Paintbrush for random Siptah Vault Warpaint, use chest on stool beside him",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-341097.8125 -195433.96875 95.722488",
+	"x": -341097.8125,
+	"y": -195433.9688,
+	"z": 95.722488
+	},
+	{
+	"location": "Anakara",
+	"spawnSpot": "Notch and Arrow",
+	"spawnSpotDetail": "Trade Lost Manuscript for Fragment of Power, use table beside her",
+	"type": "MERCHANT",
+	"source": "TeleportPlayer-342044.1875 -198032.046875 95.724609",
+	"x": -342044.1875,
+	"y": -198032.0469,
+	"z": 95.724609
+	}
+	]
+	},
+	{
+	"name": "Events",
+	"id": "Events",
+	"type":"EVENT",
+	"locations": [
+	{
+	"location": "A Fistful Of Ice",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-40895.964844 -185098.484375 -12046.373047",
+	"x": -40895.96484,
+	"y": -185098.4844,
+	"z": -12046.37305
+	},
+	{
+	"location": "A Howl Of Wolves",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer64604.695313 -71714.609375 -16898.605469",
+	"x": 64604.69531,
+	"y": -71714.60938,
+	"z": -16898.60547
+	},
+	{
+	"location": "Arachnopocalypse",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-170009.3125 3175.932617 -14344.817383",
+	"x": -170009.3125,
+	"y": 3175.932617,
+	"z": -14344.81738
+	},
+	{
+	"location": "A Tide Of Ice",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-28069.107422 -289113.09375 -648.046875",
+	"x": -28069.10742,
+	"y": -289113.0938,
+	"z": -648.046875
+	},
+	{
+	"location": "A Tide Of Ice",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-197003.6875 -268250.625 -14141.626953",
+	"x": -197003.6875,
+	"y": -268250.625,
+	"z": -14141.62695
+	},
+	{
+	"location": "Beaked Bastards",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-64094.28125 169592.546875 -19186.902344",
+	"x": -64094.28125,
+	"y": 169592.5469,
+	"z": -19186.90234
+	},
+	{
+	"location": "Bearscapades",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-190528.96875 -55699.203125 -8047.480469",
+	"x": -190528.9688,
+	"y": -55699.20313,
+	"z": -8047.480469
+	},
+	{
+	"location": "Berserker Rage",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer135980.109375 -120613.476563 -13990.260742",
+	"x": 135980.1094,
+	"y": -120613.4766,
+	"z": -13990.26074
+	},
+	{
+	"location": "Birds Of Prey",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer118762.703125 81977.539063 8674.726563",
+	"x": 118762.7031,
+	"y": 81977.53906,
+	"z": 8674.726563
+	},
+	{
+	"location": "Birds Of Prey",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer3500.03125 11.898438 0",
+	"x": 3500.03125,
+	"y": 11.898438,
+	"z": 0
+	},
+	{
+	"location": "Birdy Nom Nom",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-136359.125 331669.15625 -12111.34082",
+	"x": -136359.125,
+	"y": 331669.1563,
+	"z": -12111.34082
+	},
+	{
+	"location": "Black Lotus Growths",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-106558.6875 -59090.09375 -20475.632813",
+	"x": -106558.6875,
+	"y": -59090.09375,
+	"z": -20475.63281
+	},
+	{
+	"location": "Black Lotus Growths",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-203311 -3838.902832 -7918.465332",
+	"x": -203311,
+	"y": -3838.902832,
+	"z": -7918.465332
+	},
+	{
+	"location": "Black Lotus Growths",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-41261.371094 -108331.132813 -20844",
+	"x": -41261.37109,
+	"y": -108331.1328,
+	"z": -20844
+	},
+	{
+	"location": "Cannibal Yolocaust",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-43487.53125 106186.351563 -15181.237305",
+	"x": -43487.53125,
+	"y": 106186.3516,
+	"z": -15181.23731
+	},
+	{
+	"location": "Caravan Of Disaster",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer82619.078125 -43110.542969 -19760.486328",
+	"x": 82619.07813,
+	"y": -43110.54297,
+	"z": -19760.48633
+	},
+	{
+	"location": "Caravan Waylaid",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-129226.320313 97090.570313 -19794.523438",
+	"x": -129226.3203,
+	"y": 97090.57031,
+	"z": -19794.52344
+	},
+	{
+	"location": "Caravan Waylaid",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-3504.144043 -2057.789063 0",
+	"x": -3504.144043,
+	"y": -2057.789063,
+	"z": 0
+	},
+	{
+	"location": "Caravan Waylaid",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-64017.402344 168252.25 -19349.080078",
+	"x": -64017.40234,
+	"y": 168252.25,
+	"z": -19349.08008
+	},
+	{
+	"location": "Caravan Waylaid",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer10886.617188 104764.59375 -13468.658203",
+	"x": 10886.61719,
+	"y": 104764.5938,
+	"z": -13468.6582
+	},
+	{
+	"location": "Challengers Vengeance",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer150705.734375 31424.662109 1482.031738",
+	"x": 150705.7344,
+	"y": 31424.66211,
+	"z": 1482.031738
+	},
+	{
+	"location": "Children Of Gullah",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer206156.59375 -79728.875 -2527.726318",
+	"x": 206156.5938,
+	"y": -79728.875,
+	"z": -2527.726318
+	},
+	{
+	"location": "Conan Unleashed",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-129082.546875 90044.304688 -19799.296875",
+	"x": -129082.5469,
+	"y": 90044.30469,
+	"z": -19799.29688
+	},
+	{
+	"location": "Corrupted Predators",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer92327.4375 120881.523438 -13343.3125",
+	"x": 92327.4375,
+	"y": 120881.5234,
+	"z": -13343.3125
+	},
+	{
+	"location": "Crimson Terror",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-20105.509766 319525.40625 -18804.726563",
+	"x": -20105.50977,
+	"y": 319525.4063,
+	"z": -18804.72656
+	},
+	{
+	"location": "Destroy Drums",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-138337.6875 188561.078125 -15025.980469",
+	"x": -138337.6875,
+	"y": 188561.0781,
+	"z": -15025.98047
+	},
+	{
+	"location": "Destroy Drums",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-64088.878906 168683.28125 -19339.083984",
+	"x": -64088.87891,
+	"y": 168683.2813,
+	"z": -19339.08398
+	},
+	{
+	"location": "Dragon Witch",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-69681.414063 -335798.78125 -18237.162109",
+	"x": -69681.41406,
+	"y": -335798.7813,
+	"z": -18237.16211
+	},
+	{
+	"location": "Elk Storm",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer69483.304688 -35152.394531 -20463.285156",
+	"x": 69483.30469,
+	"y": -35152.39453,
+	"z": -20463.28516
+	},
+	{
+	"location": "Fanged Cargo",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-140215.796875 -66850.15625 -16783.375",
+	"x": -140215.7969,
+	"y": -66850.15625,
+	"z": -16783.375
+	},
+	{
+	"location": "Feathered Foes",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer129397.703125 6634.935059 -7033.741211",
+	"x": 129397.7031,
+	"y": 6634.935059,
+	"z": -7033.741211
+	},
+	{
+	"location": "Find The Kitty",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-34358.320313 100432.03125 -12959.03418",
+	"x": -34358.32031,
+	"y": 100432.0313,
+	"z": -12959.03418
+	},
+	{
+	"location": "Find The Kitty",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-43829.34375 106994.148438 -15181.244141",
+	"x": -43829.34375,
+	"y": 106994.1484,
+	"z": -15181.24414
+	},
+	{
+	"location": "Forest Protector",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-1208.484375 6261.320313 0",
+	"x": -1208.484375,
+	"y": 6261.320313,
+	"z": 0
+	},
+	{
+	"location": "Forest Protector",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer206916.4375 -84516.148438 -2535.290039",
+	"x": 206916.4375,
+	"y": -84516.14844,
+	"z": -2535.290039
+	},
+	{
+	"location": "Frost Giant Frenzy",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-136833.03125 -261721.1875 -6961.134766",
+	"x": -136833.0313,
+	"y": -261721.1875,
+	"z": -6961.134766
+	},
+	{
+	"location": "Frost Giant Frenzy",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer2217.984375 -190.453125 0",
+	"x": 2217.984375,
+	"y": -190.453125,
+	"z": 0
+	},
+	{
+	"location": "Ghoulish Visitors",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-121015.125 -143329.53125 -19742.851563",
+	"x": -121015.125,
+	"y": -143329.5313,
+	"z": -19742.85156
+	},
+	{
+	"location": "Grave Matters",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-120947.132813 298446.875 -20509.773438",
+	"x": -120947.1328,
+	"y": 298446.875,
+	"z": -20509.77344
+	},
+	{
+	"location": "Grave Matters",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-177913.265625 -85027.828125 -12246.885742",
+	"x": -177913.2656,
+	"y": -85027.82813,
+	"z": -12246.88574
+	},
+	{
+	"location": "Grave Matters",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-41290.289063 287963.625 -20754.675781",
+	"x": -41290.28906,
+	"y": 287963.625,
+	"z": -20754.67578
+	},
+	{
+	"location": "Grave Matters",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-6074.311523 -172663.734375 -15985.923828",
+	"x": -6074.311523,
+	"y": -172663.7344,
+	"z": -15985.92383
+	},
+	{
+	"location": "Grave Matters",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-86328.296875 -136645.765625 -14682.552734",
+	"x": -86328.29688,
+	"y": -136645.7656,
+	"z": -14682.55273
+	},
+	{
+	"location": "Hanumans Gift",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-14599.192383 104523.132813 -6290.132813",
+	"x": -14599.19238,
+	"y": 104523.1328,
+	"z": -6290.132813
+	},
+	{
+	"location": "Hanumans Gift",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-6235.930176 288583.25 -8875.392578",
+	"x": -6235.930176,
+	"y": 288583.25,
+	"z": -8875.392578
+	},
+	{
+	"location": "Hanumans Gift",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer161631.09375 178909.640625 2109",
+	"x": 161631.0938,
+	"y": 178909.6406,
+	"z": 2109
+	},
+	{
+	"location": "Hanumans Gift",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer165702.765625 203290.109375 -7964.644531",
+	"x": 165702.7656,
+	"y": 203290.1094,
+	"z": -7964.644531
+	},
+	{
+	"location": "Hanumans Gift",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer208082.484375 -27711.75 -6326.714844",
+	"x": 208082.4844,
+	"y": -27711.75,
+	"z": -6326.714844
+	},
+	{
+	"location": "Hyperborean Attack",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-117788.023438 -272928.09375 -16950.892578",
+	"x": -117788.0234,
+	"y": -272928.0938,
+	"z": -16950.89258
+	},
+	{
+	"location": "Hyperboreans",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-46308.445313 -117148.796875 -20585.109375",
+	"x": -46308.44531,
+	"y": -117148.7969,
+	"z": -20585.10938
+	},
+	{
+	"location": "Imps On Parade",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-140132.671875 187695.4375 -15022.640625",
+	"x": -140132.6719,
+	"y": 187695.4375,
+	"z": -15022.64063
+	},
+	{
+	"location": "Imps On Parade",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-3127.234375 -420.140625 0",
+	"x": -3127.234375,
+	"y": -420.140625,
+	"z": 0
+	},
+	{
+	"location": "Imps On Parade",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer4373.875 -2096.0625 -653.427734",
+	"x": 4373.875,
+	"y": -2096.0625,
+	"z": -653.427734
+	},
+	{
+	"location": "Imps On Parade",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer4402.578125 -2346.5625 -679.473633",
+	"x": 4402.578125,
+	"y": -2346.5625,
+	"z": -679.473633
+	},
+	{
+	"location": "Imps On Parade",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer4757.875 -3018.375 -915.337891",
+	"x": 4757.875,
+	"y": -3018.375,
+	"z": -915.337891
+	},
+	{
+	"location": "Imps On Parade",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer4818.15625 -3270.671875 -931.703125",
+	"x": 4818.15625,
+	"y": -3270.671875,
+	"z": -931.703125
+	},
+	{
+	"location": "Imps On Parade",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer4903.140625 -3696.71875 -1095.831055",
+	"x": 4903.140625,
+	"y": -3696.71875,
+	"z": -1095.831055
+	},
+	{
+	"location": "Imps On Parade",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer4903.140625 -3942.875 -1095.831055",
+	"x": 4903.140625,
+	"y": -3942.875,
+	"z": -1095.831055
+	},
+	{
+	"location": "Increasing Hostilities",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-45337.203125 -115708.914063 -20517.292969",
+	"x": -45337.20313,
+	"y": -115708.9141,
+	"z": -20517.29297
+	},
+	{
+	"location": "Kill Boss Bear",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer39774.875 -195498.75 -5110.376953",
+	"x": 39774.875,
+	"y": -195498.75,
+	"z": -5110.376953
+	},
+	{
+	"location": "Kill Boss Crocodile",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-64398.925781 168875.390625 -19251.025391",
+	"x": -64398.92578,
+	"y": 168875.3906,
+	"z": -19251.02539
+	},
+	{
+	"location": "Kill Boss Dino Croc",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer37014.558594 127283.914063 -4358.260742",
+	"x": 37014.55859,
+	"y": 127283.9141,
+	"z": -4358.260742
+	},
+	{
+	"location": "Kill Boss Green Dragon",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-190017.109375 -55075.65625 -8050.774902",
+	"x": -190017.1094,
+	"y": -55075.65625,
+	"z": -8050.774902
+	},
+	{
+	"location": "Kill Boss Mastodon",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-182351.859375 -164620.078125 -12323.501953",
+	"x": -182351.8594,
+	"y": -164620.0781,
+	"z": -12323.50195
+	},
+	{
+	"location": "Kill Boss Protector Of The Tomb",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-104177.023438 151479.0625 -15207.057617",
+	"x": -104177.0234,
+	"y": 151479.0625,
+	"z": -15207.05762
+	},
+	{
+	"location": "Kill Boss Spider",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer36982.039063 127013.984375 -4368.361328",
+	"x": 36982.03906,
+	"y": 127013.9844,
+	"z": -4368.361328
+	},
+	{
+	"location": "Kill Boss Undead Dragon",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-233099.734375 -118582.234375 -15683.583984",
+	"x": -233099.7344,
+	"y": -118582.2344,
+	"z": -15683.58398
+	},
+	{
+	"location": "Kill Boss White Dragon",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-97651.945313 -274473.75 -17705.697266",
+	"x": -97651.94531,
+	"y": -274473.75,
+	"z": -17705.69727
+	},
+	{
+	"location": "Mad Cackle",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-1946.289551 778.609375 1518.90918",
+	"x": -1946.289551,
+	"y": 778.609375,
+	"z": 1518.90918
+	},
+	{
+	"location": "Mad Cackle",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-6086.412109 157639.53125 -14433.280273",
+	"x": -6086.412109,
+	"y": 157639.5313,
+	"z": -14433.28027
+	},
+	{
+	"location": "Monkey Business",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer48231.761719 203699.25 -18232.574219",
+	"x": 48231.76172,
+	"y": 203699.25,
+	"z": -18232.57422
+	},
+	{
+	"location": "Monkey Madness",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer167358.21875 206818.546875 -7678.327148",
+	"x": 167358.2188,
+	"y": 206818.5469,
+	"z": -7678.327148
+	},
+	{
+	"location": "Ostrich Farmers",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer68421.703125 140661.859375 -5645.511719",
+	"x": 68421.70313,
+	"y": 140661.8594,
+	"z": -5645.511719
+	},
+	{
+	"location": "Pirates On The Loose",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer167376.921875 -106058.851563 -18383.509766",
+	"x": 167376.9219,
+	"y": -106058.8516,
+	"z": -18383.50977
+	},
+	{
+	"location": "Pirates On The Loose",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer9080.3125 3141.320313 0",
+	"x": 9080.3125,
+	"y": 3141.320313,
+	"z": 0
+	},
+	{
+	"location": "Protectors Of Corruption",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer171984.609375 173069.03125 1979.591309",
+	"x": 171984.6094,
+	"y": 173069.0313,
+	"z": 1979.591309
+	},
+	{
+	"location": "Put Out Fires",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-13749.811523 89304.695313 -6517.182617",
+	"x": -13749.81152,
+	"y": 89304.69531,
+	"z": -6517.182617
+	},
+	{
+	"location": "Rabble Rousers",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-163812.59375 -139714 -12604.185547",
+	"x": -163812.5938,
+	"y": -139714,
+	"z": -12604.18555
+	},
+	{
+	"location": "Rabid Fangs",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer6254.301758 -85498.101563 -18103.800781",
+	"x": 6254.301758,
+	"y": -85498.10156,
+	"z": -18103.80078
+	},
+	{
+	"location": "Ready For War",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer129180.5625 4522.982422 -6307.786133",
+	"x": 129180.5625,
+	"y": 4522.982422,
+	"z": -6307.786133
+	},
+	{
+	"location": "Ribbit",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer207230.546875 -29646.134766 -6302.344238",
+	"x": 207230.5469,
+	"y": -29646.13477,
+	"z": -6302.344238
+	},
+	{
+	"location": "Rocknose Rumble",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-91069.203125 105595.90625 -11756.248047",
+	"x": -91069.20313,
+	"y": 105595.9063,
+	"z": -11756.24805
+	},
+	{
+	"location": "Sabres On The Loose",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer116936.53125 -161670.59375 580.347656",
+	"x": 116936.5313,
+	"y": -161670.5938,
+	"z": 580.347656
+	},
+	{
+	"location": "Sabretooths",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-73691.203125 -208998.390625 -17631.568359",
+	"x": -73691.20313,
+	"y": -208998.3906,
+	"z": -17631.56836
+	},
+	{
+	"location": "Scout Report",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-115195.023438 260126.484375 -20806.439453",
+	"x": -115195.0234,
+	"y": 260126.4844,
+	"z": -20806.43945
+	},
+	{
+	"location": "Scout Report",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-1654.140625 -480.3125 0",
+	"x": -1654.140625,
+	"y": -480.3125,
+	"z": 0
+	},
+	{
+	"location": "Scout Report",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-171828.59375 -85972.101563 -11550.654297",
+	"x": -171828.5938,
+	"y": -85972.10156,
+	"z": -11550.6543
+	},
+	{
+	"location": "Scout Report",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-3437.882813 -3179.15625 0",
+	"x": -3437.882813,
+	"y": -3179.15625,
+	"z": 0
+	},
+	{
+	"location": "Scout Report",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-3707.65625 82.007813 0",
+	"x": -3707.65625,
+	"y": 82.007813,
+	"z": 0
+	},
+	{
+	"location": "Scout Report",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-5740.929199 326818.625 -20844",
+	"x": -5740.929199,
+	"y": 326818.625,
+	"z": -20844
+	},
+	{
+	"location": "Scout Report",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-66167.671875 -203794.53125 -13614.003906",
+	"x": -66167.67188,
+	"y": -203794.5313,
+	"z": -13614.00391
+	},
+	{
+	"location": "Scout Report",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer162037.71875 -285529.6875 73.94043",
+	"x": 162037.7188,
+	"y": -285529.6875,
+	"z": 73.94043
+	},
+	{
+	"location": "Scout Report",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer2595.125 3997.78125 0",
+	"x": 2595.125,
+	"y": 3997.78125,
+	"z": 0
+	},
+	{
+	"location": "Scout Report",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer4613.609375 1658.679688 -1472.882813",
+	"x": 4613.609375,
+	"y": 1658.679688,
+	"z": -1472.882813
+	},
+	{
+	"location": "Scout Report",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer63683.421875 -95247.515625 -9369.858398",
+	"x": 63683.42188,
+	"y": -95247.51563,
+	"z": -9369.858398
+	},
+	{
+	"location": "Scout Report",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer72874.203125 -166754.140625 -10069.474609",
+	"x": 72874.20313,
+	"y": -166754.1406,
+	"z": -10069.47461
+	},
+	{
+	"location": "Servant Of Jhebbal Sag",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-83072.117188 -57889.398438 -19686.990234",
+	"x": -83072.11719,
+	"y": -57889.39844,
+	"z": -19686.99023
+	},
+	{
+	"location": "Servant Of Jhebbal Sag",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-875.84375 3195.628906 0",
+	"x": -875.84375,
+	"y": 3195.628906,
+	"z": 0
+	},
+	{
+	"location": "Smallest Stampede",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer36863.597656 61750.808594 -11502.34375",
+	"x": 36863.59766,
+	"y": 61750.80859,
+	"z": -11502.34375
+	},
+	{
+	"location": "Special Monsterparts",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-206033.234375 -168941.8125 -15741.794922",
+	"x": -206033.2344,
+	"y": -168941.8125,
+	"z": -15741.79492
+	},
+	{
+	"location": "Starfall",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-111472.929688 -139979.5625 -13121.401367",
+	"x": -111472.9297,
+	"y": -139979.5625,
+	"z": -13121.40137
+	},
+	{
+	"location": "Starfall",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-135137.953125 -262920.0625 3933.832031",
+	"x": -135137.9531,
+	"y": -262920.0625,
+	"z": 3933.832031
+	},
+	{
+	"location": "Starfall",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-198103.90625 -270569.75 3933.832031",
+	"x": -198103.9063,
+	"y": -270569.75,
+	"z": 3933.832031
+	},
+	{
+	"location": "Starfall",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-30980.875 -290140.84375 -782.818359",
+	"x": -30980.875,
+	"y": -290140.8438,
+	"z": -782.818359
+	},
+	{
+	"location": "Starfall",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-69053.632813 -337379.875 -18333.974609",
+	"x": -69053.63281,
+	"y": -337379.875,
+	"z": -18333.97461
+	},
+	{
+	"location": "Starfall",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer0 0 -18602.011719",
+	"x": 0,
+	"y": 0,
+	"z": -18602.01172
+	},
+	{
+	"location": "Starfall",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer0 0 -9087.948242",
+	"x": 0,
+	"y": 0,
+	"z": -9087.948242
+	},
+	{
+	"location": "Storm Catcher Havoc",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-5953.925293 156774.03125 -14431.444336",
+	"x": -5953.925293,
+	"y": 156774.0313,
+	"z": -14431.44434
+	},
+	{
+	"location": "Storm Catcher Havoc",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-68966.414063 -334866 -18190.660156",
+	"x": -68966.41406,
+	"y": -334866,
+	"z": -18190.66016
+	},
+	{
+	"location": "Storm Catcher Havoc",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer185004.53125 -81936.070313 -13257.985352",
+	"x": 185004.5313,
+	"y": -81936.07031,
+	"z": -13257.98535
+	},
+	{
+	"location": "The Boaring",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer69123.453125 -36635.746094 -20465.835938",
+	"x": 69123.45313,
+	"y": -36635.74609,
+	"z": -20465.83594
+	},
+	{
+	"location": "The Devolved",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-133073.765625 49131.34375 -10681.489258",
+	"x": -133073.7656,
+	"y": 49131.34375,
+	"z": -10681.48926
+	},
+	{
+	"location": "The Howling Desert",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-129241.929688 157268.109375 -15878.291016",
+	"x": -129241.9297,
+	"y": 157268.1094,
+	"z": -15878.29102
+	},
+	{
+	"location": "The Restless Dead",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-106765.460938 -59819.542969 -20477.738281",
+	"x": -106765.4609,
+	"y": -59819.54297,
+	"z": -20477.73828
+	},
+	{
+	"location": "The Skittering",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-129241.929688 157268.109375 -15878.291016",
+	"x": -129241.9297,
+	"y": 157268.1094,
+	"z": -15878.29102
+	},
+	{
+	"location": "The Writhing",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer171815.25 174262.484375 1760.696777",
+	"x": 171815.25,
+	"y": 174262.4844,
+	"z": 1760.696777
+	},
+	{
+	"location": "Thundering Hooves",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer39242.167969 -195237.203125 -5082.640137",
+	"x": 39242.16797,
+	"y": -195237.2031,
+	"z": -5082.640137
+	},
+	{
+	"location": "Tiger Hunt",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-203750.515625 -4887.647949 -8132.227539",
+	"x": -203750.5156,
+	"y": -4887.647949,
+	"z": -8132.227539
+	},
+	{
+	"location": "Trampling Tuskbeasts",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-125183.835938 -164442.203125 -12487.527344",
+	"x": -125183.8359,
+	"y": -164442.2031,
+	"z": -12487.52734
+	},
+	{
+	"location": "Tuskbeasts",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer133191.203125 -120296.140625 -14092.869141",
+	"x": 133191.2031,
+	"y": -120296.1406,
+	"z": -14092.86914
+	},
+	{
+	"location": "Twin Tribe Tussle",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-96545.28125 368479.875 -16001.583984",
+	"x": -96545.28125,
+	"y": 368479.875,
+	"z": -16001.58398
+	},
+	{
+	"location": "Undead Uprising",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-41490.191406 273683.53125 -15871.884766",
+	"x": -41490.19141,
+	"y": 273683.5313,
+	"z": -15871.88477
+	},
+	{
+	"location": "Valeria Unleashed",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-114310.734375 100498 -14056.893555",
+	"x": -114310.7344,
+	"y": 100498,
+	"z": -14056.89356
+	},
+	{
+	"location": "Wanted Crimson Tide Pirates",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-18895.791016 98193.492188 -8103.066406",
+	"x": -18895.79102,
+	"y": 98193.49219,
+	"z": -8103.066406
+	},
+	{
+	"location": "Wanted Crimson Tide Pirates",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer1448.753906 -737.257813 0",
+	"x": 1448.753906,
+	"y": -737.257813,
+	"z": 0
+	},
+	{
+	"location": "Warmongers",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer175082.953125 -90143.414063 -12643.724609",
+	"x": 175082.9531,
+	"y": -90143.41406,
+	"z": -12643.72461
+	},
+	{
+	"location": "Warriors From The North",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-182621.359375 -163672.75 -12332.765625",
+	"x": -182621.3594,
+	"y": -163672.75,
+	"z": -12332.76563
+	},
+	{
+	"location": "White Wolves",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer206277.96875 -332121.28125 -20118.416016",
+	"x": 206277.9688,
+	"y": -332121.2813,
+	"z": -20118.41602
+	},
+	{
+	"location": "White Wolves Pack Attack",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-5627.527344 -172949.625 -16071.490234",
+	"x": -5627.527344,
+	"y": -172949.625,
+	"z": -16071.49023
+	},
+	{
+	"location": "Witch Queens Fury",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-117980.257813 -272797.75 -17043.208984",
+	"x": -117980.2578,
+	"y": -272797.75,
+	"z": -17043.20898
+	},
+	{
+	"location": "Writer on the Run",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-1124.09375 -11078.476563 0",
+	"x": -1124.09375,
+	"y": -11078.47656,
+	"z": 0
+	},
+	{
+	"location": "Writer on the Run",
+	"spawnSpot": "",
+	"spawnSpotDetail": "",
+	"type": "EVENT",
+	"source": "TeleportPlayer-19025.853516 107993.101563 -7512.34668",
+	"x": -19025.85352,
+	"y": 107993.1016,
+	"z": -7512.34668
+	}
+	]
+	},
+   	 {
+	    "name": "Leviathans",
+	    "id": "Leviathans",
+	    "type": "BOSS",
+	    "locations": [
+	    {
+	    "location": "Orkallion",
+	    "spawnSpot": "Entrance underwater, southern side of Beneath the Waves",
+	    "spawnSpotDetail": "Drops a heart to use to access the Voidforge",
+	    "type": "BOSS",
+	    "source": "TeleportPlayer -332552.21875 -159235.71875 480.548798",
+	    "x": -332552.2188,
+	    "y": -159235.7188,
+	    "z": 480.548798
+	    },
+	    {
+	    "location": "Ouroborus",
+	    "spawnSpot": "Deep inside Crystal Cave, hop down the hole and fight past the Serpentmen",
+	    "spawnSpotDetail": "Drops a heart to use to access the Voidforge",
+	    "type": "BOSS",
+	    "source": "TeleportPlayer -350967.21875 -131141 -15064.94043",
+	    "x": -350967.2188,
+	    "y": -131141,
+	    "z": -15064.94043
+	    },
+	    {
+	    "location": "The Root Gaurdian",
+	    "spawnSpot": "East side of Last Bastion by the tents",
+	    "spawnSpotDetail": "Drops a heart to use to access the Voidforge",
+	    "type": "BOSS",
+	    "source": "TeleportPlayer -341395.59375 -46518.34375 -12713.698242",
+	    "x": -341395.5938,
+	    "y": -46518.34375,
+	    "z": -12713.69824
+	    },
+	    {
+	    "location": "The Keter",
+	    "spawnSpot": "Climb to the very top of the Screaming Haunt",
+	    "spawnSpotDetail": "Drops a heart to use to access the Voidforge",
+	    "type": "BOSS",
+	    "source": "TeleportPlayer -288837.53125 -172409.859375 -3701.092285",
+	    "x": -288837.5313,
+	    "y": -172409.8594,
+	    "z": -3701.092285
+	    },
+	    {
+	    "location": "The Armageddon Queen",
+	    "spawnSpot": "South from Cave of the Last Tribe",
+	    "spawnSpotDetail": "Drops a heart to use to access the Voidforge",
+	    "type": "BOSS",
+	    "source": "TeleportPlayer -326520.96875 -269068.9375 -10778.857422",
+	    "x": -326520.9688,
+	    "y": -269068.9375,
+	    "z": -10778.85742
+	    }
+	    ]
+	},
     {
       "name": "Shima's Feats",
       "id": "Shima's Feats",
       "type":"FEATS",
       "locations": [
 	{
-	  "location": " Relic-Hunter Collections",
+	  "location": "Relic-Hunter Collections",
 	  "spawnSpot": "The Atoll",
 	  "spawnSpotDetail": "Foreman's Camp on a crate",
 	  "type": "FEAT",
@@ -1819,7 +5490,6 @@
             "y": 172060.843750,
             "z": -1260.324097
           }
-        
       ]
     },
     {
@@ -1827,8 +5497,18 @@
       "id": "Feats",
       "type": "FEATS",
       "locations": [
-        {
-          "location": "Dragonbone Weapons",
+         {
+          "location": "Library of Esoteric Artifacts",
+          "spawnSpot": "Last Bastion",
+          "spawnSpotDetail": "Feed Fragments of Power to the book on the bookshelves near the Altar to Derketo.",
+          "type": "FEAT",
+          "source": "TeleportPlayer 170946.015625 171124.15625 -1219.650391",
+          "x": 170946.015625,
+          "y": 171124.15625,
+          "z": -1219.650391
+        },
+       {
+          "location": "Dragonbone Weapons and Armor",
           "spawnSpot": "Old mine",
           "spawnSpotDetail": "A tablet leaning against the wall at the very end of the cave. Guarded by an undead dragon.",
           "type": "FEAT",
@@ -2438,16 +6118,6 @@
           "z": -23723.730469
         },
         {
-          "location": "Bower of Jhebbal Sag",
-          "spawnSpot": "The Grove",
-          "spawnSpotDetail": "The large pillar",
-          "type": "FEAT",
-          "source": "TeleportPlayer -84274.914063 -54588.785156 -19234.65625",
-          "x": -84274.914063,
-          "y": -54588.785156,
-          "z": -19234.65625
-        },
-        {
           "location": "Expert Survivalist",
           "spawnSpot": "Murun",
           "spawnSpotDetail": "A journal on a bench next to the hunting vendor",
@@ -2948,76 +6618,6 @@
           "z": -19744.095703
         },
         {
-          "location": "Acolyte of Set",
-          "spawnSpot": "Murun",
-          "spawnSpotDetail": "A journal a top of the Set altar",
-          "type": "FEAT",
-          "source": "TeleportPlayer -15321.202148 86586.78125 -6290.395508",
-          "x": -15321.202148,
-          "y": 86586.78125,
-          "z": -6290.395508
-        },
-        {
-          "location": "Nest of Zath",
-          "spawnSpot": "Murun",
-          "spawnSpotDetail": "The silk vendor has a secret... The journal is found on a ruined shrine to Zath",
-          "type": "FEAT",
-          "source": "TeleportPlayer -267254.71875 -28635.478516 -2470.494141",
-          "x": -267254.71875,
-          "y": -28635.478516,
-          "z": -2470.494141
-        },
-        {
-          "location": "Acolyte of Yog",
-          "spawnSpot": "Yog's Feast",
-          "spawnSpotDetail": "Interact with the witch doctor's staff on top of the primitive stage",
-          "type": "FEAT",
-          "source": "TeleportPlayer -137961.65625 188228.671875 -14872.296875",
-          "x": -137961.65625,
-          "y": 188228.671875,
-          "z": -14872.296875
-        },
-        {
-          "location": "Pleasure Place of Derketo",
-          "spawnSpot": "The Mire (West)",
-          "spawnSpotDetail": "Talk to Yakira, Priestess of Derketo",
-          "type": "FEAT",
-          "source": "TeleportPlayer -198251.921875 -4123.355957 -7770.057129",
-          "x": -198251.921875,
-          "y": -4123.355957,
-          "z": -7770.057129
-        },
-        {
-          "location": "Acolyte of Mitra",
-          "spawnSpot": "Khulan's Outpost",
-          "spawnSpotDetail": "Interact with the mitraen rock carving at the edge of the outpost.",
-          "type": "FEAT",
-          "source": "TeleportPlayer -190987.15625 -58706.976563 -7949.506836",
-          "x": -190987.15625,
-          "y": -58706.976563,
-          "z": -7949.506836
-        },
-        {
-          "location": "Acolyte of Mitra",
-          "spawnSpot": "Muriela's Meditation",
-          "spawnSpotDetail": "Talk to Muriela The Artisan at the top of the mountain.",
-          "type": "FEAT",
-          "source": "TeleportPlayer -127687.703125 132994.953125 -9856.160156",
-          "x": -127687.703125,
-          "y": 132994.953125,
-          "z": -9856.160156
-        },
-        {
-          "location": "Altar to Ymir",
-          "spawnSpot": "The Baths",
-          "spawnSpotDetail": "Talk to The Outcast at the back of the baths.",
-          "type": "FEAT",
-          "source": "TeleportPlayer 64972.726563 -227963.84375 -6976.750977",
-          "x": 64972.726563,
-          "y": -227963.84375,
-          "z": -6976.750977
-        },
-        {
           "location": "Golem Constructor",
           "spawnSpot": "Murun Gates",
           "spawnSpotDetail": "Talk to Master Carver Huang",
@@ -3028,7 +6628,7 @@
           "z": -12828.167969
         },
         {
-          "location": "Dragon's Breath",
+          "location": "Dagon's Breath",
           "spawnSpot": "Unnamed Cave",
           "spawnSpotDetail": "On a table. The entrance to the cave is further south. You need to dive through a long underwater passage to get there.",
           "type": "FEAT",
@@ -3049,12 +6649,99 @@
         }
       ]
     },
-{
+    {
+      "name": "Religion Teachers",
+      "id": "Religion Teachers",
+      "type": "FEATS",
+      "locations": [
+	{
+          "location": "Derketo",
+          "spawnSpot": "The Mire (West)",
+          "spawnSpotDetail": "Talk to Yakira, Priestess of Derketo",
+          "type": "DERKETO",
+          "source": "TeleportPlayer -198251.921875 -4123.355957 -7770.057129",
+          "x": -198251.921875,
+          "y": -4123.355957,
+          "z": -7770.057129
+        },
+        {
+          "location": "Set",
+          "spawnSpot": "Murun",
+          "spawnSpotDetail": "A journal a top of the Set altar",
+          "type": "SET",
+          "source": "TeleportPlayer -15321.202148 86586.78125 -6290.395508",
+          "x": -15321.202148,
+          "y": 86586.78125,
+          "z": -6290.395508
+        },
+        {
+          "location": "Zath",
+          "spawnSpot": "Murun",
+          "spawnSpotDetail": "The silk vendor has a secret... The journal is found on a ruined shrine to Zath",
+          "type": "STAMP5",
+          "source": "TeleportPlayer -267254.71875 -28635.478516 -2470.494141",
+          "x": -267254.71875,
+          "y": -28635.478516,
+          "z": -2470.494141
+        },
+        {
+          "location": "Yog",
+          "spawnSpot": "Yog's Feast",
+          "spawnSpotDetail": "Interact with the witch doctor's staff on top of the primitive stage",
+          "type": "YOG",
+          "source": "TeleportPlayer -137961.65625 188228.671875 -14872.296875",
+          "x": -137961.65625,
+          "y": 188228.671875,
+          "z": -14872.296875
+        },
+        {
+          "location": "Mitra",
+          "spawnSpot": "Khulan's Outpost",
+          "spawnSpotDetail": "Interact with the mitraen rock carving at the edge of the outpost.",
+          "type": "MITRA",
+          "source": "TeleportPlayer -190987.15625 -58706.976563 -7949.506836",
+          "x": -190987.15625,
+          "y": -58706.976563,
+          "z": -7949.506836
+        },
+        {
+          "location": "Mitra",
+          "spawnSpot": "Muriela's Meditation",
+          "spawnSpotDetail": "Talk to Muriela The Artisan at the top of the mountain.",
+          "type": "MITRA",
+          "source": "TeleportPlayer -127687.703125 132994.953125 -9856.160156",
+          "x": -127687.703125,
+          "y": 132994.953125,
+          "z": -9856.160156
+        },
+        {
+          "location": "Ymir",
+          "spawnSpot": "The Baths",
+          "spawnSpotDetail": "Talk to The Outcast at the back of the baths.",
+          "type": "YMIR",
+          "source": "TeleportPlayer 64972.726563 -227963.84375 -6976.750977",
+          "x": 64972.726563,
+          "y": -227963.84375,
+          "z": -6976.750977
+        },
+        {
+          "location": "Jhebbal Sag",
+          "spawnSpot": "The Grove",
+          "spawnSpotDetail": "The large pillar",
+          "type": "THRALL_CAMP_JHEBBAL",
+          "source": "TeleportPlayer -84274.914063 -54588.785156 -19234.65625",
+          "x": -84274.914063,
+          "y": -54588.785156,
+          "z": -19234.65625
+        }
+      ]
+    },
+    {
       "name": "Language Scrolls",
       "id": "Language Scrolls",
       "type": "FEATS",
       "locations": [
-{
+    {
       "location": "Language Dictionary (Ancient Stygian)",
       "spawnSpot": "Last Words Cavern",
       "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
