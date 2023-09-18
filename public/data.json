@@ -7050,6 +7050,44 @@
 },
 
 {
+"name": "Thrall Camps",
+"id": "Thrall Camps",
+"type": "RESOURCE_PLANT",
+"locations": [
+
+{
+"location": "Unmarked Exile Camp",
+"spawnSpot": "Atoll",
+"spawnSpotDetail": "",
+"type": "THRALL_CAMP_EXILE",
+"source": "TeleportPlayer -70168.257813 259492.25 -20409.822266",
+"x": -70168.257813,
+"y": 259492.25,
+"z": -20409.822266
+}
+]
+},
+
+{
+"name": "Dungeons",
+"id": "Dungeons",
+"type": "DUNGEON",
+"locations": [
+
+{
+"location": "Ethereal Bastion",
+"spawnSpot": "Atoll",
+"spawnSpotDetail": "",
+"type": "DUNGEON",
+"source": "TeleportPlayer -32087.380859 310772.53125 -20568.917969",
+"x": -32087.380859,
+"y": 310772.53125,
+"z": -20568.917969
+}
+]
+},
+
+{
 "name": "Uncategorized Markers",
 "id": "Uncategorized Markers",
 "type": "POINT_OF_INTEREST",
