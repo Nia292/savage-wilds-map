@@ -1119,7 +1119,7 @@
 {
 "location": "Hollow Glacier",
 "spawnSpot": "",
-"spawnSpotDetail": "Yep, just keep swimming thataway, it's off the visible map a smidge. Contain the Hanuman Altar.",
+"spawnSpotDetail": "Yep, just keep swimming thataway, it's off the visible map a smidge. Contains the Hanuman Altar.",
 "type": "CAVE",
 "source": "TeleportPlayer 253214 -352108.875 -18762.279297",
 "x": 253214,
@@ -5248,7 +5248,7 @@
 },
 {
 "location": "Arcane Machinations",
-"spawnSpot": "The Atoll",
+"spawnSpot": "Ethereal Bastion, The Atoll",
 "spawnSpotDetail": "In the dungeon accessed by entering the cave inside of Zarryns retreat, on a crate near the big throne",
 "type": "FEAT",
 "source": "TeleportPlayer 152914.796875 312806.875000 16983.369141",
@@ -5258,8 +5258,8 @@
 },
 {
 "location": "Druid Cuisine",
-"spawnSpot": "Veiled Memories",
-"spawnSpotDetail": "In the Jungle Memory memories, under Yog, on a crate next to a Yog pit",
+"spawnSpot": "Jungle Memory, Veiled Memories",
+"spawnSpotDetail": "In the Jungle Memory, under Yog, on a crate next to the Yog pit",
 "type": "FEAT",
 "source": "TeleportPlayer 280550.468750 211253.390625 772.301392",
 "x": 280550.468750,
@@ -5458,8 +5458,8 @@
 },
 {
 "location": "Climbing Tincture",
-"spawnSpot": "The Atoll",
-"spawnSpotDetail": "Tough one to explain, in the dungeon behind Zarryns retreat, sneak between two rocks on the left of the stairs to the librarians quarters. Then parkour down along the wall",
+"spawnSpot": "Ethereal Bastion, The Atoll",
+"spawnSpotDetail": "Sneak between two rocks on the left of the stairs to the librarians quarters then parkour down along the wall",
 "type": "FEAT",
 "source": "TeleportPlayer 136115.031250 328774.906250 16857.017578",
 "x": 136115.031250,
@@ -5479,12 +5479,12 @@
 {
 "location": "Sorcerous Circle Paint",
 "spawnSpot": "Murun Garrison",
-"spawnSpotDetail": "the furthest door but still behind the bowmaker Ergal, enter the building and find the book next to the sorceror",
+"spawnSpotDetail": "The furthest door but still behind the bowmaker Ergal, enter the building and find the book next to the sorcerer",
 "type": "FEAT",
-"source": "TeleportPlayer -271562.343750 -10257.642578 367.272827",
-"x": -271562.343750,
-"y": -10257.642578,
-"z": 367.272827
+"source": "TeleportPlayer -42509.269531 105656.757813 -15087.900391",
+"x": -42509.269531,
+"y": 105656.757813,
+"z": -15087.900391
 },
 {
 "location": "Lemurian Pictogram",
@@ -5498,8 +5498,8 @@
 },
 {
 "location": "Elder Pictograph",
-"spawnSpot": "Veiled Memories",
-"spawnSpotDetail": "On the ground by the entrance to the Degenerate Harpey Champion",
+"spawnSpot": "Core Memory, Veiled Memories",
+"spawnSpotDetail": "On the ground by the entrance to the Degenerate Harpy Champion",
 "type": "FEAT",
 "source": "TeleportPlayer 287213.437500 75988.460938 -15867.968750",
 "x": 287213.437500,
@@ -5521,20 +5521,20 @@
 "spawnSpot": "Murun",
 "spawnSpotDetail": "On a small table, located upstairs in the building opposite the open building that normally has an NPC making a cut-throat emote.  ",
 "type": "FEAT",
-"source": "TeleportPlayer -270144.718750 -12301.718750 676.769409",
-"x": -270144.718750,
-"y":  -12301.718750,
-"z": 676.769409
+"source": "TeleportPlayer -12654.083008 90300.976563 -6423.838379",
+"x": -12654.083008,
+"y":  90300.976563,
+"z": -6423.838379
 },
 {
 "location": "Stygian Bloodscript",
 "spawnSpot": "Murun",
 "spawnSpotDetail": "Central F7, inside a building in the main Murun Settlement, located on a table ",
 "type": "FEAT",
-"source": "TeleportPlayer -268719.312500 -12509.770508 374.776886",
-"x": -268719.312500,
-"y": -12509.770508,
-"z": 374.776886
+"source": "TeleportPlayer -20129.046875 97338.585938 -8013.681152",
+"x": -20129.046875,
+"y": 97338.585938,
+"z": -8013.681152
 },
 {
 "location": "Pictish Pictogram",
@@ -5548,8 +5548,8 @@
 },
 {
 "location": "Masterful Arrows",
-"spawnSpot": "Veiled Memories",
-"spawnSpotDetail": "A crate in the snowy veiled memories cimmerian village, outside the roundhouses between a well and a bonfire",
+"spawnSpot": "Snowy Memory, Veiled Memories",
+"spawnSpotDetail": "A crate in the Snowy Memory cimmerian village, outside the roundhouses between a well and a bonfire",
 "type": "FEAT",
 "source": "TeleportPlayer 359251.062500 -370186.562500 -10666.230469",
 "x": 359251.062500,
@@ -5558,8 +5558,8 @@
 },
 {
 "location": "Goblin Vault Weapons",
-"spawnSpot": "Veiled Memories",
-"spawnSpotDetail": "South east corner of the Siptah veiled memories, near the vision of the primordial matter, top left of the stairs",
+"spawnSpot": "Core Memory, Veiled Memories",
+"spawnSpotDetail": "Southeast corner of the Core Memory, near the vision of the primordial matter, top left of the stairs",
 "type": "FEAT",
 "source": "TeleportPlayer 290935.593750 88644.031250 -12598.489258",
 "x": 290935.593750,
@@ -5568,8 +5568,8 @@
 },
 {
 "location": "Drowned Vault Weapons",
-"spawnSpot": "Veiled Memories",
-"spawnSpotDetail": "Eastern end of the degenerate harpy temple in the veiled memories. On roof.",
+"spawnSpot": "Core Memory, Veiled Memories",
+"spawnSpotDetail": "Eastern end of the degenerate harpy temple in the Core Memory on the roof.",
 "type": "FEAT",
 "source": "TeleportPlayer 292717.093750 74544.656250 -13683.488281",
 "x": 292717.093750,
@@ -5578,7 +5578,7 @@
 },
 {
 "location": "Wolfmen Vault Weapons",
-"spawnSpot": "Veiled Memories",
+"spawnSpot": "Core Memory, Veiled Memories",
 "spawnSpotDetail": "In the temple ruins of the Degenerate Serpent Man Champion",
 "type": "FEAT",
 "source": "TeleportPlayer 276879.562500 92812.203125 -14660.166016",
@@ -5588,7 +5588,7 @@
 },
 {
 "location": "Serpent Vault Weapons",
-"spawnSpot": "Veiled Memories",
+"spawnSpot": "Core Memory, Veiled Memories",
 "spawnSpotDetail": "In the temple ruin of the Malevolent Demon Spider, on a piece of ruin",
 "type": "FEAT",
 "source": "TeleportPlayer 277835.906250 63407.109375 -15813.274414",
@@ -5598,7 +5598,7 @@
 },
 {
 "location": "Demon Spider Vault Weapons",
-"spawnSpot": "Veiled Memories",
+"spawnSpot": "Core Memory, Veiled Memories",
 "spawnSpotDetail": "In the ruins where the Degenerate Howler Champion spawns",
 "type": "FEAT",
 "source": "TeleportPlayer 261946.812500 75105.554688 -15978.399414",
@@ -5608,8 +5608,8 @@
 },
 {
 "location": "Jhil Vault Weapons",
-"spawnSpot": "Veiled Memories",
-"spawnSpotDetail": "Near the entrance to the main Siptah veiled memories dungeon",
+"spawnSpot": "Core Memory, Veiled Memories",
+"spawnSpotDetail": "Near the entrance to the Core Memory dungeon",
 "type": "FEAT",
 "source": "TeleportPlayer 277463.125000 77931.859375 -15933.591797",
 "x": 277463.125000,
@@ -5618,8 +5618,8 @@
 },
 {
 "location": "Bat Demon Vault Weapons",
-"spawnSpot": "Veiled Memories",
-"spawnSpotDetail": "at the top of the stairs to the memory of the daemon sultan ",
+"spawnSpot": "Core Memory, Veiled Memories",
+"spawnSpotDetail": "At the top of the stairs to the memory of the daemon sultan ",
 "type": "FEAT",
 "source": "TeleportPlayer 263698.718750 65020.257813 -12827.153320",
 "x": 263698.718750,
@@ -5628,8 +5628,8 @@
 },
 {
 "location": "Fiend Vault Weapons",
-"spawnSpot": "Veiled Memories",
-"spawnSpotDetail": "The far east of the veiled memories, memory speaks of chaos, on the ground between the first and second pillars to the left of the stairs.",
+"spawnSpot": "Core Memory, Veiled Memories",
+"spawnSpotDetail": "The far east of the Core Memory, memory speaks of chaos, on the ground between the first and second pillars to the left of the stairs.",
 "type": "FEAT",
 "source": "TeleportPlayer 290508.218750 62623.480469 -12807.177734",
 "x": 290508.218750,
@@ -5638,8 +5638,8 @@
 },
 {
 "location": "Harpy Vault Weapons",
-"spawnSpot": "Veiled Memories",
-"spawnSpotDetail": "On a slab out in the open, directly south of the elder pictograph location in the veiled memories",
+"spawnSpot": "Core Memory, Veiled Memories",
+"spawnSpotDetail": "On a slab out in the open, directly south of the elder pictograph location in the Core Memory.",
 "type": "FEAT",
 "source": "TeleportPlayer 287099.781250 82035.054688 -14689.779297",
 "x": 287099.781250,
@@ -5688,7 +5688,7 @@
 },
 {
 "location": "Star Metal Lockpick",
-"spawnSpot": "The Atoll",
+"spawnSpot": "Ethereal Bastion, The Atoll",
 "spawnSpotDetail": "near Commander Rahzar in the The Atoll dungeon. On the ground to the right of the ramp if facing the boss.",
 "type": "FEAT",
 "source": "TeleportPlayer 145748.000000 316498.468750 16004.931641",
