@@ -5319,7 +5319,7 @@
 {
 "location": "Notch and Arrow Decor",
 "spawnSpot": "Notch an Arrow",
-"spawnSpotDetail": "Above the barkeepers head in the Notch and Arrow Tavern (enter from murun)",
+"spawnSpotDetail": "Platform above the bar in the Notch and Arrow Tavern.",
 "type": "FEAT",
 "source": "TeleportPlayer -342469.031250 -197555.500000 398.862732",
 "x": -342469.031250,
