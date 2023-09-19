@@ -542,7 +542,7 @@
 },
 {
 "location": "Ruins of Xun'sha",
-"spawnSpotDetail": "Entrance to a a medium size dungeon like area. Also contains a caravan. Interact with the giant door to enter.",
+"spawnSpotDetail": "Entrance to the Ruins of Xun'sha. Also contains a caravan. Interact with the giant door to enter.",
 "type": "RUIN",
 "source": "TeleportPlayer 192277.84375 121278.367188 -4418.856934",
 "x": 192277.8437,
@@ -551,7 +551,7 @@
 },
 {
 "location": "Last Refuge",
-"spawnSpotDetail": "Entrance to the Last Refuge",
+"spawnSpotDetail": "Entrance to the Last Refuge. Also contains a caravan.",
 "type": "THRALL_CAMP_CIMMERIAN_CAPITAL",
 "source": "TeleportPlayer -81074.859375 -385529.3125 -14195.115234",
 "x": -81074.859375,
@@ -695,6 +695,26 @@
 "x": -81116.99219,
 "y": 300595.4063,
 "z": -25081.19141
+},
+{
+"location": "The Last Refuge",
+"spawnSpot": "",
+"spawnSpotDetail": "",
+"type": "CARAVAN",
+"source": "TeleportPlayer 267215.75 -75991.546875 -8945.25",
+"x": 267215.75,
+"y": -75991.546875,
+"z": -8945.25
+},
+{
+"location": "Ruins of Xun'Sha",
+"spawnSpot": "",
+"spawnSpotDetail": "",
+"type": "CARAVAN",
+"source": "TeleportPlayer 227674.6875 126982.203125 -15261.84668",
+"x": 227674.6875,
+"y": 126982.203125,
+"z": -15261.84668
 },
 {
 "location": "Ancient Port",
@@ -1099,7 +1119,7 @@
 {
 "location": "Hollow Glacier",
 "spawnSpot": "",
-"spawnSpotDetail": "",
+"spawnSpotDetail": "Yep, just keep swimming thataway, it's off the visible map a smidge. Contain the Hanuman Altar.",
 "type": "CAVE",
 "source": "TeleportPlayer 253214 -352108.875 -18762.279297",
 "x": 253214,
@@ -1619,7 +1639,7 @@
 {
 "location": "Silverdig Cave",
 "spawnSpot": "",
-"spawnSpotDetail": "",
+"spawnSpotDetail": "Siptah Goblins and Goblin Boss inside.",
 "type": "CAVE",
 "source": "TeleportPlayer -96425.335938 -337686.9375 -18516.966797",
 "x": -96425.33594,
@@ -1710,7 +1730,7 @@
 "location": "South Ethereal Bastion",
 "spawnSpot": "",
 "spawnSpotDetail": "",
-"type": "POINT_OF_INTEREST",
+"type": "VAULT",
 "source": "TeleportPlayer 138334.75 319818.5 16850.546875",
 "x": 138334.75,
 "y": 319818.5,
@@ -1788,13 +1808,13 @@
 },
 {
 "location": "The Frozen Monestary",
-"spawnSpot": "",
-"spawnSpotDetail": "",
+"spawnSpot": "In Broken Waves Outpost",
+"spawnSpotDetail": "Imp Boss inside.",
 "type": "DUNGEON",
-"source": "TeleportPlayer 193394.234375 -375788.46875 -14460.018555",
-"x": 193394.2344,
-"y": -375788.4688,
-"z": -14460.01856
+"source": "TeleportPlayer 205061.984375 -332565.8125 -19797.925781",
+"x": 205061.984375,
+"y": -332565.8125,
+"z": -19797.925781
 },
 {
 "location": "The Great Lift",
@@ -1905,6 +1925,16 @@
 "x": -340984.3438,
 "y": -197275.0625,
 "z": 4.491455
+},
+{
+"location": "The Volcano",
+"spawnSpot": "",
+"spawnSpotDetail": "Entrance from The Maw, center of the map. Climb up (and up) the waterfalls to the entry at the top.",
+"type": "CARAVAN",
+"source": "TeleportPlayer -318919.96875 -373481.59375 -25281.601563",
+"x": -318919.96875,
+"y": -373481.59375,
+"z": -25281.601563
 },
 {
 "location": "The Oasis",
@@ -2029,7 +2059,7 @@
 {
 "location": "The Veil of Memories",
 "spawnSpot": "",
-"spawnSpotDetail": "",
+"spawnSpotDetail": "The Core Memory, contains many Siptah creatures and Maelstrom creatures as well as the many Siptah Vault armory feat journals. Accessed by jumping into the void between the Hall of Heroes and the roundhouse.",
 "type": "POINT_OF_INTEREST",
 "source": "TeleportPlayer -333073.65625 -197199.625 -99.752899",
 "x": -333073.6563,
@@ -2119,7 +2149,7 @@
 {
 "location": "Veiled Memory",
 "spawnSpot": "",
-"spawnSpotDetail": "Jungle Memory",
+"spawnSpotDetail": "The Jungle Memory. Fourth entrance from left in roundhouse.",
 "type": "POINT_OF_INTEREST",
 "source": "TeleportPlayer 294756.28125 245011.046875 4504.132813",
 "x": 294756.2813,
@@ -2129,7 +2159,7 @@
 {
 "location": "Veiled Memory",
 "spawnSpot": "",
-"spawnSpotDetail": "Highlands Memory",
+"spawnSpotDetail": "The Highlands Memory. Third entrance from left in roundhouse.",
 "type": "POINT_OF_INTEREST",
 "source": "TeleportPlayer 259273.5625 147402.5 -11068.18457",
 "x": 259273.5625,
@@ -2139,7 +2169,7 @@
 {
 "location": "Veiled Memory",
 "spawnSpot": "",
-"spawnSpotDetail": "Desert Memory",
+"spawnSpotDetail": "Desert Memory. Second entrance from left in roundhouse.",
 "type": "POINT_OF_INTEREST",
 "source": "TeleportPlayer 307216.5 182047.453125 -12133.62793",
 "x": 307216.5,
@@ -2149,7 +2179,7 @@
 {
 "location": "Veiled Memory",
 "spawnSpot": "",
-"spawnSpotDetail": "Snowy Memory",
+"spawnSpotDetail": "Snowy Memory. Fifth entrance from left in roundhouse.",
 "type": "POINT_OF_INTEREST",
 "source": "TeleportPlayer 372658.4375 -354804.09375 -15916.952148",
 "x": 372658.4375,
@@ -2495,6 +2525,24 @@
 "locations": [
 
 {
+"location": "Rotbranch",
+"spawnSpotDetail": "Highland Lake",
+"type": "BOSS",
+"source": "TeleportPlayer 17176.302734 -64244.964844 -20212.382813",
+"x": 17176.302734,
+"y": -64244.964844,
+"z": -20212.382813
+},
+{
+"location": "Giant Bear",
+"spawnSpotDetail": "South of Snowhearth",
+"type": "BOSS",
+"source": "TeleportPlayer -156033.71875 -239124.203125 -15856.469727",
+"x": -156033.71875,
+"y": -239124.203125,
+"z": -15856.469727
+},
+{
 "location": "Avalanche",
 "spawnSpotDetail": "",
 "type": "BOSS",
@@ -2502,6 +2550,15 @@
 "x": -64987.925781,
 "y": -302226.6875,
 "z": -17399.767578
+},
+{
+"location": "Avalanche",
+"spawnSpotDetail": "The Atoll",
+"type": "BOSS",
+"source": "TeleportPlayer -110249.414063 373708.65625 -20287.232422",
+"x": -110249.414063,
+"y": 373708.65625,
+"z": -20287.232422
 },
 {
 "location": "Avalanche",
@@ -2708,12 +2765,42 @@
 {
 "location": "Reed Stalker",
 "spawnSpot": "The Atoll",
-"spawnSpotDetail": "Shima Boss. Drops the Albino Alligator Garb",
+"spawnSpotDetail": "",
 "type": "BOSS",
 "source": "TeleportPlayer -153777.375 262126.828125 -20275.828125",
 "x": -153777.375,
 "y": 262126.828125,
 "z": -20275.828125
+},
+{
+"location": "Reed Stalker",
+"spawnSpot": "The Atoll",
+"spawnSpotDetail": "",
+"type": "BOSS",
+"source": "TeleportPlayer -42916.871094 257975.640625 -20733.232422",
+"x": -42916.871094,
+"y": 257975.640625,
+"z": -20733.232422
+},
+{
+"location": "Reed Stalker",
+"spawnSpot": "No Man's Land",
+"spawnSpotDetail": "",
+"type": "BOSS",
+"source": "TeleportPlayer -277337.9375 278032.8125 -20555.011719",
+"x": -277337.9375,
+"y": 278032.8125,
+"z": -20555.011719
+},
+{
+"location": "Serpenman Boss",
+"spawnSpot": "Ruins of Xun'Sha",
+"spawnSpotDetail": "",
+"type": "BOSS",
+"source": "TeleportPlayer 221593.484375 152817.421875 -14765.533203",
+"x": 221593.484375,
+"y": 152817.421875,
+"z": -14765.533203
 },
 {
 "location": "Werewolf",
@@ -2729,11 +2816,31 @@
 },
 
 {
-"name": "Hidden Caves",
-"id": "Hidden Caves",
+"name": "Hidden Caves and Secrets",
+"id": "Hidden Caves and Secrets",
 "type": "CAVE",
 "locations": [
 
+{
+"location": "Hidden Cave",
+"spawnSpot": "No Man's Land",
+"spawnSpotDetail": "Remove the wood behind the bonfire that Warlord Nkosi prays at.",
+"type": "SECRET",
+"source": "TeleportPlayer -217664.46875 327433.0 -4595.447266",
+"x": -217664.46875,
+"y": 327433.0,
+"z": -4595.447266
+},
+{
+"location": "The Killer Rabbit of Caerbannog",
+"spawnSpot": "Atoll",
+"spawnSpotDetail": "We call him BunBun. He also hoards the feat recipe for Bikini Armors.",
+"type": "SECRET",
+"source": "TeleportPlayer -142505.46875 305722.96875 -13268.740234",
+"x": -142505.46875,
+"y": 305722.96875,
+"z": -13268.740234
+},
 {
 "location": "Catacombs",
 "spawnSpot": "Hills west of Cadwallon",
@@ -2787,7 +2894,7 @@
 {
 "location": "Ruined Tower",
 "spawnSpot": "",
-"spawnSpotDetail": "Rusted Key above, Rusted Grate to lower level",
+"spawnSpotDetail": "Rusted Key above, Rusted Grate to lower level with Siptah Werewolves and Werewolf Boss.",
 "type": "SECRET",
 "source": "TeleportPlayer-97028.5 -329279.125 -13128.514648",
 "x": -97028.5,
@@ -2813,6 +2920,96 @@
 "x": -118880.6641,
 "y": -332762.0938,
 "z": -12293.78711
+},
+{
+"location": "Well",
+"spawnSpot": "Outpost Ruins",
+"spawnSpotDetail": "Hop on in!",
+"type": "SECRET",
+"source": "TeleportPlayer 92739.203125 121339.09375 -13241.701172",
+"x": 92739.203125,
+"y": 121339.09375,
+"z": -13241.701172
+},
+{
+"location": "Well",
+"spawnSpot": "Vargrheim",
+"spawnSpotDetail": "Hop on in! The more entertaining way in to the Imp Cave below.",
+"type": "CAVE",
+"source": "TeleportPlayer 62360.980469 -71073.921875 -17381.390625",
+"x": 62360.980469,
+"y": -71073.921875,
+"z": -17381.390625
+},
+{
+"location": "Imp Cave",
+"spawnSpot": "Beneath Vargrheim",
+"spawnSpotDetail": "The less entertaining way in to the Imp Cave.",
+"type": "CAVE",
+"source": "TeleportPlayer 56581.308594 -66425.9375 -19879.572266",
+"x": 56581.308594,
+"y": -66425.9375,
+"z": -19879.572266
+},
+{
+"location": "Waterfall Cave",
+"spawnSpot": "",
+"spawnSpotDetail": "A favorite hiding spot, behind the second set of waterfalls up the river from the south.",
+"type": "CAVE",
+"source": "TeleportPlayer 115077.492188 173862.875 -17895.230469",
+"x": 115077.492188,
+"y": 173862.875,
+"z": -17895.230469
+},
+{
+"location": "Jungle Cave",
+"spawnSpot": "",
+"spawnSpotDetail": "Super pretty place to build a druid hideaway!",
+"type": "CAVE",
+"source": "TeleportPlayer 170921.296875 218754.078125 -13613.262695",
+"x": 170921.296875,
+"y": 218754.078125,
+"z": -13613.262695
+},
+{
+"location": "Underwater Cave",
+"spawnSpot": "The Sunken Arena",
+"spawnSpotDetail": "You're going to want some water breathing potions for this one!",
+"type": "CAVE",
+"source": "TeleportPlayer 11918.479492 -34582.101563 -24435.025391",
+"x": 11918.479492,
+"y": -34582.101563,
+"z": -24435.025391
+},
+{
+"location": "Hidden Cache",
+"spawnSpot": "Frost Ridge Outpost",
+"spawnSpotDetail": "Click on the Ymir Altar. Surprise!",
+"type": "SECRET",
+"source": "TeleportPlayer -126460.226563 -166851.40625 -12521.491211",
+"x": -126460.226563,
+"y": -166851.40625,
+"z": -12521.491211
+},
+{
+"location": "Hidden Cache",
+"spawnSpot": "Vargrvakt Outpost",
+"spawnSpotDetail": "Click on the wood behind the house. Surprise!",
+"type": "SECRET",
+"source": "TeleportPlayer -161722.1875 -140858.140625 -12503.884766",
+"x": -161722.1875,
+"y": -140858.140625,
+"z": -12503.884766
+},
+{
+"location": "Underwater Cave",
+"spawnSpot": "Below Nordheimer Camp",
+"spawnSpotDetail": "You're going to want some water breathing potions for this one!",
+"type": "CAVE",
+"source": "TeleportPlayer 67228.945313 -35493.054688 -20375.050781",
+"x": 67228.945313,
+"y": -35493.054688,
+"z": -20375.050781
 },
 {
 "location": "Hidden Excavator's Cave",
@@ -5062,7 +5259,7 @@
 {
 "location": "Druid Cuisine",
 "spawnSpot": "Veiled Memories",
-"spawnSpotDetail": "In one of the veiled memories, under a giant octopus looking thing, on a crate next to a yog pit",
+"spawnSpotDetail": "In the Jungle Memory memories, under Yog, on a crate next to a Yog pit",
 "type": "FEAT",
 "source": "TeleportPlayer 280550.468750 211253.390625 772.301392",
 "x": 280550.468750,
@@ -5072,7 +5269,7 @@
 {
 "location": "Alchemist Decor",
 "spawnSpot": "Halls of the Void Forge",
-"spawnSpotDetail": "Take the caravan to no mans land, and enter the dungeon straight ahead, on a shelf next to a green vessel",
+"spawnSpotDetail": "Take the caravan to No Man's Land, and enter the Halls of the Void Forge straight ahead, on a shelf next to a green vessel",
 "type": "FEAT",
 "source": "TeleportPlayer -321286.500000 -6082.082031 193.823853",
 "x": -321286.500000,
@@ -5082,7 +5279,7 @@
 {
 "location": "Bloodletter's Decor",
 "spawnSpot": "N'Kosi's Redoubt",
-"spawnSpotDetail": "Mikali theTorture Queen's lair, just before the bonfire on a stone and timber step",
+"spawnSpotDetail": "Mikali the Torture Queen's lair, just before the bonfire on a stone and timber step",
 "type": "FEAT",
 "source": "TeleportPlayer -214114.843750 321594.906250 -6941.462891",
 "x": -214114.843750,
@@ -5112,7 +5309,7 @@
 {
 "location": "Clay Pottery",
 "spawnSpot": "Necropolis",
-"spawnSpotDetail": "Enter from the necropolis in No Mans Land. Above a false ceiling straight ahead from the dungeon entry",
+"spawnSpotDetail": "Enter from the necropolis in No Man's Land. Above a false ceiling straight ahead from the dungeon entry",
 "type": "FEAT",
 "source": "TeleportPlayer -272396.781250 -87494.500000 -15055.462891",
 "x": -272396.781250,
@@ -6750,7 +6947,7 @@
 {
 "location": "Jhebbal Sag",
 "spawnSpot": "The Grove",
-"spawnSpotDetail": "The large pillar",
+"spawnSpotDetail": "Interact with the Bower of Jhebbal Sag in the center of the camp.",
 "type": "THRALL_CAMP_JHEBBAL",
 "source": "TeleportPlayer -84274.914063 -54588.785156 -19234.65625",
 "x": -84274.914063,
@@ -7060,10 +7257,80 @@
 "spawnSpot": "Atoll",
 "spawnSpotDetail": "",
 "type": "THRALL_CAMP_EXILE",
+"source": "TeleportPlayer -76697.875 262962.21875 -20627.337891",
+"x": -76697.875,
+"y": 262962.21875,
+"z": -20627.337891
+},
+{
+"location": "Unmarked Exile Camp",
+"spawnSpot": "Atoll",
+"spawnSpotDetail": "",
+"type": "THRALL_CAMP_EXILE",
+"source": "TeleportPlayer -96429.710938 271192.34375 -20734.628906",
+"x": -96429.710938,
+"y": 271192.34375,
+"z": -20734.628906
+},
+{
+"location": "Unmarked Exile Camp",
+"spawnSpot": "Atoll",
+"spawnSpotDetail": "",
+"type": "THRALL_CAMP_EXILE",
 "source": "TeleportPlayer -70168.257813 259492.25 -20409.822266",
 "x": -70168.257813,
 "y": 259492.25,
 "z": -20409.822266
+},
+{
+"location": "Unmarked Nordheimer Camp",
+"spawnSpot": "The Highland Lake",
+"spawnSpotDetail": "A small Nord camp.",
+"type": "THRALL_CAMP_VANIR",
+"source": "TeleportPlayer 84034.195313 -44170.546875 -19599.669922",
+"x": 84034.195313,
+"y": -44170.546875,
+"z": -19599.669922
+},
+{
+"location": "Unmarked Nordheimer Camp",
+"spawnSpot": "The Highland Lake",
+"spawnSpotDetail": "A small Nord fisherman's camp. Very reliable Nordheimer Cook spawn spot as well as a feat teacher inside the house.",
+"type": "THRALL_CAMP_VANIR",
+"source": "TeleportPlayer 67973.09375 -55629.660156 -20051.695313",
+"x": 67973.09375,
+"y": -55629.660156,
+"z": -20051.695313
+},
+{
+"location": "Unmarked Lemurian Camp",
+"spawnSpot": "",
+"spawnSpotDetail": "A large Lemurian camp with the Derketo religion teacher.",
+"type": "THRALL_CAMP_LEMURIAN",
+"source": "TeleportPlayer -199813.84375 -3341.365967 -7771.509277",
+"x": -199813.84375,
+"y": -3341.365967,
+"z": -7771.509277
+},
+{
+"location": "Unmarked Hyperborean Camp",
+"spawnSpot": "",
+"spawnSpotDetail": "Immediately east of the Frozen Battleground.",
+"type": "YMIR",
+"source": "TeleportPlayer -73230.71875 -282307.125 -16856.554688",
+"x": -73230.71875,
+"y": -282307.125,
+"z": -16856.554688
+},
+{
+"location": "Unmarked Nordheimer Camp",
+"spawnSpot": "The Highland Lake",
+"spawnSpotDetail": "A large Nord camp with a Sorcerer spawn as well as a number of feat journals.",
+"type": "THRALL_CAMP_VANIR",
+"source": "TeleportPlayer 64984.425781 -35452.761719 -20390.431641",
+"x": 64984.425781,
+"y": -35452.761719,
+"z": -20390.431641
 }
 ]
 },
@@ -7083,6 +7350,59 @@
 "x": -32087.380859,
 "y": 310772.53125,
 "z": -20568.917969
+},
+{
+"location": "The Atlantean Tomb",
+"spawnSpotDetail": "Small dungeon that contains The King Beneath boss. Drops a Scroll and a Golden Key.",
+"type": "DUNGEON",
+"source": "TeleportPlayer -103840.039063 150425.34375 -14509.063477",
+"x": -103840.039063,
+"y": 150425.34375,
+"z": -14509.063477,
+"loot": [
+"Scroll (Vanquisher of the King Beneath)",
+"Golden Key"
+]
+},
+{
+"location": "The Engineer's Prison",
+"spawnSpot": "",
+"spawnSpotDetail": "",
+"type": "DUNGEON",
+"source": "TeleportPlayer -218782.125 305092.125 -10295.329102",
+"x": -218782.125,
+"y": 305092.125,
+"z": -10295.3291
+},
+{
+"location": "The Lost Atheneum",
+"spawnSpot": "",
+"spawnSpotDetail": "",
+"type": "DUNGEON",
+"source": "TeleportPlayer -277645.75 322965.40625 -20824.982422",
+"x": -277645.75,
+"y": 322965.4063,
+"z": -20824.98242
+},
+{
+"location": "The Necropolis",
+"spawnSpot": "",
+"spawnSpotDetail": "",
+"type": "DUNGEON",
+"source": "TeleportPlayer -247766.578125 322596.40625 -15678.885742",
+"x": -247766.5781,
+"y": 322596.4063,
+"z": -15678.88574
+},
+{
+"location": "The Sunken Forge",
+"spawnSpot": "",
+"spawnSpotDetail": "",
+"type": "DUNGEON",
+"source": "TeleportPlayer -290213.125 286694.21875 -20788.839844",
+"x": -290213.125,
+"y": 286694.2188,
+"z": -20788.83984
 }
 ]
 },
