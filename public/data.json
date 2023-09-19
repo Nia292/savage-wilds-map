@@ -989,7 +989,7 @@
 {
 "location": "Elysium",
 "spawnSpot": "",
-"spawnSpotDetail": "",
+"spawnSpotDetail": "Around the back side of the roundhouse in the Veil of Memories.",
 "type": "POINT_OF_INTEREST",
 "source": "TeleportPlayer -336191.96875 -30314.201172 256.000122",
 "x": -336191.9688,
@@ -1921,10 +1921,10 @@
 "spawnSpot": "",
 "spawnSpotDetail": "",
 "type": "POINT_OF_INTEREST",
-"source": "TeleportPlayer -340984.34375 -197275.0625 4.491455",
-"x": -340984.3438,
-"y": -197275.0625,
-"z": 4.491455
+"source": "TeleportPlayer -47191.941406 107318.445313 -15090.000977",
+"x": 47191.941406,
+"y": 107318.445313,
+"z": -15090.000977
 },
 {
 "location": "The Volcano",
@@ -2059,7 +2059,7 @@
 {
 "location": "The Veil of Memories",
 "spawnSpot": "",
-"spawnSpotDetail": "The Core Memory, contains many Siptah creatures and Maelstrom creatures as well as the many Siptah Vault armory feat journals. Accessed by jumping into the void between the Hall of Heroes and the roundhouse.",
+"spawnSpotDetail": "The Core Memory, contains many Siptah creatures and Maelstrom creatures as well as the many Siptah Vault armory feat journals. Accessed by jumping into the void between the Hall of Heroes and the roundhouse. Entrance from the Notch and Arrow tavern.",
 "type": "POINT_OF_INTEREST",
 "source": "TeleportPlayer -333073.65625 -197199.625 -99.752899",
 "x": -333073.6563,
@@ -3314,10 +3314,10 @@
 "spawnSpot": "Murun",
 "spawnSpotDetail": "Lotus Peddler, in door across from well in upper Murun",
 "type": "MERCHANT",
-"source": "TeleportPlayer-269011.375 -6545.974609 277.534668",
-"x": -269011.375,
-"y": -6545.974609,
-"z": 277.534668
+"source": "TeleportPlayer -11917.461914 89398.796875 -6421.684082",
+"x": -11917.461914,
+"y": 89398.796875,
+"z": -6421.684082
 },
 {
 "location": "Taf-nekht",
@@ -5399,7 +5399,7 @@
 {
 "location": "Advanced Planters",
 "spawnSpot": "Elysium",
-"spawnSpotDetail": "Upstairs balcony in elysium, the place accessible by scooching around the outside floating roundhouse, which is somehow inside the Notch and Arrow",
+"spawnSpotDetail": "Upstairs balcony in Elysium, the place accessible by scooching around the outside floating roundhouse, which is somehow inside the Notch and Arrow",
 "type": "FEAT",
 "source": "TeleportPlayer -338401.281250 -27831.937500 1352.848877",
 "x": -338401.281250,
@@ -6876,7 +6876,7 @@
 
 {
 "location": "Derketo",
-"spawnSpot": "The Mire (West)",
+"spawnSpot": "Unmarked Lemurian Camp",
 "spawnSpotDetail": "Talk to Yakira, Priestess of Derketo",
 "type": "DERKETO",
 "source": "TeleportPlayer -198251.921875 -4123.355957 -7770.057129",
@@ -6897,12 +6897,12 @@
 {
 "location": "Zath",
 "spawnSpot": "Murun",
-"spawnSpotDetail": "The silk vendor has a secret... The journal is found on a ruined shrine to Zath",
+"spawnSpotDetail": "The silk vendor has a secret... The journal is found on a ruined shrine to Zath. The key can be found by interacting with the mini Zath shrine on the cabinet behind the screen, door is behind the counter.",
 "type": "STAMP5",
-"source": "TeleportPlayer -267254.71875 -28635.478516 -2470.494141",
-"x": -267254.71875,
-"y": -28635.478516,
-"z": -2470.494141
+"source": "TeleportPlayer -13027.126953 101426.476563 -8015.824219",
+"x": -13027.126953,
+"y": 101426.476563,
+"z": -8015.824219
 },
 {
 "location": "Yog",
@@ -7342,9 +7342,9 @@
 "locations": [
 
 {
-"location": "Ethereal Bastion",
+"location": "Ethereal Bastion Entrance",
 "spawnSpot": "Atoll",
-"spawnSpotDetail": "",
+"spawnSpotDetail": "Two entrances, one at the waterline and another up top.",
 "type": "DUNGEON",
 "source": "TeleportPlayer -32087.380859 310772.53125 -20568.917969",
 "x": -32087.380859,
