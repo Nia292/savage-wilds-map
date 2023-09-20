@@ -37,14 +37,21 @@ export const InfoDialog = (props: InfoDialogProps) => {
                 Privacy
             </div>
             <div>
-                This site does not track your information. <br/>
+                This site does not track you. <br/>
                 This site does not use cookies. <br/>
-                This site does not store data on your local device aside from normal browser caching. <br/>
+                Local storage is only used to store app-relevant data. <br/>
                 Site provided by&nbsp;<a target="_blank" href="https://pages.github.com/" rel="noreferrer">GitHub
                 pages</a>. Check out&nbsp;<a target="_blank"
                                              href="https://docs.github.com/en/github/site-policy/github-privacy-statement"
                                              rel="noreferrer">GitHub's privacy statement</a>
                 &nbsp;to find out what data GitHub collects.
+            </div>
+            <div className="dialog-subheader">
+                Analytics
+            </div>
+            <div>
+                Analytics are provided privacy-first by Cabin. and are implemented to gain a rough understanding about the usage numbers.<br/>
+                See <a rel="noreferrer" target="_blank" href="https://withcabin.com/privacy/nia292.github.io">here for their privacy statement</a>
             </div>
             <div className="dialog-subheader">
                 Contributing
