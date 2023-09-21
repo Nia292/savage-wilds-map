@@ -263,6 +263,15 @@
       "type": "POINT_OF_INTEREST",
       "locations": [
         {
+          "location": "The Citadel of the Lost Legion",
+          "spawnSpotDetail": "a Veiled Memory. First entrance from left in roundhouse",
+          "type": "POINT_OF_INTEREST",
+          "source": "TeleportPlayer 273038.25 338845.96875 7805.441895",
+          "x": 273038.25,
+          "y": 338845.96875,
+          "z": 7805.441895
+        },
+        {
           "location": "The Wellspring",
           "spawnSpotDetail": "Contains Gorillas",
           "type": "POINT_OF_INTEREST",
@@ -4829,6 +4838,66 @@
       "type": "FEATS",
       "locations": [
         {
+          "location": "Wild Empathy Elixirs",
+          "spawnSpot": "The Citadel of the Lost Legion",
+          "spawnSpotDetail": "Climb up!",
+          "type": "FEAT",
+          "source": "TeleportPlayer 252974.234375 339992.343750 20481.490234",
+          "x": "252974.234375",
+          "y": "339992.343750",
+          "z": "20481.490234"
+        },
+        {
+          "location": "Mending Tinctures",
+          "spawnSpot": "The Citadel of the Lost Legion",
+          "spawnSpotDetail": "Beside the stairs.",
+          "type": "FEAT",
+          "source": "TeleportPlayer 280081.531250 352178.312500 -14615.786133",
+          "x": "280081.531250",
+          "y": "352178.312500",
+          "z": "-14615.786133"
+        },
+        {
+          "location": "Piscis Essences",
+          "spawnSpot": "The Citadel of the Lost Legion",
+          "spawnSpotDetail": "Near the springboard.",
+          "type": "FEAT",
+          "source": "TeleportPlayer 251165.218750 324114.406250 13056.113281",
+          "x": "251165.218750",
+          "y": "324114.406250",
+          "z": "13056.113281"
+        },
+        {
+          "location": "Feline Essences",
+          "spawnSpot": "The Citadel of the Lost Legion",
+          "spawnSpotDetail": "On top of a crate.",
+          "type": "FEAT",
+          "source": "TeleportPlayer 263176.781250 378581.812500 -7939.326172",
+          "x": "263176.781250",
+          "y": "378581.812500",
+          "z": "-7939.326172"
+        },
+        {
+          "location": "Skin Oils",
+          "spawnSpot": "The Citadel of the Lost Legion",
+          "spawnSpotDetail": "Inside the roundhouse.",
+          "type": "FEAT",
+          "source": "TeleportPlayer 272834.562500 308439.250000 1423.411621",
+          "x": "272834.562500",
+          "y": "308439.250000",
+          "z": "1423.411621"
+        },
+        {
+          "location": "Blood Infusions",
+          "spawnSpot": "The Citadel of the Lost Legion",
+          "spawnSpotDetail": "On a bench.",
+          "type": "FEAT",
+          "source": "TeleportPlayer 279374.843750 353948.625000 -3667.506104",
+          "x": "279374.843750",
+          "y": "353948.625000",
+          "z": "-3667.506104"
+        },
+        {
           "location": "Relic-Hunter Collections",
           "spawnSpot": "The Atoll",
           "spawnSpotDetail": "Foreman's Camp on a crate",
@@ -7313,6 +7382,20 @@
       "id": "Dungeons",
       "type": "DUNGEON",
       "locations": [
+    {
+      "name": "Points Of Interest",
+      "id": "Points of Interest",
+      "type": "POINT_OF_INTEREST",
+      "locations": [
+        {
+          "location": "The Citadel of the Lost Legion",
+          "spawnSpotDetail": "a Veiled Memory. First entrance from left in roundhouse",
+          "type": "DUNGEON",
+          "source": "TeleportPlayer 273038.25 338845.96875 7805.441895",
+          "x": 273038.25,
+          "y": 338845.96875,
+          "z": 7805.441895
+        },
         {
           "location": "Ethereal Bastion Entrance",
           "spawnSpot": "Atoll",
