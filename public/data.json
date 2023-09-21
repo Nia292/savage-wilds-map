@@ -264,7 +264,7 @@
       "locations": [
         {
           "location": "The Citadel of the Lost Legion",
-          "spawnSpotDetail": "a Veiled Memory. First entrance from left in roundhouse",
+          "spawnSpotDetail": "A Veiled Memory. First entrance from left in roundhouse",
           "type": "POINT_OF_INTEREST",
           "source": "TeleportPlayer 273038.25 338845.96875 7805.441895",
           "x": 273038.25,
@@ -7382,14 +7382,9 @@
       "id": "Dungeons",
       "type": "DUNGEON",
       "locations": [
-    {
-      "name": "Points Of Interest",
-      "id": "Points of Interest",
-      "type": "POINT_OF_INTEREST",
-      "locations": [
         {
           "location": "The Citadel of the Lost Legion",
-          "spawnSpotDetail": "a Veiled Memory. First entrance from left in roundhouse",
+          "spawnSpotDetail": "a Veiled Memory. First entrance from left in roundhouse.",
           "type": "DUNGEON",
           "source": "TeleportPlayer 273038.25 338845.96875 7805.441895",
           "x": 273038.25,
