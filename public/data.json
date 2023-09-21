@@ -7384,7 +7384,8 @@
       "locations": [
         {
           "location": "The Citadel of the Lost Legion",
-          "spawnSpotDetail": "a Veiled Memory. First entrance from left in roundhouse.",
+          "spawnSpot": "The Veil of Memories",
+          "spawnSpotDetail": "A Veiled Memory. First entrance from left in roundhouse.",
           "type": "DUNGEON",
           "source": "TeleportPlayer 273038.25 338845.96875 7805.441895",
           "x": 273038.25,
