@@ -14,6 +14,7 @@ interface MapData {
     maxZoom: number;
     data: MapLocationGroup[];
     contributors?: string[];
+    defaultEnabledGroups: string[];
     bounds: {
         south: number,
         west: number,
@@ -68,6 +69,7 @@ export class App extends React.Component<any, AppState> {
             loaded: false,
             data: {
                 data: [],
+                defaultEnabledGroups: [],
                 map_hq: '',
                 map_lq: '',
                 minZoom: -12,
@@ -98,6 +100,7 @@ export class App extends React.Component<any, AppState> {
         return (
             <div>
                 <SavageWildsMap data={this.state.data.data}
+                                defaultEnabledGroups={this.state.data.defaultEnabledGroups}
                                 minZoom={minZoom()}
                                 maxZoom={this.state.data.maxZoom}
                                 mapHq={this.state.data.map_hq}

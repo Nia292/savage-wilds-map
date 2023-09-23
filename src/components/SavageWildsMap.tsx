@@ -18,6 +18,7 @@ import {MapItemSearch} from "./item-search/MapItemSearch";
 const DEFAULT_ZOOM = -8.7;
 const DEFAULT_CENTER: LatLngLiteral = {lat: 0, lng: 0};
 const KEY_HIDDEN_GROUP_IDS = 'swmap.hiddengroupids';
+const KEY_HIDDEN_GROUP_IDS_V2 = 'swmap.hiddengroupids.v2';
 
 // Coordiantes are [y,x]
 // Teleport player locates them as [x, y, z]
@@ -39,6 +40,7 @@ const KEY_HIDDEN_GROUP_IDS = 'swmap.hiddengroupids';
 
 interface SavageWildsMapProps {
     data: MapLocationGroup[];
+    defaultEnabledGroups: string[];
     mapLq: string;
     mapHq: string;
     north: number;
@@ -72,7 +74,12 @@ export function SavageWildsMap(props: SavageWildsMapProps) {
     const [visibleGroups, setVisibleGroups] = useState([] as MapLocationGroup[]);
 
     useEffect(() => {
-        const storedHiddenGroups = window.localStorage.getItem(KEY_HIDDEN_GROUP_IDS);
+        // Migrate; Can be removed at a later point
+        window.localStorage.removeItem(KEY_HIDDEN_GROUP_IDS);
+    })
+
+    useEffect(() => {
+        const storedHiddenGroups = window.localStorage.getItem(KEY_HIDDEN_GROUP_IDS_V2);
         try {
             if (storedHiddenGroups) {
                 const parsed = JSON.parse(storedHiddenGroups);
@@ -80,12 +87,16 @@ export function SavageWildsMap(props: SavageWildsMapProps) {
                     // It's an array and probably correct
                     setHiddenGroupIds(parsed);
                 }
+            } else {
+                const hidden = props.data.map(value => value.id)
+                    .filter(value => !props.defaultEnabledGroups.includes(value))
+                setHiddenGroupIds(hidden)
             }
         } catch (error) {
             console.warn("Failed to restore hidden groups", error);
         }
 
-    }, []);
+    }, [props.data, props.defaultEnabledGroups]);
 
     useEffect(() => {
         setVisibleGroups(props.data.filter(group => !hiddenGroupIds.includes(group.id)));
@@ -116,7 +127,7 @@ export function SavageWildsMap(props: SavageWildsMapProps) {
 
     function handleChangeHiddenGroups(hiddenGroupIds: string[]): void {
         setHiddenGroupIds(hiddenGroupIds);
-        window.localStorage.setItem(KEY_HIDDEN_GROUP_IDS, JSON.stringify(hiddenGroupIds));
+        window.localStorage.setItem(KEY_HIDDEN_GROUP_IDS_V2, JSON.stringify(hiddenGroupIds));
     }
 
     function handleHqClick(event: ChangeEvent<HTMLInputElement>) {

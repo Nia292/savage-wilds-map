@@ -12,6 +12,7 @@
   "contributors": [
     "Otterly, Tovlyn"
   ],
+  "defaultEnabledGroups": ["Points of Interest", "Bosses", "Leviathans", "Dungeons", "Shima's Feats", "Lotus"],
   "data": [
     {
       "name": "Other Resources",
