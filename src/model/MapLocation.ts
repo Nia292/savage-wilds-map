@@ -17,4 +17,9 @@ export interface MapLocation {
     type?: LocationGroupType;
     // Name of the general area
     location?: string;
+
+    /**
+     * An ID, generated upon loading, to uniquely identify this location for the current runtime
+     */
+    generatedId?: string;
 }

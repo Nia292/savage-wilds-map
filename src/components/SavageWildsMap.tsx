@@ -69,6 +69,7 @@ export function SavageWildsMap(props: SavageWildsMapProps) {
     });
     const [hoveredLocation, setHoveredLocation] = useState(undefined as unknown as (HoveredThrallLocation | undefined));
     const [hiddenGroupIds, setHiddenGroupIds] = useState([] as string[]);
+    const [visibleGroups, setVisibleGroups] = useState([] as MapLocationGroup[]);
 
     useEffect(() => {
         const storedHiddenGroups = window.localStorage.getItem(KEY_HIDDEN_GROUP_IDS);
@@ -85,6 +86,10 @@ export function SavageWildsMap(props: SavageWildsMapProps) {
         }
 
     }, []);
+
+    useEffect(() => {
+        setVisibleGroups(props.data.filter(group => !hiddenGroupIds.includes(group.id)));
+    }, [hiddenGroupIds])
 
     function handleSelectThrall(thrall: MapLocationGroup) {
         let center = findCenter(thrall.locations);
@@ -128,7 +133,6 @@ export function SavageWildsMap(props: SavageWildsMapProps) {
         setThrallFocused(true)
     }
 
-    const visibleGroups = props.data.filter(group => !hiddenGroupIds.includes(group.id));
     const center = zoomCenter?.center ? zoomCenter.center : DEFAULT_CENTER;
     const zoom = zoomCenter?.zoom ? zoomCenter.zoom : DEFAULT_ZOOM
     const mapBounds = calculateBounds(props.south, props.west, props.north, props.east, offset);

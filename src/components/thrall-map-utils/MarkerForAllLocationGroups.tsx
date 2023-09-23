@@ -1,5 +1,5 @@
 import {MapLocationGroup} from "../../model/MapLocationGroup";
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {MapLocation} from "../../model/MapLocation";
 import {Marker, Tooltip} from "react-leaflet";
 import {ceCoordinateToLatLng} from "../../util/conversions";
@@ -7,7 +7,7 @@ import {makeIcon} from "../../util/icon";
 
 function makeMarkerForLocation(location: MapLocation) {
     const latLng = ceCoordinateToLatLng(location);
-    return <Marker key={latLng.lat + '_' + latLng.lng}
+    return <Marker key={location.generatedId}
                    icon={makeIcon(location)}
                    position={latLng}>
         <Tooltip direction="bottom">
@@ -24,12 +24,17 @@ function gatherMarkerLocations(groups: MapLocationGroup[]): MapLocation[] {
 }
 
 export function MarkerForAllLocationGroups(props: {locationGroups: MapLocationGroup[], focused: boolean}) {
+    const [markers, setMarkers] = useState([] as React.ElementRef<any>[]);
+    // Moved into an effect to prevent excessive re-rendering whenever any of the input props change
+    // this has caused significant performance hits in the past
+    useEffect(() => {
+        setMarkers(gatherMarkerLocations(props.locationGroups)
+            .map(value => makeMarkerForLocation(value)));
+    }, [props.locationGroups]);
     if (props.focused) {
         return <React.Fragment/>;
     }
-    const data = gatherMarkerLocations(props.locationGroups)
-        .map(value => makeMarkerForLocation(value));
     return <React.Fragment>
-        {data}
+        {markers}
     </React.Fragment>
 }

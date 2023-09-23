@@ -4,6 +4,7 @@ import './css/dialog.css'
 import './css/input.css'
 import {SavageWildsMap} from "./components/SavageWildsMap";
 import {MapLocationGroup} from "./model/MapLocationGroup";
+import {nanoid} from "nanoid";
 
 
 interface MapData {
@@ -46,6 +47,18 @@ function minZoom(): number {
     return 0.00126984127 * (window.innerWidth - 425) - 10.928;
 }
 
+// Since some data now overlaps we need a unique ID for every location
+function fillIds(mapData: MapData): MapData {
+    mapData.data = mapData.data.map(data => {
+        data.locations = data.locations.map(location => {
+            location.generatedId = nanoid(8);
+            return Object.freeze(location);
+        })
+        return Object.freeze(data);
+    })
+    return Object.freeze(mapData);
+}
+
 export class App extends React.Component<any, AppState> {
 
 
@@ -72,6 +85,7 @@ export class App extends React.Component<any, AppState> {
     componentDidMount() {
         fetch(determineDataUrl())
             .then(value => value.json())
+            .then(value => fillIds(value))
             .then(data => this.setState({data, loaded: true}))
     }
 
