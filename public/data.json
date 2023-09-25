@@ -7379,6 +7379,262 @@
       ]
     },
     {
+      "name": "Emotes",
+      "id": "Emotes",
+      "type": "EMOTE",
+      "locations": [
+        {
+          "location": "Aquilonian Bedtime Stories",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer 37372.773438 125465.242188 -4267.352539",
+          "x": 37372.773438,
+          "y": 125465.242188,
+          "z": -4267.352539
+        },
+        {
+          "location": "By Crom & Cross Arms",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer 304197.0625 -62183.699219 -15216.404297",
+          "x": 304197.0625,
+          "y": -62183.699219,
+          "z": -15216.404297
+        },
+        {
+          "location": "Cimmerian Book of Taunts",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer 184848.203125 -101589.992188 -17176.833984",
+          "x": 184848.203125,
+          "y": -101589.992188,
+          "z": -17176.833984
+        },
+        {
+          "location": "Dance Instruction (Aquilonian Dance)",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer 127064.742188 10658.464844 -6526.685547",
+          "x": 127064.742188,
+          "y": 10658.464844,
+          "z": -6526.685547
+        },
+        {
+          "location": "Dance Instruction (Belly Dance)",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer 93565.921875 120823.140625 -13296.325195",
+          "x": 93565.921875,
+          "y": 120823.140625,
+          "z": -13296.325195
+        },
+        {
+          "location": "Dance Instruction (Cimmerian Dance)",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer 126221.281250 81146.148438 6198.984863",
+          "x": 126221.281250,
+          "y": 81146.148438,
+          "z": 6198.984863
+        },
+        {
+          "location": "Dance Instruction (Khitan Dance)",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer -179679.921875 -89174.695313 -12211.050781",
+          "x": -179679.921875,
+          "y": -89174.695313,
+          "z": -12211.050781
+        },
+        {
+          "location": "Dance Instruction (Snake Dance)",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer -200359.328125 -5220.828613 -7832.792480",
+          "x": -200359.328125,
+          "y": -5220.828613,
+          "z": -7832.792480
+        },
+        {
+          "location": "Dance Instruction (War Dance)",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer -44756.085938 -113509.617188 -20554.996094",
+          "x": -44756.085938,
+          "y": -113509.617188,
+          "z": -20554.996094
+        },
+        {
+          "location": "Eighty Shades of Pink",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer 206625.953125 -360597.843750 -13003.934570",
+          "x": 206625.953125,
+          "y": -360597.843750,
+          "z": -13003.934570
+        },
+        {
+          "location": "Groveller's Manual",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer -181269.78125 -165029.75 -12178.441406",
+          "x": -181269.78125,
+          "y": -165029.75,
+          "z": -12178.441406
+        },
+        {
+          "location": "Jester's Notebook",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer -191480.296875 35307.539063 -20786.382813",
+          "x": -191480.296875,
+          "y": 35307.539063,
+          "z": -20786.382813
+        },
+        {
+          "location": "One Hundred Shades of Pink",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer 68544.656250 140083.671875 -5684.735352",
+          "x": 68544.656250,
+          "y": 140083.671875,
+          "z": -5684.735352
+        },
+        {
+          "location": "Pet Emote - Ambush, Howl, Scratch, Sniff & More",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer -139332.171875 -68573.210938 -16738.617188",
+          "x": -139332.171875,
+          "y": -68573.210938,
+          "z": -16738.617188
+        },
+        {
+          "location": "Pet Emote - Eat",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer -81516.953125 -54483.238281 -19597.154297",
+          "x": -81516.953125,
+          "y": -54483.238281,
+          "z": -19597.154297
+        },
+        {
+          "location": "Pet Emote - Relax",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer -196204.687500 -329450.031250 -12840.600586",
+          "x": -196204.687500,
+          "y": -329450.031250,
+          "z": -12840.600586
+        },
+        {
+          "location": "Pet Emote - Sit",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer 207140.296875 -332304.562500 -20052.417969",
+          "x": 207140.296875,
+          "y": -332304.562500,
+          "z": -20052.417969
+        },
+        {
+          "location": "Prayer to Mitra",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer -92004.242188 103828.062500 -11667.519531",
+          "x": -92004.242188,
+          "y": 103828.062500,
+          "z": -11667.519531
+        },
+        {
+          "location": "Prayer to Set",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer -15493.272461 87171.734375 -6396.746582",
+          "x": -15493.272461,
+          "y": 87171.734375,
+          "z": -6396.746582
+        },
+        {
+          "location": "Prayer to Yog",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer -63395.835938 171913.125000 -19333.816406",
+          "x": -63395.835938,
+          "y": 171913.125000,
+          "z": -19333.816406
+        },
+        {
+          "location": "Thinker's Notes",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer -123799.273438 -163950.656250 -12523.988281",
+          "x": -123799.273438,
+          "y": -163950.656250,
+          "z": -12523.988281
+        },
+        {
+          "location": "Thrall Emote - Converse A-D",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer 122253.351563 3249.639648 -6286.010742",
+          "x": 122253.351563,
+          "y": 3249.639648,
+          "z": -6286.010742
+        },
+        {
+          "location": "Thrall Emote - Threaten",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer 38859.476563 60433.984375 -11395.628906",
+          "x": 38859.476563,
+          "y": 60433.984375,
+          "z": -11395.628906
+        },
+        {
+          "location": "Tinker's Notebook",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer 170052.953125 173717.953125 1849.462646",
+          "x": 170052.953125,
+          "y": 173717.953125,
+          "z": 1849.462646
+        },
+        {
+          "location": "Thrall Emote - Tinkering, Work Metal",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "EMOTE",
+          "source": "TeleportPlayer -11487.935547 97908.093750 -8057.531250",
+          "x": -11487.935547,
+          "y": 97908.093750,
+          "z": -8057.531250
+        }
+      ]
+    },
+    {
       "name": "Dungeons",
       "id": "Dungeons",
       "type": "DUNGEON",
