@@ -100,7 +100,7 @@ export function SavageWildsMap(props: SavageWildsMapProps) {
 
     useEffect(() => {
         setVisibleGroups(props.data.filter(group => !hiddenGroupIds.includes(group.id)));
-    }, [hiddenGroupIds])
+    }, [props.data, hiddenGroupIds])
 
     function handleSelectThrall(thrall: MapLocationGroup) {
         let center = findCenter(thrall.locations);
