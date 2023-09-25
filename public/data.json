@@ -2587,7 +2587,7 @@
         {
           "location": "Giant Spider",
           "spawnSpot": "The Mire",
-          "spawnSpotDetail": "Inbetween the two little ponds",
+          "spawnSpotDetail": "In between the two little ponds",
           "type": "BOSS",
           "source": "TeleportPlayer -162760.421875 -6828.694336 -13486.798828",
           "x": -162760.421875,
@@ -7171,7 +7171,7 @@
         },
         {
           "location": "Language Dictionary (Nordheimr)",
-          "spawnSpot": "Abandonned Docks",
+          "spawnSpot": "Abandoned Docks",
           "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
           "type": "FEAT",
           "source": "TeleportPlayer -124372.492188 198689.359375 -20842.109375",
@@ -7181,7 +7181,7 @@
         },
         {
           "location": "Language Dictionary (Pictish)",
-          "spawnSpot": "Abandonned Docks (East)",
+          "spawnSpot": "Abandoned Docks (East)",
           "spawnSpotDetail": "A message in a bottle (similar to relic fragment chests, not always there).",
           "type": "FEAT",
           "source": "TeleportPlayer -105601.195313 198936.937500 -20825.437500",
