@@ -28,6 +28,7 @@ export enum LocationGroupType {
 	DERKETO = 'DERKETO',
 	DIALOG_NPC = 'DIALOG_NPC',
 	DUNGEON = 'DUNGEON',
+	EMOTE = 'EMOTE',
 	EVENT = 'EVENT',
 	FEAT = 'FEAT',
 	MERCHANT = 'MERCHANT',
@@ -106,6 +107,8 @@ export function determineIcon(location: MapLocation): string {
 		return 'icon_dialog_npc.png';
 	case LocationGroupType.DUNGEON:	
 		return 'icon_vault.png';
+	case LocationGroupType.EMOTE:	
+		return 'icon_performerT4.png';
 	case LocationGroupType.EVENT:	
 		return 'icon_Event.png';
 	case LocationGroupType.FEAT:	
