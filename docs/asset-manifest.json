@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/savage-wilds-map/static/css/main.20444798.css",
-    "main.js": "/savage-wilds-map/static/js/main.9a5c50f8.js",
+    "main.js": "/savage-wilds-map/static/js/main.783d9e0e.js",
     "index.html": "/savage-wilds-map/index.html",
     "main.20444798.css.map": "/savage-wilds-map/static/css/main.20444798.css.map",
-    "main.9a5c50f8.js.map": "/savage-wilds-map/static/js/main.9a5c50f8.js.map"
+    "main.783d9e0e.js.map": "/savage-wilds-map/static/js/main.783d9e0e.js.map"
   },
   "entrypoints": [
     "static/css/main.20444798.css",
-    "static/js/main.9a5c50f8.js"
+    "static/js/main.783d9e0e.js"
   ]
 }
