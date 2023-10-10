@@ -2,6 +2,8 @@ import React, {useEffect, useState} from "react";
 import {Polygon, Tooltip, useMapEvents} from "react-leaflet";
 import {LatLng} from "leaflet";
 import './PolygonDrawer.css'
+import {nanoid} from "nanoid";
+import {latLngToCeCoordinate} from "../../util/conversions";
 
 
 export const PolygonDrawer = () => {
@@ -18,9 +20,12 @@ export const PolygonDrawer = () => {
         },
     });
 
+    const polyPointsCe = polygonPoints.map(poly => latLngToCeCoordinate(poly));
+
     const jsonPolygon = JSON.stringify({
         color: color,
-        points: polygonPoints,
+        id: nanoid(10),
+        points: polyPointsCe,
         tooltip: 'here be dragons'
     }, null, 2);
 

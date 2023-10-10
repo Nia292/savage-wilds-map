@@ -1,4 +1,5 @@
 import {MapLocation} from "./MapLocation";
+import {MapArea} from "./MapArea";
 
 export interface MapLocationGroup {
     // Unique ID of this location group
@@ -13,6 +14,7 @@ export interface MapLocationGroup {
     locationDescription?: string;
     // Actual locations
     locations: MapLocation[];
+	areas?: MapArea[];
 }
 
 export enum LocationGroupType {

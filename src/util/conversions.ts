@@ -18,6 +18,17 @@ export function ceCoordinateToLatLng(ceCoordinate: CeCoordinateLiteral): LatLngL
     }
 }
 
+export function latLngToCeCoordinate(latLng: LatLngLiteral): CeCoordinateLiteral {
+    return {
+        // Because coordinates are in pixel space, the y-axis goes from negative (bot) to positive (top),
+        // where as in CE it goes from positive(bot) to negative(top)
+        // So we need to invert it.
+        y: -1 * latLng.lat,
+        x: latLng.lng,
+        z: -1
+    }
+}
+
 export function findCenter(locations: MapLocation[]): LatLngLiteral| null {
     if (locations.length <= 0) {
         return null;

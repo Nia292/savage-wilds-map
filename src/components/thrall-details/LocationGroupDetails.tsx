@@ -15,11 +15,13 @@ interface LocationGroupDetailsProps {
     onSelectLocation(location: MapLocation): void;
 }
 
+const EMPTY_LOCATION_GROUP: MapLocationGroup = {locations: [],name: '',type: LocationGroupType.BOSS, id: 'ada', funcomId: '', areas: []};
+
 export const LocationGroupDetails = (props: LocationGroupDetailsProps) => {
     const slideAnimationClass = props.focused ? 'thrall-details-sliding-in' : 'thrall-details-sliding-out'
     return <div className={"thrall-details-container " + slideAnimationClass}>
         <div className="thrall-details">
-            <LocationGroupHeader group={props.locationGroup || {locations: [],name: '',type: LocationGroupType.BOSS, id: 'ada', funcomId: ''}}
+            <LocationGroupHeader group={props.locationGroup || EMPTY_LOCATION_GROUP}
                                  icon={"chevron_left"}
                                  onSelect={props.onDeSelect}/>
             {props.locationGroup?.locationDescription && <div className="thrall-location-description">
