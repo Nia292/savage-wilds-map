@@ -4839,6 +4839,16 @@
       "type": "FEATS",
       "locations": [
         {
+          "location": "Vault Armors (All)",
+          "spawnSpot": "The Notch and Arrow",
+          "spawnSpotDetail": "Small box with a letter in it, behind the bar to the left. Turn in Badge of Valor for a random feat scroll for the full selection of Vault Armors.",
+          "type": "FEAT",
+          "source": "TeleportPlayer -342471.09375 -196639.359375 178.656326",
+          "x": "-342471.09375",
+          "y": "-196639.359375",
+          "z": "178.656326"
+        },
+        {
           "location": "Wild Empathy Elixirs",
           "spawnSpot": "The Citadel of the Lost Legion",
           "spawnSpotDetail": "Climb up!",
