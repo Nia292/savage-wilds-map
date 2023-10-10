@@ -1,0 +1,28 @@
+#poly-drawer-bottom {
+    position: absolute;
+    bottom: 10px;
+    left: calc((100vw - 500px) / 2);
+    min-width: 500px;
+    z-index: 800;
+    background-color: var(--background-color);
+    color: var(--primary-sidebar-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+}
+
+#poly-drawer-bottom textarea {
+    min-width: 500px;
+}
+
+#poly-drawer-bottom button {
+    border-radius: 2px;
+    border-top: 1px solid var(--primary-sidebar-color);
+    background-color: var(--background-color);
+    color: var(--primary-sidebar-color);
+}

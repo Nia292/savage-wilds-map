@@ -14,6 +14,7 @@ import {SettingsDialog} from "./settings-dialog/SettingsDialog";
 import {MarkerForAllLocationGroups} from "./thrall-map-utils/MarkerForAllLocationGroups";
 import {HoveredThrallLocation} from "../model/HoveredThrallLocation";
 import {MapItemSearch} from "./item-search/MapItemSearch";
+import {PolygonDrawer} from "./data-input/PolygonDrawer";
 
 const DEFAULT_ZOOM = -8.7;
 const DEFAULT_CENTER: LatLngLiteral = {lat: 0, lng: 0};
@@ -189,6 +190,7 @@ export function SavageWildsMap(props: SavageWildsMapProps) {
             <SetViewOnClick location={zoomCenter}/>
             <MarkerForSelectedThrall thrall={selectedThrall} focused={thrallFocused} onHoveredChange={setHoveredLocation}/>
             <MarkerForAllLocationGroups locationGroups={visibleGroups} focused={thrallFocused}/>
+            <PolygonDrawer></PolygonDrawer>
         </MapContainer>
         <div className="sidebar-right">
             <LocationGroupList groups={props.data}
