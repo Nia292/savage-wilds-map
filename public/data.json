@@ -1857,7 +1857,7 @@
           "z": -19429.45703
         },
         {
-          "location": "The Frozen Monestary",
+          "location": "The Frozen Monastery",
           "spawnSpot": "In Broken Waves Outpost",
           "spawnSpotDetail": "Imp Boss inside.",
           "type": "DUNGEON",
@@ -2199,7 +2199,7 @@
         {
           "location": "Veiled Memory",
           "spawnSpot": "",
-          "spawnSpotDetail": "The Jungle Memory. Fourth entrance from left in roundhouse.",
+          "spawnSpotDetail": "The Jungle Memory. Fourth entrance from left in the roundhouse.",
           "type": "POINT_OF_INTEREST",
           "source": "TeleportPlayer 294756.28125 245011.046875 4504.132813",
           "x": 294756.2813,
@@ -2209,7 +2209,7 @@
         {
           "location": "Veiled Memory",
           "spawnSpot": "",
-          "spawnSpotDetail": "The Highlands Memory. Third entrance from left in roundhouse.",
+          "spawnSpotDetail": "The Highlands Memory. Third entrance from left in the roundhouse.",
           "type": "POINT_OF_INTEREST",
           "source": "TeleportPlayer 259273.5625 147402.5 -11068.18457",
           "x": 259273.5625,
@@ -2219,7 +2219,7 @@
         {
           "location": "Veiled Memory",
           "spawnSpot": "",
-          "spawnSpotDetail": "Desert Memory. Second entrance from left in roundhouse.",
+          "spawnSpotDetail": "Desert Memory. Second entrance from left in the roundhouse.",
           "type": "POINT_OF_INTEREST",
           "source": "TeleportPlayer 307216.5 182047.453125 -12133.62793",
           "x": 307216.5,
@@ -2229,7 +2229,7 @@
         {
           "location": "Veiled Memory",
           "spawnSpot": "",
-          "spawnSpotDetail": "Snowy Memory. Fifth entrance from left in roundhouse.",
+          "spawnSpotDetail": "Snowy Memory. Fifth entrance from left in the roundhouse.",
           "type": "POINT_OF_INTEREST",
           "source": "TeleportPlayer 372658.4375 -354804.09375 -15916.952148",
           "x": 372658.4375,
@@ -2928,7 +2928,7 @@
         {
           "location": "Cave to the Sorcery Grotto",
           "spawnSpot": "East of Temple Ruins",
-          "spawnSpotDetail": "Leads in to the entrance to the Sorcery Grotto",
+          "spawnSpotDetail": "Leads into the entrance to the Sorcery Grotto",
           "type": "CAVE",
           "source": "TeleportPlayer170384.796875 205836.359375 -9094.96875",
           "x": 170384.7969,
@@ -2948,7 +2948,7 @@
         {
           "location": "Ruined Tower",
           "spawnSpot": "",
-          "spawnSpotDetail": "Rusted Key, recipe journal for The Forgotten Clan banner on shelf",
+          "spawnSpotDetail": "Rusted Key, recipe journal for The Forgotten Clan banner on a shelf",
           "type": "SECRET",
           "source": "TeleportPlayer-123167.851563 -315917 -12662.90332",
           "x": -123167.8516,
@@ -2958,7 +2958,7 @@
         {
           "location": "Ruined Tower (Treasure Vault)",
           "spawnSpot": "",
-          "spawnSpotDetail": "Need Rusted Key from upper scaffolding area inside other two towers, Doors, clockwise from entrance: Supply Materials, Fragment of Power, Rare Materials, Grandmaster Repair Kits, Epic Tools, Bile, Epic Armor Recipe, Star Metal Ore, Eldarium Bars, Legendary Weapon, Lotus Seeds",
+          "spawnSpotDetail": "Need Rusted Key from upper scaffolding area inside other two towers, Doors, clockwise from the entrance: Supply Materials, Fragment of Power, Rare Materials, Grandmaster Repair Kits, Epic Tools, Bile, Epic Armor Recipe, Star Metal Ore, Eldarium Bars, Legendary Weapon, Lotus Seeds",
           "type": "SECRET",
           "source": "TeleportPlayer-118880.664063 -332762.09375 -12293.787109",
           "x": -118880.6641,
@@ -2978,7 +2978,7 @@
         {
           "location": "Well",
           "spawnSpot": "Vargrheim",
-          "spawnSpotDetail": "Hop on in! The more entertaining way in to the Imp Cave below.",
+          "spawnSpotDetail": "Hop on in! The more entertaining way into the Imp Cave below.",
           "type": "CAVE",
           "source": "TeleportPlayer 62360.980469 -71073.921875 -17381.390625",
           "x": 62360.980469,
@@ -2988,7 +2988,7 @@
         {
           "location": "Imp Cave",
           "spawnSpot": "Beneath Vargrheim",
-          "spawnSpotDetail": "The less entertaining way in to the Imp Cave.",
+          "spawnSpotDetail": "The less entertaining way into the Imp Cave.",
           "type": "CAVE",
           "source": "TeleportPlayer 56581.308594 -66425.9375 -19879.572266",
           "x": 56581.308594,
@@ -3018,7 +3018,7 @@
         {
           "location": "Underwater Cave",
           "spawnSpot": "The Sunken Arena",
-          "spawnSpotDetail": "You're going to want some water breathing potions for this one!",
+          "spawnSpotDetail": "You're going to want some water-breathing potions for this one!",
           "type": "CAVE",
           "source": "TeleportPlayer 11918.479492 -34582.101563 -24435.025391",
           "x": 11918.479492,
@@ -3048,7 +3048,7 @@
         {
           "location": "Underwater Cave",
           "spawnSpot": "Below Nordheimer Camp",
-          "spawnSpotDetail": "You're going to want some water breathing potions for this one!",
+          "spawnSpotDetail": "You're going to want some water-breathing potions for this one!",
           "type": "CAVE",
           "source": "TeleportPlayer 67228.945313 -35493.054688 -20375.050781",
           "x": 67228.945313,
@@ -3354,7 +3354,7 @@
         {
           "location": "Shazarra",
           "spawnSpot": "Murun",
-          "spawnSpotDetail": "Lotus Peddler, in door across from well in upper Murun",
+          "spawnSpotDetail": "Lotus Peddler, in the door across from well in upper Murun",
           "type": "MERCHANT",
           "source": "TeleportPlayer -11917.461914 89398.796875 -6421.684082",
           "x": -11917.461914,
@@ -4846,7 +4846,7 @@
           "z": -15935.65332
         },
         {
-          "location": "The Root Gaurdian",
+          "location": "The Root Guardian",
           "spawnSpot": "East side of Last Bastion by the tents",
           "spawnSpotDetail": "Drops a heart to use to access the Voidforge",
           "type": "BOSS",
@@ -4891,6 +4891,46 @@
           "x": "-342471.09375",
           "y": "-196639.359375",
           "z": "178.656326"
+        },
+        {
+          "location": "Alcoholomy",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "FEAT",
+          "source": "TeleportPlayer -66556.281250 -335277.156250 -19770.667969",
+          "x": "-66556.281250",
+          "y": "-335277.156250",
+          "z": "-19770.667969"
+        },
+      	{
+      	  "location": "Sacred Vestments",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+      	  "type": "FEAT",
+      	  "source": "TeleportPlayer -270103.468750 -12414.874023 652.065308",
+      	  "x": "-270103.468750",
+      	  "y": "-12414.874023",
+      	  "z": "652.065308"
+        },
+      	{
+      	  "location": "Khotan Phalanx",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+      	  "type": "FEAT",
+      	  "source": "TeleportPlayer -271653.281250 -12214.418945 818.075928",
+  	      "x": "-271653.281250",
+  	      "y": "-12214.418945",
+      	  "z": "818.075928"
+        },
+       	{
+      	  "location": "Desert Nomad",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+      	  "type": "FEAT",
+      	  "source": "TeleportPlayer 39073.183594 60526.812500 -11332.847656",
+      	  "x": "39073.183594",
+      	  "y": "60526.812500",
+      	  "z": "-11332.847656"
         },
         {
           "location": "Wild Empathy Elixirs",
@@ -5015,7 +5055,7 @@
         {
           "location": "Clan Culann Skirmisher",
           "spawnSpot": "Last Refuge",
-          "spawnSpotDetail": "On a crate at bottom of Last Refuge, near a wooden boat",
+          "spawnSpotDetail": "On a crate at the bottom of Last Refuge, near a wooden boat",
           "type": "FEAT",
           "source": "TeleportPlayer 382432.906250 -10522.781250 -20657.185547",
           "x": 382432.906250,
@@ -5025,7 +5065,7 @@
         {
           "location": "Clan Culann Defender",
           "spawnSpot": "Last Refuge",
-          "spawnSpotDetail": "On a another crate, near bonfire within sight of the skirmisher book",
+          "spawnSpotDetail": "On a crate, near bonfire within sight of the skirmisher book",
           "type": "FEAT",
           "source": "TeleportPlayer 382643.406250 -12222.594727 -20636.820313",
           "x": 382643.406250,
@@ -5065,7 +5105,7 @@
         {
           "location": "Crimson Tide Hammer",
           "spawnSpot": "Crimson Logging Camp",
-          "spawnSpotDetail": "On a barrel in the Crimson Logging Camp (border of  F and G 2)",
+          "spawnSpotDetail": "On a barrel in the Crimson Logging Camp",
           "type": "FEAT",
           "source": "TeleportPlayer 364.399231 310522.781250 -16779.853516",
           "x": 364.399231,
@@ -5085,7 +5125,7 @@
         {
           "location": "Crimson Anchor",
           "spawnSpot": "Lonely Outpost",
-          "spawnSpotDetail": "At the lonely outpost, next to the plank near the red assed baboons",
+          "spawnSpotDetail": "At the lonely outpost, next to the plank near the baboons",
           "type": "FEAT",
           "source": "TeleportPlayer -1806.603027 273718.781250 -16200.868164",
           "x": -1806.603027,
@@ -5275,7 +5315,7 @@
         {
           "location": "Hyperborean Great Sword",
           "spawnSpot": "Pit of Salvation",
-          "spawnSpotDetail": "On the ground at the top the stairs at the Pit of Salvation (bottom of F17)",
+          "spawnSpotDetail": "On the ground at the top of the stairs at the Pit of Salvation (bottom of F17)",
           "type": "FEAT",
           "source": "TeleportPlayer -15434.392578 -287137.375000 779.464111",
           "x": -15434.392578,
@@ -5285,7 +5325,7 @@
         {
           "location": "Hyperborean Pike",
           "spawnSpot": "Louhi the Witch Queen",
-          "spawnSpotDetail": "Inside Louhi the Witch Queen's Lair at F17 on top of crate",
+          "spawnSpotDetail": "Inside Louhi the Witch Queen's Lair at F17 on top of a crate",
           "type": "FEAT",
           "source": "TeleportPlayer -30002.228516 -300540.187500 -769.124573",
           "x": -30002.228516,
@@ -5325,7 +5365,7 @@
         {
           "location": "Hyperborean Throwing Axes",
           "spawnSpot": "Throne of the Witch",
-          "spawnSpotDetail": "In the icey dungeon just north of the throne of the witch on a bench",
+          "spawnSpotDetail": "In the icy dungeon just north of the Throne of the Witch on a bench",
           "type": "FEAT",
           "source": "TeleportPlayer 209303.703125 -364549.031250 -14346.564453",
           "x": 209303.703125,
@@ -5355,7 +5395,7 @@
         {
           "location": "Arcane Machinations",
           "spawnSpot": "Ethereal Bastion, The Atoll",
-          "spawnSpotDetail": "In the dungeon accessed by entering the cave inside of Zarryns retreat, on a crate near the big throne",
+          "spawnSpotDetail": "In the dungeon accessed by entering the cave inside of Zarryn's retreat, on a crate near the big throne",
           "type": "FEAT",
           "source": "TeleportPlayer 152914.796875 312806.875000 16983.369141",
           "x": 152914.796875,
@@ -5395,7 +5435,7 @@
         {
           "location": "Crimson Tide Palisades",
           "spawnSpot": "The Roadblock",
-          "spawnSpotDetail": "On the Ground on the endge of a hill, just North of the crimson tide camp",
+          "spawnSpotDetail": "On the Ground on the edge of a hill, just North of the crimson tide camp",
           "type": "FEAT",
           "source": "TeleportPlayer 14583.029297 334682.031250 -13412.149414",
           "x": 14583.029297,
@@ -5495,7 +5535,7 @@
         {
           "location": "Eldarium Arrows",
           "spawnSpot": "Engineers Prison",
-          "spawnSpotDetail": "Accessed from No Mans Land, on a crate as you enter a tunnel",
+          "spawnSpotDetail": "Accessed from No Man's Land, on a crate as you enter a tunnel",
           "type": "FEAT",
           "source": "TeleportPlayer -304605.500000 -72856.195313 -11166.515625",
           "x": -304605.500000,
@@ -5515,7 +5555,7 @@
         {
           "location": "Wall Storage",
           "spawnSpot": "Kraxus Outpost",
-          "spawnSpotDetail": "On a crate, port side in Kraxus Outpost, accessible through No man's Land",
+          "spawnSpotDetail": "On a crate, port side in Kraxus Outpost, accessible through No Man's Land",
           "type": "FEAT",
           "source": "TeleportPlayer -269168.781250 308891.968750 -20103.400391",
           "x": -269168.781250,
@@ -5565,7 +5605,7 @@
         {
           "location": "Climbing Tincture",
           "spawnSpot": "Ethereal Bastion, The Atoll",
-          "spawnSpotDetail": "Sneak between two rocks on the left of the stairs to the librarians quarters then parkour down along the wall",
+          "spawnSpotDetail": "Sneak between two rocks on the left of the stairs to the librarian quarters then parkour down along the wall",
           "type": "FEAT",
           "source": "TeleportPlayer 136115.031250 328774.906250 16857.017578",
           "x": 136115.031250,
@@ -5625,7 +5665,7 @@
         {
           "location": "Stygian Pictograph",
           "spawnSpot": "Murun",
-          "spawnSpotDetail": "On a small table, located upstairs in the building opposite the open building that normally has an NPC making a cut-throat emote.  ",
+          "spawnSpotDetail": "On a small table, located upstairs in the building opposite the open building that normally has an NPC making a cut-throat emote.",
           "type": "FEAT",
           "source": "TeleportPlayer -12654.083008 90300.976563 -6423.838379",
           "x": -12654.083008,
@@ -5635,7 +5675,7 @@
         {
           "location": "Stygian Bloodscript",
           "spawnSpot": "Murun",
-          "spawnSpotDetail": "Central F7, inside a building in the main Murun Settlement, located on a table ",
+          "spawnSpotDetail": "Central F7, inside a building in the main Murun Settlement, located on a table",
           "type": "FEAT",
           "source": "TeleportPlayer -20129.046875 97338.585938 -8013.681152",
           "x": -20129.046875,
@@ -5645,7 +5685,7 @@
         {
           "location": "Pictish Pictogram",
           "spawnSpot": "Bonerattler Post",
-          "spawnSpotDetail": "On an altar in the dafari camp",
+          "spawnSpotDetail": "On an altar in the Darfari camp",
           "type": "FEAT",
           "source": "TeleportPlayer 7008.000000 100704.000000 -11712.000000",
           "x": 7008.000000,
@@ -5755,7 +5795,7 @@
         {
           "location": "Giant Statues",
           "spawnSpot": "The Atlantean Tomb",
-          "spawnSpotDetail": "In the room holding the 'King Beneath' on the floor to your rhs as you walk into the room. First section of the Atlantean Tomb.",
+          "spawnSpotDetail": "In the room holding the 'King Beneath' on the floor to your right as you walk into the room. The first section of the Atlantean Tomb.",
           "type": "FEAT",
           "source": "TeleportPlayer -102374.898438 144914.015625 -17704.191406",
           "x": -102374.898438,
@@ -5775,7 +5815,7 @@
         {
           "location": "Steel Lock Pick",
           "spawnSpot": "Cadwallon",
-          "spawnSpotDetail": "Cadwallon. Balanced on a bed post in a roundhouse.",
+          "spawnSpotDetail": "Cadwallon. Balanced on a bedpost in a roundhouse.",
           "type": "FEAT",
           "source": "TeleportPlayer 136538.843750 -115979.750000 -13919.737305",
           "x": 136538.843750,
@@ -5785,7 +5825,7 @@
         {
           "location": "Hardened Steel Lockpick",
           "spawnSpot": "Throne of the Witch",
-          "spawnSpotDetail": "In the same dungeon as the Hyperborean throwing axes, in the bedroom off of  the right hand passage. Throuogh the portal behind the witch queens throne",
+          "spawnSpotDetail": "In the same dungeon as the Hyperborean throwing axes, in the bedroom off of the right-hand passage. Through the portal behind the Witch Queen's throne",
           "type": "FEAT",
           "source": "TeleportPlayer 205317.781250 -360328.531250 -13070.740234",
           "x": 205317.781250,
@@ -5795,7 +5835,7 @@
         {
           "location": "Star Metal Lockpick",
           "spawnSpot": "Ethereal Bastion, The Atoll",
-          "spawnSpotDetail": "near Commander Rahzar in the The Atoll dungeon. On the ground to the right of the ramp if facing the boss.",
+          "spawnSpotDetail": "Near Commander Rahzar in the Atoll dungeon. On the ground to the right of the ramp if facing the boss.",
           "type": "FEAT",
           "source": "TeleportPlayer 145748.000000 316498.468750 16004.931641",
           "x": 145748.000000,
@@ -5805,7 +5845,7 @@
         {
           "location": "Witch Weapons",
           "spawnSpot": "Last Bastion",
-          "spawnSpotDetail": "library of esoteric artifacts last bastion, lemurian ruins looking area in K5. On top of a bench",
+          "spawnSpotDetail": "Library of esoteric Artifacts on top of a bench",
           "type": "FEAT",
           "source": "TeleportPlayer 173953.390625 172060.843750 -1260.324097",
           "x": 173953.390625,
@@ -5952,7 +5992,7 @@
         {
           "location": "Serpentman Weapons",
           "spawnSpot": "Crystal Cave",
-          "spawnSpotDetail": "A yellow-glowing stone slab inside of the serpentman ruins",
+          "spawnSpotDetail": "A yellow-glowing stone slab inside of the Serpentman ruins",
           "type": "FEAT",
           "source": "TeleportPlayer -10910.802734 12426.673828 -15928.233398",
           "x": -10910.802734,
@@ -5962,7 +6002,7 @@
         {
           "location": "Specialist Ammunition IV",
           "spawnSpot": "The Sunken Arena",
-          "spawnSpotDetail": "A yellow-glowing stone slab inside of the serpentman ruins",
+          "spawnSpotDetail": "A yellow-glowing stone slab inside of the Serpentman ruins",
           "type": "FEAT",
           "source": "TeleportPlayer 14035.578125 -36767.289063 -25185.978516",
           "x": 14035.578125,
@@ -6212,7 +6252,7 @@
         {
           "location": "Midnight Alchemist",
           "spawnSpot": "Raided Village",
-          "spawnSpotDetail": "A journal in the small walled off area near the center. Khari steel nearby.",
+          "spawnSpotDetail": "A journal in the small walled-off area near the center. Khari steel nearby.",
           "type": "FEAT",
           "source": "TeleportPlayer -105335.953125 -59098.34375 -20391.720703",
           "x": -105335.953125,
@@ -6272,7 +6312,7 @@
         {
           "location": "Mountaineer",
           "spawnSpot": "Ruins of Shekh-Hah",
-          "spawnSpotDetail": "A journal on top of a very tall cliff with a darfari banner.",
+          "spawnSpotDetail": "A journal on top of a very tall cliff with a Darfari banner.",
           "type": "FEAT",
           "source": "TeleportPlayer -135253.296875 164097.859375 -7752.786133",
           "x": -135253.296875,
@@ -6332,7 +6372,7 @@
         {
           "location": "Lemurian Warrior Armor",
           "spawnSpot": "The Last Bastion",
-          "spawnSpotDetail": "A journal on a table in front of a lemurian gate.",
+          "spawnSpotDetail": "A journal on a table in front of a Lemurian gate.",
           "type": "FEAT",
           "source": "TeleportPlayer 177870.296875 170948.40625 1766.900513",
           "x": 177870.296875,
@@ -6472,7 +6512,7 @@
         {
           "location": "Deep Sea Fisher",
           "spawnSpot": "Vargrheim",
-          "spawnSpotDetail": "A journal on a crate inside of a vanir dwelling by the lake",
+          "spawnSpotDetail": "A journal on a crate inside of a Vanir dwelling by the lake",
           "type": "FEAT",
           "source": "TeleportPlayer 68339.71875 -56112.589844 -20011.152344",
           "x": 68339.71875,
@@ -6532,7 +6572,7 @@
         {
           "location": "The Voidforge",
           "spawnSpot": "The Halls of the Voidforge",
-          "spawnSpotDetail": "To access to the Voidforge you must first collect the hearts of the five Leviathans",
+          "spawnSpotDetail": "To access the Voidforge you must first collect the hearts of the five Leviathans",
           "type": "FEAT",
           "source": "TeleportPlayer -302577.03125 -25757.978516 1169.794067",
           "x": -302577.03125,
@@ -6722,7 +6762,7 @@
         {
           "location": "Darfari Banners",
           "spawnSpot": "Yog's Feast",
-          "spawnSpotDetail": "Interact with the darfari banner next to the entrance.",
+          "spawnSpotDetail": "Interact with the Darfari banner next to the entrance.",
           "type": "FEAT",
           "source": "TeleportPlayer -136520.515625 187460.875 -15072.323242",
           "x": -136520.515625,
@@ -6731,7 +6771,7 @@
         },
         {
           "location": "The Forgotten Clan Banner",
-          "spawnSpot": "Abandonned Clan Grounds",
+          "spawnSpot": "Abandoned Clan Grounds",
           "spawnSpotDetail": "A journal on some shelving inside the southernmost tower.",
           "type": "FEAT",
           "source": "TeleportPlayer -285090.0625 -271490.125 -15713.805664",
@@ -6742,7 +6782,7 @@
         {
           "location": "Heirs of the North Banner",
           "spawnSpot": "Snowhearth",
-          "spawnSpotDetail": "A journal on a crate on top of the vanir battlements",
+          "spawnSpotDetail": "A journal on a crate on top of the Vanir battlements",
           "type": "FEAT",
           "source": "TeleportPlayer -118738.578125 -272940.9375 -16548.71875",
           "x": -118738.578125,
@@ -6882,7 +6922,7 @@
         {
           "location": "Nordheimer Walls",
           "spawnSpot": "Snowhearth",
-          "spawnSpotDetail": "Interact with the pile of nordheimer walls in the vanir dwelling.",
+          "spawnSpotDetail": "Interact with the pile of Nordheimer walls in the Vanir dwelling.",
           "type": "FEAT",
           "source": "TeleportPlayer -132725.5625 -269560.53125 -7200.185059",
           "x": -132725.5625,
@@ -7019,7 +7059,7 @@
         {
           "location": "Mitra",
           "spawnSpot": "Khulan's Outpost",
-          "spawnSpotDetail": "Interact with the mitraen rock carving at the edge of the outpost.",
+          "spawnSpotDetail": "Interact with the Mitraen rock carving at the edge of the outpost.",
           "type": "MITRA",
           "source": "TeleportPlayer -190987.15625 -58706.976563 -7949.506836",
           "x": -190987.15625,
@@ -7696,7 +7736,7 @@
         {
           "location": "The Citadel of the Lost Legion",
           "spawnSpot": "The Veil of Memories",
-          "spawnSpotDetail": "A Veiled Memory. First entrance from left in roundhouse.",
+          "spawnSpotDetail": "A Veiled Memory. First entrance from left in a roundhouse.",
           "type": "DUNGEON",
           "source": "TeleportPlayer 273038.25 338845.96875 7805.441895",
           "x": 273038.25,
