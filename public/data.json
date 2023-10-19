@@ -4894,8 +4894,8 @@
         },
         {
           "location": "Alcoholomy",
-          "spawnSpot": "",
-          "spawnSpotDetail": "",
+          "spawnSpot": "Ruined Abode",
+          "spawnSpotDetail": "Inside the Ruined Abode, on a table in the room with the distiller",
           "type": "FEAT",
           "source": "TeleportPlayer -66556.281250 -335277.156250 -19770.667969",
           "x": "-66556.281250",
@@ -4904,28 +4904,28 @@
         },
       	{
       	  "location": "Sacred Vestments",
-          "spawnSpot": "",
-          "spawnSpotDetail": "",
+          "spawnSpot": "Murun",
+          "spawnSpotDetail": "On a small table, located upstairs in the building opposite the open building that normally has an NPC making a cut-throat emote.",
       	  "type": "FEAT",
-      	  "source": "TeleportPlayer -270103.468750 -12414.874023 652.065308",
-      	  "x": "-270103.468750",
-      	  "y": "-12414.874023",
-      	  "z": "652.065308"
+          "source": "TeleportPlayer -12654.083008 90300.976563 -6423.838379",
+          "x": -12654.083008,
+          "y": 90300.976563,
+          "z": -6423.838379
         },
       	{
       	  "location": "Khotan Phalanx",
-          "spawnSpot": "",
-          "spawnSpotDetail": "",
+          "spawnSpot": "Murun",
+          "spawnSpotDetail": "South side of the pond in Murun market, inside the door beside a crafter talking to a kneeling fighter. The book is upstairs on a table. A guard walks around inside this house.",
       	  "type": "FEAT",
-      	  "source": "TeleportPlayer -271653.281250 -12214.418945 818.075928",
-  	      "x": "-271653.281250",
-  	      "y": "-12214.418945",
-      	  "z": "818.075928"
+      	  "source": "TeleportPlayer -15532.679688 103294.078125 -8008.881836",
+  	      "x": "-15532.679688",
+  	      "y": "103294.078125",
+      	  "z": "-8008.881836"
         },
        	{
       	  "location": "Desert Nomad",
-          "spawnSpot": "",
-          "spawnSpotDetail": "",
+          "spawnSpot": "Shensha's Outpost",
+          "spawnSpotDetail": "On a crate",
       	  "type": "FEAT",
       	  "source": "TeleportPlayer 39073.183594 60526.812500 -11332.847656",
       	  "x": "39073.183594",
