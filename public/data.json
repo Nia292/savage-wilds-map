@@ -7809,6 +7809,155 @@
       ]
     },
     {
+      "name": "Playful Pups",
+      "id": "Playful Pups",
+      "type": "ANIMAL",
+      "locations": [
+        {
+          "location": "Puppy",
+          "spawnSpotDetail": "Random puppy. Vargrvakt Outpost",
+          "type": "ANIMAL",
+          "source": "TeleportPlayer 163199.21875 -140450.75 -12498.731445",
+          "x": 163199.21875,
+          "y": -140450.75,
+          "z": -12498.731445
+          },
+        {
+          "location": "Puppy",
+          "spawnSpotDetail": "Random puppy. Boar Hunter's Cabin",
+          "type": "ANIMAL",
+          "source": "TeleportPlayer -85005.820313 -138229.0625 -14528.924805",
+          "x": -85005.820313,
+          "y": -138229.0625,
+          "z": -14528.924805
+          },
+        {
+          "location": "Puppy",
+          "spawnSpotDetail": "Random puppy. Murun Gates",
+          "type": "ANIMAL",
+          "source": "TeleportPlayer -31296.435547 102167.992188 -12867.588867",
+          "x": -31296.435547,
+          "y": 102167.992188,
+          "z": -12867.588867
+          },
+        {
+          "location": "Puppy",
+          "spawnSpotDetail": "Random puppy. Murun Gates (INSIDE the house)",
+          "type": "ANIMAL",
+          "source": "TeleportPlayer -33505.03125 97055.742188 -12867.586914",
+          "x": -33505.03125,
+          "y": 97055.742188,
+          "z": -12867.586914
+          },
+        {
+          "location": "Puppy",
+          "spawnSpotDetail": "Random puppy. Cadwallon",
+          "type": "ANIMAL",
+          "source": "TeleportPlayer 136304 -121138 -13957",
+          "x": 136304,
+          "y": -121138,
+          "z": --13957
+          },
+        {
+          "location": "Puppy",
+          "spawnSpotDetail": "Brutus. The Roadblock",
+          "type": "ANIMAL",
+          "source": "TeleportPlayer 14364.451172 343892.09375 -13389.804688",
+          "x": 14364.451172,
+          "y": 343892.09375,
+          "z": -13389.804688  
+        }
+      ]
+    },
+    {
+      "name": "Keystone Pieces",
+      "id": "Keystone Pieces",
+      "type": "TREASURE",
+      "locations": [
+        {
+          "location": "Jagged Scourgestone Piece",
+          "spawnSpotDetail": "Giant Croc, Cistern (drop)",
+          "type": "TREASURE",
+          "source": "TeleportPlayer -126297.46875 62180.875 -20506.650391",
+          "x": -126297.46875,
+          "y": 62180.875,
+          "z": -20506.650391
+          },
+        {
+          "location": "Shattered Scourgestone Piece",
+          "spawnSpotDetail": "Hekkr Waverunner (drop), Red Rock Outpost",
+          "type": "TREASURE",
+          "source": "TeleportPlayer -88622.070313 104077.789063 -11662.900391",
+          "x": -88622.070313,
+          "y": 104077.789063,
+          "z": -11662.900391
+          },
+        {
+          "location": "Broken Scourgestone Piece",
+          "spawnSpotDetail": "Locust Queen (drop), Crawlskin Cavern",
+          "type": "TREASURE",
+          "source": "TeleportPlayer -129227.367188 -46612.546875 -18619.662109",
+          "x": -129227.367188,
+          "y": -46612.546875,
+          "z": -18619.662109
+          },
+        {
+          "location": "Heart of the Sands (Scourgestone)",
+          "spawnSpotDetail": "Petruso the Sandstorm Maniac (talk), Murun",
+          "type": "TREASURE",
+          "source": "TeleportPlayer -34956.523438 102798.625 -12868.382813",
+          "x": -34956.523438,
+          "y": 102798.625,
+          "z": -12868.382813
+          },
+        {
+          "location": "Tears of Two Races",
+          "spawnSpotDetail": "Kinscourge (harvest), near Cistern. Also drops Heart of the Kinscourge",
+          "type": "TREASURE",
+          "source": "TeleportPlayer -134894.296875 43204.125 -10107.756836",
+          "x": -134894.296875,
+          "y": 43204.125,
+          "z": -10107.756836
+          },
+        {
+          "location": "The Shining Trapezohedron",
+          "spawnSpotDetail": "Devolved Serpentman Boss (drop), Veil of Memories. Enter through Notch and Arrow Tavern, Murun.",
+          "type": "TREASURE",
+          "source": "TeleportPlayer 277177.1875 91550.09375 -14665.333984",
+          "x": 277177.1875,
+          "y": 91550.09375,
+          "z": -14665.333984
+          },
+        {
+          "location": "Star of the Champion",
+          "spawnSpotDetail": "Undead Dragon (harvest), Veil of Memories. Enter through Notch and Arrow Tavern, Murun.",
+          "type": "TREASURE",
+          "source": "TeleportPlayer 298941.40625 191935.5 -12161.089844",
+          "x": 298941.40625,
+          "y": 191935.5,
+          "z": -12161.089844
+          },
+        {
+          "location": "Mask of the Witch Queen",
+          "spawnSpotDetail": "Louhi (drop), Citadel of the White Hand",
+          "type": "TREASURE",
+          "source": "TeleportPlayer -29526.908203 -301634.90625 -571.108215",
+          "x": -29526.908203,
+          "y": -301634.90625,
+          "z": -571.108215
+          },
+        {
+          "location": "Diadem of the Giant-kings",
+          "spawnSpotDetail": "Xalthar (drop), Citadel of the Lost Legion. Enter through Notch and Arrow Tavern, Murun.",
+          "type": "TREASURE",
+          "source": "TeleportPlayer 247899.78125 338596.9375 9665.125977",
+          "x": 247899.78125,
+          "y": 338596.9375,
+          "z": 9665.125977
+          }
+        ]
+     },
+    {
       "name": "Uncategorized Markers",
       "id": "Uncategorized Markers",
       "type": "POINT_OF_INTEREST",
