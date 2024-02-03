@@ -4902,6 +4902,16 @@
           "y": "-335277.156250",
           "z": "-19770.667969"
         },
+        {
+          "location": "Improved Golem Workstation",
+          "spawnSpot": "",
+          "spawnSpotDetail": "",
+          "type": "FEAT",
+          "source": "TeleportPlayer 119924.593750 -160123.843750 862.412720",
+          "x": "119924.593750",
+          "y": "-160123.843750",
+          "z": "862.412720"
+        },
       	{
       	  "location": "Sacred Vestments",
           "spawnSpot": "Murun",
