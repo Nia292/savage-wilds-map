@@ -10,7 +10,7 @@
   "minZoom": -8.7,
   "maxZoom": -4,
   "contributors": [
-    "Otterly, Tovlyn"
+    "Otterly, Tovlyn, heaven"
   ],
   "defaultEnabledGroups": ["Points of Interest"],
   "data": [
@@ -2598,7 +2598,7 @@
           "z": -17399.767578
         },
         {
-          "location": "Avalanche",
+          "location": "Rockslide",
           "spawnSpotDetail": "The Atoll",
           "type": "BOSS",
           "source": "TeleportPlayer -110249.414063 373708.65625 -20287.232422",
@@ -2839,7 +2839,7 @@
           "z": -20555.011719
         },
         {
-          "location": "Serpenman Boss",
+          "location": "Serpentman Boss",
           "spawnSpot": "Ruins of Xun'Sha",
           "spawnSpotDetail": "",
           "type": "BOSS",
@@ -2857,6 +2857,126 @@
           "x": 45127.45313,
           "y": 29606.82422,
           "z": -11215.97754
+        },
+		{
+          "location": "Rotbranch",
+          "spawnSpot": "North of Silvercutter Camp",
+          "spawnSpotDetail": "",
+          "type": "BOSS",
+          "source": "TeleportPlayer 22097.599609 362868.0 -8483.959961",
+          "x": 22097.599609,
+          "y": 362868.0,
+          "z": -8483.959961
+        },
+		{
+          "location": "Sand Reaper Queen",
+          "spawnSpot": "Swamp",
+          "spawnSpotDetail": "",
+          "type": "BOSS",
+          "source": "TeleportPlayer 107202.359375 232454.59375 -14945.785156",
+          "x": 107202.359375,
+          "y": 232454.59375,
+          "z": -14945.785156
+        },
+		{
+          "location": "Giant Spider",
+          "spawnSpot": "Swamp",
+          "spawnSpotDetail": "",
+          "type": "BOSS",
+          "source": "TeleportPlayer 95824.226563 241600.875 -9446.036133",
+          "x": 95824.226563,
+          "y": 241600.875,
+          "z": -9446.036133
+        },
+		{
+          "location": "Rockslide",
+          "spawnSpot": "South of Ancient Port",
+          "spawnSpotDetail": "Up high on a cliff",
+          "type": "BOSS",
+          "source": "TeleportPlayer -109054.523438 284683.0 -12423.180664",
+          "x": -109054.523438,
+          "y": 284683.0,
+          "z": -12423.180664
+        },
+		{
+          "location": "Green Dragon",
+          "spawnSpot": "West of the Great Lift",
+          "spawnSpotDetail": "",
+          "type": "BOSS",
+          "source": "TeleportPlayer -109938.210938 360735.875 -5768.783691",
+          "x": -109938.210938,
+          "y": 360735.875,
+          "z": -5768.783691
+        },
+		{
+          "location": "Giant Snake",
+          "spawnSpot": "South of Broken Caravan",
+          "spawnSpotDetail": "",
+          "type": "BOSS",
+          "source": "TeleportPlayer -298.90686 370763.84375 -20093.572266",
+          "x": -298.90686,
+          "y": 370763.84375,
+          "z": -20093.572266
+        },
+		{
+          "location": "Giant Gorilla",
+          "spawnSpot": "Excavated Ruins",
+          "spawnSpotDetail": "",
+          "type": "BOSS",
+          "source": "TeleportPlayer -131559.59375 346226.84375 -6318.310547",
+          "x": -131559.59375,
+          "y": 346226.84375,
+          "z": -6318.310547
+        },
+		{
+          "location": "White Tiger",
+          "spawnSpot": "Outcropping west of Shensha's Outpost",
+          "spawnSpotDetail": "",
+          "type": "BOSS",
+          "source": "TeleportPlayer 6143.395996 67747.398438 -14966.011719",
+          "x": 6143.395996,
+          "y": 67747.398438,
+          "z": -14966.011719
+        },
+		{
+          "location": "Giant Bear",
+          "spawnSpot": "East of the Meadow",
+          "spawnSpotDetail": "",
+          "type": "BOSS",
+          "source": "TeleportPlayer 171449.65625 68405.367188 1723.187744",
+          "x": 171449.65625,
+          "y": 68405.367188,
+          "z": 1723.187744
+        },
+		{
+          "location": "Spider of Leng",
+          "spawnSpot": "Inside Lost Refuge",
+          "spawnSpotDetail": "On a far right side island",
+          "type": "BOSS",
+          "source": "TeleportPlayer 300073.1875 2754.27417 -15282.321289",
+          "x": 300073.1875,
+          "y": 2754.27417,
+          "z": -15282.321289
+        },
+		{
+          "location": "White Dragon",
+          "spawnSpot": "Drakr",
+          "spawnSpotDetail": "",
+          "type": "BOSS",
+          "source": "TeleportPlayer 85907.085938 -262174.34375 -15544.561523",
+          "x": 85907.085938,
+          "y": -262174.34375,
+          "z": -15544.561523
+        },
+		{
+          "location": "Giant Snake",
+          "spawnSpot": "Crystal Cave",
+          "spawnSpotDetail": "Inside secret room in pit of cave",
+          "type": "BOSS",
+          "source": "TeleportPlayer -351496.4375 -101249.03125 -16385.322266",
+          "x": -351496.4375,
+          "y": -101249.03125,
+          "z": -16385.322266
         }
       ]
     },
