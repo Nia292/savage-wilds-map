@@ -7138,6 +7138,16 @@
           "x": -9772.132813,
           "y": -74196.164063,
           "z": -19196.453125
+        },
+        {
+          "location": "Rise of the Union Workers",
+          "spawnSpot": "Murun (interior)",
+          "spawnSpotDetail": "Go inside the building. Enter the room and look right, it's on the table",
+          "type": "FEAT",
+          "source": "TeleportPlayer -19900.640625 97391.242188 -8004.081055",
+          "x": -19900.640625,
+          "y": 97391.242188,
+          "z": -8004.081055
         }
       ]
     },
